@@ -1,0 +1,4960 @@
+[{
+  "_id": {
+    "$oid": "6764e7428744aa29d751f1aa"
+  },
+  "originalId": 896,
+  "title": "LOBOTOMITE / CAFARD / JUTE / BIEN-ETRE",
+  "dateShowTime": "2024-12-21T01:00:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": "Turbo Haüs",
+  "address": "2040 Saint-Denis",
+  "price": null,
+  "image": "https://montreal.askapunk.net/media/e982f4ce18dc8381a06fad854042b6c5.jpg",
+  "moreInfoLink": "https://montreal.askapunk.net/events/lobotomite-cafard-jute-bien-etre",
+  "source": "askapunk"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f1ab"
+  },
+  "originalId": 877,
+  "title": "A cannibal holiday feast",
+  "dateShowTime": "2024-12-30T00:30:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": "La Sotterenea",
+  "address": "4848 Saint Laurent",
+  "price": null,
+  "image": "https://montreal.askapunk.net/media/deb7eb70905bc0607f3460c0d57e627d.jpg",
+  "moreInfoLink": "https://montreal.askapunk.net/events/a-cannibal-holiday-feast",
+  "source": "askapunk"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f1ac"
+  },
+  "originalId": 825,
+  "title": "Settle For Sleep w/ Deadweight & Over Eyes @ Turbo Haus (Montreal)",
+  "dateShowTime": "2025-01-18T00:00:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": "Turbo Haüs",
+  "address": "2040 Saint-Denis",
+  "price": null,
+  "image": "https://montreal.askapunk.net/media/a5284070a3c4a4dc02a2cb6ceee26ef8.jpg",
+  "moreInfoLink": "https://montreal.askapunk.net/events/settle-for-sleep-with-deadweight-and-over-eyes-turbo-haus-montreal",
+  "source": "askapunk"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f1ad"
+  },
+  "originalId": 887,
+  "title": "An evening of post-punk with UZU / YOUNG BLADES / SHE CAME TO QUIT / FEVER VISIONS",
+  "dateShowTime": "2025-01-18T01:00:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": "La Sotterenea",
+  "address": "4848 Saint Laurent",
+  "price": null,
+  "image": "https://montreal.askapunk.net/media/a8b3d25b4ec6d045cdf43a278e73eac6.jpg",
+  "moreInfoLink": "https://montreal.askapunk.net/events/an-evening-of-post-punk-with-uzu-young-blades-she-came-to-quit-fever-visions",
+  "source": "askapunk"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f1ae"
+  },
+  "originalId": 890,
+  "title": "The Nausea / Magnetic Coroner / Toanche Dwelling / Catholic Skin / TH60",
+  "dateShowTime": "2025-01-20T01:00:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": "P'tit Ours",
+  "address": "5589 Park",
+  "price": null,
+  "image": "https://montreal.askapunk.net/media/497ce8ddfd90fa7fb9e56d17a074d389.jpg",
+  "moreInfoLink": "https://montreal.askapunk.net/events/the-nausea-magnetic-coroner-toanche-dwelling-catholic-skin-th60",
+  "source": "askapunk"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f1af"
+  },
+  "originalId": 903,
+  "title": "Montreal Madhouse 2025",
+  "dateShowTime": "2025-01-24T17:00:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": "Foufounes Electriques",
+  "address": "87 Rue Sainte-Catherine Est H2X 1K6",
+  "price": null,
+  "image": "https://montreal.askapunk.net/media/1599298abce69b6166025b4dfc991f40.jpg",
+  "moreInfoLink": "https://montreal.askapunk.net/events/montreal-madhouse-2025",
+  "source": "askapunk"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f1b0"
+  },
+  "originalId": 898,
+  "title": "SKROUT, RECALL, H.L.I.R., A.T.E.R. (Show b/n/fice pour le YellOut Fest 2025)",
+  "dateShowTime": "2025-01-25T13:00:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": "P'tit Ours",
+  "address": "5589 Park",
+  "price": null,
+  "image": "https://montreal.askapunk.net/media/eae54615572e3a9fb3e257dfd77e4452.jpg",
+  "moreInfoLink": "https://montreal.askapunk.net/events/skrout-recall-hlir-ater-show-benefice-pour-le-yellout-fest-2025",
+  "source": "askapunk"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f1b1"
+  },
+  "originalId": 900,
+  "title": "MDOU MOCTAR + guests",
+  "dateShowTime": "2025-02-05T01:00:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": "Théâtre Fairmount",
+  "address": "5240 avenue du Parc",
+  "price": null,
+  "image": "https://montreal.askapunk.net/media/528b2c03cb1b5f39e1690ab26e3e35e6.jpg",
+  "moreInfoLink": "https://montreal.askapunk.net/events/mdou-moctar-guests",
+  "source": "askapunk"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f1b2"
+  },
+  "originalId": 899,
+  "title": "GOUGE AWAY / GUMM / BOTFLY",
+  "dateShowTime": "2025-02-06T01:00:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": "Cabaret Foufounes Electriques",
+  "address": "87 Rue Ste-Catherine E",
+  "price": null,
+  "image": "https://montreal.askapunk.net/media/83440b86e49d80705d48b040b2a983ad.jpg",
+  "moreInfoLink": "https://montreal.askapunk.net/events/gouge-away-star-gumm-star-botfly",
+  "source": "askapunk"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f1b3"
+  },
+  "originalId": 901,
+  "title": "HRT + GOD'S MOM + PUGGY BEALES",
+  "dateShowTime": "2025-02-08T02:00:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": "La Sotterenea",
+  "address": "4848 Saint Laurent",
+  "price": null,
+  "image": "https://montreal.askapunk.net/media/9b45093c2e60a8446ca3893bab429d52.jpg",
+  "moreInfoLink": "https://montreal.askapunk.net/events/hrt-gods-mom-puggy-beales",
+  "source": "askapunk"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f1b4"
+  },
+  "originalId": 897,
+  "title": "B/ton Arm/ + Mulchulation II + Ooz",
+  "dateShowTime": "2025-02-08T02:30:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": "L'Escogriffe Bar",
+  "address": "4461 R. Saint-Denis, Montréal, QC H2J 2L2",
+  "price": null,
+  "image": "https://montreal.askapunk.net/media/d0ec494b36b9be1ec5d04964a570f439.jpg",
+  "moreInfoLink": "https://montreal.askapunk.net/events/beton-arme-mulchulation-ii-ooz",
+  "source": "askapunk"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f1b5"
+  },
+  "originalId": 867,
+  "title": "La Cha/ne's NEW BAND SHOW 2025",
+  "dateShowTime": "2025-02-23T00:00:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": "La Sotterenea",
+  "address": "4848 Saint Laurent",
+  "price": null,
+  "image": "https://montreal.askapunk.net/media/9011b54f1acaf6d8587e6b9c4b81d22e.jpg",
+  "moreInfoLink": "https://montreal.askapunk.net/events/la-chaines-new-band-show-2025",
+  "source": "askapunk"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f1b6"
+  },
+  "originalId": "MACHINEGIRLKILLALTERSFEMTANYL2024-12-19T20:00:00.000Z",
+  "title": "MACHINE GIRL + KILL ALTERS + FEMTANYL",
+  "dateShowTime": "2024-12-19T20:00:00.000Z",
+  "dateDoorTime": "2024-12-19T19:00:00.000Z",
+  "preciseTime": true,
+  "venue": "Théâtre Beanfield",
+  "address": "2490 rue Notre Dame Ouest",
+  "price": null,
+  "image": "https://images.squarespace-cdn.com/content/v1/652d7eb4eab0b971e91b8395/1725545596920-1DZ740T61YN98O98CENQ/BSTB-Machine+Girl-IG+square+%282%29+%281%29.png",
+  "moreInfoLink": "https://www.blueskiesturnblack.com/show/machinegirl2024",
+  "source": "blueskiesturnblack"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f1b7"
+  },
+  "originalId": "LANDOFTALKBODYWASHDRESSER2025-01-10T20:00:00.000Z",
+  "title": "LAND OF TALK + BODYWASH + DRESSER",
+  "dateShowTime": "2025-01-10T20:00:00.000Z",
+  "dateDoorTime": "2025-01-10T19:00:00.000Z",
+  "preciseTime": true,
+  "venue": "La Sala Rossa",
+  "address": "4848 St-Laurent",
+  "price": null,
+  "image": "https://images.squarespace-cdn.com/content/v1/652d7eb4eab0b971e91b8395/1733498538593-6QKGRDWDVZ8X6E01OYUX/CJLO_25_show_IG_square_F+%281%29.jpg",
+  "moreInfoLink": "https://www.blueskiesturnblack.com/show/landoftalk2025",
+  "source": "blueskiesturnblack"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f1b8"
+  },
+  "originalId": "TYCHOINVITS2025-01-19T20:00:00.000Z",
+  "title": "TYCHO + INVITÉS",
+  "dateShowTime": "2025-01-19T20:00:00.000Z",
+  "dateDoorTime": "2025-01-19T19:00:00.000Z",
+  "preciseTime": true,
+  "venue": "Théâtre Beanfield",
+  "address": "2490 Rue Notre-Dame Ouest",
+  "price": null,
+  "image": "https://images.squarespace-cdn.com/content/v1/652d7eb4eab0b971e91b8395/1732042329323-43GAM0IQRRWP385PM3L1/BEA-250119-Tycho-Web-Visuels-1080x1080-FR.jpg",
+  "moreInfoLink": "https://www.blueskiesturnblack.com/show/tycho2025",
+  "source": "blueskiesturnblack"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f1b9"
+  },
+  "originalId": "PACOVERSAILLESBENFLOOD2025-01-19T20:00:00.000Z",
+  "title": "PACO VERSAILLES + BEN FLOOD",
+  "dateShowTime": "2025-01-19T20:00:00.000Z",
+  "dateDoorTime": "2025-01-19T19:00:00.000Z",
+  "preciseTime": true,
+  "venue": "Petit Campus",
+  "address": "57b rue Prince Arthur",
+  "price": null,
+  "image": "https://images.squarespace-cdn.com/content/v1/652d7eb4eab0b971e91b8395/1730566194228-DRPTFOLE5BNKN720IGWM/BSTB-Paco+Versailles-IG+square+%281%29.png",
+  "moreInfoLink": "https://www.blueskiesturnblack.com/show/pacoversailles2025",
+  "source": "blueskiesturnblack"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f1ba"
+  },
+  "originalId": "LIMPRATRICENIGHTTAPES2025-01-21T20:00:00.000Z",
+  "title": "L’IMPÉRATRICE + NIGHT TAPES",
+  "dateShowTime": "2025-01-21T20:00:00.000Z",
+  "dateDoorTime": "2025-01-21T18:30:00.000Z",
+  "preciseTime": true,
+  "venue": "MTELUS",
+  "address": "59 Rue Ste Catherine Est",
+  "price": null,
+  "image": "https://images.squarespace-cdn.com/content/v1/652d7eb4eab0b971e91b8395/1721656947612-PPT25ET9T17T7B3L8806/MTE-250121-LImperatrice-WEB-Visuels-RS-1080x1080-FR.jpg",
+  "moreInfoLink": "https://www.blueskiesturnblack.com/show/limperatrice2025-21",
+  "source": "blueskiesturnblack"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f1bb"
+  },
+  "originalId": "BEENSTELLARMALICEK2025-01-21T20:00:00.000Z",
+  "title": "BEEN STELLAR + MALICE K",
+  "dateShowTime": "2025-01-21T20:00:00.000Z",
+  "dateDoorTime": "2025-01-21T19:00:00.000Z",
+  "preciseTime": true,
+  "venue": "Petit Campus",
+  "address": "57 Rue Prince Arthur Est",
+  "price": null,
+  "image": "https://images.squarespace-cdn.com/content/v1/652d7eb4eab0b971e91b8395/1729092507712-68E367I8BZEPVOUBXG7T/250121+-+Been+Stellar+-+Square.png",
+  "moreInfoLink": "https://www.blueskiesturnblack.com/show/beenstellar2025",
+  "source": "blueskiesturnblack"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f1bc"
+  },
+  "originalId": "LIMPRATRICENIGHTTAPES2025-01-22T20:00:00.000Z",
+  "title": "L’IMPÉRATRICE + NIGHT TAPES",
+  "dateShowTime": "2025-01-22T20:00:00.000Z",
+  "dateDoorTime": "2025-01-22T18:30:00.000Z",
+  "preciseTime": true,
+  "venue": "MTELUS",
+  "address": "59 Rue Ste Catherine Est",
+  "price": null,
+  "image": "https://images.squarespace-cdn.com/content/v1/652d7eb4eab0b971e91b8395/1721657201600-4AMM9POFV4ORQNIZHBHQ/MTE-250121-LImperatrice-WEB-Visuels-RS-1080x1080-FR.jpg",
+  "moreInfoLink": "https://www.blueskiesturnblack.com/show/limperatrice2025-22",
+  "source": "blueskiesturnblack"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f1bd"
+  },
+  "originalId": "POMPOKOBIGBILLFROWNLINE2025-01-22T20:00:00.000Z",
+  "title": "POM POKO + BIG BILL + FROWN LINE",
+  "dateShowTime": "2025-01-22T20:00:00.000Z",
+  "dateDoorTime": "2025-01-22T19:00:00.000Z",
+  "preciseTime": true,
+  "venue": "L'Escogriffe",
+  "address": "4461 Saint Denis",
+  "price": null,
+  "image": "https://images.squarespace-cdn.com/content/v1/652d7eb4eab0b971e91b8395/1734535127318-6P20GW4G6M64XM7ECBSN/BSTB-Pom+Poko-IG+square+%282%29.png",
+  "moreInfoLink": "https://www.blueskiesturnblack.com/show/pompoko2025",
+  "source": "blueskiesturnblack"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f1be"
+  },
+  "originalId": "slowdiveINVITESSPCIAUX2025-01-28T20:00:00.000Z",
+  "title": "slowdive + INVITÉ(E)S SPÉCIAUX",
+  "dateShowTime": "2025-01-28T20:00:00.000Z",
+  "dateDoorTime": "2025-01-28T18:30:00.000Z",
+  "preciseTime": true,
+  "venue": "L’Olympia",
+  "address": "1004 Ste. Catherine Ouest",
+  "price": null,
+  "image": "https://images.squarespace-cdn.com/content/v1/652d7eb4eab0b971e91b8395/1731679576787-UHKN9BS0UWT26AB9L7DQ/BSTB-Slowdive-IG+square.png",
+  "moreInfoLink": "https://www.blueskiesturnblack.com/show/slowdive2025",
+  "source": "blueskiesturnblack"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f1bf"
+  },
+  "originalId": "SOCCERMOMMYTOMBERLIN2025-02-02T20:00:00.000Z",
+  "title": "SOCCER MOMMY + TOMBERLIN",
+  "dateShowTime": "2025-02-02T20:00:00.000Z",
+  "dateDoorTime": "2025-02-02T18:30:00.000Z",
+  "preciseTime": true,
+  "venue": "Théâtre Beanfield",
+  "address": "2490 Rue Notre-Dame Ouest",
+  "price": null,
+  "image": "https://images.squarespace-cdn.com/content/v1/652d7eb4eab0b971e91b8395/1725978243673-9FUKPGLJNX6187UMBLN7/BEA-250202-SoccerMommy-Web-Visuels-1080x1080-FR.jpg",
+  "moreInfoLink": "https://www.blueskiesturnblack.com/show/soccermommy2025",
+  "source": "blueskiesturnblack"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f1c0"
+  },
+  "originalId": "SARAHNEUFELDRICHARDREEDPARRYREBECCAFOON2025-02-02T20:00:00.000Z",
+  "title": "SARAH NEUFELD / RICHARD REED PARRY / REBECCA FOON",
+  "dateShowTime": "2025-02-02T20:00:00.000Z",
+  "dateDoorTime": "2025-02-02T19:00:00.000Z",
+  "preciseTime": true,
+  "venue": "La Sala Rossa",
+  "address": "4848 St-Laurent",
+  "price": null,
+  "image": "https://images.squarespace-cdn.com/content/v1/652d7eb4eab0b971e91b8395/1729972473983-63F2XW6S8Z9GYYILFJ49/SN_RRP_RF_TRIO+-+IMGL2365.jpg",
+  "moreInfoLink": "https://www.blueskiesturnblack.com/show/snrrprf2025",
+  "source": "blueskiesturnblack"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f1c1"
+  },
+  "originalId": "MDOUMOCTARINVITES2025-02-04T20:00:00.000Z",
+  "title": "MDOU MOCTAR + INVITÉ(E)S + ",
+  "dateShowTime": "2025-02-04T20:00:00.000Z",
+  "dateDoorTime": "2025-02-04T19:00:00.000Z",
+  "preciseTime": true,
+  "venue": "Theatre Fairmount",
+  "address": "5240 Av Du Parc",
+  "price": null,
+  "image": "https://images.squarespace-cdn.com/content/v1/652d7eb4eab0b971e91b8395/1733532317348-710DF5JW2OY4AKU3QBB7/BSTB-Mdou+Moctar-IG+square+%283%29.png",
+  "moreInfoLink": "https://www.blueskiesturnblack.com/show/gangoffour2025-7ene3",
+  "source": "blueskiesturnblack"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f1c2"
+  },
+  "originalId": "GOUGEAWAYGUMMBOTFLY2025-02-05T20:00:00.000Z",
+  "title": "GOUGE AWAY + GUMM + BOTFLY",
+  "dateShowTime": "2025-02-05T20:00:00.000Z",
+  "dateDoorTime": "2025-02-05T19:00:00.000Z",
+  "preciseTime": true,
+  "venue": "Cabaret Foufs",
+  "address": "87 Ste-Catherine E",
+  "price": null,
+  "image": "https://images.squarespace-cdn.com/content/v1/652d7eb4eab0b971e91b8395/1731679762908-SX4VX3LZ85V4UJUBVCFF/BTSB-Gouge+Away-IG+square+%281%29.png",
+  "moreInfoLink": "https://www.blueskiesturnblack.com/show/gougeaway2025",
+  "source": "blueskiesturnblack"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f1c3"
+  },
+  "originalId": "GEORDIEGREEPdeBlackMidiNNAMD2025-02-05T20:00:00.000Z",
+  "title": "GEORDIE GREEP + (de Black Midi) + NNAMDÏ",
+  "dateShowTime": "2025-02-05T20:00:00.000Z",
+  "dateDoorTime": "2025-02-05T19:00:00.000Z",
+  "preciseTime": true,
+  "venue": "Théâtre Fairmount",
+  "address": "5240 Park Avenue",
+  "price": null,
+  "image": "https://images.squarespace-cdn.com/content/v1/652d7eb4eab0b971e91b8395/1729697876945-NJXI46O8M47QENDRI020/BSTB-Geordie+Greep-IG+square+%282%29.png",
+  "moreInfoLink": "https://www.blueskiesturnblack.com/show/geordiegreep2025",
+  "source": "blueskiesturnblack"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f1c4"
+  },
+  "originalId": "BILLYWOODSFRAUDPERRYQUINTONBARNES2025-02-07T22:00:00.000Z",
+  "title": "BILLY WOODS + FRAUD PERRY + QUINTON BARNES",
+  "dateShowTime": "2025-02-07T22:00:00.000Z",
+  "dateDoorTime": "2025-02-07T21:00:00.000Z",
+  "preciseTime": true,
+  "venue": "Le Belmont",
+  "address": "4483 St Laurent Blvd, Montreal, Quebec H2W 1Z8",
+  "price": null,
+  "image": "https://images.squarespace-cdn.com/content/v1/652d7eb4eab0b971e91b8395/1734449919134-VYJAWSUNRT3K48BQW3US/TT2025_Quinton+Barnes%2BFP%2BQB_banner.png",
+  "moreInfoLink": "https://www.blueskiesturnblack.com/show/billywoods2025",
+  "source": "blueskiesturnblack"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f1c5"
+  },
+  "originalId": "RICKSHAWBILLIESBURGERPATROLLIPCRITICWHITEKNUCKLE2025-02-08T21:00:00.000Z",
+  "title": "RICKSHAW BILLIE’S BURGER PATROL + LIP CRITIC + WHITE KNUCKLE",
+  "dateShowTime": "2025-02-08T21:00:00.000Z",
+  "dateDoorTime": "2025-02-08T20:00:00.000Z",
+  "preciseTime": true,
+  "venue": "La Sotterenea (Sous-sol de Sala Rossa)",
+  "address": "4848 Saint Laurent",
+  "price": null,
+  "image": "https://images.squarespace-cdn.com/content/v1/652d7eb4eab0b971e91b8395/1733258027289-HHN2DX1H6VOKZ4WMZVEW/BSTB-Rickshaw+Billie-IG+square+%282%29.png",
+  "moreInfoLink": "https://www.blueskiesturnblack.com/show/rickshawbilliesburgerpatrol2025",
+  "source": "blueskiesturnblack"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f1c6"
+  },
+  "originalId": "TOROYMOIPANDABEARNOURISHEDBYTIME2025-02-11T20:00:00.000Z",
+  "title": "TORO Y MOI + & + PANDA BEAR + NOURISHED BY TIME",
+  "dateShowTime": "2025-02-11T20:00:00.000Z",
+  "dateDoorTime": "2025-02-11T19:00:00.000Z",
+  "preciseTime": true,
+  "venue": "MTELUS",
+  "address": "59 Rue Sainte-Catherine Est",
+  "price": null,
+  "image": "https://images.squarespace-cdn.com/content/v1/652d7eb4eab0b971e91b8395/1729007340957-1WV1UIEZOB6Y4JYKCBHJ/MTE-250211-ToroyMoiPandaBear-Web-Visuels-1080x1080-FR.jpg",
+  "moreInfoLink": "https://www.blueskiesturnblack.com/show/toroymoipandabear2025",
+  "source": "blueskiesturnblack"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f1c7"
+  },
+  "originalId": "PEACHPITBABECORNER2025-02-15T20:00:00.000Z",
+  "title": "PEACH PIT + BABE CORNER",
+  "dateShowTime": "2025-02-15T20:00:00.000Z",
+  "dateDoorTime": "2025-02-15T19:00:00.000Z",
+  "preciseTime": true,
+  "venue": "MTELUS",
+  "address": "59 Rue Sainte-Catherine Est",
+  "price": null,
+  "image": "https://images.squarespace-cdn.com/content/v1/652d7eb4eab0b971e91b8395/1730744859668-WK1MGC9OKCZ1QZY6N74X/MTE-250215-PeachPit-Web-Visuels-1080x1080-FR+%281%29.jpg",
+  "moreInfoLink": "https://www.blueskiesturnblack.com/show/peachpit2025",
+  "source": "blueskiesturnblack"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f1c8"
+  },
+  "originalId": "MOLCHATDOMASEXTILE2025-02-17T20:00:00.000Z",
+  "title": "MOLCHAT DOMA + SEXTILE",
+  "dateShowTime": "2025-02-17T20:00:00.000Z",
+  "dateDoorTime": "2025-02-17T18:30:00.000Z",
+  "preciseTime": true,
+  "venue": "MTelus",
+  "address": "59 Ste-Catherine E.",
+  "price": null,
+  "image": "https://images.squarespace-cdn.com/content/v1/652d7eb4eab0b971e91b8395/1721667067669-4U4IAYTKVSFS0M34U1VT/BSTB-Molchat+Doma-IG+square.png",
+  "moreInfoLink": "https://www.blueskiesturnblack.com/show/molchatdoma2025",
+  "source": "blueskiesturnblack"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f1c9"
+  },
+  "originalId": "EIVRSYLVAINE2025-02-19T20:00:00.000Z",
+  "title": "EIVØR + SYLVAINE",
+  "dateShowTime": "2025-02-19T20:00:00.000Z",
+  "dateDoorTime": "2025-02-19T19:00:00.000Z",
+  "preciseTime": true,
+  "venue": "Theatre Fairmount",
+  "address": "5240 Av Du Parc",
+  "price": null,
+  "image": "https://images.squarespace-cdn.com/content/v1/652d7eb4eab0b971e91b8395/1726508798383-Z94M7D9LMHDNJLGGRO6Q/BSTB-EIVOR-IG+square.png",
+  "moreInfoLink": "https://www.blueskiesturnblack.com/show/eivor2025",
+  "source": "blueskiesturnblack"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f1ca"
+  },
+  "originalId": "BENJAMINBOOKERKENNYSEGAL2025-02-22T20:00:00.000Z",
+  "title": "BENJAMIN BOOKER + KENNY SEGAL",
+  "dateShowTime": "2025-02-22T20:00:00.000Z",
+  "dateDoorTime": "2025-02-22T19:00:00.000Z",
+  "preciseTime": true,
+  "venue": "L'Escogriffe",
+  "address": "4461 Saint Denis",
+  "price": null,
+  "image": "https://images.squarespace-cdn.com/content/v1/652d7eb4eab0b971e91b8395/1734631049907-3ZDKSJK0S6WOFZQ3WNYE/BSTB-BenjaminBooker-IG+square+%281%29.png",
+  "moreInfoLink": "https://www.blueskiesturnblack.com/show/benjaminbooker2025",
+  "source": "blueskiesturnblack"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f1cb"
+  },
+  "originalId": "MUSTAFAINVITES2025-02-27T00:00:00.000Z",
+  "title": "MUSTAFA + INVITÉ(E)S",
+  "dateShowTime": "2025-02-27T00:00:00.000Z",
+  "dateDoorTime": "2025-02-27T00:00:00.000Z",
+  "preciseTime": false,
+  "venue": null,
+  "address": null,
+  "price": null,
+  "image": "https://images.squarespace-cdn.com/content/v1/652d7eb4eab0b971e91b8395/1733852953261-L2M8HO6ELHX1PE4F8XII/mustafa.png",
+  "moreInfoLink": "https://www.blueskiesturnblack.com/show/mustafa2025",
+  "source": "blueskiesturnblack"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f1cc"
+  },
+  "originalId": "FAUXREALINVITES2025-02-27T20:30:00.000Z",
+  "title": "FAUX REAL + INVITÉ(E)S",
+  "dateShowTime": "2025-02-27T20:30:00.000Z",
+  "dateDoorTime": "2025-02-27T19:30:00.000Z",
+  "preciseTime": true,
+  "venue": "Cabaret Foufs",
+  "address": "87 Ste-Catherine E",
+  "price": null,
+  "image": "https://images.squarespace-cdn.com/content/v1/652d7eb4eab0b971e91b8395/1733939196212-D9K03H6R1AGUSWB5SWV0/BSTB-FAUX+REAL-IG+square.png",
+  "moreInfoLink": "https://www.blueskiesturnblack.com/show/fauxreal2025",
+  "source": "blueskiesturnblack"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f1cd"
+  },
+  "originalId": "LEIFVOLLEBEKKINVITES2025-02-28T20:00:00.000Z",
+  "title": "LEIF VOLLEBEKK + INVITÉ(E)S",
+  "dateShowTime": "2025-02-28T20:00:00.000Z",
+  "dateDoorTime": "2025-02-28T18:30:00.000Z",
+  "preciseTime": true,
+  "venue": "MTelus",
+  "address": "59 Ste-Catherine E.",
+  "price": null,
+  "image": "https://images.squarespace-cdn.com/content/v1/652d7eb4eab0b971e91b8395/1729112137340-0U524LHPDTKVROFMJ373/BSTB-LEIF+VOLLEBEKK-IG+square+%281%29.png",
+  "moreInfoLink": "https://www.blueskiesturnblack.com/show/leifvollebekk2025",
+  "source": "blueskiesturnblack"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f1ce"
+  },
+  "originalId": "FAYEWEBSTERMEIEIHARA2025-03-01T18:00:00.000Z",
+  "title": "FAYE WEBSTER + MEI EIHARA",
+  "dateShowTime": "2025-03-01T18:00:00.000Z",
+  "dateDoorTime": "2025-03-01T17:00:00.000Z",
+  "preciseTime": true,
+  "venue": "MTELUS",
+  "address": "59 Rue Ste-Catherine Est",
+  "price": null,
+  "image": "https://images.squarespace-cdn.com/content/v1/652d7eb4eab0b971e91b8395/1732030201520-7XP5VZ05QFHA8Q4RZJ8A/MTE-250301-FayeWebster-Web-Visuels-1080x1080-FR+%281%29.jpg",
+  "moreInfoLink": "https://www.blueskiesturnblack.com/show/fayewebster2025",
+  "source": "blueskiesturnblack"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f1cf"
+  },
+  "originalId": "POMPOMSQUADCAROLINEKINGSBURY2025-03-01T20:00:00.000Z",
+  "title": "POM POM SQUAD + CAROLINE KINGSBURY",
+  "dateShowTime": "2025-03-01T20:00:00.000Z",
+  "dateDoorTime": "2025-03-01T19:00:00.000Z",
+  "preciseTime": true,
+  "venue": "L'Escogriffe",
+  "address": "4461 Saint Denis",
+  "price": null,
+  "image": "https://images.squarespace-cdn.com/content/v1/652d7eb4eab0b971e91b8395/1726680046821-DEZ3XDR1R9RKK45UQPSD/BSTB-Pom+Pom+Squad-IG+square.png",
+  "moreInfoLink": "https://www.blueskiesturnblack.com/show/pompomsquad2025",
+  "source": "blueskiesturnblack"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f1d0"
+  },
+  "originalId": "NERIAHINVITES2025-03-02T20:00:00.000Z",
+  "title": "NERIAH + INVITÉ(E)S",
+  "dateShowTime": "2025-03-02T20:00:00.000Z",
+  "dateDoorTime": "2025-03-02T19:00:00.000Z",
+  "preciseTime": true,
+  "venue": "Petit Campus",
+  "address": "57b rue Prince Arthur",
+  "price": null,
+  "image": "https://images.squarespace-cdn.com/content/v1/652d7eb4eab0b971e91b8395/1733258472165-TCGC6M2RCB42T0150BEV/BSTB-Neriah-IG+square+%282%29.png",
+  "moreInfoLink": "https://www.blueskiesturnblack.com/show/neriah2025",
+  "source": "blueskiesturnblack"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f1d1"
+  },
+  "originalId": "LIVEONSTAGEJONATHANRICHMANfeaturingTOMMYLARKINSonthedrums2025-03-04T20:00:00.000Z",
+  "title": "LIVE! ON STAGE: JONATHAN RICHMAN featuring TOMMY LARKINS on the drums!",
+  "dateShowTime": "2025-03-04T20:00:00.000Z",
+  "dateDoorTime": "2025-03-04T19:00:00.000Z",
+  "preciseTime": true,
+  "venue": "La Sala Rossa",
+  "address": "4848 St-Laurent",
+  "price": null,
+  "image": "https://images.squarespace-cdn.com/content/v1/652d7eb4eab0b971e91b8395/1730656085598-2JG5MHN85UODEGY7982D/BSTB-Jonathan+Richman-IG+square.png",
+  "moreInfoLink": "https://www.blueskiesturnblack.com/show/1jonathanrichman2025",
+  "source": "blueskiesturnblack"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f1d2"
+  },
+  "originalId": "LIVEONSTAGEJONATHANRICHMANfeaturingTOMMYLARKINSonthedrums2025-03-05T20:00:00.000Z",
+  "title": "LIVE! ON STAGE: JONATHAN RICHMAN featuring TOMMY LARKINS on the drums!",
+  "dateShowTime": "2025-03-05T20:00:00.000Z",
+  "dateDoorTime": "2025-03-05T19:00:00.000Z",
+  "preciseTime": true,
+  "venue": "La Sala Rossa",
+  "address": "4848 St-Laurent",
+  "price": null,
+  "image": "https://images.squarespace-cdn.com/content/v1/652d7eb4eab0b971e91b8395/1730656085598-2JG5MHN85UODEGY7982D/BSTB-Jonathan+Richman-IG+square.png",
+  "moreInfoLink": "https://www.blueskiesturnblack.com/show/2jonathanrichman2025",
+  "source": "blueskiesturnblack"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f1d3"
+  },
+  "originalId": "WARMDUSCHERINVITES2025-03-05T20:00:00.000Z",
+  "title": "WARMDUSCHER + INVITÉ(E)S",
+  "dateShowTime": "2025-03-05T20:00:00.000Z",
+  "dateDoorTime": "2025-03-05T19:00:00.000Z",
+  "preciseTime": true,
+  "venue": "Bar Le Ritz PDB",
+  "address": "179 Jean Talon Ouest",
+  "price": null,
+  "image": "https://images.squarespace-cdn.com/content/v1/652d7eb4eab0b971e91b8395/1725916090319-ZKTDLF4TP54KUK8RESZP/BSTB-WARMDUSCHER-IG+square.png",
+  "moreInfoLink": "https://www.blueskiesturnblack.com/show/warmduscher2025",
+  "source": "blueskiesturnblack"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f1d4"
+  },
+  "originalId": "DAVIDCROSS2025-03-06T20:00:00.000Z",
+  "title": "DAVID CROSS",
+  "dateShowTime": "2025-03-06T20:00:00.000Z",
+  "dateDoorTime": "2025-03-06T19:00:00.000Z",
+  "preciseTime": true,
+  "venue": "Théâtre Beanfield",
+  "address": "2490 Rue Notre-Dame Est",
+  "price": null,
+  "image": "https://images.squarespace-cdn.com/content/v1/652d7eb4eab0b971e91b8395/1734447628017-3Y9BNK79OVN4JEFK3SNE/BEA-250306-DavidCross-Web-Visuels-1080x1080-FR.jpg",
+  "moreInfoLink": "https://www.blueskiesturnblack.com/show/davidcross2025",
+  "source": "blueskiesturnblack"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f1d5"
+  },
+  "originalId": "WOLFPARADEINVITES2025-03-06T20:30:00.000Z",
+  "title": "WOLF PARADE + INVITÉ(E)S",
+  "dateShowTime": "2025-03-06T20:30:00.000Z",
+  "dateDoorTime": "2025-03-06T19:30:00.000Z",
+  "preciseTime": true,
+  "venue": "Bar Le Ritz PDB",
+  "address": "179 Jean Talon Ouest",
+  "price": null,
+  "image": "https://images.squarespace-cdn.com/content/v1/652d7eb4eab0b971e91b8395/1731608447397-WEU9HV9Z9Z6GDHIJ1IQU/BSTB-Wolf+Parade-IG+square+%281%29.png",
+  "moreInfoLink": "https://www.blueskiesturnblack.com/show/1wolfparade2025",
+  "source": "blueskiesturnblack"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f1d6"
+  },
+  "originalId": "WOLFPARADEINVITES2025-03-07T20:30:00.000Z",
+  "title": "WOLF PARADE + INVITÉ(E)S",
+  "dateShowTime": "2025-03-07T20:30:00.000Z",
+  "dateDoorTime": "2025-03-07T19:30:00.000Z",
+  "preciseTime": true,
+  "venue": "Bar Le Ritz PDB",
+  "address": "179 Jean Talon Ouest",
+  "price": null,
+  "image": "https://images.squarespace-cdn.com/content/v1/652d7eb4eab0b971e91b8395/1731429553181-6PWZ2BT5DBCSXGRHXIYI/BSTB-Wolf+Parade-IG+square.png",
+  "moreInfoLink": "https://www.blueskiesturnblack.com/show/2wolfparade2025",
+  "source": "blueskiesturnblack"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f1d7"
+  },
+  "originalId": "ADRIANYOUNGEINVITES2025-03-08T20:00:00.000Z",
+  "title": "ADRIAN YOUNGE + INVITÉ(E)S",
+  "dateShowTime": "2025-03-08T20:00:00.000Z",
+  "dateDoorTime": "2025-03-08T19:00:00.000Z",
+  "preciseTime": true,
+  "venue": "La Sala Rossa",
+  "address": "4848 St-Laurent",
+  "price": null,
+  "image": "https://images.squarespace-cdn.com/content/v1/652d7eb4eab0b971e91b8395/1732133334618-F8OURHZXNXQ4BJ9XUF59/Adrian+Younge+La+Sala+Rossa+%281080x1080%29.png",
+  "moreInfoLink": "https://www.blueskiesturnblack.com/show/adrianyounge2025",
+  "source": "blueskiesturnblack"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f1d8"
+  },
+  "originalId": "JEFFERYMARTINBOBSUMNER2025-03-08T20:00:00.000Z",
+  "title": "JEFFERY MARTIN + BOB SUMNER",
+  "dateShowTime": "2025-03-08T20:00:00.000Z",
+  "dateDoorTime": "2025-03-08T19:00:00.000Z",
+  "preciseTime": true,
+  "venue": "Casa Del Popolo",
+  "address": "4873 St Laurent Blvd",
+  "price": null,
+  "image": "https://images.squarespace-cdn.com/content/v1/652d7eb4eab0b971e91b8395/1731960262038-5W5T9Y7SDD6LAW3133YQ/JM2.jpeg",
+  "moreInfoLink": "https://www.blueskiesturnblack.com/show/jeffreymartin2025",
+  "source": "blueskiesturnblack"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f1d9"
+  },
+  "originalId": "WOLFPARADEINVITES2025-03-08T20:30:00.000Z",
+  "title": "WOLF PARADE + INVITÉ(E)S",
+  "dateShowTime": "2025-03-08T20:30:00.000Z",
+  "dateDoorTime": "2025-03-08T19:30:00.000Z",
+  "preciseTime": true,
+  "venue": "Bar Le Ritz PDB",
+  "address": "179 Jean Talon Ouest",
+  "price": null,
+  "image": "https://images.squarespace-cdn.com/content/v1/652d7eb4eab0b971e91b8395/1731608474126-8EO3W0XBM1XXFLNN5LI7/BSTB-Wolf+Parade-IG+square+%282%29.png",
+  "moreInfoLink": "https://www.blueskiesturnblack.com/show/3wolfparade2025",
+  "source": "blueskiesturnblack"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f1da"
+  },
+  "originalId": "WOLFPARADEINVITES2025-03-09T20:30:00.000Z",
+  "title": "WOLF PARADE + INVITÉ(E)S",
+  "dateShowTime": "2025-03-09T20:30:00.000Z",
+  "dateDoorTime": "2025-03-09T19:30:00.000Z",
+  "preciseTime": true,
+  "venue": "Bar Le Ritz PDB",
+  "address": "179 Jean Talon Ouest",
+  "price": null,
+  "image": "https://images.squarespace-cdn.com/content/v1/652d7eb4eab0b971e91b8395/1731608493068-Z1WY21II27WJDLUN5BT7/BSTB-Wolf+Parade-IG+square+%283%29.png",
+  "moreInfoLink": "https://www.blueskiesturnblack.com/show/4wolfparade2025",
+  "source": "blueskiesturnblack"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f1db"
+  },
+  "originalId": "FRIKOSTARCLEANERREUNION2025-03-10T20:00:00.000Z",
+  "title": "FRIKO + STARCLEANER REUNION",
+  "dateShowTime": "2025-03-10T20:00:00.000Z",
+  "dateDoorTime": "2025-03-10T19:00:00.000Z",
+  "preciseTime": true,
+  "venue": "Bar Le Ritz PDB",
+  "address": "179 Jean Talon Ouest",
+  "price": null,
+  "image": "https://images.squarespace-cdn.com/content/v1/652d7eb4eab0b971e91b8395/1729194273557-UJFONNQE97DMSC69HSMB/BSTB-Friko-IG+square+%281%29.png",
+  "moreInfoLink": "https://www.blueskiesturnblack.com/show/friko2025",
+  "source": "blueskiesturnblack"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f1dc"
+  },
+  "originalId": "PALACEINVITES2025-03-15T20:00:00.000Z",
+  "title": "PALACE + INVITÉ(E)S",
+  "dateShowTime": "2025-03-15T20:00:00.000Z",
+  "dateDoorTime": "2025-03-15T19:00:00.000Z",
+  "preciseTime": true,
+  "venue": "Théâtre Beanfield",
+  "address": "2490 Notre-Dame Ouest",
+  "price": null,
+  "image": "https://images.squarespace-cdn.com/content/v1/652d7eb4eab0b971e91b8395/1716926189215-H02I6D79IV72H8APYQFW/BEA-250315-Palace-WEB-Visuels-1080x1080-FR.jpg",
+  "moreInfoLink": "https://www.blueskiesturnblack.com/show/palace2025",
+  "source": "blueskiesturnblack"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f1dd"
+  },
+  "originalId": "POPPYINVITES2025-03-29T20:00:00.000Z",
+  "title": "POPPY + INVITÉ(E)S",
+  "dateShowTime": "2025-03-29T20:00:00.000Z",
+  "dateDoorTime": "2025-03-29T19:00:00.000Z",
+  "preciseTime": true,
+  "venue": "Théâtre Beanfield",
+  "address": "2490 Rue Notre-Dame Ouest",
+  "price": null,
+  "image": "https://images.squarespace-cdn.com/content/v1/652d7eb4eab0b971e91b8395/1732033844761-KSSQKY3KQS2V8JE0JNIY/POPPY.jpg",
+  "moreInfoLink": "https://www.blueskiesturnblack.com/show/poppy2025",
+  "source": "blueskiesturnblack"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f1de"
+  },
+  "originalId": "CADENCEWEAPONINVITES2025-03-15T20:00:00.000Z",
+  "title": "CADENCE WEAPON + INVITÉ(E)S",
+  "dateShowTime": "2025-03-15T20:00:00.000Z",
+  "dateDoorTime": "2025-03-15T19:00:00.000Z",
+  "preciseTime": true,
+  "venue": "Casa Del Popolo",
+  "address": "4873 St Laurent Blvd",
+  "price": null,
+  "image": "https://images.squarespace-cdn.com/content/v1/652d7eb4eab0b971e91b8395/1729203502394-4GA9RR89RA7U89KMR314/DSCF1003-2.jpg",
+  "moreInfoLink": "https://www.blueskiesturnblack.com/show/cadenceweapon2025",
+  "source": "blueskiesturnblack"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f1df"
+  },
+  "originalId": "RIKIDONZII2025-03-16T20:00:00.000Z",
+  "title": "RIKI + DONZII",
+  "dateShowTime": "2025-03-16T20:00:00.000Z",
+  "dateDoorTime": "2025-03-16T19:00:00.000Z",
+  "preciseTime": true,
+  "venue": "Bar Le Ritz PDB",
+  "address": "179 Jean Talon Ouest",
+  "price": null,
+  "image": "https://images.squarespace-cdn.com/content/v1/652d7eb4eab0b971e91b8395/1733243474422-IHJ77CLMVYUV8EZ6SSSL/BSTB-Riki-IG+square.png",
+  "moreInfoLink": "https://www.blueskiesturnblack.com/show/riki2025",
+  "source": "blueskiesturnblack"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f1e0"
+  },
+  "originalId": "HOVVDYVIDEOAGE2025-03-17T20:00:00.000Z",
+  "title": "HOVVDY + VIDEO AGE",
+  "dateShowTime": "2025-03-17T20:00:00.000Z",
+  "dateDoorTime": "2025-03-17T19:00:00.000Z",
+  "preciseTime": true,
+  "venue": "Bar Le Ritz PDB",
+  "address": "179 Jean Talon Ouest",
+  "price": null,
+  "image": "https://images.squarespace-cdn.com/content/v1/652d7eb4eab0b971e91b8395/1729539153209-JSNSRCYEPQBUB2HY0XPM/BSTB-HOVVDY-IG+square.png",
+  "moreInfoLink": "https://www.blueskiesturnblack.com/show/hovvdy2025",
+  "source": "blueskiesturnblack"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f1e1"
+  },
+  "originalId": "MARUJAINVITES2025-03-21T19:30:00.000Z",
+  "title": "MARUJA + INVITÉ(E)S",
+  "dateShowTime": "2025-03-21T19:30:00.000Z",
+  "dateDoorTime": "2025-03-21T18:30:00.000Z",
+  "preciseTime": true,
+  "venue": "Bar le Ritz PDB",
+  "address": "179 Rue Jean-Talon Ouest",
+  "price": null,
+  "image": "https://images.squarespace-cdn.com/content/v1/652d7eb4eab0b971e91b8395/1728402636688-PSSRQS0XUE91DEBXOMK7/250321+-+Maruja+-+Sq_FR.png",
+  "moreInfoLink": "https://www.blueskiesturnblack.com/show/maruja2025",
+  "source": "blueskiesturnblack"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f1e2"
+  },
+  "originalId": "VANSIREJORDANN2025-03-21T20:00:00.000Z",
+  "title": "VANSIRE + JORDANN",
+  "dateShowTime": "2025-03-21T20:00:00.000Z",
+  "dateDoorTime": "2025-03-21T19:00:00.000Z",
+  "preciseTime": true,
+  "venue": "Foufounes Électriques",
+  "address": "87 Rue Ste-Catherine Est",
+  "price": null,
+  "image": "https://images.squarespace-cdn.com/content/v1/652d7eb4eab0b971e91b8395/1727106580614-R9387UTNVZ1YEW2REYKH/250321+-+Vansire+-+Sq_FR.png",
+  "moreInfoLink": "https://www.blueskiesturnblack.com/show/vansire2025",
+  "source": "blueskiesturnblack"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f1e3"
+  },
+  "originalId": "BLOCKHEADINVITES2025-03-22T20:30:00.000Z",
+  "title": "BLOCKHEAD + INVITÉ(E)S",
+  "dateShowTime": "2025-03-22T20:30:00.000Z",
+  "dateDoorTime": "2025-03-22T19:30:00.000Z",
+  "preciseTime": true,
+  "venue": "Bar Le Ritz PDB",
+  "address": "179 Jean Talon Ouest",
+  "price": null,
+  "image": "https://images.squarespace-cdn.com/content/v1/652d7eb4eab0b971e91b8395/1732669588036-6AYE15705KBYQ3EMO8XY/BSTB-Blockhead-IG+square.png",
+  "moreInfoLink": "https://www.blueskiesturnblack.com/show/blockhead2025",
+  "source": "blueskiesturnblack"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f1e4"
+  },
+  "originalId": "CONFIDENCEMANVEGGI2025-03-25T20:00:00.000Z",
+  "title": "CONFIDENCE MAN + VEGGI",
+  "dateShowTime": "2025-03-25T20:00:00.000Z",
+  "dateDoorTime": "2025-03-25T19:00:00.000Z",
+  "preciseTime": true,
+  "venue": "Le Studio TD",
+  "address": "305 Rue Ste-Catherine Ouest",
+  "price": null,
+  "image": "https://images.squarespace-cdn.com/content/v1/652d7eb4eab0b971e91b8395/1733242366136-51206HSHFU4F2CDJUOXQ/STD-250325-ConfidenceMan-Web-Visuels-1080x1080-FR+%281%29.jpg",
+  "moreInfoLink": "https://www.blueskiesturnblack.com/show/confidenceman2025",
+  "source": "blueskiesturnblack"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f1e5"
+  },
+  "originalId": "ULTRASUNNINVITES2025-03-25T20:00:00.000Z",
+  "title": "ULTRA SUNN + INVITÉ(E)S",
+  "dateShowTime": "2025-03-25T20:00:00.000Z",
+  "dateDoorTime": "2025-03-25T19:00:00.000Z",
+  "preciseTime": true,
+  "venue": "Cabaret Foufs",
+  "address": "87 Ste-Catherine E",
+  "price": null,
+  "image": "https://images.squarespace-cdn.com/content/v1/652d7eb4eab0b971e91b8395/1716923566470-OQHX2AMYK0ODCNU2PWXS/BSTB-Ultrasunn-IG+square.png",
+  "moreInfoLink": "https://www.blueskiesturnblack.com/show/ultrasunn2025",
+  "source": "blueskiesturnblack"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f1e6"
+  },
+  "originalId": "TWAINESTHERROSE2025-03-26T20:00:00.000Z",
+  "title": "TWAIN + ESTHER ROSE",
+  "dateShowTime": "2025-03-26T20:00:00.000Z",
+  "dateDoorTime": "2025-03-26T19:00:00.000Z",
+  "preciseTime": true,
+  "venue": "Bar Le Ritz PDB",
+  "address": "179 Jean Talon Ouest",
+  "price": null,
+  "image": "https://images.squarespace-cdn.com/content/v1/652d7eb4eab0b971e91b8395/1730992521897-GNQ47EL6Q76R7RNSHBKC/250326+-+Twain+%26+Esther+Rose+-+Sq_EN.png",
+  "moreInfoLink": "https://www.blueskiesturnblack.com/show/twain2025",
+  "source": "blueskiesturnblack"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f1e7"
+  },
+  "originalId": "THEWEATHERSTATIONINVITES2025-03-27T20:00:00.000Z",
+  "title": "THE WEATHER STATION + INVITÉ(E)S",
+  "dateShowTime": "2025-03-27T20:00:00.000Z",
+  "dateDoorTime": "2025-03-27T19:00:00.000Z",
+  "preciseTime": true,
+  "venue": "Théâtre Beanfield",
+  "address": "2490 Rue Notre-Dame O",
+  "price": null,
+  "image": "https://images.squarespace-cdn.com/content/v1/652d7eb4eab0b971e91b8395/1732121175386-AJ2Z3CEYXA1A7MY36YS0/BEA-250327-TheWeatherStation-Web-Visuels-1080x1080-FR.jpg",
+  "moreInfoLink": "https://www.blueskiesturnblack.com/show/theweatherstation2025",
+  "source": "blueskiesturnblack"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f1e8"
+  },
+  "originalId": "MAYAHAWKEKATYKIRBY2025-03-28T20:00:00.000Z",
+  "title": "MAYA HAWKE + KATY KIRBY",
+  "dateShowTime": "2025-03-28T20:00:00.000Z",
+  "dateDoorTime": "2025-03-28T19:00:00.000Z",
+  "preciseTime": true,
+  "venue": "MTELUS",
+  "address": "59 Rue Ste-Catherine Est",
+  "price": null,
+  "image": "https://images.squarespace-cdn.com/content/v1/652d7eb4eab0b971e91b8395/1727669904480-3M74R1GMG001RZH5K8EA/MTE-250328-MayaHawke-Web-Visuels-RS-1080x1080-FR.jpg",
+  "moreInfoLink": "https://www.blueskiesturnblack.com/show/mayahawke2025",
+  "source": "blueskiesturnblack"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f1e9"
+  },
+  "originalId": "FREAKSLUGHURONJOHN2025-03-28T20:30:00.000Z",
+  "title": "FREAK SLUG + HURON JOHN",
+  "dateShowTime": "2025-03-28T20:30:00.000Z",
+  "dateDoorTime": "2025-03-28T19:30:00.000Z",
+  "preciseTime": true,
+  "venue": "Bar Le Ritz PDB",
+  "address": "179 Jean Talon Ouest",
+  "price": null,
+  "image": "https://images.squarespace-cdn.com/content/v1/652d7eb4eab0b971e91b8395/1732723380321-MOCL9IYIZEPF384FVE6E/BSTB-Freak+Slug-IG+square+%281%29.png",
+  "moreInfoLink": "https://www.blueskiesturnblack.com/show/freakslug2025",
+  "source": "blueskiesturnblack"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f1ea"
+  },
+  "originalId": "DAISYTHEGREATINVITES2025-04-01T20:00:00.000Z",
+  "title": "DAISY THE GREAT + INVITÉ(E)S",
+  "dateShowTime": "2025-04-01T20:00:00.000Z",
+  "dateDoorTime": "2025-04-01T19:00:00.000Z",
+  "preciseTime": true,
+  "venue": "Cabaret Foufs",
+  "address": "87 Ste-Catherine E",
+  "price": null,
+  "image": "https://images.squarespace-cdn.com/content/v1/652d7eb4eab0b971e91b8395/1731614951460-LVKZ140LW9YN0OBSUL04/BSTB-Daisy+The+Great-IG+square.png",
+  "moreInfoLink": "https://www.blueskiesturnblack.com/show/daisythegreat2025",
+  "source": "blueskiesturnblack"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f1eb"
+  },
+  "originalId": "NINJASEXPARTYTWRP2025-04-03T20:00:00.000Z",
+  "title": "NINJA SEX PARTY + TWRP",
+  "dateShowTime": "2025-04-03T20:00:00.000Z",
+  "dateDoorTime": "2025-04-03T18:30:00.000Z",
+  "preciseTime": true,
+  "venue": "MTelus",
+  "address": "59 Rue Ste Catherine Est",
+  "price": null,
+  "image": "https://images.squarespace-cdn.com/content/v1/652d7eb4eab0b971e91b8395/1731432780784-6RE7Z0XL761W2MP64NBH/BSTB-Ninja+Sex+Party-IG+square+%282%29+%281%29.png",
+  "moreInfoLink": "https://www.blueskiesturnblack.com/show/ninjasexparty2025",
+  "source": "blueskiesturnblack"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f1ec"
+  },
+  "originalId": "SNOWPATROLINVITES2025-04-04T20:00:00.000Z",
+  "title": "SNOW PATROL + INVITÉ(E)S",
+  "dateShowTime": "2025-04-04T20:00:00.000Z",
+  "dateDoorTime": "2025-04-04T19:00:00.000Z",
+  "preciseTime": true,
+  "venue": "L’Olympia",
+  "address": "1004 Rue Ste-Catherine Est",
+  "price": null,
+  "image": "https://images.squarespace-cdn.com/content/v1/652d7eb4eab0b971e91b8395/1727099815977-DB0P91IPXEFIQD1KUN80/240404+-+Snow+Patrol+-+Sq_FR.png",
+  "moreInfoLink": "https://www.blueskiesturnblack.com/show/snowpatrol2025",
+  "source": "blueskiesturnblack"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f1ed"
+  },
+  "originalId": "NAKEDGIANTSGIRLANDGIRL2025-04-05T20:00:00.000Z",
+  "title": "NAKED GIANTS + GIRL AND GIRL",
+  "dateShowTime": "2025-04-05T20:00:00.000Z",
+  "dateDoorTime": "2025-04-05T19:00:00.000Z",
+  "preciseTime": true,
+  "venue": "Bar Le Ritz PDB",
+  "address": "179 Jean Talon Ouest",
+  "price": null,
+  "image": "https://images.squarespace-cdn.com/content/v1/652d7eb4eab0b971e91b8395/1731605768823-1PVY5RARHF7HP99GQZUF/BSTB-Naked+Giants-IG+square+%281%29.png",
+  "moreInfoLink": "https://www.blueskiesturnblack.com/show/nakedgiants2025",
+  "source": "blueskiesturnblack"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f1ee"
+  },
+  "originalId": "THEFREELABELINVITES2025-04-05T20:30:00.000Z",
+  "title": "THE FREE LABEL + INVITÉ(E)S + ",
+  "dateShowTime": "2025-04-05T20:30:00.000Z",
+  "dateDoorTime": "2025-04-05T19:30:00.000Z",
+  "preciseTime": true,
+  "venue": "L'Escogriffe",
+  "address": "4461 Saint Denis",
+  "price": null,
+  "image": "https://images.squarespace-cdn.com/content/v1/652d7eb4eab0b971e91b8395/1734465019728-1T6ZJLFRBYEWR7YW3Z97/250505+-+The+Free+Label+-+Sq_FR+%281%29.png",
+  "moreInfoLink": "https://www.blueskiesturnblack.com/show/thefreelabel2025",
+  "source": "blueskiesturnblack"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f1ef"
+  },
+  "originalId": "MOGWAIINVITES2025-04-13T20:00:00.000Z",
+  "title": "MOGWAI + + INVITÉ(E)S",
+  "dateShowTime": "2025-04-13T20:00:00.000Z",
+  "dateDoorTime": "2025-04-13T18:30:00.000Z",
+  "preciseTime": true,
+  "venue": "Théâtre Beanfield",
+  "address": "2490 Rue Notre-Dame Ouest",
+  "price": null,
+  "image": "https://images.squarespace-cdn.com/content/v1/652d7eb4eab0b971e91b8395/1726582160284-P3LJZSBYKKRELRU0I9SF/BEA-250413-Mogwai-WEB-Visuels-RS-1080x1080-FR.jpg",
+  "moreInfoLink": "https://www.blueskiesturnblack.com/show/mogwai2025",
+  "source": "blueskiesturnblack"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f1f0"
+  },
+  "originalId": "FRANZFERDINANDINVITES2025-04-14T20:00:00.000Z",
+  "title": "FRANZ FERDINAND + + INVITÉ(E)S",
+  "dateShowTime": "2025-04-14T20:00:00.000Z",
+  "dateDoorTime": "2025-04-14T19:00:00.000Z",
+  "preciseTime": true,
+  "venue": "MTELUS",
+  "address": "59 Rue Ste-Catherine Est",
+  "price": null,
+  "image": "https://images.squarespace-cdn.com/content/v1/652d7eb4eab0b971e91b8395/1727191788430-2BOJ97RGYTIA6EXOPYDZ/MTE-250414-FranzFerdinand-Web-Visuels-RS-1080x1080-FR.jpg",
+  "moreInfoLink": "https://www.blueskiesturnblack.com/show/franzferdinand2025",
+  "source": "blueskiesturnblack"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f1f1"
+  },
+  "originalId": "CRYOGEYSERINVITES2025-04-16T20:30:00.000Z",
+  "title": "CRYOGEYSER + INVITÉ(E)S",
+  "dateShowTime": "2025-04-16T20:30:00.000Z",
+  "dateDoorTime": "2025-04-16T19:30:00.000Z",
+  "preciseTime": true,
+  "venue": "Casa Del Popolo",
+  "address": "4873 St Laurent Blvd",
+  "price": null,
+  "image": "https://images.squarespace-cdn.com/content/v1/652d7eb4eab0b971e91b8395/1733328693585-DQITSAPDUHRA3AD4B1EL/BSTB-Cryogeyser-IG+square.png",
+  "moreInfoLink": "https://www.blueskiesturnblack.com/show/cryogeyser2025",
+  "source": "blueskiesturnblack"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f1f2"
+  },
+  "originalId": "GANGOFFOURINVITES2025-04-22T20:00:00.000Z",
+  "title": "GANG OF FOUR + INVITÉ(E)S + ",
+  "dateShowTime": "2025-04-22T20:00:00.000Z",
+  "dateDoorTime": "2025-04-22T19:00:00.000Z",
+  "preciseTime": true,
+  "venue": "Théâtre Beanfield",
+  "address": "2490 Notre-Dame St W",
+  "price": null,
+  "image": "https://images.squarespace-cdn.com/content/v1/652d7eb4eab0b971e91b8395/1733496854206-BHZ2EGNYQXC6JVQWP1WJ/BSTB-Gang+of+Four-IG+square+%281%29.png",
+  "moreInfoLink": "https://www.blueskiesturnblack.com/show/gangoffour2025",
+  "source": "blueskiesturnblack"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f1f3"
+  },
+  "originalId": "REMIWOLFDANAANDALDEN2025-04-23T20:00:00.000Z",
+  "title": "REMI WOLF + DANA AND ALDEN",
+  "dateShowTime": "2025-04-23T20:00:00.000Z",
+  "dateDoorTime": "2025-04-23T19:00:00.000Z",
+  "preciseTime": true,
+  "venue": "MTELUS",
+  "address": "59 Rue Ste-Catherine Est",
+  "price": null,
+  "image": "https://images.squarespace-cdn.com/content/v1/652d7eb4eab0b971e91b8395/1729613098561-3LROIQWWDE8XEPX35KUT/MTE-250413-RemiWolf-Web-Visuels-1080x1080-FR.jpg",
+  "moreInfoLink": "https://www.blueskiesturnblack.com/show/remiwolf2025",
+  "source": "blueskiesturnblack"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f1f4"
+  },
+  "originalId": "ACTORSOISEAUDEPROIESHAPES2025-05-02T20:00:00.000Z",
+  "title": "ACTORS + OISEAU DE PROIE + SHAPES",
+  "dateShowTime": "2025-05-02T20:00:00.000Z",
+  "dateDoorTime": "2025-05-02T19:00:00.000Z",
+  "preciseTime": true,
+  "venue": "Bar Le Ritz PDB",
+  "address": "179 Jean Talon Ouest",
+  "price": null,
+  "image": "https://images.squarespace-cdn.com/content/v1/652d7eb4eab0b971e91b8395/1730920714041-DDVLQECK1MT4MOUYX8DD/BSTB-Actors-IG+square+%283%29.png",
+  "moreInfoLink": "https://www.blueskiesturnblack.com/show/actors2025",
+  "source": "blueskiesturnblack"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f1f5"
+  },
+  "originalId": "SUUNSINVITES2025-05-03T20:30:00.000Z",
+  "title": "SUUNS + INVITÉ(E)S",
+  "dateShowTime": "2025-05-03T20:30:00.000Z",
+  "dateDoorTime": "2025-05-03T19:30:00.000Z",
+  "preciseTime": true,
+  "venue": "Foufounes Éléctriques",
+  "address": "87 Ste-Catherine E",
+  "price": null,
+  "image": "https://images.squarespace-cdn.com/content/v1/652d7eb4eab0b971e91b8395/1732646611621-JW8WULN5RUA3HT09RJ0L/Suuns_The+Breaks.jpg",
+  "moreInfoLink": "https://www.blueskiesturnblack.com/show/suuns2025",
+  "source": "blueskiesturnblack"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f1f6"
+  },
+  "originalId": "zzzaharaINVITES2025-05-06T20:00:00.000Z",
+  "title": "zzzahara + INVITÉ(E)S",
+  "dateShowTime": "2025-05-06T20:00:00.000Z",
+  "dateDoorTime": "2025-05-06T19:00:00.000Z",
+  "preciseTime": true,
+  "venue": "L'Escogriffe",
+  "address": "4461 Saint Denis",
+  "price": null,
+  "image": "https://images.squarespace-cdn.com/content/v1/652d7eb4eab0b971e91b8395/1733777378587-SE8WK0K6APN9B9DCJ23T/BSTB-zzzahara-IG+square.png",
+  "moreInfoLink": "https://www.blueskiesturnblack.com/show/zzzahara2025",
+  "source": "blueskiesturnblack"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f1f7"
+  },
+  "originalId": "PAPOOZINVITES2025-05-10T20:00:00.000Z",
+  "title": "PAPOOZ + INVITÉ(E)S",
+  "dateShowTime": "2025-05-10T20:00:00.000Z",
+  "dateDoorTime": "2025-05-10T19:00:00.000Z",
+  "preciseTime": true,
+  "venue": "Club Soda",
+  "address": "1225 Saint-Laurent",
+  "price": null,
+  "image": "https://images.squarespace-cdn.com/content/v1/652d7eb4eab0b971e91b8395/1729626101938-IELD78LEQUNLHZY1SK24/BSTB-Papooz-IG+square+%281%29.png",
+  "moreInfoLink": "https://www.blueskiesturnblack.com/show/papooz2025",
+  "source": "blueskiesturnblack"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f1f8"
+  },
+  "originalId": "APLACETOBURYSTRANGERSTHEMALL2025-05-15T21:00:00.000Z",
+  "title": "A PLACE TO BURY STRANGERS + THE MALL",
+  "dateShowTime": "2025-05-15T21:00:00.000Z",
+  "dateDoorTime": "2025-05-15T20:00:00.000Z",
+  "preciseTime": true,
+  "venue": "Bar Le Ritz PDB",
+  "address": "179 Jean Talon Ouest",
+  "price": null,
+  "image": "https://images.squarespace-cdn.com/content/v1/652d7eb4eab0b971e91b8395/1733492214174-EBROSGXE0P4JUZMRW4L7/BSTB-APTBS-IG+square.png",
+  "moreInfoLink": "https://www.blueskiesturnblack.com/show/aplacetoburystrangers2025",
+  "source": "blueskiesturnblack"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f1f9"
+  },
+  "originalId": "PETERHOOKTHELIGHT2025-05-22T20:00:00.000Z",
+  "title": "PETER HOOK & THE LIGHT",
+  "dateShowTime": "2025-05-22T20:00:00.000Z",
+  "dateDoorTime": "2025-05-22T19:00:00.000Z",
+  "preciseTime": true,
+  "venue": "MTELUS",
+  "address": "59 Rue Ste-Catherine Est",
+  "price": null,
+  "image": "https://images.squarespace-cdn.com/content/v1/652d7eb4eab0b971e91b8395/1730303498488-9ZAA3LOVB5ACHU3UWCM8/HOO-UK25-INSTA-SQUARE+.jpg",
+  "moreInfoLink": "https://www.blueskiesturnblack.com/show/peterhook2025",
+  "source": "blueskiesturnblack"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f1fa"
+  },
+  "originalId": "THEWEDDINGPRESENTTHETUBS2025-05-26T20:00:00.000Z",
+  "title": "THE WEDDING PRESENT + THE TUBS",
+  "dateShowTime": "2025-05-26T20:00:00.000Z",
+  "dateDoorTime": "2025-05-26T19:00:00.000Z",
+  "preciseTime": true,
+  "venue": "Bar Le Ritz PDB",
+  "address": "179 Jean Talon Ouest",
+  "price": null,
+  "image": "https://images.squarespace-cdn.com/content/v1/652d7eb4eab0b971e91b8395/1731077847802-X0JI1A1D18TA5NDR7J71/BSTB-The+Wedding+Present-IG+square.png",
+  "moreInfoLink": "https://www.blueskiesturnblack.com/show/theweddingpresent2025",
+  "source": "blueskiesturnblack"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f1fb"
+  },
+  "originalId": "MIKEINVITES2025-05-29T20:00:00.000Z",
+  "title": "MIKE + INVITÉ(E)S",
+  "dateShowTime": "2025-05-29T20:00:00.000Z",
+  "dateDoorTime": "2025-05-29T19:00:00.000Z",
+  "preciseTime": true,
+  "venue": "Theatre Fairmount",
+  "address": "5240 Av Du Parc",
+  "price": null,
+  "image": "https://images.squarespace-cdn.com/content/v1/652d7eb4eab0b971e91b8395/1729526921730-T0T61ADGUYXKHFSN308R/BSTB-Mike-IG+square.png",
+  "moreInfoLink": "https://www.blueskiesturnblack.com/show/mike2025",
+  "source": "blueskiesturnblack"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f1fc"
+  },
+  "originalId": "VIAGRABOYSINVITES2025-09-22T20:00:00.000Z",
+  "title": "VIAGRA BOYS + + INVITÉ(E)S",
+  "dateShowTime": "2025-09-22T20:00:00.000Z",
+  "dateDoorTime": "2025-09-22T19:00:00.000Z",
+  "preciseTime": true,
+  "venue": "MTELUS",
+  "address": "59 Rue Sainte-Catherine Est",
+  "price": null,
+  "image": "https://images.squarespace-cdn.com/content/v1/652d7eb4eab0b971e91b8395/1733761337755-F2RRRZYQI6KXKI975PJG/MTE-250922-ViagraBoys-WEB-Visuels-RS1080x1080-FR.jpg",
+  "moreInfoLink": "https://www.blueskiesturnblack.com/show/viagraboys2025",
+  "source": "blueskiesturnblack"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f1fd"
+  },
+  "originalId": "MattLargepresentsMikeMcKennaJrcdrelease2024-12-19T20:00:00.000Z",
+  "title": "Matt Large presents: Mike McKenna Jr. cd release",
+  "dateShowTime": "2024-12-19T20:00:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": "P'tit Ours",
+  "address": "5589 Ave du Park",
+  "price": "$20.00",
+  "image": "https://casadelpopolo.com/_next/image?url=https%3A%2F%2Fstratus2.fly.dev%2Frails%2Factive_storage%2Fblobs%2Fredirect%2FeyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBdDhIIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--305d0ce2187dd2f63f1ba562cceb49b363b1eedb%2Fcover_dfda1567304496e172de88f953e3c06171955bb5e9ffc87e4c0861d047f23ff1.png&w=1920&q=75",
+  "moreInfoLink": "https://casadelpopolo.com/en/events/2024-12-19-matt-large-presents-mike-mckenna-jr-cd-release",
+  "source": "casadelpopolo"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f1fe"
+  },
+  "originalId": "IndependentJewishVoicesMontrealChannukaGatheringandFundraiser2024-12-19T20:00:00.000Z",
+  "title": "Independent Jewish Voices Montreal Channuka Gathering and Fundraiser",
+  "dateShowTime": "2024-12-19T20:00:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": "La Sala Rossa",
+  "address": "4848 St-Laurent",
+  "price": "$15.00",
+  "image": "https://casadelpopolo.com/_next/image?url=https%3A%2F%2Fstratus2.fly.dev%2Frails%2Factive_storage%2Fblobs%2Fredirect%2FeyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBbWNJIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--cc5e1f076c21034c089b5e739941696f86d74669%2Fcover_e38c6b164fb1e61238f229fa5d1c7d3de411943afd468af853e6f4c41a98141d.png&w=1920&q=75",
+  "moreInfoLink": "https://casadelpopolo.com/en/events/2024-12-19-independent-jewish-voices-montreal-channuka-gathering-and-fundraiser",
+  "source": "casadelpopolo"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f1ff"
+  },
+  "originalId": "KillerRadarLaneEllisandYungKangRaWinter2024-12-19T20:30:00.000Z",
+  "title": "Killer Radar, Lane Ellis, and Yung Kang Ra Winter",
+  "dateShowTime": "2024-12-19T20:30:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": "La Sotterenea",
+  "address": "4848 St-Laurent",
+  "price": "$15.00",
+  "image": "https://casadelpopolo.com/_next/image?url=https%3A%2F%2Fstratus2.fly.dev%2Frails%2Factive_storage%2Fblobs%2Fredirect%2FeyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBa01JIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--6e2a7392280e5adeb9858d17ad862d1373f07a9a%2Fcover_541e588f812edc4ec8af62ce4ea440ea852078d85515059bffc0890e20999cb4.jpg&w=1920&q=75",
+  "moreInfoLink": "https://casadelpopolo.com/en/events/2024-12-19-killer-radar-lane-ellis-and-yung-kang-ra-winter",
+  "source": "casadelpopolo"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f200"
+  },
+  "originalId": "WillyNillyTheCodasLenoire2024-12-19T21:00:00.000Z",
+  "title": "Willy Nilly + The Codas + Lenoire",
+  "dateShowTime": "2024-12-19T21:00:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": "Casa Del Popolo",
+  "address": "4873 St-Laurent",
+  "price": "$10.00",
+  "image": "https://casadelpopolo.com/_next/image?url=https%3A%2F%2Fstratus2.fly.dev%2Frails%2Factive_storage%2Fblobs%2Fredirect%2FeyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBdjhIIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--d9885733084bedcccb75df0d4d8164ddf7234bf3%2Fcover_976e51da4769acf2807d8930d49f5c58edcdde740b63e52ce2123e947a341ccb.jpg&w=1920&q=75",
+  "moreInfoLink": "https://casadelpopolo.com/en/events/2024-12-19-willy-nilly-the-codas-lenoire",
+  "source": "casadelpopolo"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f201"
+  },
+  "originalId": "DJChaoticUglySwanMeatFeardotcomDJYokubari2024-12-19T22:00:00.000Z",
+  "title": "DJ Chaotic Ugly + Swan Meat + Feardotcom + DJ Yokubari",
+  "dateShowTime": "2024-12-19T22:00:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": "La Toscadura",
+  "address": "4388 St-Laurent",
+  "price": "$20.00",
+  "image": "https://casadelpopolo.com/_next/image?url=https%3A%2F%2Fstratus2.fly.dev%2Frails%2Factive_storage%2Fblobs%2Fredirect%2FeyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBdjBIIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--08ab0fdc31926280909c5c18ce55ccc27d0eba14%2Fcover_e31c7fce5d002b5b20ddcf4a903dcfabf7152cf9e34c5f9aeae809d8cbd3f74c.png&w=1920&q=75",
+  "moreInfoLink": "https://casadelpopolo.com/en/events/2024-12-19-dj-chaotic-ugly-swan-meat-feardotcom-dj-yokubari",
+  "source": "casadelpopolo"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f202"
+  },
+  "originalId": "Insulin4Palestine2024-12-20T20:00:00.000Z",
+  "title": "Insulin 4 Palestine",
+  "dateShowTime": "2024-12-20T20:00:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": "P'tit Ours",
+  "address": "5589 Ave du Park",
+  "price": "$15.00",
+  "image": "https://casadelpopolo.com/_next/image?url=https%3A%2F%2Fstratus2.fly.dev%2Frails%2Factive_storage%2Fblobs%2Fredirect%2FeyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBdm9IIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--a6ebbcd5e3ec0fb2c1a54e7302c4c25a7d52a67e%2Fcover_c6129190d19df3bc87fab02ad219ead68190bcc1d09e8b06252ab08f979fc1f8.png&w=1920&q=75",
+  "moreInfoLink": "https://casadelpopolo.com/en/events/2024-12-20-insulin-4-palestine",
+  "source": "casadelpopolo"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f203"
+  },
+  "originalId": "OneTrillionBeesMellonelaLoveBombersConflitmajeur2024-12-20T20:30:00.000Z",
+  "title": "One Trillion Bees, Mellonela, Love Bombers, Conflit majeur",
+  "dateShowTime": "2024-12-20T20:30:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": "La Sotterenea",
+  "address": "4848 St-Laurent",
+  "price": "",
+  "image": "https://casadelpopolo.com/_next/image?url=https%3A%2F%2Fstratus2.fly.dev%2Frails%2Factive_storage%2Fblobs%2Fredirect%2FeyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBbXdJIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--858a081a4ac54460534f01e7fbffc7f3d730d489%2Fcover_f87a8461203f6e9632d06e89eee80d552f70612269b9912fc3614f5d48b27e99.jpg&w=1920&q=75",
+  "moreInfoLink": "https://casadelpopolo.com/en/events/2024-12-20-one-trillion-bees-mellonela-love-bombers-conflit-majeur",
+  "source": "casadelpopolo"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f204"
+  },
+  "originalId": "THENAUGHTYLISTKIKIBALLIIOTYpresentedbyBallroom4Community2024-12-20T21:00:00.000Z",
+  "title": "THE NAUGHTY LIST KIKI BALL II - #OTY - presented by Ballroom 4 Community",
+  "dateShowTime": "2024-12-20T21:00:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": "La Sala Rossa",
+  "address": "4848 St-Laurent",
+  "price": "$15.00",
+  "image": "https://casadelpopolo.com/_next/image?url=https%3A%2F%2Fstratus2.fly.dev%2Frails%2Factive_storage%2Fblobs%2Fredirect%2FeyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBdUlIIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--28c7f0cabbb227fb1b7687090a40d9a6cca72462%2Fcover_2464adfbdb6449e2b638e722accbee1afa0b6d1fc9175f6047b77d0c886ab255.png&w=1920&q=75",
+  "moreInfoLink": "https://casadelpopolo.com/en/events/2024-12-20-the-naughty-list-kiki-ball-ii-oty-presented-by-ballroom-4-community",
+  "source": "casadelpopolo"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f205"
+  },
+  "originalId": "CumbialaCasadelPopolo2024-12-20T21:30:00.000Z",
+  "title": "Cumbia à la Casa del Popolo",
+  "dateShowTime": "2024-12-20T21:30:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": "Casa Del Popolo",
+  "address": "4873 St-Laurent",
+  "price": "",
+  "image": "https://casadelpopolo.com/_next/image?url=https%3A%2F%2Fstratus2.fly.dev%2Frails%2Factive_storage%2Fblobs%2Fredirect%2FeyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBamdJIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--54c3f56a35f129dd6cd729adb75ae56e5b8d9531%2Fcover_c575f2fb330f676af600af65cb8d7cfe01726835f2371f4841e53d4508155851.png&w=1920&q=75",
+  "moreInfoLink": "https://casadelpopolo.com/en/events/2024-12-20-cumbia-a-la-casa-del-popolo",
+  "source": "casadelpopolo"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f206"
+  },
+  "originalId": "EvergreensChristmasShowwithDionysusandSevenGardens2024-12-21T20:30:00.000Z",
+  "title": "Evergreen's Christmas Show with Dionysus and Seven Gardens",
+  "dateShowTime": "2024-12-21T20:30:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": "La Sotterenea",
+  "address": "4848 St-Laurent",
+  "price": "$7.50",
+  "image": "https://casadelpopolo.com/_next/image?url=https%3A%2F%2Fstratus2.fly.dev%2Frails%2Factive_storage%2Fblobs%2Fredirect%2FeyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBaWtJIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--35afa9f9fe48d66f64a5c7ae57cb30699da9c7d9%2Fcover_7ed33e0b78f97eec0134a3c59bf0d1bea5a579268d5b56b19d75e5f96d48e1bd.jpg&w=1920&q=75",
+  "moreInfoLink": "https://casadelpopolo.com/en/events/2024-12-21-evergreen-s-christmas-show-with-dionysus-and-seven-gardens",
+  "source": "casadelpopolo"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f207"
+  },
+  "originalId": "LANUITVAGABONDEinviteZBUWAVITALIA2024-12-22T20:00:00.000Z",
+  "title": "LA NUIT: VAGABONDE invite ZÏBUWA & VITALIA",
+  "dateShowTime": "2024-12-22T20:00:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": "Casa Del Popolo",
+  "address": "4873 St-Laurent",
+  "price": "$15.00",
+  "image": "https://casadelpopolo.com/_next/image?url=https%3A%2F%2Fstratus2.fly.dev%2Frails%2Factive_storage%2Fblobs%2Fredirect%2FeyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBam9JIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--edb39a03b91c82050a2d1358f6923ce7dbc38982%2Fcover_622d033613b6139cfcedccd12ff7030d794c7b94e922a5ba599feffe2d4ef62b.png&w=1920&q=75",
+  "moreInfoLink": "https://casadelpopolo.com/en/events/2024-12-22-la-nuit-vagabonde-invite-zibuwa-vitalia",
+  "source": "casadelpopolo"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f208"
+  },
+  "originalId": "MadAngelz5HolidaySpecial2024-12-23T20:00:00.000Z",
+  "title": "Mad Angelz $5 Holiday Special",
+  "dateShowTime": "2024-12-23T20:00:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": "Casa Del Popolo",
+  "address": "4873 St-Laurent",
+  "price": "",
+  "image": "https://casadelpopolo.com/_next/image?url=https%3A%2F%2Fstratus2.fly.dev%2Frails%2Factive_storage%2Fblobs%2Fredirect%2FeyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBcEVIIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--17d71f2fd92b2e1494c8e2b61b7ab326ed5b67f2%2Fcover_1840e09510c75605fccfe1bd4f2da4e62c184af557f93dbdcc5c3bd2aa2ff732.jpg&w=1920&q=75",
+  "moreInfoLink": "https://casadelpopolo.com/en/events/2024-12-23-mad-angelz-5-holiday-special",
+  "source": "casadelpopolo"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f209"
+  },
+  "originalId": "SoireHommageGazonDiurneetRedHotChiliPasPire2024-12-27T20:30:00.000Z",
+  "title": "Soirée Hommage - Gazon Diurne et Red Hot Chili Pas Pire",
+  "dateShowTime": "2024-12-27T20:30:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": "Casa Del Popolo",
+  "address": "4873 St-Laurent",
+  "price": "$15.00",
+  "image": "https://casadelpopolo.com/_next/image?url=https%3A%2F%2Fstratus2.fly.dev%2Frails%2Factive_storage%2Fblobs%2Fredirect%2FeyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBaXdJIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--cf452c8aaf6f89c6d562328026abacb0c9f3f1fb%2Fcover_5f0f6bdf9be7693139eb957ce231cbbb555d83b5f798abad48feccce7ba184aa.jpg&w=1920&q=75",
+  "moreInfoLink": "https://casadelpopolo.com/en/events/2024-12-27-soiree-hommage-gazon-diurne-et-red-hot-chili-pas-pire",
+  "source": "casadelpopolo"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f20a"
+  },
+  "originalId": "PiketeNavikinkiDJNathDJThatzLaNinaKiwimCherryTsunaniAnacondaLasabrosa2024-12-27T22:00:00.000Z",
+  "title": "Pikete - Navikinki: DJ Nath, DJ Thatz, La Nina Kiwi, mCherry, Tsunani, Anaconda Lasabrosa",
+  "dateShowTime": "2024-12-27T22:00:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": "La Sotterenea",
+  "address": "4848 St-Laurent",
+  "price": "$10.00",
+  "image": "https://casadelpopolo.com/_next/image?url=https%3A%2F%2Fstratus2.fly.dev%2Frails%2Factive_storage%2Fblobs%2Fredirect%2FeyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBcEFJIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--f42dc0b5cea9234cbc121267e2f1ee5b1c69d4cb%2Fcover_3da84d85ef037d18078eeee0d4370420399171cbba9e5248b81acc8eb8c9280b.png&w=1920&q=75",
+  "moreInfoLink": "https://casadelpopolo.com/en/events/2024-12-27-pikete-navikinki-dj-nath-dj-thatz-la-nina-kiwi-mcherry-tsunani-anaconda-lasabrosa",
+  "source": "casadelpopolo"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f20b"
+  },
+  "originalId": "MAGHREBNIGHTpresentedbyROOTSPRODEVENTS2024-12-27T22:00:00.000Z",
+  "title": "MAGHREB NIGHT presented by ROOTS PROD EVENTS",
+  "dateShowTime": "2024-12-27T22:00:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": "La Sala Rossa",
+  "address": "4848 St-Laurent",
+  "price": "$45.00",
+  "image": "https://casadelpopolo.com/_next/image?url=https%3A%2F%2Fstratus2.fly.dev%2Frails%2Factive_storage%2Fblobs%2Fredirect%2FeyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBc2tIIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--504ce4e8a33b34b768558be9d270aef5f5b6cece%2Fcover_5c4ccc7a62e14fb51ad78b8bb8b75fde2c66a2053a08f5c9b23363d2ff7d46ca.png&w=1920&q=75",
+  "moreInfoLink": "https://casadelpopolo.com/en/events/2024-12-27-maghreb-night-presented-by-roots-prod-events",
+  "source": "casadelpopolo"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f20c"
+  },
+  "originalId": "CYPHERALEXXCasaDelPopolo2024-12-28T21:30:00.000Z",
+  "title": "CYPHER + ALEXX @ Casa Del Popolo",
+  "dateShowTime": "2024-12-28T21:30:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": "Casa Del Popolo",
+  "address": "4873 St-Laurent",
+  "price": "",
+  "image": "https://casadelpopolo.com/_next/image?url=https%3A%2F%2Fstratus2.fly.dev%2Frails%2Factive_storage%2Fblobs%2Fredirect%2FeyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBa2NJIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--6ef52f66464b1d3649129f9457c288a27b87398e%2Fcover_fb9e0307b89062350961c629c1e77c5f4edbfb34d0f51f6d183145ce8c58ecea.png&w=1920&q=75",
+  "moreInfoLink": "https://casadelpopolo.com/en/events/2024-12-28-cypher-alexx-casa-del-popolo",
+  "source": "casadelpopolo"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f20d"
+  },
+  "originalId": "FRKY2024-12-28T22:00:00.000Z",
+  "title": "FRKY",
+  "dateShowTime": "2024-12-28T22:00:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": "La Sotterenea",
+  "address": "4848 St-Laurent",
+  "price": "$5.00",
+  "image": "https://casadelpopolo.com/_next/image?url=https%3A%2F%2Fstratus2.fly.dev%2Frails%2Factive_storage%2Fblobs%2Fredirect%2FeyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBcDhJIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--72c02e60ddc3ea06f1814d3d5b6ab0711b4e2c7a%2Fcover_b399810dcfe101888d0198c73d3c351856fed6648a208b05ca2364c9a5b07342.jpg&w=1920&q=75",
+  "moreInfoLink": "https://casadelpopolo.com/en/events/2024-12-28-frky",
+  "source": "casadelpopolo"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f20e"
+  },
+  "originalId": "SGSinnicks2024-12-29T19:30:00.000Z",
+  "title": "SG Sinnicks",
+  "dateShowTime": "2024-12-29T19:30:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": "Casa Del Popolo",
+  "address": "4873 St-Laurent",
+  "price": "",
+  "image": "https://casadelpopolo.com/_next/image?url=https%3A%2F%2Fstratus2.fly.dev%2Frails%2Factive_storage%2Fblobs%2Fredirect%2FeyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBbVFFIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--c2dd554611289283d330548acfa8e7d5397c6a92%2Fcover_18f6e09142a96d1f0dcad6c8684612eee46c56976d7418569584d1070788e537.jpg&w=1920&q=75",
+  "moreInfoLink": "https://casadelpopolo.com/en/events/2024-12-29-sg-sinnicks",
+  "source": "casadelpopolo"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f20f"
+  },
+  "originalId": "slackinidlethedefamedpostluvenStregoneria2024-12-29T20:00:00.000Z",
+  "title": "slackin’ idle the defamed postluven Stregoneria",
+  "dateShowTime": "2024-12-29T20:00:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": "La Sotterenea",
+  "address": "4848 St-Laurent",
+  "price": "$10.00",
+  "image": "https://casadelpopolo.com/_next/image?url=https%3A%2F%2Fstratus2.fly.dev%2Frails%2Factive_storage%2Fblobs%2Fredirect%2FeyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBcnNIIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--b9ec5676811b6dabd5aa09ca5926a762876d8631%2Fcover_b9e9fb83a5ef400f56203f4c5ff0a5398f2066f29f70596fe8eb86b205ca777c.jpg&w=1920&q=75",
+  "moreInfoLink": "https://casadelpopolo.com/en/events/2024-12-29-slackin-idle-the-defamed-postluven-stregoneria",
+  "source": "casadelpopolo"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f210"
+  },
+  "originalId": "Lesruinesdelazur2024-12-30T19:30:00.000Z",
+  "title": "Les ruines de l'azur",
+  "dateShowTime": "2024-12-30T19:30:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": "La Sotterenea",
+  "address": "4848 St-Laurent",
+  "price": "",
+  "image": "https://casadelpopolo.com/_next/image?url=https%3A%2F%2Fstratus2.fly.dev%2Frails%2Factive_storage%2Fblobs%2Fredirect%2FeyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBZ29JIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--4de89c09bd819777c2e64893e622072f904df899%2Fcover_091b2ee31eea017065cceeaec6e212623e6f43649116d1eebd69bd464a2c741a.jpg&w=1920&q=75",
+  "moreInfoLink": "https://casadelpopolo.com/en/events/2024-12-30-les-ruines-de-l-azur",
+  "source": "casadelpopolo"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f211"
+  },
+  "originalId": "CRYINGLIKEAMANIACSHOW32024-12-30T20:00:00.000Z",
+  "title": "CRYING LIKE A MANIAC SHOW #3",
+  "dateShowTime": "2024-12-30T20:00:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": "Casa Del Popolo",
+  "address": "4873 St-Laurent",
+  "price": "$10.00",
+  "image": "https://casadelpopolo.com/_next/image?url=https%3A%2F%2Fstratus2.fly.dev%2Frails%2Factive_storage%2Fblobs%2Fredirect%2FeyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBcHdJIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--e48507eb0359c6d325bdb5599ddb57f0082838e9%2Fcover_f142e405571527a51edc5a1bade4aedf88b78016b40b90a593445fe7be3c0ed5.jpg&w=1920&q=75",
+  "moreInfoLink": "https://casadelpopolo.com/en/events/2024-12-30-crying-like-a-maniac-show-3",
+  "source": "casadelpopolo"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f212"
+  },
+  "originalId": "JackWilliamsRyanRobinsonHaydenWard2025-01-03T20:00:00.000Z",
+  "title": "Jack Williams, Ryan Robinson, Hayden Ward",
+  "dateShowTime": "2025-01-03T20:00:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": "P'tit Ours",
+  "address": "5589 Ave du Park",
+  "price": "$15.00",
+  "image": "https://casadelpopolo.com/_next/image?url=https%3A%2F%2Fstratus2.fly.dev%2Frails%2Factive_storage%2Fblobs%2Fredirect%2FeyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBbWtJIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--9b9450bba52a1c4751935bb04f2a86fa33b02d6d%2Fcover_1c08d3970322b655675caa3d505e0917eaf0741696823a64ea1d18dd760816ce.png&w=1920&q=75",
+  "moreInfoLink": "https://casadelpopolo.com/en/events/2025-01-03-jack-williams-ryan-robinson-hayden-ward",
+  "source": "casadelpopolo"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f213"
+  },
+  "originalId": "THESPACEWIZARDSwithSTEEPLEMAGDELANEHAPPYNEWYEAR2025-01-03T21:00:00.000Z",
+  "title": "THE SPACE WIZARDS with STEEPLE & MAGDELANE - HAPPY NEW YEAR!",
+  "dateShowTime": "2025-01-03T21:00:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": "Casa Del Popolo",
+  "address": "4873 St-Laurent",
+  "price": "$10.97",
+  "image": "https://casadelpopolo.com/_next/image?url=https%3A%2F%2Fstratus2.fly.dev%2Frails%2Factive_storage%2Fblobs%2Fredirect%2FeyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBbUVJIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--547f646648a71039cac65d5e0283e46bb8a6718d%2Fcover_126253402e03bab1c27e5498a96c1eada306daddc1fbeae2aebcef01647e6a21.png&w=1920&q=75",
+  "moreInfoLink": "https://casadelpopolo.com/en/events/2025-01-03-the-space-wizards-with-steeple-magdelane-happy-new-year",
+  "source": "casadelpopolo"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f214"
+  },
+  "originalId": "PunkatPtitOurs2025-01-04T08:30:00.000Z",
+  "title": "Punk at Ptit Ours",
+  "dateShowTime": "2025-01-04T08:30:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": "P'tit Ours",
+  "address": "5589 Ave du Park",
+  "price": "$10.00",
+  "image": "https://casadelpopolo.com/_next/image?url=https%3A%2F%2Fstratus2.fly.dev%2Frails%2Factive_storage%2Fblobs%2Fredirect%2FeyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBbjBJIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--0f989039d8aa5ad409bb58503b4009cbc912908e%2Fcover_b0b3edcf70594d37e3b8d27a8cadfe1d9506eda9c7702b54021e05d7a5746f71.jpg&w=1920&q=75",
+  "moreInfoLink": "https://casadelpopolo.com/en/events/2025-01-04-punk-at-ptit-ours",
+  "source": "casadelpopolo"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f215"
+  },
+  "originalId": "KingblockEntertainmentPresentsRoyalRhapsodyPt22025-01-04T20:00:00.000Z",
+  "title": "Kingblock Entertainment Presents: Royal Rhapsody Pt. 2",
+  "dateShowTime": "2025-01-04T20:00:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": "La Sala Rossa",
+  "address": "4848 St-Laurent",
+  "price": "$15.00",
+  "image": "https://casadelpopolo.com/_next/image?url=https%3A%2F%2Fstratus2.fly.dev%2Frails%2Factive_storage%2Fblobs%2Fredirect%2FeyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBa29JIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--18be0260991f6dba3144b76f802101ac73812fc5%2Fcover_1d3e212df66176731c85be55a5306e37e9b12824ae9a6763297868fc59beaf0e.png&w=1920&q=75",
+  "moreInfoLink": "https://casadelpopolo.com/en/events/2025-01-04-kingblock-entertainment-presents-royal-rhapsody-pt-2",
+  "source": "casadelpopolo"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f216"
+  },
+  "originalId": "WrthCr8tingRyanbrioCliffordTheDukeandMOC2025-01-04T20:30:00.000Z",
+  "title": "WrthCr8ting, Ryan brio, Clifford The Duke and MOC",
+  "dateShowTime": "2025-01-04T20:30:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": "La Sotterenea",
+  "address": "4848 St-Laurent",
+  "price": "$5.00",
+  "image": null,
+  "moreInfoLink": "https://casadelpopolo.com/en/events/2025-01-04-wrthcr8ting-ryan-brio-clifford-the-duke-and-moc",
+  "source": "casadelpopolo"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f217"
+  },
+  "originalId": "LeTorrentRyanbrioinvits2025-01-05T20:30:00.000Z",
+  "title": "Le Torrent/ Ryan brio+ invités",
+  "dateShowTime": "2025-01-05T20:30:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": "Casa Del Popolo",
+  "address": "4873 St-Laurent",
+  "price": "",
+  "image": "https://casadelpopolo.com/_next/image?url=https%3A%2F%2Fstratus2.fly.dev%2Frails%2Factive_storage%2Fblobs%2Fredirect%2FeyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBakFJIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--2b645d62a247b453e96c9c5007a0cd8388db5335%2Fcover_d11887ec5fab23ad90e081ec830247d37c0719d0d6d21dcbbc28834abbc481c9.jpg&w=1920&q=75",
+  "moreInfoLink": "https://casadelpopolo.com/en/events/2025-01-05-le-torrent-ryan-brio-invites",
+  "source": "casadelpopolo"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f218"
+  },
+  "originalId": "MattLargepresentsTheToolshedCollective2025-01-08T20:00:00.000Z",
+  "title": "Matt Large presents: The Toolshed Collective",
+  "dateShowTime": "2025-01-08T20:00:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": "Casa Del Popolo",
+  "address": "4873 St-Laurent",
+  "price": "$20.00",
+  "image": null,
+  "moreInfoLink": "https://casadelpopolo.com/en/events/2025-01-08-matt-large-presents-the-toolshed-collective",
+  "source": "casadelpopolo"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f219"
+  },
+  "originalId": "LevedefondspourleLibanLancementduEPMadinaMadeMandeJamKhalil2025-01-09T20:00:00.000Z",
+  "title": "Levée de fonds pour le Liban - Lancement du EP Madina Made Man de Jam Khalil",
+  "dateShowTime": "2025-01-09T20:00:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": "La Sotterenea",
+  "address": "4848 St-Laurent",
+  "price": "$15.00",
+  "image": null,
+  "moreInfoLink": "https://casadelpopolo.com/en/events/2025-01-09-levee-de-fonds-pour-le-liban-lancement-du-ep-madina-made-man-de-jam-khalil",
+  "source": "casadelpopolo"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f21a"
+  },
+  "originalId": "AsUsualTheVauxhallsBoilerMaker2025-01-09T21:00:00.000Z",
+  "title": "As Usual, The Vauxhalls, & Boiler Maker",
+  "dateShowTime": "2025-01-09T21:00:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": "Casa Del Popolo",
+  "address": "4873 St-Laurent",
+  "price": "$10.00",
+  "image": "https://casadelpopolo.com/_next/image?url=https%3A%2F%2Fstratus2.fly.dev%2Frails%2Factive_storage%2Fblobs%2Fredirect%2FeyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBZ1VJIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--a96c5b7f2aa0d2b24a925ccf1a89cf5bf77fd0bd%2Fcover_d2da19630f64a1eb2d5c5096243edd7ec231e66892fa12595453cf7bb65a197e.jpg&w=1920&q=75",
+  "moreInfoLink": "https://casadelpopolo.com/en/events/2025-01-09-as-usual-the-vauxhalls-boiler-maker",
+  "source": "casadelpopolo"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f21b"
+  },
+  "originalId": "PnoomEnergyalbumrelease2025-01-10T20:00:00.000Z",
+  "title": "Pnoom Energy album release.",
+  "dateShowTime": "2025-01-10T20:00:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": "La Sotterenea",
+  "address": "4848 St-Laurent",
+  "price": "$15.00",
+  "image": "https://casadelpopolo.com/_next/image?url=https%3A%2F%2Fstratus2.fly.dev%2Frails%2Factive_storage%2Fblobs%2Fredirect%2FeyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBcVVIIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--8511c02e0a25f615869480bf7c1720f7e607b1ce%2Fcover_9646244c681a4ea47e9f2abaf35b52f37ee2c62d6ea345ef010304ec55d3190a.jpg&w=1920&q=75",
+  "moreInfoLink": "https://casadelpopolo.com/en/events/2025-01-10-pnoom-energy-album-release",
+  "source": "casadelpopolo"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f21c"
+  },
+  "originalId": "BernadettelexisBAntoninBourgaultlaCasaDelPopolo2025-01-10T20:00:00.000Z",
+  "title": "Bernadette + lexis B + Antonin Bourgault à la Casa Del Popolo",
+  "dateShowTime": "2025-01-10T20:00:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": "Casa Del Popolo",
+  "address": "4873 St-Laurent",
+  "price": "$10.00",
+  "image": "https://casadelpopolo.com/_next/image?url=https%3A%2F%2Fstratus2.fly.dev%2Frails%2Factive_storage%2Fblobs%2Fredirect%2FeyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBbklJIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--a1a3b4a2b3a6d73d7b14a877e114ad403a096073%2Fcover_1445287f77c2f89d6404be332a9a012377233bf445417d8d69fc6d554a639528.jpg&w=1920&q=75",
+  "moreInfoLink": "https://casadelpopolo.com/en/events/2025-01-10-bernadette-lexis-b-antonin-bourgault-a-la-casa-del-popolo",
+  "source": "casadelpopolo"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f21d"
+  },
+  "originalId": "CJLO25THANNIVERSARYBlueSkiesTurnBlacketCJLOprsententLANDOFTALKBODYWASHDRESSER2025-01-10T20:00:00.000Z",
+  "title": "CJLO 25TH ANNIVERSARY Blue Skies Turn Black et CJLO présentent: LAND OF TALK + BODYWASH + DRESSER",
+  "dateShowTime": "2025-01-10T20:00:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": "La Sala Rossa",
+  "address": "4848 St-Laurent",
+  "price": "$17.39",
+  "image": "https://casadelpopolo.com/_next/image?url=https%3A%2F%2Fstratus2.fly.dev%2Frails%2Factive_storage%2Fblobs%2Fredirect%2FeyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBbVFJIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--c73fcc1d25cd9b75e3598473fb1df242547a8719%2Fcover_376962f83812fbf2b7a1116d0ea6b05009afcb869923b8847f5ae6372fad3df9.jpg&w=1920&q=75",
+  "moreInfoLink": "https://casadelpopolo.com/en/events/2025-01-10-cjlo-25th-anniversary-blue-skies-turn-black-et-cjlo-presentent-land-of-talk-bodywash-dresser",
+  "source": "casadelpopolo"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f21e"
+  },
+  "originalId": "BlackMagicTheShowContinuesinJanuaryArgoandtheVioletQueens2025-01-11T20:00:00.000Z",
+  "title": "Black Magic, The Show Continues in January, Argo and the Violet Queens",
+  "dateShowTime": "2025-01-11T20:00:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": "Casa Del Popolo",
+  "address": "4873 St-Laurent",
+  "price": "$12.00",
+  "image": "https://casadelpopolo.com/_next/image?url=https%3A%2F%2Fstratus2.fly.dev%2Frails%2Factive_storage%2Fblobs%2Fredirect%2FeyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBbThJIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--5535c297cc26332a89c61a6e95264a3a2fe07a83%2Fcover_48129c5ed62098a7a443e3d233f82faf3e78461abdb9d2563b2dd0947e75fcbd.jpg&w=1920&q=75",
+  "moreInfoLink": "https://casadelpopolo.com/en/events/2025-01-11-black-magic-the-show-continues-in-january-argo-and-the-violet-queens",
+  "source": "casadelpopolo"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f21f"
+  },
+  "originalId": "WorstDadEverpresentsKELLYELIZABETHwithNEVERBETTERandLITTLEOSO2025-01-11T20:00:00.000Z",
+  "title": "Worst Dad Ever presents: KELLY ELIZABETH with NEVER BETTER and LITTLE OSO",
+  "dateShowTime": "2025-01-11T20:00:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": "P'tit Ours",
+  "address": "5589 Ave du Park",
+  "price": "",
+  "image": "https://casadelpopolo.com/_next/image?url=https%3A%2F%2Fstratus2.fly.dev%2Frails%2Factive_storage%2Fblobs%2Fredirect%2FeyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBbmdJIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--665687d99cb98088881ffd9d9d5314be7a2d0bd1%2Fcover_6cd06447c2c016107430196d7cec54cd856cafd47e2d5cf91f2a37fa4d9db7a4.jpg&w=1920&q=75",
+  "moreInfoLink": "https://casadelpopolo.com/en/events/2025-01-11-worst-dad-ever-presents-kelly-elizabeth-with-never-better-and-little-oso",
+  "source": "casadelpopolo"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f220"
+  },
+  "originalId": "NoaaTheLeavesGrewBackWhenYouLeftReleaseParty2025-01-12T20:30:00.000Z",
+  "title": "Noaa! - “The Leaves Grew Back When You Left” Release Party",
+  "dateShowTime": "2025-01-12T20:30:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": "P'tit Ours",
+  "address": "5589 Ave du Park",
+  "price": "$10.00",
+  "image": "https://casadelpopolo.com/_next/image?url=https%3A%2F%2Fstratus2.fly.dev%2Frails%2Factive_storage%2Fblobs%2Fredirect%2FeyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBcE1IIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--3d2b8c628c7e9343c061ae62312148c59112c602%2Fcover_4107e107f79952a9a51216e2602696fd4e7eb38880ecd4a5adf68e694c580081.png&w=1920&q=75",
+  "moreInfoLink": "https://casadelpopolo.com/en/events/2025-01-12-noaa-the-leaves-grew-back-when-you-left-release-party",
+  "source": "casadelpopolo"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f221"
+  },
+  "originalId": "IcicleBareBone2025-01-16T19:00:00.000Z",
+  "title": "Icicle: Bare-Bone",
+  "dateShowTime": "2025-01-16T19:00:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": "Casa Del Popolo",
+  "address": "4873 St-Laurent",
+  "price": "$16.00",
+  "image": "https://casadelpopolo.com/_next/image?url=https%3A%2F%2Fstratus2.fly.dev%2Frails%2Factive_storage%2Fblobs%2Fredirect%2FeyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBazhHIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--164577eba3ef6dc7fb3bcddac38923a9648844d3%2Fcover_ebb53b8eb89d1bf169bed64a7ae1da6ff8aa66501f1a99d52a60df18eade9122.jpg&w=1920&q=75",
+  "moreInfoLink": "https://casadelpopolo.com/en/events/2025-01-16-icicle-bare-bone",
+  "source": "casadelpopolo"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f222"
+  },
+  "originalId": "link3AlbumReleaseparallelwithFinalRegardsAntenna932025-01-16T20:00:00.000Z",
+  "title": "link3 Album Release parallel with Final Regards + Antenna93",
+  "dateShowTime": "2025-01-16T20:00:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": "La Sotterenea",
+  "address": "4848 St-Laurent",
+  "price": "",
+  "image": "https://casadelpopolo.com/_next/image?url=https%3A%2F%2Fstratus2.fly.dev%2Frails%2Factive_storage%2Fblobs%2Fredirect%2FeyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBbnNJIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--74b805a132f88810fa631960b37a97e4584689c2%2Fcover_cff144cf9d686c98807e681446da8059abe0476026cf1e28287abe1a0bbbe9f0.jpg&w=1920&q=75",
+  "moreInfoLink": "https://casadelpopolo.com/en/events/2025-01-16-link3-album-release-parallel-with-final-regards-antenna93",
+  "source": "casadelpopolo"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f223"
+  },
+  "originalId": "EmaJeanNaghmeh2025-01-16T20:00:00.000Z",
+  "title": "Ema Jean // Naghmeh",
+  "dateShowTime": "2025-01-16T20:00:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": "P'tit Ours",
+  "address": "5589 Ave du Park",
+  "price": "$15.00",
+  "image": "https://casadelpopolo.com/_next/image?url=https%3A%2F%2Fstratus2.fly.dev%2Frails%2Factive_storage%2Fblobs%2Fredirect%2FeyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBbkFJIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--2a3a75d57cad78d6454468b676b0a9979b722763%2Fcover_1b84721a88a5e4f8aa86369fbbb0e934dd3a8707a40177e5ba0654b5db6a386e.png&w=1920&q=75",
+  "moreInfoLink": "https://casadelpopolo.com/en/events/2025-01-16-ema-jean-naghmeh",
+  "source": "casadelpopolo"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f224"
+  },
+  "originalId": "ConfabulationpresentsTaketheBaitstoriesofpranksplottwistsandpullingthewooloffyoureyes2025-01-17T20:00:00.000Z",
+  "title": "Confabulation presents: Take the Bait: stories of pranks, plot twists and pulling the wool off your eyes.",
+  "dateShowTime": "2025-01-17T20:00:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": "La Sala Rossa",
+  "address": "4848 St-Laurent",
+  "price": "$20.00",
+  "image": "https://casadelpopolo.com/_next/image?url=https%3A%2F%2Fstratus2.fly.dev%2Frails%2Factive_storage%2Fblobs%2Fredirect%2FeyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBa1VJIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--c2ee102cccc799819534409db572c08f9c400a21%2Fcover_6f7d9338addfb86ba884b58054731ac673598dd6caa46f1a7965900612ce18b9.png&w=1920&q=75",
+  "moreInfoLink": "https://casadelpopolo.com/en/events/2025-01-17-confabulation-presents-take-the-bait-stories-of-pranks-plot-twists-and-pulling-the-wool-off-your-eyes",
+  "source": "casadelpopolo"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f225"
+  },
+  "originalId": "soirefrancoavecFelixPilonPetitRoiThomasSimonSaddier2025-01-17T20:30:00.000Z",
+  "title": "soirée franco avec Felix Pilon - Petit Roi - Thomas Simon Saddier",
+  "dateShowTime": "2025-01-17T20:30:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": "Casa Del Popolo",
+  "address": "4873 St-Laurent",
+  "price": "$15.00",
+  "image": "https://casadelpopolo.com/_next/image?url=https%3A%2F%2Fstratus2.fly.dev%2Frails%2Factive_storage%2Fblobs%2Fredirect%2FeyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBbTBHIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--316dbd45512f57325b4ac2be99eef5165ce5da69%2Fcover_3913b0f5526611932ccc483c7993deb5c3b6b2391de3cd507854c2c5cf93da46.jpg&w=1920&q=75",
+  "moreInfoLink": "https://casadelpopolo.com/en/events/2025-01-17-soiree-franco-avec-felix-pilon-petit-roi-thomas-simon-saddier",
+  "source": "casadelpopolo"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f226"
+  },
+  "originalId": "FeverVisionSheCametoQuitYoungBladesUzu2025-01-17T21:00:00.000Z",
+  "title": "Fever Vision, She Came to Quit, Young Blades, Uzu",
+  "dateShowTime": "2025-01-17T21:00:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": "La Sotterenea",
+  "address": "4848 St-Laurent",
+  "price": "",
+  "image": "https://casadelpopolo.com/_next/image?url=https%3A%2F%2Fstratus2.fly.dev%2Frails%2Factive_storage%2Fblobs%2Fredirect%2FeyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBdU1IIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--5d72e0531e7ecfd8b2bf22ab4b3dc7bcf16dde96%2Fcover_ca626ff4a97ff42e2043992dea939a9ae2f7629fb3ad412dade4a9bb6c5b0142.jpg&w=1920&q=75",
+  "moreInfoLink": "https://casadelpopolo.com/en/events/2025-01-17-fever-vision-she-came-to-quit-young-blades-uzu",
+  "source": "casadelpopolo"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f227"
+  },
+  "originalId": "UnesoiredebourdonnementamplifiAneveningofamplifieddrone2025-01-18T20:30:00.000Z",
+  "title": "Une soirée de bourdonnement amplifié / An evening of amplified drone",
+  "dateShowTime": "2025-01-18T20:30:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": "Casa Del Popolo",
+  "address": "4873 St-Laurent",
+  "price": "$15.00",
+  "image": "https://casadelpopolo.com/_next/image?url=https%3A%2F%2Fstratus2.fly.dev%2Frails%2Factive_storage%2Fblobs%2Fredirect%2FeyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBbVlJIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--331c6f4c6699b7241eda7bc787b634a261cf02d5%2Fcover_241f3cfe3084a12a62f34e01f2cc3bc1c185401771f97a5ee5a87439638763e5.png&w=1920&q=75",
+  "moreInfoLink": "https://casadelpopolo.com/en/events/2025-01-18-une-soiree-de-bourdonnement-amplifie-an-evening-of-amplified-drone",
+  "source": "casadelpopolo"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f228"
+  },
+  "originalId": "CANICULETROPICALE2025-01-18T22:00:00.000Z",
+  "title": "CANICULE TROPICALE",
+  "dateShowTime": "2025-01-18T22:00:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": "La Sala Rossa",
+  "address": "4848 St-Laurent",
+  "price": "$17.39",
+  "image": "https://casadelpopolo.com/_next/image?url=https%3A%2F%2Fstratus2.fly.dev%2Frails%2Factive_storage%2Fblobs%2Fredirect%2FeyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBcE1JIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--f8bbf18966c8408bd4a512d0324bada2104e85cd%2Fcover_fc5efc256a741907dc4d60417812d01025a2ffa47145d2ff0b8595303c230105.jpg&w=1920&q=75",
+  "moreInfoLink": "https://casadelpopolo.com/en/events/2025-01-18-canicule-tropicale",
+  "source": "casadelpopolo"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f229"
+  },
+  "originalId": "LIVEatSottereneaBaelsMarshallBloomResonanceColinFenner2025-01-19T20:30:00.000Z",
+  "title": "LIVE at Sotterenea: Baels, Marshall Bloom, Resonance, Colin Fenner",
+  "dateShowTime": "2025-01-19T20:30:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": "La Sotterenea",
+  "address": "4848 St-Laurent",
+  "price": "$5.00",
+  "image": null,
+  "moreInfoLink": "https://casadelpopolo.com/en/events/2025-01-19-live-at-sotterenea-baels-marshall-bloom-resonance-colin-fenner",
+  "source": "casadelpopolo"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f22a"
+  },
+  "originalId": "ToneRveHarrisNewmanThaliaStaceyetamies2025-01-20T20:15:00.000Z",
+  "title": "Ton-e Rêve, Harris Newman, Thalia Stacey et ami(e)s",
+  "dateShowTime": "2025-01-20T20:15:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": "Casa Del Popolo",
+  "address": "4873 St-Laurent",
+  "price": "",
+  "image": "https://casadelpopolo.com/_next/image?url=https%3A%2F%2Fstratus2.fly.dev%2Frails%2Factive_storage%2Fblobs%2Fredirect%2FeyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBbm9JIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--cf032d97db7a40f0ce28cb73680324740242f391%2Fcover_c96ae0a0d8e7786f9af93598333b600f6adcb02b9186962ab286510102b1f947.png&w=1920&q=75",
+  "moreInfoLink": "https://casadelpopolo.com/en/events/2025-01-20-ton-e-reve-harris-newman-thalia-stacey-et-ami-e-s",
+  "source": "casadelpopolo"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f22b"
+  },
+  "originalId": "DoubleShortFilmScreening2025-01-22T20:00:00.000Z",
+  "title": "Double Short Film Screening",
+  "dateShowTime": "2025-01-22T20:00:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": "La Sotterenea",
+  "address": "4848 St-Laurent",
+  "price": "",
+  "image": "https://casadelpopolo.com/_next/image?url=https%3A%2F%2Fstratus2.fly.dev%2Frails%2Factive_storage%2Fblobs%2Fredirect%2FeyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBcDBJIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--0a049580b39bba18b9e170671e9313ad5eac2dbb%2Fcover_277991675bd9295a051bc1f04e27b0617583b2e448109975baf10ac937882a11.png&w=1920&q=75",
+  "moreInfoLink": "https://casadelpopolo.com/en/events/2025-01-22-double-short-film-screening",
+  "source": "casadelpopolo"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f22c"
+  },
+  "originalId": "DebouttesStandup2025-01-22T20:00:00.000Z",
+  "title": "Debout•tes/Standup",
+  "dateShowTime": "2025-01-22T20:00:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": "Casa Del Popolo",
+  "address": "4873 St-Laurent",
+  "price": "$10.00",
+  "image": "https://casadelpopolo.com/_next/image?url=https%3A%2F%2Fstratus2.fly.dev%2Frails%2Factive_storage%2Fblobs%2Fredirect%2FeyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBbndJIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--382671a886c81209b5fa50f44de7e8af5cb3f097%2Fcover_340a5862be892ed493be7e8ff3601b3ef954a63c68f338b91a7414d5e608e541.png&w=1920&q=75",
+  "moreInfoLink": "https://casadelpopolo.com/en/events/2025-01-22-debout-tes-standup",
+  "source": "casadelpopolo"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f22d"
+  },
+  "originalId": "FlorenceBeauquierLgerQuartetDanielMarmerQuartet2025-01-23T20:00:00.000Z",
+  "title": "Florence Beauquier-Léger Quartet + Daniel Marmer Quartet",
+  "dateShowTime": "2025-01-23T20:00:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": "Casa Del Popolo",
+  "address": "4873 St-Laurent",
+  "price": "$10.98",
+  "image": "https://casadelpopolo.com/_next/image?url=https%3A%2F%2Fstratus2.fly.dev%2Frails%2Factive_storage%2Fblobs%2Fredirect%2FeyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBcHNJIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--a7795cfc60593e9a8174876d170ce5ab59b83594%2Fcover_be139b5ae9a46798a49ffebc469c51f271da4a5f5fc9b10b0e7f5093a5c51703.jpg&w=1920&q=75",
+  "moreInfoLink": "https://casadelpopolo.com/en/events/2025-01-23-florence-beauquier-leger-quartet-daniel-marmer-quartet",
+  "source": "casadelpopolo"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f22e"
+  },
+  "originalId": "KickdrumPresentsNicoPlay2025-01-23T21:00:00.000Z",
+  "title": "Kickdrum Presents: Nico Play",
+  "dateShowTime": "2025-01-23T21:00:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": "La Sotterenea",
+  "address": "4848 St-Laurent",
+  "price": "$15.00",
+  "image": "https://casadelpopolo.com/_next/image?url=https%3A%2F%2Fstratus2.fly.dev%2Frails%2Factive_storage%2Fblobs%2Fredirect%2FeyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBZ2tJIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--1abc8b9bbc10264c3f9717657d07609be95f739b%2Fcover_0305dc312d13c3492092c87d1d76d8aa49db9a65ba429fb50c079acff91dafec.png&w=1920&q=75",
+  "moreInfoLink": "https://casadelpopolo.com/en/events/2025-01-23-kickdrum-presents-nico-play",
+  "source": "casadelpopolo"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f22f"
+  },
+  "originalId": "WDEpresentsMarlaenaMooreBecauseYouLoveEverythingAlbumLaunch2025-01-24T20:30:00.000Z",
+  "title": "WDE presents: Marlaena Moore \"Because You Love Everything\" Album Launch",
+  "dateShowTime": "2025-01-24T20:30:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": "La Sala Rossa",
+  "address": "4848 St-Laurent",
+  "price": "$15.00",
+  "image": "https://casadelpopolo.com/_next/image?url=https%3A%2F%2Fstratus2.fly.dev%2Frails%2Factive_storage%2Fblobs%2Fredirect%2FeyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBcGNJIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--7a72b8caf35da730887e2de5b8a417564650c5d1%2Fcover_d2993dccf1bec74cbda6472533f8495d9cd2bda66ebad4beff4e810b10176ed8.png&w=1920&q=75",
+  "moreInfoLink": "https://casadelpopolo.com/en/events/2025-01-24-wde-presents-marlaena-moore-because-you-love-everything-album-launch",
+  "source": "casadelpopolo"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f230"
+  },
+  "originalId": "PrismShoresOutFromUnderneathLPReleaseShowwithCrimeFamilyLaughing2025-01-25T21:00:00.000Z",
+  "title": "Prism Shores “Out From Underneath” LP Release Show with Crime Family & Laughing",
+  "dateShowTime": "2025-01-25T21:00:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": "Casa Del Popolo",
+  "address": "4873 St-Laurent",
+  "price": "$10.00",
+  "image": null,
+  "moreInfoLink": "https://casadelpopolo.com/en/events/2025-01-25-prism-shores-out-from-underneath-lp-release-show-with-crime-family-laughing",
+  "source": "casadelpopolo"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f231"
+  },
+  "originalId": "LePlanCanetonLoveBombersEvergreenetPlanchersPelviens2025-01-25T21:00:00.000Z",
+  "title": "Le Plan Caneton, Love Bombers, Evergreen et Planchers Pelviens",
+  "dateShowTime": "2025-01-25T21:00:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": "La Sotterenea",
+  "address": "4848 St-Laurent",
+  "price": "",
+  "image": "https://casadelpopolo.com/_next/image?url=https%3A%2F%2Fstratus2.fly.dev%2Frails%2Factive_storage%2Fblobs%2Fredirect%2FeyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBcG9JIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--ada3f01f7ac26d3609880677f89c47935a27560a%2Fcover_90a7225c11f5fd70cce2c8d1bdac91112e14b3b8ace94a41ab975aab17230abe.png&w=1920&q=75",
+  "moreInfoLink": "https://casadelpopolo.com/en/events/2025-01-25-le-plan-caneton-love-bombers-evergreen-et-planchers-pelviens",
+  "source": "casadelpopolo"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f232"
+  },
+  "originalId": "NOHAYBANDASarahPagPatrickGrahamDione2025-01-26T20:00:00.000Z",
+  "title": "NO HAY BANDA: Sarah Pagé & Patrick Graham + Dionée",
+  "dateShowTime": "2025-01-26T20:00:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": "La Sala Rossa",
+  "address": "4848 St-Laurent",
+  "price": "$30.00",
+  "image": "https://casadelpopolo.com/_next/image?url=https%3A%2F%2Fstratus2.fly.dev%2Frails%2Factive_storage%2Fblobs%2Fredirect%2FeyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBaXNJIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--415bae46ac6edf39ca46dd2fccc281e3775812a1%2Fcover_bbe6d39896c8ce45b2de8176454341d31820e2b79a276478d995b6843118dc58.png&w=1920&q=75",
+  "moreInfoLink": "https://casadelpopolo.com/en/events/2025-01-26-no-hay-banda-sarah-page-patrick-graham-dionee",
+  "source": "casadelpopolo"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f233"
+  },
+  "originalId": "RobinJayBardMelinaSpiga2025-01-28T20:00:00.000Z",
+  "title": "Robin Jay-Bard & Melina Spiga",
+  "dateShowTime": "2025-01-28T20:00:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": "Casa Del Popolo",
+  "address": "4873 St-Laurent",
+  "price": "$11.00",
+  "image": "https://casadelpopolo.com/_next/image?url=https%3A%2F%2Fstratus2.fly.dev%2Frails%2Factive_storage%2Fblobs%2Fredirect%2FeyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBa1FIIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--783cd0db38eff6e7cc12f75d3de549c4f6933319%2Fcover_48a351820e8df2cdf25552d1177839b9907e871b9b149463bf6f37eabe11554c.jpg&w=1920&q=75",
+  "moreInfoLink": "https://casadelpopolo.com/en/events/2025-01-28-robin-jay-bard-melina-spiga",
+  "source": "casadelpopolo"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f234"
+  },
+  "originalId": "MileEndcomedyshow2025-01-28T20:30:00.000Z",
+  "title": "Mile End comedy show",
+  "dateShowTime": "2025-01-28T20:30:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": "P'tit Ours",
+  "address": "5589 Ave du Park",
+  "price": "$10.00",
+  "image": "https://casadelpopolo.com/_next/image?url=https%3A%2F%2Fstratus2.fly.dev%2Frails%2Factive_storage%2Fblobs%2Fredirect%2FeyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBcEVJIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--f73931e63b6149b9ab16ad0b473f0aa49653b0cb%2Fcover_19684df22146737e997012c4c33887181c3b0e7a91484bfa2e8c09e72290c988.png&w=1920&q=75",
+  "moreInfoLink": "https://casadelpopolo.com/en/events/2025-01-28-mile-end-comedy-show",
+  "source": "casadelpopolo"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f235"
+  },
+  "originalId": "MagmaGammalaCasaDelPopolo2025-01-29T21:30:00.000Z",
+  "title": "Magma Gamma à la Casa Del Popolo",
+  "dateShowTime": "2025-01-29T21:30:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": "Casa Del Popolo",
+  "address": "4873 St-Laurent",
+  "price": "$10.00",
+  "image": "https://casadelpopolo.com/_next/image?url=https%3A%2F%2Fstratus2.fly.dev%2Frails%2Factive_storage%2Fblobs%2Fredirect%2FeyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBcFVJIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--ede0aa28565c22c7643f3e143dc15f6379346147%2Fcover_c0ca831a9d94d763308de1b79c154f6eb2ed09bd1ff39d604f8802a8a56ec363.jpg&w=1920&q=75",
+  "moreInfoLink": "https://casadelpopolo.com/en/events/2025-01-29-magma-gamma-a-la-casa-del-popolo",
+  "source": "casadelpopolo"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f236"
+  },
+  "originalId": "COLEBIRNEYSTEWARTQUINTETS2025-01-30T19:30:00.000Z",
+  "title": "COLE BIRNEY-STEWART QUINTET(S)",
+  "dateShowTime": "2025-01-30T19:30:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": "Casa Del Popolo",
+  "address": "4873 St-Laurent",
+  "price": "$14.00",
+  "image": "https://casadelpopolo.com/_next/image?url=https%3A%2F%2Fstratus2.fly.dev%2Frails%2Factive_storage%2Fblobs%2Fredirect%2FeyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBak1JIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--8448e7c21f4ecb9edda1b14e8e62826239e0b1cf%2Fcover_e10d2ae1625e6af925e7e5d754c0ec934ccce32316f918b57d5f4b22e4db3913.png&w=1920&q=75",
+  "moreInfoLink": "https://casadelpopolo.com/en/events/2025-01-30-cole-birney-stewart-quintet-s",
+  "source": "casadelpopolo"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f237"
+  },
+  "originalId": "SarahSegalLazarTwoIfbySea10thAnniversaryShow2025-01-31T20:00:00.000Z",
+  "title": "Sarah Segal-Lazar: Two If by Sea 10th Anniversary Show",
+  "dateShowTime": "2025-01-31T20:00:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": "Casa Del Popolo",
+  "address": "4873 St-Laurent",
+  "price": "$17.00",
+  "image": "https://casadelpopolo.com/_next/image?url=https%3A%2F%2Fstratus2.fly.dev%2Frails%2Factive_storage%2Fblobs%2Fredirect%2FeyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBbWNIIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--85920e16f3eb3e00608e905c561dea1c2c5e8b36%2Fcover_891f35655a115186478e4ed25311066558c55184e71c7d65c5d8dc963eed1113.png&w=1920&q=75",
+  "moreInfoLink": "https://casadelpopolo.com/en/events/2025-01-31-sarah-segal-lazar-two-if-by-sea-10th-anniversary-show",
+  "source": "casadelpopolo"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f238"
+  },
+  "originalId": "WorstDadEverpresentsODIEHARRavecDEATHTENNISetCHOPSUEME2025-01-31T20:30:00.000Z",
+  "title": "Worst Dad Ever presents: ODIE HARR avec DEATH TENNIS et CHOP SUE ME",
+  "dateShowTime": "2025-01-31T20:30:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": "La Sotterenea",
+  "address": "4848 St-Laurent",
+  "price": "$12.00",
+  "image": "https://casadelpopolo.com/_next/image?url=https%3A%2F%2Fstratus2.fly.dev%2Frails%2Factive_storage%2Fblobs%2Fredirect%2FeyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBbmNJIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--85a977e2cf5d774e1acf6a36e90c10fda42a9209%2Fcover_cea0ee972f9ec9cbbd1b7eed275d81d5f77c2ad17b029b8e4a8735dd54886da3.jpg&w=1920&q=75",
+  "moreInfoLink": "https://casadelpopolo.com/en/events/2025-01-31-worst-dad-ever-presents-odie-harr-avec-death-tennis-et-chop-sue-me",
+  "source": "casadelpopolo"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f239"
+  },
+  "originalId": "goodshowspresentsAccessorymemDehdLaughingBloomingSeason2025-01-31T20:30:00.000Z",
+  "title": "good shows presents: Accessory (mem. Dehd) + Laughing + Blooming Season",
+  "dateShowTime": "2025-01-31T20:30:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": "P'tit Ours",
+  "address": "5589 Ave du Park",
+  "price": "",
+  "image": "https://casadelpopolo.com/_next/image?url=https%3A%2F%2Fstratus2.fly.dev%2Frails%2Factive_storage%2Fblobs%2Fredirect%2FeyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBcElJIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--12106d21a944d9243a9dacaedcfea2dc56333c97%2Fcover_30b12225ecc932990660bcfe174aa1d1250b0fe13593445b5b1fc62025f1188e.jpg&w=1920&q=75",
+  "moreInfoLink": "https://casadelpopolo.com/en/events/2025-01-31-good-shows-presents-accessory-mem-dehd-laughing-blooming-season",
+  "source": "casadelpopolo"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f23a"
+  },
+  "originalId": "NoMoveMoveEPlaunchwithJayAtwillfriends2025-02-01T20:00:00.000Z",
+  "title": "NoMoveMove EP launch with Jay Atwill & friends",
+  "dateShowTime": "2025-02-01T20:00:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": "P'tit Ours",
+  "address": "5589 Ave du Park",
+  "price": "",
+  "image": "https://casadelpopolo.com/_next/image?url=https%3A%2F%2Fstratus2.fly.dev%2Frails%2Factive_storage%2Fblobs%2Fredirect%2FeyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBcFFJIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--f5983ab68193acf35155e8f190a6ee6c3ead729b%2Fcover_b7d8a0d39e7bdd140e12ec6f741c9dffd41f77b0226269e1fdd523331d46c4f7.png&w=1920&q=75",
+  "moreInfoLink": "https://casadelpopolo.com/en/events/2025-02-01-nomovemove-ep-launch-with-jay-atwill-friends",
+  "source": "casadelpopolo"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f23b"
+  },
+  "originalId": "MidWinterRockBashDionysusInodiNurosaplusguests2025-02-01T21:00:00.000Z",
+  "title": "Mid Winter Rock Bash: Dionysus, Inodi & Nurosa plus guests",
+  "dateShowTime": "2025-02-01T21:00:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": "Casa Del Popolo",
+  "address": "4873 St-Laurent",
+  "price": "",
+  "image": null,
+  "moreInfoLink": "https://casadelpopolo.com/en/events/2025-02-01-mid-winter-rock-bash-dionysus-inodi-nurosa-plus-guests",
+  "source": "casadelpopolo"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f23c"
+  },
+  "originalId": "macrocilixchouprieurLandry2025-02-01T21:00:00.000Z",
+  "title": "macrocilix + chou + prieur&Landry",
+  "dateShowTime": "2025-02-01T21:00:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": "La Sotterenea",
+  "address": "4848 St-Laurent",
+  "price": "$13.00",
+  "image": "https://casadelpopolo.com/_next/image?url=https%3A%2F%2Fstratus2.fly.dev%2Frails%2Factive_storage%2Fblobs%2Fredirect%2FeyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBalFJIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--ca92971211cc8e97ad3261ccb52b9a2beef3d051%2Fcover_bce6877f34e12e16552fd2c3eecbbe968f981c47636755ace1785e754b384d8e.png&w=1920&q=75",
+  "moreInfoLink": "https://casadelpopolo.com/en/events/2025-02-01-macrocilix-chou-prieur-landry",
+  "source": "casadelpopolo"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f23d"
+  },
+  "originalId": "BlueSkiesTurnBlackprsenteSARAHNEUFELDRICHARDREEDPARRYREBECCAFOON2025-02-02T20:00:00.000Z",
+  "title": "Blue Skies Turn Black présente: SARAH NEUFELD / RICHARD REED PARRY / REBECCA FOON",
+  "dateShowTime": "2025-02-02T20:00:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": "La Sala Rossa",
+  "address": "4848 St-Laurent",
+  "price": "$26.09",
+  "image": "https://casadelpopolo.com/_next/image?url=https%3A%2F%2Fstratus2.fly.dev%2Frails%2Factive_storage%2Fblobs%2Fredirect%2FeyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBcGdJIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--b85e8f7af469a0e9f491e32a04b73c6972393faf%2Fcover_2d38e8ad450f60963643e892dc8683ccdae97fb78cfbc1b9572e19c9156dbfb5.jpg&w=1920&q=75",
+  "moreInfoLink": "https://casadelpopolo.com/en/events/2025-02-02-blue-skies-turn-black-presente-sarah-neufeld-richard-reed-parry-rebecca-foon",
+  "source": "casadelpopolo"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f23e"
+  },
+  "originalId": "MadeleineRogerTheNerveTour2025-02-02T20:00:00.000Z",
+  "title": "Madeleine Roger | The Nerve Tour",
+  "dateShowTime": "2025-02-02T20:00:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": "P'tit Ours",
+  "address": "5589 Ave du Park",
+  "price": "$20.00",
+  "image": "https://casadelpopolo.com/_next/image?url=https%3A%2F%2Fstratus2.fly.dev%2Frails%2Factive_storage%2Fblobs%2Fredirect%2FeyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBcGtJIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--eb1b2b9d3466f9c9424cd06eeb35890575172d72%2Fcover_c25a393109cc4ba4ff549130cf34deac0ec3c4f630da7168ebabc0e18ba35381.jpg&w=1920&q=75",
+  "moreInfoLink": "https://casadelpopolo.com/en/events/2025-02-02-madeleine-roger-the-nerve-tour",
+  "source": "casadelpopolo"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f23f"
+  },
+  "originalId": "KayaHoaxStrangeFrootsBoutiqueFeelingsCasadelpopolo2025-02-06T20:00:00.000Z",
+  "title": "Kaya Hoax + Strange Froots + Boutique Feelings @ Casa del popolo",
+  "dateShowTime": "2025-02-06T20:00:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": "Casa Del Popolo",
+  "address": "4873 St-Laurent",
+  "price": "$15.00",
+  "image": "https://casadelpopolo.com/_next/image?url=https%3A%2F%2Fstratus2.fly.dev%2Frails%2Factive_storage%2Fblobs%2Fredirect%2FeyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBaTRJIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--8c99104ae5529bfef274595e27103744bcca34c2%2Fcover_52fa0478f26c962a9dbe49f59e3538181bec904d37c34c3f8e7e344640bac96b.jpg&w=1920&q=75",
+  "moreInfoLink": "https://casadelpopolo.com/en/events/2025-02-06-kaya-hoax-strange-froots-boutique-feelings-casa-del-popolo",
+  "source": "casadelpopolo"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f240"
+  },
+  "originalId": "WomboPressurePinRibbonSkirtSalaRossa2025-02-06T20:30:00.000Z",
+  "title": "Wombo + Pressure Pin + Ribbon Skirt @ Sala Rossa",
+  "dateShowTime": "2025-02-06T20:30:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": "La Sala Rossa",
+  "address": "4848 St-Laurent",
+  "price": "$20.00",
+  "image": "https://casadelpopolo.com/_next/image?url=https%3A%2F%2Fstratus2.fly.dev%2Frails%2Factive_storage%2Fblobs%2Fredirect%2FeyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBalVJIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--c93b461687413990fa97eda80cc23840aee00743%2Fcover_5bd725683acc830320e9c14de1e0a26d0fab5e5c82e8be2a37d49c50f21ba30f.png&w=1920&q=75",
+  "moreInfoLink": "https://casadelpopolo.com/en/events/2025-02-06-wombo-pressure-pin-ribbon-skirt-sala-rossa",
+  "source": "casadelpopolo"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f241"
+  },
+  "originalId": "PaulJacobsAlexWaltonSotterenea2025-02-06T21:00:00.000Z",
+  "title": "Paul Jacobs + Alex Walton @ Sotterenea",
+  "dateShowTime": "2025-02-06T21:00:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": "La Sotterenea",
+  "address": "4848 St-Laurent",
+  "price": "$15.00",
+  "image": "https://casadelpopolo.com/_next/image?url=https%3A%2F%2Fstratus2.fly.dev%2Frails%2Factive_storage%2Fblobs%2Fredirect%2FeyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBallJIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--b68423f29a603f58d49c4af88248be8aaff85dce%2Fcover_29c8876effa0acd4d56dc69aa313d34de25e8c5ece55d898a44e01641004394d.png&w=1920&q=75",
+  "moreInfoLink": "https://casadelpopolo.com/en/events/2025-02-06-paul-jacobs-alex-walton-sotterenea",
+  "source": "casadelpopolo"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f242"
+  },
+  "originalId": "TheSadiesGuestsSalaRossa2025-02-07T20:30:00.000Z",
+  "title": "The Sadies + Guests @ Sala Rossa",
+  "dateShowTime": "2025-02-07T20:30:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": "La Sala Rossa",
+  "address": "4848 St-Laurent",
+  "price": "$25.00",
+  "image": "https://casadelpopolo.com/_next/image?url=https%3A%2F%2Fstratus2.fly.dev%2Frails%2Factive_storage%2Fblobs%2Fredirect%2FeyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBakVJIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--8c627a42075f305af340077c6b61ce1c2c4348e4%2Fcover_af537b45f82f3163914ed75feaae84cf85d385f2120fb25930d2cb4ead62293f.png&w=1920&q=75",
+  "moreInfoLink": "https://casadelpopolo.com/en/events/2025-02-07-the-sadies-guests-sala-rossa",
+  "source": "casadelpopolo"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f243"
+  },
+  "originalId": "HRTGodsMomPuggyBealesSotterenea2025-02-07T21:00:00.000Z",
+  "title": "HRT + God's Mom + Puggy Beales @ Sotterenea",
+  "dateShowTime": "2025-02-07T21:00:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": "La Sotterenea",
+  "address": "4848 St-Laurent",
+  "price": "$15.00",
+  "image": "https://casadelpopolo.com/_next/image?url=https%3A%2F%2Fstratus2.fly.dev%2Frails%2Factive_storage%2Fblobs%2Fredirect%2FeyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBamNJIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--deb8c6e74b6774937f11953ffe30c0d7ba9f68fc%2Fcover_a6a175fe1bd14575478244345f6ff935baf57bb7e5394f6267e9d13134941b19.png&w=1920&q=75",
+  "moreInfoLink": "https://casadelpopolo.com/en/events/2025-02-07-hrt-god-s-mom-puggy-beales-sotterenea",
+  "source": "casadelpopolo"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f244"
+  },
+  "originalId": "NoWavesSpeedMassacreCasadelpopolo2025-02-07T21:00:00.000Z",
+  "title": "No Waves + Speed Massacre @ Casa del popolo",
+  "dateShowTime": "2025-02-07T21:00:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": "Casa Del Popolo",
+  "address": "4873 St-Laurent",
+  "price": "$15.00",
+  "image": "https://casadelpopolo.com/_next/image?url=https%3A%2F%2Fstratus2.fly.dev%2Frails%2Factive_storage%2Fblobs%2Fredirect%2FeyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBaTBJIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--40ea65e51769dc4718b3f96f518916acd064ac82%2Fcover_4813fea54c78af51885efab8e84f3f6b9b64eaf73bf273d54059d03e46160699.png&w=1920&q=75",
+  "moreInfoLink": "https://casadelpopolo.com/en/events/2025-02-07-no-waves-speed-massacre-casa-del-popolo",
+  "source": "casadelpopolo"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f245"
+  },
+  "originalId": "BlueSkiesTurnBlacketTaverneTourprsententRICKSHAWBILLIESBURGERPATROLLIPCRITICWHITEKNUCKLE2025-02-08T21:00:00.000Z",
+  "title": "Blue Skies Turn Black et Taverne Tour présentent: RICKSHAW BILLIE'S BURGER PATROL + LIP CRITIC + WHITE KNUCKLE",
+  "dateShowTime": "2025-02-08T21:00:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": "La Sotterenea",
+  "address": "4848 St-Laurent",
+  "price": "$21.74",
+  "image": "https://casadelpopolo.com/_next/image?url=https%3A%2F%2Fstratus2.fly.dev%2Frails%2Factive_storage%2Fblobs%2Fredirect%2FeyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBa1FJIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--5f0396f2fe8870818ab774ddbc513ce69fbb46df%2Fcover_d1398dd06fb47b549634c2c4ab26793eaf19a88ad0faa990c04c93c600ef6332.png&w=1920&q=75",
+  "moreInfoLink": "https://casadelpopolo.com/en/events/2025-02-08-blue-skies-turn-black-et-taverne-tour-presentent-rickshaw-billie-s-burger-patrol-lip-critic-white-knuckle",
+  "source": "casadelpopolo"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f246"
+  },
+  "originalId": "MeredithMoonJoshuaGreenbergLaetitiaFrancozatPtitOurs2025-02-08T21:00:00.000Z",
+  "title": "Meredith Moon / Joshua Greenberg & Laetitia Francoz at Ptit Ours",
+  "dateShowTime": "2025-02-08T21:00:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": "P'tit Ours",
+  "address": "5589 Ave du Park",
+  "price": "$12.00",
+  "image": "https://casadelpopolo.com/_next/image?url=https%3A%2F%2Fstratus2.fly.dev%2Frails%2Factive_storage%2Fblobs%2Fredirect%2FeyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBbzhJIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--812a6844f657ceed50eaa3b8186e3754bb203318%2Fcover_a072bf4207a08f10d3ab2fe1d0deb8ffefa79c3ee5fb5bc30c417e76107e2e39.jpg&w=1920&q=75",
+  "moreInfoLink": "https://casadelpopolo.com/en/events/2025-02-08-meredith-moon-joshua-greenberg-laetitia-francoz-at-ptit-ours",
+  "source": "casadelpopolo"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f247"
+  },
+  "originalId": "KROYBLiCasadelpopolo2025-02-08T21:00:00.000Z",
+  "title": "KROY + BéLi @ Casa del popolo",
+  "dateShowTime": "2025-02-08T21:00:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": "Casa Del Popolo",
+  "address": "4873 St-Laurent",
+  "price": "$20.00",
+  "image": "https://casadelpopolo.com/_next/image?url=https%3A%2F%2Fstratus2.fly.dev%2Frails%2Factive_storage%2Fblobs%2Fredirect%2FeyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBaThJIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--fe15065537231f0c062a54c510a918a8e0f7dd6c%2Fcover_5ad1066d49113e18b9ab10feea1a848b4c9df523859339abf7d6ad7cb847fe99.png&w=1920&q=75",
+  "moreInfoLink": "https://casadelpopolo.com/en/events/2025-02-08-kroy-beli-casa-del-popolo",
+  "source": "casadelpopolo"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f248"
+  },
+  "originalId": "ConfabulationpresentsIPutaSpellonYoustoriesofseductionenchantmentandobsession2025-02-14T20:00:00.000Z",
+  "title": "Confabulation presents: I Put a Spell on You: stories of seduction, enchantment and obsession.",
+  "dateShowTime": "2025-02-14T20:00:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": "La Sala Rossa",
+  "address": "4848 St-Laurent",
+  "price": "$20.00",
+  "image": "https://casadelpopolo.com/_next/image?url=https%3A%2F%2Fstratus2.fly.dev%2Frails%2Factive_storage%2Fblobs%2Fredirect%2FeyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBblVJIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--5f9bd96ca525dbd431e7de77f65992d63f517636%2Fcover_358c9b57300bbf899ff1c940bdd3b0c9a2f2771fb5b8de2cc89954bbd83d4eeb.png&w=1920&q=75",
+  "moreInfoLink": "https://casadelpopolo.com/en/events/2025-02-14-confabulation-presents-i-put-a-spell-on-you-stories-of-seduction-enchantment-and-obsession",
+  "source": "casadelpopolo"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f249"
+  },
+  "originalId": "JPMortierSoloAcousticShowSpectacleSoloAcoustique2025-02-16T19:00:00.000Z",
+  "title": "J.P. Mortier Solo Acoustic Show / Spectacle Solo Acoustique",
+  "dateShowTime": "2025-02-16T19:00:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": "P'tit Ours",
+  "address": "5589 Ave du Park",
+  "price": "$15.00",
+  "image": "https://casadelpopolo.com/_next/image?url=https%3A%2F%2Fstratus2.fly.dev%2Frails%2Factive_storage%2Fblobs%2Fredirect%2FeyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBZzBJIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--9533725bda2c376b7cd0ddb5caeed326b0abe937%2Fcover_08b3637c22f8d9cc5a4df983e07f06fd3ff6b71e1974cd15f401077d57fb87e4.jpg&w=1920&q=75",
+  "moreInfoLink": "https://casadelpopolo.com/en/events/2025-02-16-j-p-mortier-solo-acoustic-show-spectacle-solo-acoustique",
+  "source": "casadelpopolo"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f24a"
+  },
+  "originalId": "IanFisherBandAnnaSmyrkSamKrger2025-02-18T20:00:00.000Z",
+  "title": "Ian Fisher & Band, Anna Smyrk, & Sam Krüger",
+  "dateShowTime": "2025-02-18T20:00:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": "P'tit Ours",
+  "address": "5589 Ave du Park",
+  "price": "$10.00",
+  "image": "https://casadelpopolo.com/_next/image?url=https%3A%2F%2Fstratus2.fly.dev%2Frails%2Factive_storage%2Fblobs%2Fredirect%2FeyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBbW9JIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--5896c7bfd2383883f6993f11a753fa57451c3ab8%2Fcover_0e3498dcb02808f064b3ae5215b4755454ccf91925d3f18805110e754e7a6def.jpg&w=1920&q=75",
+  "moreInfoLink": "https://casadelpopolo.com/en/events/2025-02-18-ian-fisher-band-anna-smyrk-sam-kruger",
+  "source": "casadelpopolo"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f24b"
+  },
+  "originalId": "MattLargepresentsStephenFearing2025-02-19T20:00:00.000Z",
+  "title": "Matt Large presents: Stephen Fearing",
+  "dateShowTime": "2025-02-19T20:00:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": "Casa Del Popolo",
+  "address": "4873 St-Laurent",
+  "price": "$30.00",
+  "image": "https://casadelpopolo.com/_next/image?url=https%3A%2F%2Fstratus2.fly.dev%2Frails%2Factive_storage%2Fblobs%2Fredirect%2FeyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBaWNJIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--9b94d8c08e7d5352e32e6e12c272c8c4412c750d%2Fcover_4496a2b6f5cf18ae7f983bd447d0da73076d0b9089869c43312fdedc63b43068.jpg&w=1920&q=75",
+  "moreInfoLink": "https://casadelpopolo.com/en/events/2025-02-19-matt-large-presents-stephen-fearing",
+  "source": "casadelpopolo"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f24c"
+  },
+  "originalId": "NatashaRoldnetElCeibo2025-02-20T20:00:00.000Z",
+  "title": "Natasha Roldán et El Ceibo",
+  "dateShowTime": "2025-02-20T20:00:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": "P'tit Ours",
+  "address": "5589 Ave du Park",
+  "price": "",
+  "image": "https://casadelpopolo.com/_next/image?url=https%3A%2F%2Fstratus2.fly.dev%2Frails%2Factive_storage%2Fblobs%2Fredirect%2FeyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBcDRJIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--c377b7d19eb115f77048caf133f5c74cc1bcaeaf%2Fcover_d0d3aceae2f446399fc52a8aac44501a0adcf186d70917cb47147270df20f4d4.jpg&w=1920&q=75",
+  "moreInfoLink": "https://casadelpopolo.com/en/events/2025-02-20-natasha-roldan-et-el-ceibo",
+  "source": "casadelpopolo"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f24d"
+  },
+  "originalId": "Francbtards2025-02-28T20:30:00.000Z",
+  "title": "Francbâtards",
+  "dateShowTime": "2025-02-28T20:30:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": "Casa Del Popolo",
+  "address": "4873 St-Laurent",
+  "price": "$13.00",
+  "image": "https://casadelpopolo.com/_next/image?url=https%3A%2F%2Fstratus2.fly.dev%2Frails%2Factive_storage%2Fblobs%2Fredirect%2FeyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBblFJIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--34baa6a482feb0789c52c83f9aa0565cbb47d184%2Fcover_63fc8defe0ee6d529c1049b67bcae52ca9804a0cf1f1fe4b8da0de85fcbb89cd.jpg&w=1920&q=75",
+  "moreInfoLink": "https://casadelpopolo.com/en/events/2025-02-28-francbatards",
+  "source": "casadelpopolo"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f24e"
+  },
+  "originalId": "VeloursVeloursLancementdelalbumQuandjepleurejesuiscontent2025-03-01T20:00:00.000Z",
+  "title": "Velours Velours - Lancement de l'album \"Quand je pleure, je suis content\"",
+  "dateShowTime": "2025-03-01T20:00:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": "La Sala Rossa",
+  "address": "4848 St-Laurent",
+  "price": "$15.21",
+  "image": null,
+  "moreInfoLink": "https://casadelpopolo.com/en/events/2025-03-01-velours-velours-lancement-de-l-album-quand-je-pleure-je-suis-content",
+  "source": "casadelpopolo"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f24f"
+  },
+  "originalId": "BlueSkiesTurnBlackprsenteLIVEONSTAGEJONATHANRICHMANfeaturingTOMMYLARKINSonthedrums2025-03-04T20:00:00.000Z",
+  "title": "Blue Skies Turn Black présente: LIVE! ON STAGE: JONATHAN RICHMAN featuring TOMMY LARKINS on the drums!",
+  "dateShowTime": "2025-03-04T20:00:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": "La Sala Rossa",
+  "address": "4848 St-Laurent",
+  "price": "$26.09",
+  "image": "https://casadelpopolo.com/_next/image?url=https%3A%2F%2Fstratus2.fly.dev%2Frails%2Factive_storage%2Fblobs%2Fredirect%2FeyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBcVlIIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--a736d316e48b8e92f56a012600027891295f6cc0%2Fcover_bee711f7c432d636900af6fcf01d743cf1759ae32b03f28e9669a44646d74032.png&w=1920&q=75",
+  "moreInfoLink": "https://casadelpopolo.com/en/events/2025-03-04-blue-skies-turn-black-presente-live-on-stage-jonathan-richman-featuring-tommy-larkins-on-the-drums",
+  "source": "casadelpopolo"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f250"
+  },
+  "originalId": "BlueSkiesTurnBlackprsenteLIVEONSTAGEJONATHANRICHMANfeaturingTOMMYLARKINSonthedrums2025-03-05T20:00:00.000Z",
+  "title": "Blue Skies Turn Black présente: LIVE! ON STAGE: JONATHAN RICHMAN featuring TOMMY LARKINS on the drums!",
+  "dateShowTime": "2025-03-05T20:00:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": "La Sala Rossa",
+  "address": "4848 St-Laurent",
+  "price": "$26.09",
+  "image": "https://casadelpopolo.com/_next/image?url=https%3A%2F%2Fstratus2.fly.dev%2Frails%2Factive_storage%2Fblobs%2Fredirect%2FeyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBcWNIIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--51455de794f784437cb0e18851a10ceaa8c84425%2Fcover_bee711f7c432d636900af6fcf01d743cf1759ae32b03f28e9669a44646d74032.png&w=1920&q=75",
+  "moreInfoLink": "https://casadelpopolo.com/en/events/2025-03-05-blue-skies-turn-black-presente-live-on-stage-jonathan-richman-featuring-tommy-larkins-on-the-drums",
+  "source": "casadelpopolo"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f251"
+  },
+  "originalId": "TopochroniesSimonCtLapointeetMagellaCormier2025-03-06T20:00:00.000Z",
+  "title": "Topochronies: Simon Côté-Lapointe et Magella Cormier",
+  "dateShowTime": "2025-03-06T20:00:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": "Casa Del Popolo",
+  "address": "4873 St-Laurent",
+  "price": "$10.00",
+  "image": "https://casadelpopolo.com/_next/image?url=https%3A%2F%2Fstratus2.fly.dev%2Frails%2Factive_storage%2Fblobs%2Fredirect%2FeyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBbUVHIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--e5f63d98cc72ab320bb2f41defebed1dce39f805%2Fcover_cbcfc84db97f092535ba1ca373d6264b071a2008053a74a30b2835bc97e6fd77.png&w=1920&q=75",
+  "moreInfoLink": "https://casadelpopolo.com/en/events/2025-03-06-topochronies-simon-cote-lapointe-et-magella-cormier",
+  "source": "casadelpopolo"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f252"
+  },
+  "originalId": "BlueSkiesTurnBlackprsenteADRIANYOUNGE2025-03-08T20:00:00.000Z",
+  "title": "Blue Skies Turn Black présente: ADRIAN YOUNGE",
+  "dateShowTime": "2025-03-08T20:00:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": "La Sala Rossa",
+  "address": "4848 St-Laurent",
+  "price": "$27.83",
+  "image": "https://casadelpopolo.com/_next/image?url=https%3A%2F%2Fstratus2.fly.dev%2Frails%2Factive_storage%2Fblobs%2Fredirect%2FeyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBdjRIIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--fab07e68dc63615d1df27a0275efd921f11ab605%2Fcover_bd6cf1003dbc26784abc0c4c13190b6645c643664c3d8b786cda1c3647a74962.png&w=1920&q=75",
+  "moreInfoLink": "https://casadelpopolo.com/en/events/2025-03-08-blue-skies-turn-black-presente-adrian-younge",
+  "source": "casadelpopolo"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f253"
+  },
+  "originalId": "JonathanPersonne2025-03-13T20:00:00.000Z",
+  "title": "Jonathan Personne",
+  "dateShowTime": "2025-03-13T20:00:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": "La Sala Rossa",
+  "address": "4848 St-Laurent",
+  "price": "$19.45",
+  "image": "https://casadelpopolo.com/_next/image?url=https%3A%2F%2Fstratus2.fly.dev%2Frails%2Factive_storage%2Fblobs%2Fredirect%2FeyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBbmtJIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--a3a804928021fc107fd2e2ba758d1757d7367f2c%2Fcover_df7095540782d84c26c192e0b0442a7800c6a8c3afd038f8f66626642df5f590.jpg&w=1920&q=75",
+  "moreInfoLink": "https://casadelpopolo.com/en/events/2025-03-13-jonathan-personne",
+  "source": "casadelpopolo"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f254"
+  },
+  "originalId": "BlueSkiesTurnBlackprsenteCADENCEWEAPON2025-03-15T20:00:00.000Z",
+  "title": "Blue Skies Turn Black présente: CADENCE WEAPON",
+  "dateShowTime": "2025-03-15T20:00:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": "Casa Del Popolo",
+  "address": "4873 St-Laurent",
+  "price": "$19.13",
+  "image": "https://casadelpopolo.com/_next/image?url=https%3A%2F%2Fstratus2.fly.dev%2Frails%2Factive_storage%2Fblobs%2Fredirect%2FeyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBaUFIIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--a5b1fdbe0fbc84a06ef0bc81455fd1f7c32df2ba%2Fcover_f8fc6ade18dd9f763a5019b9999061c78cab36ed90349329ed8ff3107a6aa14f.jpg&w=1920&q=75",
+  "moreInfoLink": "https://casadelpopolo.com/en/events/2025-03-15-blue-skies-turn-black-presente-cadence-weapon",
+  "source": "casadelpopolo"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f255"
+  },
+  "originalId": "MattLargepresentsCharlieParr2025-03-23T20:00:00.000Z",
+  "title": "Matt Large presents: Charlie Parr",
+  "dateShowTime": "2025-03-23T20:00:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": "Casa Del Popolo",
+  "address": "4873 St-Laurent",
+  "price": "$30.00",
+  "image": null,
+  "moreInfoLink": "https://casadelpopolo.com/en/events/2025-03-23-matt-large-presents-charlie-parr",
+  "source": "casadelpopolo"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f256"
+  },
+  "originalId": "SuoniPerIlPopoloHaloclineTranceJeremyYoungCablcarLPRelease16mmprojectionsbyCharlesAndrCoderreguests2025-03-27T20:00:00.000Z",
+  "title": "Suoni Per Il Popolo & Halocline Trance Jeremy Young - \"Cablcar\" LP Release 16mm projections by Charles-André Coderre & guests",
+  "dateShowTime": "2025-03-27T20:00:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": "La Sala Rossa",
+  "address": "4848 St-Laurent",
+  "price": "$15.00",
+  "image": "https://casadelpopolo.com/_next/image?url=https%3A%2F%2Fstratus2.fly.dev%2Frails%2Factive_storage%2Fblobs%2Fredirect%2FeyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBdmdIIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--2bd27da393cdc16a74202693e01b53c17263c7d5%2Fcover_b602bbe39ea498c1fca2d467846c8cf45829dd221b2f65730f0c70498a2a3505.jpg&w=1920&q=75",
+  "moreInfoLink": "https://casadelpopolo.com/en/events/2025-03-27-suoni-per-il-popolo-halocline-trance-jeremy-young-cablcar-lp-release-16mm-projections-by-charles-andre-coderre-guests",
+  "source": "casadelpopolo"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f257"
+  },
+  "originalId": "InitialShockGig10GreenTeaJuteHighGroveIngressMiox2025-03-28T20:00:00.000Z",
+  "title": "Initial Shock Gig #10: Green Tea / Jute / High Grove / Ingress / Miox",
+  "dateShowTime": "2025-03-28T20:00:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": "Casa Del Popolo",
+  "address": "4873 St-Laurent",
+  "price": "$13.00",
+  "image": null,
+  "moreInfoLink": "https://casadelpopolo.com/en/events/2025-03-28-initial-shock-gig-10-green-tea-jute-high-grove-ingress-miox",
+  "source": "casadelpopolo"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f258"
+  },
+  "originalId": "EnsembleSuperMusiqueAtelierpublic2025-03-30T14:00:00.000Z",
+  "title": "Ensemble SuperMusique: Atelier public",
+  "dateShowTime": "2025-03-30T14:00:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": "La Sala Rossa",
+  "address": "4848 St-Laurent",
+  "price": "",
+  "image": "https://casadelpopolo.com/_next/image?url=https%3A%2F%2Fstratus2.fly.dev%2Frails%2Factive_storage%2Fblobs%2Fredirect%2FeyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBbk1JIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--f1c284ac98e7d9de4e378f069b547ce3258781c8%2Fcover_52ca6dfd92727d287520ba129722bf6185d2d859be3855f02b7005d7f9994e40.jpg&w=1920&q=75",
+  "moreInfoLink": "https://casadelpopolo.com/en/events/2025-03-30-ensemble-supermusique-atelier-public",
+  "source": "casadelpopolo"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f259"
+  },
+  "originalId": "AmonteNoble2025-03-30T18:00:00.000Z",
+  "title": "Amonte Noble",
+  "dateShowTime": "2025-03-30T18:00:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": "Casa Del Popolo",
+  "address": "4873 St-Laurent",
+  "price": "$15.00",
+  "image": "https://casadelpopolo.com/_next/image?url=https%3A%2F%2Fstratus2.fly.dev%2Frails%2Factive_storage%2Fblobs%2Fredirect%2FeyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBbHNHIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--7a239927be2aadbd82c7d1068b4ca786d76d63f9%2Fcover_30a5343108f77d3d0b6e892dbaafabba56024042a451531eb46da403861ccdba.jpg&w=1920&q=75",
+  "moreInfoLink": "https://casadelpopolo.com/en/events/2025-03-30-amonte-noble",
+  "source": "casadelpopolo"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f25a"
+  },
+  "originalId": "MattLargepresentsShowmanandCooleoftheLonesomeAceStringband2025-04-02T20:00:00.000Z",
+  "title": "Matt Large presents: Showman and Coole of the Lonesome Ace Stringband",
+  "dateShowTime": "2025-04-02T20:00:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": "Casa Del Popolo",
+  "address": "4873 St-Laurent",
+  "price": "$25.00",
+  "image": "https://casadelpopolo.com/_next/image?url=https%3A%2F%2Fstratus2.fly.dev%2Frails%2Factive_storage%2Fblobs%2Fredirect%2FeyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBaklJIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--4552138971380ee811390d0d3c536809043d335d%2Fcover_49835336f5880d3282db2b84ad031f9b481baf9c312bd9c614562bfa121dbd93.png&w=1920&q=75",
+  "moreInfoLink": "https://casadelpopolo.com/en/events/2025-04-02-matt-large-presents-showman-and-coole-of-the-lonesome-ace-stringband",
+  "source": "casadelpopolo"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f25b"
+  },
+  "originalId": "GrandEugneLaSalaRossa2025-04-10T20:30:00.000Z",
+  "title": "Grand Eugène @ La Sala Rossa",
+  "dateShowTime": "2025-04-10T20:30:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": "La Sala Rossa",
+  "address": "4848 St-Laurent",
+  "price": "$15.00",
+  "image": "https://casadelpopolo.com/_next/image?url=https%3A%2F%2Fstratus2.fly.dev%2Frails%2Factive_storage%2Fblobs%2Fredirect%2FeyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBaUVJIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--9f931d7b6ec5e47ccde84bb9fc194d58e3c968a7%2Fcover_4119e484992d224aaf05af72b25a696b31d17813e31f1e93e42e2938d0880947.png&w=1920&q=75",
+  "moreInfoLink": "https://casadelpopolo.com/en/events/2025-04-10-grand-eugene-la-sala-rossa",
+  "source": "casadelpopolo"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f25c"
+  },
+  "originalId": "BlueSkiesTurnBlackprsenteCRYOGEYSER2025-04-16T20:30:00.000Z",
+  "title": "Blue Skies Turn Black présente: CRYOGEYSER",
+  "dateShowTime": "2025-04-16T20:30:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": "Casa Del Popolo",
+  "address": "4873 St-Laurent",
+  "price": "$19.57",
+  "image": "https://casadelpopolo.com/_next/image?url=https%3A%2F%2Fstratus2.fly.dev%2Frails%2Factive_storage%2Fblobs%2Fredirect%2FeyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBbXNJIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--db08cf2b92d468d9e570ab516898e9dee5a15900%2Fcover_e91a22c6e1681980cd6e4f6e5dc44fc4b624844d12d5962905204a76dbe9672e.png&w=1920&q=75",
+  "moreInfoLink": "https://casadelpopolo.com/en/events/2025-04-16-blue-skies-turn-black-presente-cryogeyser",
+  "source": "casadelpopolo"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f25d"
+  },
+  "originalId": "JOSEPHARTHUR2025-04-19T20:30:00.000Z",
+  "title": "JOSEPH ARTHUR",
+  "dateShowTime": "2025-04-19T20:30:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": "Casa Del Popolo",
+  "address": "4873 St-Laurent",
+  "price": "$15.00",
+  "image": "https://casadelpopolo.com/_next/image?url=https%3A%2F%2Fstratus2.fly.dev%2Frails%2Factive_storage%2Fblobs%2Fredirect%2FeyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBZzBGIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--926969ff4c267598d59033c03c98b8929be17299%2Fcover_8ffe97cf1954961ae99274e9dd315bb664caa1ade58db63bfa1207ffd98857d8.jpg&w=1920&q=75",
+  "moreInfoLink": "https://casadelpopolo.com/en/events/2025-04-19-joseph-arthur",
+  "source": "casadelpopolo"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f25e"
+  },
+  "originalId": "JPMortierTogetherTour20252025-04-20T19:00:00.000Z",
+  "title": "J.P. Mortier Together Tour 2025",
+  "dateShowTime": "2025-04-20T19:00:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": "La Sotterenea",
+  "address": "4848 St-Laurent",
+  "price": "$15.00",
+  "image": "https://casadelpopolo.com/_next/image?url=https%3A%2F%2Fstratus2.fly.dev%2Frails%2Factive_storage%2Fblobs%2Fredirect%2FeyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBbllJIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--4d6b2baae8de37851632b3850242b6d2904baafe%2Fcover_b257e0e715659345445917d1145c3483a53ec0465e7aa20129828dea47f9b4c8.jpg&w=1920&q=75",
+  "moreInfoLink": "https://casadelpopolo.com/en/events/2025-04-20-j-p-mortier-together-tour-2025",
+  "source": "casadelpopolo"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f25f"
+  },
+  "originalId": "AllFantme2025-04-24T22:30:00.000Z",
+  "title": "Allô Fantôme",
+  "dateShowTime": "2025-04-24T22:30:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": "La Sala Rossa",
+  "address": "4848 St-Laurent",
+  "price": "$15.00",
+  "image": "https://casadelpopolo.com/_next/image?url=https%3A%2F%2Fstratus2.fly.dev%2Frails%2Factive_storage%2Fblobs%2Fredirect%2FeyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBZ2NJIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--62b1967fffc369d4e3e4abd91536ed7e4f51972d%2Fcover_7b6fb5e435f0c378ca27a63a036259922cc499a635ffdc9dd8ae3214f2093a1b.png&w=1920&q=75",
+  "moreInfoLink": "https://casadelpopolo.com/en/events/2025-04-24-allo-fantome",
+  "source": "casadelpopolo"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f260"
+  },
+  "originalId": "50516",
+  "title": "Machine Girl",
+  "dateShowTime": "2024-12-19T20:00:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": "Theatre Corona",
+  "address": null,
+  "price": null,
+  "image": "https://www.rave.ca/en/image/full/471278/",
+  "moreInfoLink": "https://www.rave.ca/en/event/50516/",
+  "source": "ravewave"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f261"
+  },
+  "originalId": "50528",
+  "title": "Somebody's Parents By Au Bon Moment",
+  "dateShowTime": "2024-12-19T20:00:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": "Vino Disco",
+  "address": null,
+  "price": null,
+  "image": "https://www.rave.ca/en/image/full/471299/",
+  "moreInfoLink": "https://www.rave.ca/en/event/50528/",
+  "source": "ravewave"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f262"
+  },
+  "originalId": "50489",
+  "title": "InTheUnderground",
+  "dateShowTime": "2024-12-19T21:00:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": null,
+  "address": null,
+  "price": null,
+  "image": "https://www.rave.ca/en/image/full/471313/",
+  "moreInfoLink": "https://www.rave.ca/en/event/50489/",
+  "source": "ravewave"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f263"
+  },
+  "originalId": "50432",
+  "title": "22HALO PRESENTS",
+  "dateShowTime": "2024-12-19T22:00:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": "Système MTL",
+  "address": null,
+  "price": null,
+  "image": "https://www.rave.ca/en/image/full/471181/",
+  "moreInfoLink": "https://www.rave.ca/en/event/50432/",
+  "source": "ravewave"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f264"
+  },
+  "originalId": "50531",
+  "title": "Weekend Loading: Velvet Thursdays - 2024 Finalé",
+  "dateShowTime": "2024-12-19T22:00:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": "Velvet",
+  "address": null,
+  "price": null,
+  "image": "https://www.rave.ca/en/image/full/471306/",
+  "moreInfoLink": "https://www.rave.ca/en/event/50531/",
+  "source": "ravewave"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f265"
+  },
+  "originalId": "50533",
+  "title": "D, D Music Factory",
+  "dateShowTime": "2024-12-19T22:00:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": "Casa Del Popolo",
+  "address": null,
+  "price": null,
+  "image": "https://www.rave.ca/en/image/full/471309/",
+  "moreInfoLink": "https://www.rave.ca/en/event/50533/",
+  "source": "ravewave"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f266"
+  },
+  "originalId": "50420",
+  "title": "PRÏA X Zac Martel X Helal",
+  "dateShowTime": "2024-12-19T22:30:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": "Salon Daome",
+  "address": null,
+  "price": null,
+  "image": "https://www.rave.ca/en/image/full/471168/",
+  "moreInfoLink": "https://www.rave.ca/en/event/50420/",
+  "source": "ravewave"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f267"
+  },
+  "originalId": "50514",
+  "title": "Friday",
+  "dateShowTime": "2024-12-20T09:00:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": "La 30",
+  "address": null,
+  "price": null,
+  "image": "https://www.rave.ca/en/image/full/471274/",
+  "moreInfoLink": "https://www.rave.ca/en/event/50514/",
+  "source": "ravewave"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f268"
+  },
+  "originalId": "50446",
+  "title": "Brain Freeze Vol. 30 - Spécial De Noel",
+  "dateShowTime": "2024-12-20T19:00:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": "Ausgang Plaza",
+  "address": null,
+  "price": null,
+  "image": "https://www.rave.ca/en/image/full/471195/",
+  "moreInfoLink": "https://www.rave.ca/en/event/50446/",
+  "source": "ravewave"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f269"
+  },
+  "originalId": "50411",
+  "title": "SAT X EAF — Foodman • Neo Edo • RAMZi — Show & Food",
+  "dateShowTime": "2024-12-20T20:00:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": "Societe des arts Technologiques",
+  "address": null,
+  "price": null,
+  "image": "https://www.rave.ca/en/image/full/471156/",
+  "moreInfoLink": "https://www.rave.ca/en/event/50411/",
+  "source": "ravewave"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f26a"
+  },
+  "originalId": "50386",
+  "title": "Nightmare Before Noël With Chango (USA)",
+  "dateShowTime": "2024-12-20T21:00:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": "Le Red Room",
+  "address": null,
+  "price": null,
+  "image": "https://www.rave.ca/en/image/full/471132/",
+  "moreInfoLink": "https://www.rave.ca/en/event/50386/",
+  "source": "ravewave"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f26b"
+  },
+  "originalId": "50513",
+  "title": "AlpaKa Shop | Holiday Special | $10 All Night | Dec 20",
+  "dateShowTime": "2024-12-20T21:00:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": "La Shop",
+  "address": null,
+  "price": null,
+  "image": "https://www.rave.ca/en/image/full/471272/",
+  "moreInfoLink": "https://www.rave.ca/en/event/50513/",
+  "source": "ravewave"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f26c"
+  },
+  "originalId": "50396",
+  "title": "The Box X Turbo: Tiga B2b Priori",
+  "dateShowTime": "2024-12-20T22:00:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": "Stereo Bar",
+  "address": null,
+  "price": null,
+  "image": "https://www.rave.ca/en/image/full/471141/",
+  "moreInfoLink": "https://www.rave.ca/en/event/50396/",
+  "source": "ravewave"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f26d"
+  },
+  "originalId": "50407",
+  "title": "Groovy Castle: JP Groove & Juju Le Moko",
+  "dateShowTime": "2024-12-20T22:00:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": "Système MTL",
+  "address": null,
+  "price": null,
+  "image": "https://www.rave.ca/en/image/full/471152/",
+  "moreInfoLink": "https://www.rave.ca/en/event/50407/",
+  "source": "ravewave"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f26e"
+  },
+  "originalId": "50529",
+  "title": "Vino Disco Fridays",
+  "dateShowTime": "2024-12-20T22:00:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": "Vino Disco",
+  "address": null,
+  "price": null,
+  "image": "https://www.rave.ca/en/image/full/471300/",
+  "moreInfoLink": "https://www.rave.ca/en/event/50529/",
+  "source": "ravewave"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f26f"
+  },
+  "originalId": "50421",
+  "title": "Regal: Analog Volts Presents Charlotte (FR), Yourgalal",
+  "dateShowTime": "2024-12-20T22:30:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": "Salon Daome",
+  "address": null,
+  "price": null,
+  "image": "https://www.rave.ca/en/image/full/471169/",
+  "moreInfoLink": "https://www.rave.ca/en/event/50421/",
+  "source": "ravewave"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f270"
+  },
+  "originalId": "50357",
+  "title": "Hozho - Jesse Zotti",
+  "dateShowTime": "2024-12-20T23:59:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": "Stereo",
+  "address": null,
+  "price": null,
+  "image": "https://www.rave.ca/en/image/full/471100/",
+  "moreInfoLink": "https://www.rave.ca/en/event/50357/",
+  "source": "ravewave"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f271"
+  },
+  "originalId": "50467",
+  "title": "CHLÄR, Christø, Enfant Maudit",
+  "dateShowTime": "2024-12-21T09:00:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": "Crèmerie Sweet Dreams",
+  "address": null,
+  "price": null,
+  "image": "https://www.rave.ca/en/image/full/471220/",
+  "moreInfoLink": "https://www.rave.ca/en/event/50467/",
+  "source": "ravewave"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f272"
+  },
+  "originalId": "49852",
+  "title": "Interdependence Montréal: Clash Of The Titans",
+  "dateShowTime": "2024-12-21T21:00:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": "Bar le Ritz PDB",
+  "address": null,
+  "price": null,
+  "image": "https://www.rave.ca/en/image/full/470511/",
+  "moreInfoLink": "https://www.rave.ca/en/event/49852/",
+  "source": "ravewave"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f273"
+  },
+  "originalId": "49845",
+  "title": "Massane - Montréal",
+  "dateShowTime": "2024-12-21T22:00:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": "Newspeak",
+  "address": null,
+  "price": null,
+  "image": "https://www.rave.ca/en/image/full/470500/",
+  "moreInfoLink": "https://www.rave.ca/en/event/49845/",
+  "source": "ravewave"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f274"
+  },
+  "originalId": "50011",
+  "title": "ÄRDER: Chlär",
+  "dateShowTime": "2024-12-21T22:00:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": "Esc",
+  "address": null,
+  "price": null,
+  "image": "https://www.rave.ca/en/image/full/470419/",
+  "moreInfoLink": "https://www.rave.ca/en/event/50011/",
+  "source": "ravewave"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f275"
+  },
+  "originalId": "50397",
+  "title": "A-Trak (All Night Long)",
+  "dateShowTime": "2024-12-21T22:00:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": "Stereo Bar",
+  "address": null,
+  "price": null,
+  "image": "https://www.rave.ca/en/image/full/471142/",
+  "moreInfoLink": "https://www.rave.ca/en/event/50397/",
+  "source": "ravewave"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f276"
+  },
+  "originalId": "50408",
+  "title": "Cosmic Café ∆ Francis Englehardt ∆ Moka",
+  "dateShowTime": "2024-12-21T22:00:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": "Système MTL",
+  "address": null,
+  "price": null,
+  "image": "https://www.rave.ca/en/image/full/471153/",
+  "moreInfoLink": "https://www.rave.ca/en/event/50408/",
+  "source": "ravewave"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f277"
+  },
+  "originalId": "50481",
+  "title": "Hauterageous 022: Local Legends Galore",
+  "dateShowTime": "2024-12-21T22:00:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": "Esc",
+  "address": null,
+  "price": null,
+  "image": "https://www.rave.ca/en/image/full/471238/",
+  "moreInfoLink": "https://www.rave.ca/en/event/50481/",
+  "source": "ravewave"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f278"
+  },
+  "originalId": "50508",
+  "title": "Senudiz & Ziedolla",
+  "dateShowTime": "2024-12-21T22:00:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": "Stillife",
+  "address": null,
+  "price": null,
+  "image": "https://www.rave.ca/en/image/full/471304/",
+  "moreInfoLink": "https://www.rave.ca/en/event/50508/",
+  "source": "ravewave"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f279"
+  },
+  "originalId": "50519",
+  "title": "22-HALO PRESENTS",
+  "dateShowTime": "2024-12-21T22:00:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": "Vol De Nuit",
+  "address": null,
+  "price": null,
+  "image": "https://www.rave.ca/en/image/full/471285/",
+  "moreInfoLink": "https://www.rave.ca/en/event/50519/",
+  "source": "ravewave"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f27a"
+  },
+  "originalId": "50530",
+  "title": "Vino Disco Saturdays: Tommy Kimpton",
+  "dateShowTime": "2024-12-21T22:00:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": "Vino Disco",
+  "address": null,
+  "price": null,
+  "image": "https://www.rave.ca/en/image/full/471301/",
+  "moreInfoLink": "https://www.rave.ca/en/event/50530/",
+  "source": "ravewave"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f27b"
+  },
+  "originalId": "50422",
+  "title": "Todd Terry, MANDIZ",
+  "dateShowTime": "2024-12-21T22:30:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": "Salon Daome",
+  "address": null,
+  "price": null,
+  "image": "https://www.rave.ca/en/image/full/471170/",
+  "moreInfoLink": "https://www.rave.ca/en/event/50422/",
+  "source": "ravewave"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f27c"
+  },
+  "originalId": "50358",
+  "title": "Abel (All Night Long)",
+  "dateShowTime": "2024-12-21T23:59:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": "Stereo",
+  "address": null,
+  "price": null,
+  "image": "https://www.rave.ca/en/image/full/471101/",
+  "moreInfoLink": "https://www.rave.ca/en/event/50358/",
+  "source": "ravewave"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f27d"
+  },
+  "originalId": "50376",
+  "title": "DIMANCHES POLAIRES #3 - DJ Upload, Opposite Direktion, Co6",
+  "dateShowTime": "2024-12-22T15:00:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": null,
+  "address": null,
+  "price": null,
+  "image": "https://www.rave.ca/en/image/full/471122/",
+  "moreInfoLink": "https://www.rave.ca/en/event/50376/",
+  "source": "ravewave"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f27e"
+  },
+  "originalId": "50521",
+  "title": "Sunday",
+  "dateShowTime": "2024-12-22T22:00:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": "Le Red Room",
+  "address": null,
+  "price": null,
+  "image": "https://www.rave.ca/en/image/full/471287/",
+  "moreInfoLink": "https://www.rave.ca/en/event/50521/",
+  "source": "ravewave"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f27f"
+  },
+  "originalId": "50431",
+  "title": "Ugly Sweater Xmas Party: Hicky & Kalo (All Night Long)",
+  "dateShowTime": "2024-12-25T22:00:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": "Stereo Bar",
+  "address": null,
+  "price": null,
+  "image": "https://www.rave.ca/en/image/full/471180/",
+  "moreInfoLink": "https://www.rave.ca/en/event/50431/",
+  "source": "ravewave"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f280"
+  },
+  "originalId": "50423",
+  "title": "Anomalie Presents Ohm Hourani (B-Day), Vincent Lemieux",
+  "dateShowTime": "2024-12-26T22:30:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": "Salon Daome",
+  "address": null,
+  "price": null,
+  "image": "https://www.rave.ca/en/image/full/471171/",
+  "moreInfoLink": "https://www.rave.ca/en/event/50423/",
+  "source": "ravewave"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f281"
+  },
+  "originalId": "50339",
+  "title": "Future Jungle Krampus",
+  "dateShowTime": "2024-12-27T09:00:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": null,
+  "address": null,
+  "price": null,
+  "image": "https://www.rave.ca/en/image/full/471082/",
+  "moreInfoLink": "https://www.rave.ca/en/event/50339/",
+  "source": "ravewave"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f282"
+  },
+  "originalId": "50368",
+  "title": "Homegrown's Almost NYE With Eris Drew B2b Octo Octa, Evan Baggs & Lia Plutonic B",
+  "dateShowTime": "2024-12-27T09:00:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": null,
+  "address": null,
+  "price": null,
+  "image": "https://www.rave.ca/en/image/full/471109/",
+  "moreInfoLink": "https://www.rave.ca/en/event/50368/",
+  "source": "ravewave"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f283"
+  },
+  "originalId": "50512",
+  "title": "TECH IN MOTION",
+  "dateShowTime": "2024-12-27T21:00:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": "La Shop",
+  "address": null,
+  "price": null,
+  "image": "https://www.rave.ca/en/image/full/471271/",
+  "moreInfoLink": "https://www.rave.ca/en/event/50512/",
+  "source": "ravewave"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f284"
+  },
+  "originalId": "50398",
+  "title": "The Box: Cinthie (All Night Long)",
+  "dateShowTime": "2024-12-27T22:00:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": "Stereo Bar",
+  "address": null,
+  "price": null,
+  "image": "https://www.rave.ca/en/image/full/471143/",
+  "moreInfoLink": "https://www.rave.ca/en/event/50398/",
+  "source": "ravewave"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f285"
+  },
+  "originalId": "50409",
+  "title": "Kris Guilty",
+  "dateShowTime": "2024-12-27T22:00:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": "Système MTL",
+  "address": null,
+  "price": null,
+  "image": "https://www.rave.ca/en/image/full/471154/",
+  "moreInfoLink": "https://www.rave.ca/en/event/50409/",
+  "source": "ravewave"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f286"
+  },
+  "originalId": "50522",
+  "title": "Pikete - Navikinki",
+  "dateShowTime": "2024-12-27T22:00:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": "La Sotterenea",
+  "address": null,
+  "price": null,
+  "image": "https://www.rave.ca/en/image/full/471288/",
+  "moreInfoLink": "https://www.rave.ca/en/event/50522/",
+  "source": "ravewave"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f287"
+  },
+  "originalId": "50424",
+  "title": "Regal: Dance Till Death Presents Max Sprauer, 𝔼𝕝𝕪ē𝕤",
+  "dateShowTime": "2024-12-27T22:30:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": "Salon Daome",
+  "address": null,
+  "price": null,
+  "image": "https://www.rave.ca/en/image/full/471172/",
+  "moreInfoLink": "https://www.rave.ca/en/event/50424/",
+  "source": "ravewave"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f288"
+  },
+  "originalId": "50359",
+  "title": "D.Dan - Measure Divide",
+  "dateShowTime": "2024-12-27T23:59:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": "Stereo",
+  "address": null,
+  "price": null,
+  "image": "https://www.rave.ca/en/image/full/471102/",
+  "moreInfoLink": "https://www.rave.ca/en/event/50359/",
+  "source": "ravewave"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f289"
+  },
+  "originalId": "50373",
+  "title": "Techno Dose",
+  "dateShowTime": "2024-12-28T22:00:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": null,
+  "address": null,
+  "price": null,
+  "image": "https://www.rave.ca/en/image/full/471119/",
+  "moreInfoLink": "https://www.rave.ca/en/event/50373/",
+  "source": "ravewave"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f28a"
+  },
+  "originalId": "50393",
+  "title": "Datcha X Dar Sherif",
+  "dateShowTime": "2024-12-28T22:00:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": "Datcha",
+  "address": null,
+  "price": null,
+  "image": "https://www.rave.ca/en/image/full/471138/",
+  "moreInfoLink": "https://www.rave.ca/en/event/50393/",
+  "source": "ravewave"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f28b"
+  },
+  "originalId": "50399",
+  "title": "Trikk (All Night Long)",
+  "dateShowTime": "2024-12-28T22:00:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": "Stereo Bar",
+  "address": null,
+  "price": null,
+  "image": "https://www.rave.ca/en/image/full/471144/",
+  "moreInfoLink": "https://www.rave.ca/en/event/50399/",
+  "source": "ravewave"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f28c"
+  },
+  "originalId": "50410",
+  "title": "Wasa Bibi, Hua Li, Niabi",
+  "dateShowTime": "2024-12-28T22:00:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": "Système MTL",
+  "address": null,
+  "price": null,
+  "image": "https://www.rave.ca/en/image/full/471155/",
+  "moreInfoLink": "https://www.rave.ca/en/event/50410/",
+  "source": "ravewave"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f28d"
+  },
+  "originalId": "50445",
+  "title": "TekNoël Agricole",
+  "dateShowTime": "2024-12-28T22:00:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": "La Shop",
+  "address": null,
+  "price": null,
+  "image": "https://www.rave.ca/en/image/full/471194/",
+  "moreInfoLink": "https://www.rave.ca/en/event/50445/",
+  "source": "ravewave"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f28e"
+  },
+  "originalId": "50461",
+  "title": "Frky",
+  "dateShowTime": "2024-12-28T22:00:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": "La Sotterenea",
+  "address": null,
+  "price": null,
+  "image": "https://www.rave.ca/en/image/full/471214/",
+  "moreInfoLink": "https://www.rave.ca/en/event/50461/",
+  "source": "ravewave"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f28f"
+  },
+  "originalId": "50506",
+  "title": "Festival Vision - NYE - 28-29-31 Dec",
+  "dateShowTime": "2024-12-28T23:00:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": "Entrepôts Dominion",
+  "address": null,
+  "price": null,
+  "image": "https://www.rave.ca/en/image/full/471266/",
+  "moreInfoLink": "https://www.rave.ca/en/event/50506/",
+  "source": "ravewave"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f290"
+  },
+  "originalId": "50360",
+  "title": "Avision (All Night Long)",
+  "dateShowTime": "2024-12-28T23:59:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": "Stereo",
+  "address": null,
+  "price": null,
+  "image": "https://www.rave.ca/en/image/full/471103/",
+  "moreInfoLink": "https://www.rave.ca/en/event/50360/",
+  "source": "ravewave"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f291"
+  },
+  "originalId": "50478",
+  "title": "BERLIN TECHNO - Back From BERGHAIN",
+  "dateShowTime": "2024-12-29T22:00:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": "Cabaret Berlin",
+  "address": null,
+  "price": null,
+  "image": "https://www.rave.ca/en/image/full/471231/",
+  "moreInfoLink": "https://www.rave.ca/en/event/50478/",
+  "source": "ravewave"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f292"
+  },
+  "originalId": "50425",
+  "title": "Jares Vs. Tommy J (all Night Long)",
+  "dateShowTime": "2024-12-29T22:30:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": "Salon Daome",
+  "address": null,
+  "price": null,
+  "image": "https://www.rave.ca/en/image/full/471173/",
+  "moreInfoLink": "https://www.rave.ca/en/event/50425/",
+  "source": "ravewave"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f293"
+  },
+  "originalId": "50507",
+  "title": "HomeBy6",
+  "dateShowTime": "2024-12-31T09:00:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": null,
+  "address": null,
+  "price": null,
+  "image": "https://www.rave.ca/en/image/full/471267/",
+  "moreInfoLink": "https://www.rave.ca/en/event/50507/",
+  "source": "ravewave"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f294"
+  },
+  "originalId": "50485",
+  "title": "Une Nuit À La Brasserie",
+  "dateShowTime": "2024-12-31T18:00:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": "Bar WILLS",
+  "address": null,
+  "price": null,
+  "image": "https://www.rave.ca/en/image/full/471241/",
+  "moreInfoLink": "https://www.rave.ca/en/event/50485/",
+  "source": "ravewave"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f295"
+  },
+  "originalId": "50321",
+  "title": "Igloofest: NOUVEL AN 2025",
+  "dateShowTime": "2024-12-31T20:00:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": "Quai Jacques-Cartier",
+  "address": null,
+  "price": null,
+  "image": "https://www.rave.ca/en/image/full/471063/",
+  "moreInfoLink": "https://www.rave.ca/en/event/50321/",
+  "source": "ravewave"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f296"
+  },
+  "originalId": "50375",
+  "title": "Cosmovision NYE 2025",
+  "dateShowTime": "2024-12-31T21:00:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": "Esc",
+  "address": null,
+  "price": null,
+  "image": "https://www.rave.ca/en/image/full/471121/",
+  "moreInfoLink": "https://www.rave.ca/en/event/50375/",
+  "source": "ravewave"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f297"
+  },
+  "originalId": "50433",
+  "title": "Levitate",
+  "dateShowTime": "2024-12-31T21:00:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": null,
+  "address": null,
+  "price": null,
+  "image": "https://www.rave.ca/en/image/full/471183/",
+  "moreInfoLink": "https://www.rave.ca/en/event/50433/",
+  "source": "ravewave"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f298"
+  },
+  "originalId": "50491",
+  "title": "BSX NYE",
+  "dateShowTime": "2024-12-31T21:00:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": null,
+  "address": null,
+  "price": null,
+  "image": "https://www.rave.ca/en/image/full/471247/",
+  "moreInfoLink": "https://www.rave.ca/en/event/50491/",
+  "source": "ravewave"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f299"
+  },
+  "originalId": "50518",
+  "title": "Cirque De Boudoir Presents: CARNAVALESQUE NYE 2025",
+  "dateShowTime": "2024-12-31T21:00:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": "Théâtre Paradoxe",
+  "address": null,
+  "price": null,
+  "image": "https://www.rave.ca/en/image/full/471281/",
+  "moreInfoLink": "https://www.rave.ca/en/event/50518/",
+  "source": "ravewave"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f29a"
+  },
+  "originalId": "50250",
+  "title": "SAT X NYE",
+  "dateShowTime": "2024-12-31T22:00:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": "Societe des arts Technologiques",
+  "address": null,
+  "price": null,
+  "image": "https://www.rave.ca/en/image/full/470978/",
+  "moreInfoLink": "https://www.rave.ca/en/event/50250/",
+  "source": "ravewave"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f29b"
+  },
+  "originalId": "50374",
+  "title": "NOMAD NYE ANTENNAE | Immserive Psychedelic Experience",
+  "dateShowTime": "2024-12-31T22:00:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": null,
+  "address": null,
+  "price": null,
+  "image": "https://www.rave.ca/en/image/full/471120/",
+  "moreInfoLink": "https://www.rave.ca/en/event/50374/",
+  "source": "ravewave"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f29c"
+  },
+  "originalId": "50427",
+  "title": "Noreiner - RAVOLUTION 2025",
+  "dateShowTime": "2024-12-31T22:00:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": null,
+  "address": null,
+  "price": null,
+  "image": "https://www.rave.ca/en/image/full/471175/",
+  "moreInfoLink": "https://www.rave.ca/en/event/50427/",
+  "source": "ravewave"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f29d"
+  },
+  "originalId": "50429",
+  "title": "NYE: Satoshi Tomiie (All Night Long)",
+  "dateShowTime": "2024-12-31T22:00:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": "Stereo Bar",
+  "address": null,
+  "price": null,
+  "image": "https://www.rave.ca/en/image/full/471178/",
+  "moreInfoLink": "https://www.rave.ca/en/event/50429/",
+  "source": "ravewave"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f29e"
+  },
+  "originalId": "50437",
+  "title": "FLUSH NYE: Pretty Privilege, FLUSH Residents",
+  "dateShowTime": "2024-12-31T22:00:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": "Système MTL",
+  "address": null,
+  "price": null,
+  "image": "https://www.rave.ca/en/image/full/471186/",
+  "moreInfoLink": "https://www.rave.ca/en/event/50437/",
+  "source": "ravewave"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f29f"
+  },
+  "originalId": "50449",
+  "title": "PARTY WORLD 2025 (NYE) With Kiernan Laveaux, Ranma Entero, Gi Gi, Neonlichter",
+  "dateShowTime": "2024-12-31T22:00:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": null,
+  "address": null,
+  "price": null,
+  "image": "https://www.rave.ca/en/image/full/471202/",
+  "moreInfoLink": "https://www.rave.ca/en/event/50449/",
+  "source": "ravewave"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f2a0"
+  },
+  "originalId": "50465",
+  "title": "'A FAMILY AFFAIR' NEW YEARS EVE 2025",
+  "dateShowTime": "2024-12-31T22:00:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": "Francesco's Discoteca",
+  "address": null,
+  "price": null,
+  "image": "https://www.rave.ca/en/image/full/471218/",
+  "moreInfoLink": "https://www.rave.ca/en/event/50465/",
+  "source": "ravewave"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f2a1"
+  },
+  "originalId": "50471",
+  "title": "NYE2025: Kaytranada - Montréal",
+  "dateShowTime": "2024-12-31T22:00:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": null,
+  "address": null,
+  "price": null,
+  "image": "https://www.rave.ca/en/image/full/471225/",
+  "moreInfoLink": "https://www.rave.ca/en/event/50471/",
+  "source": "ravewave"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f2a2"
+  },
+  "originalId": "50495",
+  "title": "Moonshine NYE: Saï Saï 2025",
+  "dateShowTime": "2024-12-31T22:00:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": null,
+  "address": null,
+  "price": null,
+  "image": "https://www.rave.ca/en/image/full/471254/",
+  "moreInfoLink": "https://www.rave.ca/en/event/50495/",
+  "source": "ravewave"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f2a3"
+  },
+  "originalId": "50426",
+  "title": "NYE Daniel Bell, Youandewan, Guillaume & The Coutu Dumont (LIVE), Nathan Burns, ",
+  "dateShowTime": "2024-12-31T22:30:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": "Salon Daome",
+  "address": null,
+  "price": null,
+  "image": "https://www.rave.ca/en/image/full/471174/",
+  "moreInfoLink": "https://www.rave.ca/en/event/50426/",
+  "source": "ravewave"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f2a4"
+  },
+  "originalId": "50475",
+  "title": "Nye",
+  "dateShowTime": "2024-12-31T23:00:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": null,
+  "address": null,
+  "price": null,
+  "image": null,
+  "moreInfoLink": "https://www.rave.ca/en/event/50475/",
+  "source": "ravewave"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f2a5"
+  },
+  "originalId": "50430",
+  "title": "After 8: Tom Cardeli - Kressel (Live) - Many B2b Roudy - Brian Cuta",
+  "dateShowTime": "2025-01-01T08:00:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": "Stereo Bar",
+  "address": null,
+  "price": null,
+  "image": "https://www.rave.ca/en/image/full/471179/",
+  "moreInfoLink": "https://www.rave.ca/en/event/50430/",
+  "source": "ravewave"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f2a6"
+  },
+  "originalId": "50382",
+  "title": "Day 1: Pablo Ceballos (All Night Long)",
+  "dateShowTime": "2025-01-01T23:59:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": "Stereo",
+  "address": null,
+  "price": null,
+  "image": "https://www.rave.ca/en/image/full/471129/",
+  "moreInfoLink": "https://www.rave.ca/en/event/50382/",
+  "source": "ravewave"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f2a7"
+  },
+  "originalId": "50075",
+  "title": "Mixette À La Brassette",
+  "dateShowTime": "2025-01-03T20:00:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": "Brasserie Beaubien",
+  "address": null,
+  "price": null,
+  "image": "https://www.rave.ca/en/image/full/470781/",
+  "moreInfoLink": "https://www.rave.ca/en/event/50075/",
+  "source": "ravewave"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f2a8"
+  },
+  "originalId": "50535",
+  "title": "UTOPIA 01 With Sleaze D, Esme, Zi!, DJ Hermano & Max Mira",
+  "dateShowTime": "2025-01-05T14:00:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": null,
+  "address": null,
+  "price": null,
+  "image": "https://www.rave.ca/en/image/full/471311/",
+  "moreInfoLink": "https://www.rave.ca/en/event/50535/",
+  "source": "ravewave"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f2a9"
+  },
+  "originalId": "50524",
+  "title": "Krista Bourgeois Live In Montreal, Local Guests Djs",
+  "dateShowTime": "2025-01-10T21:00:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": "Foufounes Electriques",
+  "address": null,
+  "price": null,
+  "image": "https://www.rave.ca/en/image/full/471290/",
+  "moreInfoLink": "https://www.rave.ca/en/event/50524/",
+  "source": "ravewave"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f2aa"
+  },
+  "originalId": "50498",
+  "title": "Dômesicle — Paurro • Special Guest",
+  "dateShowTime": "2025-01-10T22:00:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": "Societe des arts Technologiques",
+  "address": null,
+  "price": null,
+  "image": "https://www.rave.ca/en/image/full/471257/",
+  "moreInfoLink": "https://www.rave.ca/en/event/50498/",
+  "source": "ravewave"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f2ab"
+  },
+  "originalId": "50312",
+  "title": "DARK AREA - 1st Anniversary",
+  "dateShowTime": "2025-01-11T22:00:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": "Livart",
+  "address": null,
+  "price": null,
+  "image": "https://www.rave.ca/en/image/full/471054/",
+  "moreInfoLink": "https://www.rave.ca/en/event/50312/",
+  "source": "ravewave"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f2ac"
+  },
+  "originalId": "50442",
+  "title": "DUB PERMANENCE #7",
+  "dateShowTime": "2025-01-11T22:00:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": "La Sotterenea",
+  "address": null,
+  "price": null,
+  "image": "https://www.rave.ca/en/image/full/471192/",
+  "moreInfoLink": "https://www.rave.ca/en/event/50442/",
+  "source": "ravewave"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f2ad"
+  },
+  "originalId": "50258",
+  "title": "Igloofest MTL #1: Michael Bibi, Homeby6: DJ Minx",
+  "dateShowTime": "2025-01-16T19:30:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": null,
+  "address": null,
+  "price": null,
+  "image": "https://www.rave.ca/en/image/full/470988/",
+  "moreInfoLink": "https://www.rave.ca/en/event/50258/",
+  "source": "ravewave"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f2ae"
+  },
+  "originalId": "49753",
+  "title": "Tesla Nights And Flamingo Funk Present Mista Trick",
+  "dateShowTime": "2025-01-16T21:00:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": "La Shop",
+  "address": null,
+  "price": null,
+  "image": "https://www.rave.ca/en/image/full/470412/",
+  "moreInfoLink": "https://www.rave.ca/en/event/49753/",
+  "source": "ravewave"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f2af"
+  },
+  "originalId": "50414",
+  "title": "Female Frequencies = GAYANCE, Hua Li 化力, Chloe Lallouz, DJ RURU",
+  "dateShowTime": "2025-01-16T22:00:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": null,
+  "address": null,
+  "price": null,
+  "image": "https://www.rave.ca/en/image/full/471198/",
+  "moreInfoLink": "https://www.rave.ca/en/event/50414/",
+  "source": "ravewave"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f2b0"
+  },
+  "originalId": "50259",
+  "title": "Igloofest MTL #2: Apashe, Imanu, Homegrown Harvest: Marie Davidson (DJ Set)",
+  "dateShowTime": "2025-01-17T19:30:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": null,
+  "address": null,
+  "price": null,
+  "image": "https://www.rave.ca/en/image/full/470989/",
+  "moreInfoLink": "https://www.rave.ca/en/event/50259/",
+  "source": "ravewave"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f2b1"
+  },
+  "originalId": "50499",
+  "title": "Dômesicle x Turbine — Plug'N'Pray • Lissn • Melodrastik • Kuantum • Trench Foot",
+  "dateShowTime": "2025-01-17T22:00:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": "Societe des arts Technologiques",
+  "address": null,
+  "price": null,
+  "image": "https://www.rave.ca/en/image/full/471258/",
+  "moreInfoLink": "https://www.rave.ca/en/event/50499/",
+  "source": "ravewave"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f2b2"
+  },
+  "originalId": "50527",
+  "title": "Virtualis: Virus Edition",
+  "dateShowTime": "2025-01-17T22:00:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": "Esc",
+  "address": null,
+  "price": null,
+  "image": "https://www.rave.ca/en/image/full/471298/",
+  "moreInfoLink": "https://www.rave.ca/en/event/50527/",
+  "source": "ravewave"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f2b3"
+  },
+  "originalId": "50260",
+  "title": "Igloofest MTL #3: Claptone, Dombresky, Club Sagacité",
+  "dateShowTime": "2025-01-18T19:30:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": null,
+  "address": null,
+  "price": null,
+  "image": "https://www.rave.ca/en/image/full/470990/",
+  "moreInfoLink": "https://www.rave.ca/en/event/50260/",
+  "source": "ravewave"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f2b4"
+  },
+  "originalId": "50492",
+  "title": "Techno Crudo Collective Presents Milo Raad",
+  "dateShowTime": "2025-01-18T22:00:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": "Esc",
+  "address": null,
+  "price": null,
+  "image": "https://www.rave.ca/en/image/full/471250/",
+  "moreInfoLink": "https://www.rave.ca/en/event/50492/",
+  "source": "ravewave"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f2b5"
+  },
+  "originalId": "50520",
+  "title": "One Year Anniversary Of Yallah Habibi",
+  "dateShowTime": "2025-01-18T22:00:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": "Le Salon Richmond",
+  "address": null,
+  "price": null,
+  "image": "https://www.rave.ca/en/image/full/471286/",
+  "moreInfoLink": "https://www.rave.ca/en/event/50520/",
+  "source": "ravewave"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f2b6"
+  },
+  "originalId": "50261",
+  "title": "Igloofest MTL #4: Bladee, Doss, COUCOU CHLOE (DJ Set)",
+  "dateShowTime": "2025-01-23T19:30:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": null,
+  "address": null,
+  "price": null,
+  "image": "https://www.rave.ca/en/image/full/470991/",
+  "moreInfoLink": "https://www.rave.ca/en/event/50261/",
+  "source": "ravewave"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f2b7"
+  },
+  "originalId": "49807",
+  "title": "Ash - Montréal",
+  "dateShowTime": "2025-01-24T18:30:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": "M-Telus",
+  "address": null,
+  "price": null,
+  "image": "https://www.rave.ca/en/image/full/470464/",
+  "moreInfoLink": "https://www.rave.ca/en/event/49807/",
+  "source": "ravewave"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f2b8"
+  },
+  "originalId": "50262",
+  "title": "Igloofest MTL #5: Deadbeats - Zeds Dead, Tape B, Distinct Motive, Prohibition",
+  "dateShowTime": "2025-01-24T19:30:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": null,
+  "address": null,
+  "price": null,
+  "image": "https://www.rave.ca/en/image/full/470992/",
+  "moreInfoLink": "https://www.rave.ca/en/event/50262/",
+  "source": "ravewave"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f2b9"
+  },
+  "originalId": "50500",
+  "title": "Dômesicle — DINA • BitterCaress • NASTYA NVRSLP",
+  "dateShowTime": "2025-01-24T22:00:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": "Societe des arts Technologiques",
+  "address": null,
+  "price": null,
+  "image": "https://www.rave.ca/en/image/full/471259/",
+  "moreInfoLink": "https://www.rave.ca/en/event/50500/",
+  "source": "ravewave"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f2ba"
+  },
+  "originalId": "50523",
+  "title": "Praxis W. Patrick Russell, Weekend Logic, Kiju, Marc Myst, DJ Spirit",
+  "dateShowTime": "2025-01-24T23:00:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": null,
+  "address": null,
+  "price": null,
+  "image": "https://www.rave.ca/en/image/full/471289/",
+  "moreInfoLink": "https://www.rave.ca/en/event/50523/",
+  "source": "ravewave"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f2bb"
+  },
+  "originalId": "50217",
+  "title": "2hollis - Montréal",
+  "dateShowTime": "2025-01-25T19:30:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": "Club Soda",
+  "address": null,
+  "price": null,
+  "image": "https://www.rave.ca/en/image/full/470942/",
+  "moreInfoLink": "https://www.rave.ca/en/event/50217/",
+  "source": "ravewave"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f2bc"
+  },
+  "originalId": "50263",
+  "title": "Igloofest MTL #6: Skepta (Más Tiempo), Artiste Surprise, SYREETA, Laylit",
+  "dateShowTime": "2025-01-25T19:30:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": null,
+  "address": null,
+  "price": null,
+  "image": "https://www.rave.ca/en/image/full/470993/",
+  "moreInfoLink": "https://www.rave.ca/en/event/50263/",
+  "source": "ravewave"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f2bd"
+  },
+  "originalId": "50526",
+  "title": "LA LOUCHE By NICKY DOLL",
+  "dateShowTime": "2025-01-25T22:00:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": "Ausgang Plaza",
+  "address": null,
+  "price": null,
+  "image": "https://www.rave.ca/en/image/full/471296/",
+  "moreInfoLink": "https://www.rave.ca/en/event/50526/",
+  "source": "ravewave"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f2be"
+  },
+  "originalId": "50264",
+  "title": "Igloofest MTL #7: Bon Entendeur, Boston Bun, Regularfantasy",
+  "dateShowTime": "2025-01-30T21:30:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": null,
+  "address": null,
+  "price": null,
+  "image": "https://www.rave.ca/en/image/full/470994/",
+  "moreInfoLink": "https://www.rave.ca/en/event/50264/",
+  "source": "ravewave"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f2bf"
+  },
+  "originalId": "50265",
+  "title": "Igloofest MTL #8: Steve Angello, KILIMANJARO, Strawberry Gothcake: Von Bikräv",
+  "dateShowTime": "2025-01-31T19:30:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": null,
+  "address": null,
+  "price": null,
+  "image": "https://www.rave.ca/en/image/full/470995/",
+  "moreInfoLink": "https://www.rave.ca/en/event/50265/",
+  "source": "ravewave"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f2c0"
+  },
+  "originalId": "50501",
+  "title": "Dômesicle — Solar & Mozhgan • Badgalquirit (MDSM)",
+  "dateShowTime": "2025-01-31T22:00:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": "Societe des arts Technologiques",
+  "address": null,
+  "price": null,
+  "image": "https://www.rave.ca/en/image/full/471260/",
+  "moreInfoLink": "https://www.rave.ca/en/event/50501/",
+  "source": "ravewave"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f2c1"
+  },
+  "originalId": "50381",
+  "title": "NYE: John Digweed - Ostrich",
+  "dateShowTime": "2025-01-31T23:59:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": "Stereo",
+  "address": null,
+  "price": null,
+  "image": "https://www.rave.ca/en/image/full/471128/",
+  "moreInfoLink": "https://www.rave.ca/en/event/50381/",
+  "source": "ravewave"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f2c2"
+  },
+  "originalId": "50266",
+  "title": "Igloofest MTL #9: Adriatique, Marten Lou, Yulia Niko, Kora & Reg Ina",
+  "dateShowTime": "2025-02-01T19:30:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": null,
+  "address": null,
+  "price": null,
+  "image": "https://www.rave.ca/en/image/full/470996/",
+  "moreInfoLink": "https://www.rave.ca/en/event/50266/",
+  "source": "ravewave"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f2c3"
+  },
+  "originalId": "50462",
+  "title": "Lord Apex - Montréal",
+  "dateShowTime": "2025-02-02T19:00:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": "Le Belmont",
+  "address": null,
+  "price": null,
+  "image": "https://www.rave.ca/en/image/full/471215/",
+  "moreInfoLink": "https://www.rave.ca/en/event/50462/",
+  "source": "ravewave"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f2c4"
+  },
+  "originalId": "50267",
+  "title": "Igloofest MTL #10: Mahmut Orhan, Maxi Meraki",
+  "dateShowTime": "2025-02-06T19:30:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": null,
+  "address": null,
+  "price": null,
+  "image": "https://www.rave.ca/en/image/full/470997/",
+  "moreInfoLink": "https://www.rave.ca/en/event/50267/",
+  "source": "ravewave"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f2c5"
+  },
+  "originalId": "50268",
+  "title": "Igloofest MTL #11: Cloonee, Classmatic, Vibe Benders",
+  "dateShowTime": "2025-02-07T19:30:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": null,
+  "address": null,
+  "price": null,
+  "image": "https://www.rave.ca/en/image/full/470998/",
+  "moreInfoLink": "https://www.rave.ca/en/event/50268/",
+  "source": "ravewave"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f2c6"
+  },
+  "originalId": "50502",
+  "title": "Dômesicle — System Olympia • Sierra",
+  "dateShowTime": "2025-02-07T22:00:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": "Societe des arts Technologiques",
+  "address": null,
+  "price": null,
+  "image": "https://www.rave.ca/en/image/full/471261/",
+  "moreInfoLink": "https://www.rave.ca/en/event/50502/",
+  "source": "ravewave"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f2c7"
+  },
+  "originalId": "50269",
+  "title": "Igloofest MTL #12: Four Tet, Avalon Emerson, Priori, Unikorn: Princess Superstar",
+  "dateShowTime": "2025-02-08T19:30:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": null,
+  "address": null,
+  "price": null,
+  "image": "https://www.rave.ca/en/image/full/470999/",
+  "moreInfoLink": "https://www.rave.ca/en/event/50269/",
+  "source": "ravewave"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f2c8"
+  },
+  "originalId": "50249",
+  "title": "Chris Luno - Montréal",
+  "dateShowTime": "2025-02-08T22:00:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": "Societe des arts Technologiques",
+  "address": null,
+  "price": null,
+  "image": "https://www.rave.ca/en/image/full/470977/",
+  "moreInfoLink": "https://www.rave.ca/en/event/50249/",
+  "source": "ravewave"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f2c9"
+  },
+  "originalId": "50458",
+  "title": "OCTOV With Dax J [4h Set]",
+  "dateShowTime": "2025-02-08T23:00:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": "Entrepôts Dominion",
+  "address": null,
+  "price": null,
+  "image": "https://www.rave.ca/en/image/full/471211/",
+  "moreInfoLink": "https://www.rave.ca/en/event/50458/",
+  "source": "ravewave"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f2ca"
+  },
+  "originalId": "50469",
+  "title": "Igloofest GATINEAU #1: Dillon Francis, Michael Sparks, Etienne Ozborne",
+  "dateShowTime": "2025-02-13T19:00:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": null,
+  "address": null,
+  "price": null,
+  "image": "https://www.rave.ca/en/image/full/471089/",
+  "moreInfoLink": "https://www.rave.ca/en/event/50469/",
+  "source": "ravewave"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f2cb"
+  },
+  "originalId": "50346",
+  "title": "Igloofest GATINEAU #2: Eric Prydz, CRi, Alamusic",
+  "dateShowTime": "2025-02-14T19:30:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": null,
+  "address": null,
+  "price": null,
+  "image": "https://www.rave.ca/en/image/full/471090/",
+  "moreInfoLink": "https://www.rave.ca/en/event/50346/",
+  "source": "ravewave"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f2cc"
+  },
+  "originalId": "50447",
+  "title": "Dômesicle x Musik Me Luv — Batu • Melek, Dick Lee, Nad (b3b)",
+  "dateShowTime": "2025-02-14T23:00:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": "Societe des arts Technologiques",
+  "address": null,
+  "price": null,
+  "image": "https://www.rave.ca/en/image/full/471199/",
+  "moreInfoLink": "https://www.rave.ca/en/event/50447/",
+  "source": "ravewave"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f2cd"
+  },
+  "originalId": "50347",
+  "title": "Igloofest GATINEAU #3: Seven Lions, DJ Pøptrt, KAT2KAT",
+  "dateShowTime": "2025-02-15T19:00:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": null,
+  "address": null,
+  "price": null,
+  "image": "https://www.rave.ca/en/image/full/471091/",
+  "moreInfoLink": "https://www.rave.ca/en/event/50347/",
+  "source": "ravewave"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f2ce"
+  },
+  "originalId": "50515",
+  "title": "Molchat Doma - Molchat Doma Tour 2025",
+  "dateShowTime": "2025-02-17T20:00:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": "M-Telus",
+  "address": null,
+  "price": null,
+  "image": null,
+  "moreInfoLink": "https://www.rave.ca/en/event/50515/",
+  "source": "ravewave"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f2cf"
+  },
+  "originalId": "50111",
+  "title": "Klangphonics - Montréal",
+  "dateShowTime": "2025-02-20T19:00:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": "Fairmount Theatre",
+  "address": null,
+  "price": null,
+  "image": "https://www.rave.ca/en/image/full/470827/",
+  "moreInfoLink": "https://www.rave.ca/en/event/50111/",
+  "source": "ravewave"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f2d0"
+  },
+  "originalId": "50343",
+  "title": "Nemahsis - Montréal",
+  "dateShowTime": "2025-02-21T19:00:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": "Fairmount Theatre",
+  "address": null,
+  "price": null,
+  "image": "https://www.rave.ca/en/image/full/471086/",
+  "moreInfoLink": "https://www.rave.ca/en/event/50343/",
+  "source": "ravewave"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f2d1"
+  },
+  "originalId": "50534",
+  "title": "Olof Dreijer, LB Aka LABAT, LEXIS",
+  "dateShowTime": "2025-02-21T22:00:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": "Newspeak",
+  "address": null,
+  "price": null,
+  "image": "https://www.rave.ca/en/image/full/471310/",
+  "moreInfoLink": "https://www.rave.ca/en/event/50534/",
+  "source": "ravewave"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f2d2"
+  },
+  "originalId": "49743",
+  "title": "Trance Unity",
+  "dateShowTime": "2025-02-22T20:00:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": "Sainte-Catherine Hall",
+  "address": null,
+  "price": null,
+  "image": "https://www.rave.ca/en/image/full/470401/",
+  "moreInfoLink": "https://www.rave.ca/en/event/49743/",
+  "source": "ravewave"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f2d3"
+  },
+  "originalId": "50365",
+  "title": "What So Not",
+  "dateShowTime": "2025-02-22T22:00:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": "Newspeak",
+  "address": null,
+  "price": null,
+  "image": "https://www.rave.ca/en/image/full/471107/",
+  "moreInfoLink": "https://www.rave.ca/en/event/50365/",
+  "source": "ravewave"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f2d4"
+  },
+  "originalId": "50503",
+  "title": "Dômesicle x Homegrown — Volvox  • Frankie Teardrop  • Parts Project Live",
+  "dateShowTime": "2025-02-22T22:00:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": "Societe des arts Technologiques",
+  "address": null,
+  "price": null,
+  "image": "https://www.rave.ca/en/image/full/471263/",
+  "moreInfoLink": "https://www.rave.ca/en/event/50503/",
+  "source": "ravewave"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f2d5"
+  },
+  "originalId": "50504",
+  "title": "Dômesicle — Laurel Halo (DJ)  • Kiju • Evita",
+  "dateShowTime": "2025-02-28T22:00:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": "Societe des arts Technologiques",
+  "address": null,
+  "price": null,
+  "image": "https://www.rave.ca/en/image/full/471264/",
+  "moreInfoLink": "https://www.rave.ca/en/event/50504/",
+  "source": "ravewave"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f2d6"
+  },
+  "originalId": "50505",
+  "title": "Dômesicle x Mothland — Kap Bambino • Alix Fernz (solo)  • DJ Raven",
+  "dateShowTime": "2025-03-07T22:00:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": "Societe des arts Technologiques",
+  "address": null,
+  "price": null,
+  "image": "https://www.rave.ca/en/image/full/471265/",
+  "moreInfoLink": "https://www.rave.ca/en/event/50505/",
+  "source": "ravewave"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f2d7"
+  },
+  "originalId": "50496",
+  "title": "Jan Blomqvist - Montréal",
+  "dateShowTime": "2025-03-08T20:00:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": "Societe des arts Technologiques",
+  "address": null,
+  "price": null,
+  "image": "https://www.rave.ca/en/image/full/471255/",
+  "moreInfoLink": "https://www.rave.ca/en/event/50496/",
+  "source": "ravewave"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f2d8"
+  },
+  "originalId": "50482",
+  "title": "Psychedelic BABYLON: 'Interstellar' With D-NOX (Ger) (3hr Set) & SENSIENT (Aus) ",
+  "dateShowTime": "2025-03-21T21:00:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": "Sainte-Catherine Hall",
+  "address": null,
+  "price": null,
+  "image": "https://www.rave.ca/en/image/full/471239/",
+  "moreInfoLink": "https://www.rave.ca/en/event/50482/",
+  "source": "ravewave"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f2d9"
+  },
+  "originalId": "50122",
+  "title": "Qrion - Montréal",
+  "dateShowTime": "2025-03-22T22:00:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": "Newspeak",
+  "address": null,
+  "price": null,
+  "image": "https://www.rave.ca/en/image/full/470835/",
+  "moreInfoLink": "https://www.rave.ca/en/event/50122/",
+  "source": "ravewave"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f2da"
+  },
+  "originalId": "50448",
+  "title": "Connor Price - Montréal",
+  "dateShowTime": "2025-04-02T18:30:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": "M-Telus",
+  "address": null,
+  "price": null,
+  "image": "https://www.rave.ca/en/image/full/471200/",
+  "moreInfoLink": "https://www.rave.ca/en/event/50448/",
+  "source": "ravewave"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f2db"
+  },
+  "originalId": "50179",
+  "title": "MEUTE - Montréal",
+  "dateShowTime": "2025-04-05T18:30:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": "M-Telus",
+  "address": null,
+  "price": null,
+  "image": "https://www.rave.ca/en/image/full/470902/",
+  "moreInfoLink": "https://www.rave.ca/en/event/50179/",
+  "source": "ravewave"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f2dc"
+  },
+  "originalId": "49802",
+  "title": "Ismo (Stand-up Comedy)",
+  "dateShowTime": "2025-04-06T20:00:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": "Théâtre Berri",
+  "address": null,
+  "price": null,
+  "image": "https://www.rave.ca/en/image/full/470460/",
+  "moreInfoLink": "https://www.rave.ca/en/event/49802/",
+  "source": "ravewave"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f2dd"
+  },
+  "originalId": "50174",
+  "title": "Benjiboy",
+  "dateShowTime": "2028-12-07T23:00:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": null,
+  "address": null,
+  "price": null,
+  "image": null,
+  "moreInfoLink": "https://www.rave.ca/en/event/50174/",
+  "source": "ravewave"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f2de"
+  },
+  "originalId": "6722b2790161591fa3bbb622",
+  "title": "Independent contractors holiday dinner",
+  "dateShowTime": "2024-12-22T01:00:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": "Turbo Haüs",
+  "address": "2040 Rue Saint-Denis",
+  "price": null,
+  "image": "https://images.squarespace-cdn.com/content/v1/5514c867e4b088ff856d4b55/1732308052244-OWI4JF7R7NF4GYV6UZ3G/party+21+dec.jpg",
+  "moreInfoLink": "https://www.turbohaus.com//calendrier/2024/12/21/rserv-reserved",
+  "source": "turbohaus"
+},
+{
+  "_id": {
+    "$oid": "6764e7438744aa29d751f2df"
+  },
+  "originalId": "66f71d247521ec7002ee105d",
+  "title": "Settle for Sleep + Deadweight + Over Eyes",
+  "dateShowTime": "2025-01-18T01:00:00.000Z",
+  "dateDoorTime": null,
+  "preciseTime": true,
+  "venue": "Turbo Haüs",
+  "address": "2040 Rue Saint-Denis",
+  "price": null,
+  "image": "https://images.squarespace-cdn.com/content/v1/5514c867e4b088ff856d4b55/1729537455351-OVMC7GXP9IX4MJK1F6K2/settle+for+sleep+17+janvier.png",
+  "moreInfoLink": "https://www.turbohaus.com//calendrier/2025/1/17/rserv-reserved",
+  "source": "turbohaus"
+}]
