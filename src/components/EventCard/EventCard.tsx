@@ -6,14 +6,17 @@ function EventCard({ event }: EventCardProps) {
   return (
     <div className={styles.container}>
       <div className={styles.imgContainer}>
-        <img src={event.image ?? ""} alt={event.title} />
+        {(event.image && <img src={event.image} alt={event.title} />) || (
+          <div>Poster not found</div>
+        )}
       </div>
-      <h3>{event.title}</h3>
-      <div>{event.dateShowTime}</div>
-      <div>{event.venue}</div>
-      <div>{event.address}</div>
-      <div>{event.price}</div>
-      <a href={event.moreInfoLink ?? ""}>More info</a>
+      <div className={styles.infoContainer}>
+        <div className={styles.dateLocation}>
+          <div>{event.dateShowTime}</div>
+          <span>{event.venue ?? "Missing venue"}</span>
+        </div>
+        <h4>{event.title}</h4>
+      </div>
     </div>
   );
 }
