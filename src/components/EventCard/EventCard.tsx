@@ -1,16 +1,19 @@
 import { EventCardProps } from "./EventCard.types";
 
+import styles from "./EventCard.module.css";
+
 function EventCard({ event }: EventCardProps) {
   return (
-    <div>
-      <img src={event.image ?? ""} alt={event.title} />
-      <h2>{event.title}</h2>
-      <p>{event.dateShowTime}</p>
-      <p>{event.venue}</p>
-      <p>{event.address}</p>
-      <p>{event.price}</p>
-      <p>{event.moreInfoLink}</p>
-      <p>{event.source}</p>
+    <div className={styles.container}>
+      <div className={styles.imgContainer}>
+        <img src={event.image ?? ""} alt={event.title} />
+      </div>
+      <h3>{event.title}</h3>
+      <div>{event.dateShowTime}</div>
+      <div>{event.venue}</div>
+      <div>{event.address}</div>
+      <div>{event.price}</div>
+      <a href={event.moreInfoLink ?? ""}>More info</a>
     </div>
   );
 }

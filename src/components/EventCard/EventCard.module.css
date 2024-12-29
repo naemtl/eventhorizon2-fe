@@ -1,0 +1,19 @@
+.container {
+    width: 250px;
+    margin: 10px;
+    overflow: hidden;
+}
+
+img {
+    height: auto;
+    width: 250px;
+}
+
+.imgContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 250px;
+    width: 250px;
+    border: 1px solid white;
+}
