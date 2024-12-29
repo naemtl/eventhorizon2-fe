@@ -24,7 +24,7 @@ function EventListing() {
       <p>{venue}</p>
       <p>{address}</p>
       <p>{price}</p>
-      <p>{moreInfoLink}</p>
+      <a href={moreInfoLink ?? ""}>More info</a>
       <p>{source}</p>
     </div>
   );
