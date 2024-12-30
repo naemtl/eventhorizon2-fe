@@ -12,20 +12,20 @@ function EventCard({ event }: EventCardProps) {
   );
 
   return (
-    <div className={styles.container}>
-      <div className={styles.imgContainer}>
+    <article className={styles.container}>
+      <figure className={styles.imgContainer}>
         {(event.image && <img src={event.image} alt={event.title} />) || (
-          <div>Poster not found</div>
+          <figcaption>Poster not found</figcaption>
         )}
-      </div>
+      </figure>
       <div className={styles.infoContainer}>
-        <div className={styles.dateLocation}>
-          <div>{parsedDate}</div>
-          <span>{event.venue ?? "Missing venue"}</span>
-        </div>
+        <section className={styles.dateLocation}>
+          <time>{parsedDate}</time>
+          <address>{event.venue ?? "Missing venue"}</address>
+        </section>
         <h4>{event.title}</h4>
       </div>
-    </div>
+    </article>
   );
 }
 
