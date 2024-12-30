@@ -10,8 +10,12 @@ function Calendar() {
     <div className={styles.container}>
       {events.map((event) => {
         return (
-          <Link state={{ event }} to={`/event/${event.originalId}`}>
-            <EventCard key={event.originalId} event={event} />
+          <Link
+            key={event.originalId}
+            state={{ event }}
+            to={`/event/${event.originalId}`}
+          >
+            <EventCard event={event} />
           </Link>
         );
       })}

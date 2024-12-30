@@ -1,41 +1,38 @@
 .container {
-    border: 1px solid #666;
-    color: #fff;
-    margin: 10px;
-    padding: 5px;
-    width: 320px;
-    height: 430px;
+  border: 1px solid #666;
+  color: #fff;
+  margin: 10px;
+  padding: 5px;
+  width: 430px;
+  height: 430px;
 }
 
 .imgContainer {
-    align-items: center;
-    background-color: #1b1b1b;
-    display: flex;
-    height: 320px;
-    justify-content: center;
-    overflow: hidden;
-    width: 320px;
-    margin-bottom: 5px;
+  align-items: center;
+  background-color: #1b1b1b;
+  display: flex;
+  height: 320px;
+  justify-content: center;
+  overflow: hidden;
+  width: 430px;
+  margin-bottom: 5px;
 }
 
 .infoContainer {
-    display: flex;
-    flex-direction: column;
-    height: 110px;
-    justify-content: space-around;
+  height: 110px;
 }
 
 .dateLocation {
-    display: flex;
-    font-size: 12px;
-    justify-content: space-between;
+  display: flex;
+  font-size: 12px;
+  justify-content: space-between;
 }
 
 h4 {
-    margin: 10px 0;
+  margin: 10px 0;
 }
 
 img {
     height: auto;
-    width: 320px;
+    width: 430px;
 }

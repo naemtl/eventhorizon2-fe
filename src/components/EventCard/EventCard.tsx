@@ -1,8 +1,16 @@
+import { memo, useMemo } from "react";
+import dayjs from "dayjs";
+
 import { EventCardProps } from "./EventCard.types";
 
 import styles from "./EventCard.module.css";
 
 function EventCard({ event }: EventCardProps) {
+  const parsedDate = useMemo(
+    () => dayjs(event.dateShowTime).format("DD.MM.YYYY"),
+    [event.dateShowTime]
+  );
+
   return (
     <div className={styles.container}>
       <div className={styles.imgContainer}>
@@ -12,7 +20,7 @@ function EventCard({ event }: EventCardProps) {
       </div>
       <div className={styles.infoContainer}>
         <div className={styles.dateLocation}>
-          <div>{event.dateShowTime}</div>
+          <div>{parsedDate}</div>
           <span>{event.venue ?? "Missing venue"}</span>
         </div>
         <h4>{event.title}</h4>
@@ -21,4 +29,4 @@ function EventCard({ event }: EventCardProps) {
   );
 }
 
-export default EventCard;
+export default memo(EventCard);
