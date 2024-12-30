@@ -7,7 +7,7 @@ import styles from "./Calendar.module.css";
 
 function Calendar() {
   return (
-    <div className={styles.container}>
+    <main className={styles.container}>
       {events.map((event) => {
         return (
           <Link
@@ -19,7 +19,7 @@ function Calendar() {
           </Link>
         );
       })}
-    </div>
+    </main>
   );
 }
 

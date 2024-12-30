@@ -21,12 +21,12 @@ function EventListing() {
   } = state.event;
 
   const parsedDate = useMemo(
-    () => dayjs(dateShowTime).format("DD.MM.YYYY hh:mm"),
+    () => dayjs(dateShowTime).format("DD.MM.YYYY HH:mm"),
     [dateShowTime]
   );
 
   const addToCalendarDateTime = useMemo(
-    () => dayjs(dateShowTime).format("YYYY-MM-DD hh:mm"),
+    () => dayjs(dateShowTime).format("YYYY-MM-DD HH:mm"),
     [dateShowTime]
   );
 
@@ -38,16 +38,16 @@ function EventListing() {
   console.log(addToCalendarTimeArray);
 
   return (
-    <div className={styles.container}>
-      <div className={styles.imgContainer}>
+    <main className={styles.container}>
+      <figure className={styles.imgContainer}>
         <img src={image} alt={title} />
-      </div>
+      </figure>
       <div className={styles.infoContainer}>
         <h1>{title}</h1>
-        <div>Date: {parsedDate}</div>
-        <div>
+        <time>Date: {parsedDate}</time>
+        <address>
           Location: {venue} - {address}
-        </div>
+        </address>
         <div>Price: {price ?? "Check source for cost of entry"}</div>
         <a href={moreInfoLink ?? ""}>More info: {source}</a>
         <AddToCalendarButton
@@ -61,7 +61,7 @@ function EventListing() {
           lightMode="dark"
         />
       </div>
-    </div>
+    </main>
   );
 }
 
