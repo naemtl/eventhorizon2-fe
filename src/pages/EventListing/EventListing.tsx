@@ -1,8 +1,11 @@
+import { memo, useMemo } from "react";
 import { useLocation } from "react-router-dom";
+
+import styles from "./EventListing.module.css";
+import dayjs from "dayjs";
 
 function EventListing() {
   const { state } = useLocation();
-  console.log(state);
 
   const {
     title,
@@ -16,18 +19,31 @@ function EventListing() {
     source,
   } = state.event;
 
+  const parsedDate = useMemo(
+    () => dayjs(dateShowTime).format("DD.MM.YYYY HH:mm"),
+    [dateShowTime]
+  );
+
   return (
-    <div>
-      <img src={image} alt={title} />
-      <h1>{title}</h1>
-      <p>{dateShowTime}</p>
-      <p>{venue}</p>
-      <p>{address}</p>
-      <p>{price}</p>
-      <a href={moreInfoLink ?? ""}>More info</a>
-      <p>{source}</p>
+    <div className={styles.container}>
+      <div className={styles.header}>
+        <div className={styles.imgContainer}>
+          <img src={image} alt={title} />
+        </div>
+        <h1>{title}</h1>
+      </div>
+      <div className={styles.infoContainer}>
+        <div>
+          <div>{parsedDate}</div>
+          <div>
+            {venue} - {address}
+          </div>
+          <div>{price ?? "Check source for cost of entry"}</div>
+          <a href={moreInfoLink ?? ""}>More info - {source}</a>
+        </div>
+      </div>
     </div>
   );
 }
 
-export default EventListing;
+export default memo(EventListing);
