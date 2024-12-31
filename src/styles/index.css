@@ -1,3 +1,5 @@
+@import './variables.css';
+
 /*
   1. Use a more-intuitive box-sizing model.
 */
@@ -31,10 +33,10 @@ html {
   5. Improve text rendering
 */
 body {
-  background-color: #000000;
-  color: #ffffff;
+  background-color: var(--black);
+  color: var(--white);
   font-family: monospace;
-  font-size: 1.6rem;
+  font-size: var(--text-med);
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
 }
@@ -79,6 +81,9 @@ h6 {
   isolation: isolate;
 }
 
+/* 
+  10. Misc 
+*/
 a {
   font-weight: 500;
   color: #646cff;
@@ -86,5 +91,5 @@ a {
 }
 
 a:hover {
-  color: #ffffff;
+  color: var(--white);
 }
