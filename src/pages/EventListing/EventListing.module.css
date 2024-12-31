@@ -1,3 +1,5 @@
+@import "../../styles/variables.css";
+
 .container {
   display: flex;
   justify-content: space-between;
@@ -15,5 +17,5 @@
 }
 
 h1 {
-  font-size: 4rem;
+  font-size: var(--text-xxl);
 }

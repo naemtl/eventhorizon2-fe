@@ -1,8 +1,10 @@
+@import "../../styles/variables.css";
+
 .container {
   border: 1px solid #666;
-  color: #fff;
-  margin: 10px;
-  padding: 5px;
+  color: var(--white);
+  margin: var(--space-sm);
+  padding: var(--space-xxs);
   width: 430px;
   height: 430px;
 }
@@ -15,7 +17,7 @@
   justify-content: center;
   overflow: hidden;
   width: 420px;
-  margin-bottom: 5px;
+  margin-bottom: var(--space-xxs);
 }
 
 .infoContainer {
@@ -24,12 +26,12 @@
 
 .dateLocation {
   display: flex;
-  font-size: 12px;
+  font-size: var(--text-xxs);
   justify-content: space-between;
 }
 
 h4 {
-  margin: 10px 0;
+  margin: var(--space-sm) 0;
 }
 
 img {
