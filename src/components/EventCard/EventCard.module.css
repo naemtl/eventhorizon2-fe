@@ -9,6 +9,12 @@
   height: 430px;
 }
 
+.dateLocation {
+  display: flex;
+  font-size: var(--text-xs);
+  justify-content: space-between;
+}
+
 .imgContainer {
   align-items: center;
   background-color: #1b1b1b;
@@ -24,17 +30,11 @@
   height: 110px;
 }
 
-.dateLocation {
-  display: flex;
-  font-size: var(--text-xxs);
-  justify-content: space-between;
-}
-
-h4 {
-  margin: var(--space-sm) 0;
-}
-
-img {
+.poster {
     height: auto;
     width: 430px;
+}
+
+.title {
+  margin: var(--space-sm) 0;
 }
