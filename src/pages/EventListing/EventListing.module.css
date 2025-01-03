@@ -6,7 +6,7 @@
   width: 100%;
 }
 
-.imgContainer, img {
+.imgContainer, .poster {
   height: auto;
   width: 50vw;
 }
@@ -16,6 +16,6 @@
   width: 45vw;
 }
 
-h1 {
+.title {
   font-size: var(--text-xxl);
 }

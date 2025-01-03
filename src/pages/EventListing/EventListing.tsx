@@ -40,10 +40,10 @@ function EventListing() {
   return (
     <main className={styles.container}>
       <figure className={styles.imgContainer}>
-        <img src={image} alt={title} />
+        <img className={styles.poster} src={image} alt={title} />
       </figure>
       <div className={styles.infoContainer}>
-        <h1>{title}</h1>
+        <h1 className={styles.title}>{title}</h1>
         <time>Date: {parsedDate}</time>
         <address>
           Location: {venue} - {address}
