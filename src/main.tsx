@@ -8,6 +8,7 @@ import FAQ from "./pages/FAQ/FAQ";
 import NotFound from "./pages/NotFound/NotFound";
 import Results from "./pages/Results/Results";
 
+import "./utils/i18n";
 import "./styles/index.css";
 
 const router = createBrowserRouter([

@@ -1,11 +1,13 @@
 import { memo, useMemo } from "react";
 import { useLocation } from "react-router-dom";
+import { useTranslation } from "react-i18next";
 
 import styles from "./EventListing.module.css";
 import dayjs from "dayjs";
 import { AddToCalendarButton } from "add-to-calendar-button-react";
 
 function EventListing() {
+  const { t } = useTranslation();
   const { state } = useLocation();
 
   const {
@@ -48,8 +50,12 @@ function EventListing() {
         <address>
           Location: {venue} - {address}
         </address>
-        <div>Price: {price ?? "Check source for cost of entry"}</div>
-        <a href={moreInfoLink ?? ""}>More info: {source}</a>
+        <div>
+          {t("price")}: {price ?? "Check source for cost of entry"}
+        </div>
+        <a href={moreInfoLink ?? ""}>
+          {t("more-info")}: {source}
+        </a>
         <AddToCalendarButton
           name={title}
           startDate={addToCalendarTimeArray[0]}
