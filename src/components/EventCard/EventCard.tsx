@@ -1,4 +1,5 @@
 import { memo, useMemo } from "react";
+import { Link } from "react-router-dom";
 import dayjs from "dayjs";
 
 import { EventCardProps } from "./EventCard.types";
@@ -13,18 +14,24 @@ function EventCard({ event }: EventCardProps) {
 
   return (
     <article className={styles.container}>
-      <figure className={styles.imgContainer}>
-        {(event.image && (
-          <img className={styles.poster} src={event.image} alt={event.title} />
-        )) || <figcaption>Poster not found</figcaption>}
-      </figure>
-      <div className={styles.infoContainer}>
-        <section className={styles.dateLocation}>
-          <time>{parsedDate}</time>
-          <address>{event.venue ?? "Missing venue"}</address>
-        </section>
-        <h4 className={styles.title}>{event.title}</h4>
-      </div>
+      <Link state={{ event }} to={`/event/${event.originalId}`}>
+        <figure className={styles.imgContainer}>
+          {(event.image && (
+            <img
+              className={styles.poster}
+              src={event.image}
+              alt={event.title}
+            />
+          )) || <figcaption>Poster not found</figcaption>}
+        </figure>
+        <div className={styles.infoContainer}>
+          <section className={styles.dateLocation}>
+            <time>{parsedDate}</time>
+            <address>{event.venue ?? "Missing venue"}</address>
+          </section>
+          <h4 className={styles.title}>{event.title}</h4>
+        </div>
+      </Link>
     </article>
   );
 }

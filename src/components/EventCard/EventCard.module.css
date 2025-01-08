@@ -3,15 +3,16 @@
 .container {
   border: 1px solid #666;
   color: var(--white);
-  margin: var(--space-sm);
+  height: 360px;
+  margin: var(--space-xs);
+  max-width: 460px;
   padding: var(--space-xxs);
-  width: 430px;
-  height: 430px;
+  width: 100%;
 }
 
 .dateLocation {
   display: flex;
-  font-size: var(--text-xs);
+  font-size: var(--text-xxs);
   justify-content: space-between;
 }
 
@@ -19,22 +20,43 @@
   align-items: center;
   background-color: #1b1b1b;
   display: flex;
-  height: 320px;
-  justify-content: center;
-  overflow: hidden;
-  width: 420px;
+  height: 250px;
   margin-bottom: var(--space-xxs);
+  max-width: 450px;
+  overflow: hidden;
+  width: 100%;
 }
 
 .infoContainer {
-  height: 110px;
+  color: var(--white);
+  padding: 0 var(--space-xxs);
+  overflow: hidden;
+  height: 80px;
+
+  &:hover { 
+    /* TODO: trigger this on poster hover too */
+    background-color: var(--white);
+    color: var(--black);
+    transition: all 0.2s ease-in-out;
+  }
 }
 
 .poster {
-    height: auto;
-    width: 430px;
+  width: 100%;
 }
 
 .title {
-  margin: var(--space-sm) 0;
+  font-size: var(--text-sm);
+  margin: var(--space-sm) 0 0 0;
+  height: 65px;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    height: 460px;
+  }
+
+  .imgContainer {
+    height: 350px;
+  }
 }
