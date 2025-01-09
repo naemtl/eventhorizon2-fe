@@ -1,10 +1,11 @@
 import { memo, useMemo } from "react";
 import { useLocation } from "react-router-dom";
 import { useTranslation } from "react-i18next";
+import dayjs from "dayjs";
+
+import AddToCalendarButton from "src/components/AddToCalendarButton/AddToCalendarButton";
 
 import styles from "./EventListing.module.css";
-import dayjs from "dayjs";
-import { AddToCalendarButton } from "add-to-calendar-button-react";
 
 function EventListing() {
   const { t } = useTranslation();
@@ -27,18 +28,6 @@ function EventListing() {
     [dateShowTime]
   );
 
-  const addToCalendarDateTime = useMemo(
-    () => dayjs(dateShowTime).format("YYYY-MM-DD HH:mm"),
-    [dateShowTime]
-  );
-
-  const addToCalendarTimeArray = useMemo(
-    () => addToCalendarDateTime.split(" "),
-    [addToCalendarDateTime]
-  );
-
-  console.log(addToCalendarTimeArray);
-
   return (
     <main className={styles.container}>
       <figure className={styles.imgContainer}>
@@ -57,14 +46,9 @@ function EventListing() {
           {t("more-info")}: {source}
         </a>
         <AddToCalendarButton
-          name={title}
-          startDate={addToCalendarTimeArray[0]}
-          // startTime={addToCalendarTimeArray[1]} FIXME: not working
-          endDate={addToCalendarTimeArray[0]}
-          // endTime={addToCalendarTimeArray[1]}
+          title={title}
+          start={dateShowTime}
           location={`${venue} - ${address}`}
-          options={["Google", "iCal", "Outlook.com"]}
-          lightMode="dark"
         />
       </div>
     </main>

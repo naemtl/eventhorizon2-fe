@@ -1,0 +1,50 @@
+@import "src/styles/variables.css";
+
+.button {
+  border: 1px solid var(--white);
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  font-weight: bold;
+  font-size: var(--text-xs);
+  padding: var(--space-xxs) var(--space-xs);
+
+  &:hover {
+    background-color: var(--white);
+  }
+}
+
+.closed {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.container {
+  position: relative;
+}
+
+.icon {
+  margin-right: var(--space-xxs);
+}
+
+.link {
+  align-items: center;
+  display: flex;
+  font-size: var(--text-xs);
+  padding: var(--space-xxs) var(--space-xs);
+  white-space: nowrap;
+}
+
+.list {
+  left: 0;
+  list-style: none;
+  padding: 1px 2px;
+  position: absolute;
+  top: 100%;
+  transition: opacity 0.3s ease-in-out
+}
+
+.open {
+  opacity: 100;
+}
+
