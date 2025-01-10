@@ -21,6 +21,7 @@
 
 .container {
   position: relative;
+  width: fit-content;
 }
 
 .icon {
@@ -38,6 +39,7 @@
 .list {
   left: 0;
   list-style: none;
+  min-width: 100%;
   padding: 1px 2px;
   position: absolute;
   top: 100%;

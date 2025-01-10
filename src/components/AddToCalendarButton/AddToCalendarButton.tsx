@@ -1,4 +1,4 @@
-import { memo, useMemo, useState } from "react";
+import { memo, useEffect, useMemo, useRef, useState } from "react";
 import { google, outlook, ics, CalendarEvent } from "calendar-link";
 import { PiCalendarBlankLight, PiMicrosoftOutlookLogo } from "react-icons/pi";
 import { SiGooglecalendar } from "react-icons/si";
@@ -7,6 +7,33 @@ import styles from "./AddToCalendarButton.module.css";
 
 function AddToCalendarButton({ title, start, location }: CalendarEvent) {
   const [isOpen, setIsOpen] = useState(false);
+
+  const buttonContainerRef = useRef<HTMLDivElement>(null);
+
+  const handleOnClick = (event: MouseEvent) => {
+    if (
+      buttonContainerRef.current &&
+      !event.composedPath().includes(buttonContainerRef.current)
+    ) {
+      setIsOpen(false);
+    }
+  };
+
+  const handleKeyDown = (event: KeyboardEvent) => {
+    if (event.keyCode === 27 || event.code === "Escape") {
+      setIsOpen(false);
+    }
+  };
+
+  useEffect(() => {
+    document.addEventListener("click", (event) => handleOnClick(event));
+    document.addEventListener("keydown", (event) => handleKeyDown(event));
+
+    return () => {
+      document.removeEventListener("click", (event) => handleOnClick(event));
+      document.removeEventListener("keydown", (event) => handleKeyDown(event));
+    };
+  }, []);
 
   const event: CalendarEvent = useMemo(
     () => ({
@@ -23,7 +50,7 @@ function AddToCalendarButton({ title, start, location }: CalendarEvent) {
   const icsUrl = ics(event);
 
   return (
-    <div className={styles.container}>
+    <div ref={buttonContainerRef} className={styles.container}>
       <button
         className={styles.button}
         onClick={() => setIsOpen((prev) => !prev)}
