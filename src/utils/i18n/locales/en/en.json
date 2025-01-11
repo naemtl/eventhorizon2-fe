@@ -1,4 +1,9 @@
 {
+  "calendar": {
+    "title": "Upcoming Events"
+  },
+  "event-listing": {
     "more-info": "More info",
     "price": "Cover price"
+  }
 }

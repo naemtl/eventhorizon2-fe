@@ -1,5 +1,3 @@
-@import "src/styles/variables.css";
-
 .button {
   border: 1px solid var(--white);
   border-radius: 5px;

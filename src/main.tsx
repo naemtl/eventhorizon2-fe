@@ -3,8 +3,7 @@ import { createRoot } from "react-dom/client";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 import Calendar from "./pages/Calendar/Calendar";
-import EventListing from "./pages/EventListing/EventListing";
-import FAQ from "./pages/FAQ/FAQ";
+import About from "./pages/About/About";
 import NotFound from "./pages/NotFound/NotFound";
 import Results from "./pages/Results/Results";
 
@@ -18,12 +17,8 @@ const router = createBrowserRouter([
     errorElement: <NotFound />,
   },
   {
-    path: "/event/:originalId",
-    element: <EventListing />,
-  },
-  {
-    path: "/faq",
-    element: <FAQ />,
+    path: "/about",
+    element: <About />,
   },
   {
     path: "/results",

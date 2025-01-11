@@ -1,10 +1,12 @@
-@import "src/styles/variables.css";
-
 .closeButton {
+  background: none;
+  border: none;
+  color: var(--white);
   cursor: pointer;
+  font-size: var(--text-xxl);
   position: absolute;
-  left: 10px;
-  top: 10px;
+  right: var(--space-sm);
+  top: var(--space-sm);
 }
 
 .container {
@@ -13,6 +15,11 @@
   justify-content: center;
   height: 100%;
   width: 100%;
+}
+
+.controls {
+  display: flex;
+  font-size: var(--text-xxs);
 }
 
 .imgContainer {
@@ -27,8 +34,8 @@
 
 .infoContainer {
   font-size: var(--text-sm);
+  margin-top: var(--space-sm);
   max-width: 350px;
-  padding: 10px 5px 10px 0;
   width: 100%;
 
   & > * {
@@ -39,12 +46,45 @@
 .innerContainer {
   align-items: center;
   display: flex;
+  flex-direction: column;
   height: 80%;
   justify-content: space-evenly;
   max-width: 1000px;
   width: 90%;
 }
 
+.moreInfoLink {
+  align-items: center;
+  border: 1px solid var(--white);
+  border-radius: 5px;
+  display: flex;
+  margin-right: var(--space-md);
+  padding: var(--space-xxs) var(--space-xs);
+}
+
+.source {
+  margin-left: var(--space-xxs);
+}
+
 .title {
   font-size: var(--text-lg);
+}
+
+@media screen and (min-width: 768px) {
+  .infoContainer {
+    margin-left: var(--space-lg);
+    margin-top: 0;
+  }
+
+  .innerContainer {
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .controls {
+    font-size: var(--space-md);
+  }
 }

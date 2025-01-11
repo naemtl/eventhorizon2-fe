@@ -2,6 +2,7 @@ import { memo, useMemo } from "react";
 import { useTranslation } from "react-i18next";
 import dayjs from "dayjs";
 import Zoom from "react-medium-image-zoom";
+import { GoInfo, GoX } from "react-icons/go";
 
 import AddToCalendarButton from "src/components/AddToCalendarButton/AddToCalendarButton";
 
@@ -33,13 +34,13 @@ function EventListing({ event, closeModal }: EventListingProps) {
 
   return (
     <main className={styles.container}>
-      <button className={styles.closeButton} onClick={closeModal}>
-        X
+      <button title="Close" className={styles.closeButton} onClick={closeModal}>
+        <GoX />
       </button>
       <div className={styles.innerContainer}>
         <Zoom classDialog="zoom-dialog">
           <figure className={styles.imgContainer}>
-            {(event.image && (
+            {(image && (
               <img className={styles.poster} src={image} alt={title} />
             )) || <div>Poster not found</div>}
           </figure>
@@ -53,18 +54,23 @@ function EventListing({ event, closeModal }: EventListingProps) {
             Location: {venue} - {address}
           </div>
           <div>
-            {t("price")}: {price ?? "Check source for cost of entry"}
+            {t("event-listing.price")}:{" "}
+            {price ?? "Check source for cost of entry"}
           </div>
-          <div>
-            <a href={moreInfoLink ?? ""}>
-              {t("more-info")}: {source}
+          <div className={styles.controls}>
+            <a
+              className={styles.moreInfoLink}
+              href={moreInfoLink ?? ""}
+              target="_blank"
+            >
+              <GoInfo /> <span className={styles.source}>{source}</span>
             </a>
+            <AddToCalendarButton
+              title={title}
+              start={dateShowTime}
+              location={`${venue} - ${address}`}
+            />
           </div>
-          <AddToCalendarButton
-            title={title}
-            start={dateShowTime}
-            location={`${venue} - ${address}`}
-          />
         </div>
       </div>
     </main>

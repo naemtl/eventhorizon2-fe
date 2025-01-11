@@ -36,7 +36,7 @@ body {
   background-color: var(--black);
   color: var(--white);
   font-family: monospace;
-  font-size: var(--text-med);
+  font-size: var(--text-md);
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
 }

@@ -1,7 +1,8 @@
 /* colors */
 :root {
-  --white: #fff;
   --black: #000;
+  --satan: #666;
+  --white: #fff;
 }
 
 /* typography */
@@ -9,12 +10,10 @@
   --text-xxs: 1.2rem;
   --text-xs: 1.4rem;
   --text-sm: 1.6rem;
-  --text-med: 1.8rem;
+  --text-md: 1.8rem;
   --text-lg: 2rem;
   --text-xl: 2.2rem;
   --text-xxl: 2.4rem;
-  --font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
 /* spacing */
@@ -22,7 +21,7 @@
   --space-xxs: 4px;
   --space-xs: 8px;
   --space-sm: 12px;
-  --space-med: 16px;
+  --space-md: 16px;
   --space-lg: 20px;
   --space-xl: 24px;
   --space-xxl: 28px;
