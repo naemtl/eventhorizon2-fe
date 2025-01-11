@@ -1,15 +1,18 @@
 import { memo, useMemo } from "react";
-import { useLocation } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import dayjs from "dayjs";
+import Zoom from "react-medium-image-zoom";
 
 import AddToCalendarButton from "src/components/AddToCalendarButton/AddToCalendarButton";
 
-import styles from "./EventListing.module.css";
+import { EventListingProps } from "./EventListing.types";
 
-function EventListing() {
+import styles from "./EventListing.module.css";
+import "./ZoomStyles.css";
+import "react-medium-image-zoom/dist/styles.css";
+
+function EventListing({ event, closeModal }: EventListingProps) {
   const { t } = useTranslation();
-  const { state } = useLocation();
 
   const {
     title,
@@ -21,7 +24,7 @@ function EventListing() {
     image,
     moreInfoLink,
     source,
-  } = state.event;
+  } = event;
 
   const parsedDate = useMemo(
     () => dayjs(dateShowTime).format("DD.MM.YYYY HH:mm"),
@@ -30,26 +33,39 @@ function EventListing() {
 
   return (
     <main className={styles.container}>
-      <figure className={styles.imgContainer}>
-        <img className={styles.poster} src={image} alt={title} />
-      </figure>
-      <div className={styles.infoContainer}>
-        <h1 className={styles.title}>{title}</h1>
-        <time>Date: {parsedDate}</time>
-        <address>
-          Location: {venue} - {address}
-        </address>
-        <div>
-          {t("price")}: {price ?? "Check source for cost of entry"}
+      <button className={styles.closeButton} onClick={closeModal}>
+        X
+      </button>
+      <div className={styles.innerContainer}>
+        <Zoom classDialog="zoom-dialog">
+          <figure className={styles.imgContainer}>
+            {(event.image && (
+              <img className={styles.poster} src={image} alt={title} />
+            )) || <div>Poster not found</div>}
+          </figure>
+        </Zoom>
+        <div className={styles.infoContainer}>
+          <h1 className={styles.title}>{title}</h1>
+          <div>
+            <time>Date: {parsedDate}</time>
+          </div>
+          <div>
+            Location: {venue} - {address}
+          </div>
+          <div>
+            {t("price")}: {price ?? "Check source for cost of entry"}
+          </div>
+          <div>
+            <a href={moreInfoLink ?? ""}>
+              {t("more-info")}: {source}
+            </a>
+          </div>
+          <AddToCalendarButton
+            title={title}
+            start={dateShowTime}
+            location={`${venue} - ${address}`}
+          />
         </div>
-        <a href={moreInfoLink ?? ""}>
-          {t("more-info")}: {source}
-        </a>
-        <AddToCalendarButton
-          title={title}
-          start={dateShowTime}
-          location={`${venue} - ${address}`}
-        />
       </div>
     </main>
   );

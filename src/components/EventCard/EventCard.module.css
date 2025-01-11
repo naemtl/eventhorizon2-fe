@@ -19,6 +19,7 @@
 .imgContainer {
   align-items: center;
   background-color: #1b1b1b;
+  cursor: pointer;
   display: flex;
   height: 250px;
   margin-bottom: var(--space-xxs);
@@ -29,10 +30,11 @@
 
 .infoContainer {
   color: var(--white);
+  cursor: pointer;
   padding: 0 var(--space-xxs);
   overflow: hidden;
   height: 80px;
-
+  
   &:hover { 
     /* TODO: trigger this on poster hover too */
     background-color: var(--white);

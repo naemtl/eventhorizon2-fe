@@ -1,21 +1,50 @@
-@import "../../styles/variables.css";
+@import "src/styles/variables.css";
+
+.closeButton {
+  cursor: pointer;
+  position: absolute;
+  left: 10px;
+  top: 10px;
+}
 
 .container {
+  align-items: center;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  height: 100%;
   width: 100%;
 }
 
-.imgContainer, .poster {
-  height: auto;
-  width: 50vw;
+.imgContainer {
+  align-items: center;
+  background-color: #1b1b1b;
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  max-width: 350px;
+  width: 100%;
 }
 
 .infoContainer {
+  font-size: var(--text-sm);
+  max-width: 350px;
   padding: 10px 5px 10px 0;
-  width: 45vw;
+  width: 100%;
+
+  & > * {
+    margin-bottom: var(--space-xs);
+  }
+}
+
+.innerContainer {
+  align-items: center;
+  display: flex;
+  height: 80%;
+  justify-content: space-evenly;
+  max-width: 1000px;
+  width: 90%;
 }
 
 .title {
-  font-size: var(--text-xxl);
+  font-size: var(--text-lg);
 }

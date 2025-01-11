@@ -1,20 +1,31 @@
-import { memo, useMemo } from "react";
-import { Link } from "react-router-dom";
+import { memo, useMemo, useState } from "react";
+import Modal from "react-modal";
 import dayjs from "dayjs";
 
 import { EventCardProps } from "./EventCard.types";
 
 import styles from "./EventCard.module.css";
+import EventListing from "src/pages/EventListing/EventListing";
 
 function EventCard({ event }: EventCardProps) {
+  const [modalIsOpen, setModalIsOpen] = useState(false);
+
   const parsedDate = useMemo(
     () => dayjs(event.dateShowTime).format("DD.MM.YYYY"),
     [event.dateShowTime]
   );
 
+  const openModal = () => {
+    setModalIsOpen(true);
+  };
+
+  const closeModal = () => {
+    setModalIsOpen(false);
+  };
+
   return (
     <article className={styles.container}>
-      <Link state={{ event }} to={`/event/${event.originalId}`}>
+      <div onClick={openModal}>
         <figure className={styles.imgContainer}>
           {(event.image && (
             <img
@@ -22,16 +33,30 @@ function EventCard({ event }: EventCardProps) {
               src={event.image}
               alt={event.title}
             />
-          )) || <figcaption>Poster not found</figcaption>}
+          )) || <div>Poster not found</div>}
         </figure>
         <div className={styles.infoContainer}>
           <section className={styles.dateLocation}>
             <time>{parsedDate}</time>
-            <address>{event.venue ?? "Missing venue"}</address>
+            <div>{event.venue ?? "Missing venue"}</div>
           </section>
           <h4 className={styles.title}>{event.title}</h4>
         </div>
-      </Link>
+      </div>
+      <Modal
+        isOpen={modalIsOpen}
+        onRequestClose={closeModal}
+        style={{
+          overlay: {
+            backgroundColor: "rgba(0, 0, 0, 0.75)",
+          },
+          content: {
+            background: "rgb(0, 0, 0)",
+          },
+        }}
+      >
+        <EventListing event={event} closeModal={closeModal} />
+      </Modal>
     </article>
   );
 }

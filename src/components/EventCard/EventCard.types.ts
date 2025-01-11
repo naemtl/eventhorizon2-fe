@@ -1,4 +1,4 @@
-import { FormattedEvent } from "../../types/index";
+import { FormattedEvent } from "src/types/index";
 
 interface EventCardProps {
   event: FormattedEvent;
