@@ -2,6 +2,7 @@ import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
+import App from "./App";
 import Calendar from "./pages/Calendar/Calendar";
 import About from "./pages/About/About";
 import NotFound from "./pages/NotFound/NotFound";
@@ -13,16 +14,22 @@ import "./styles/index.css";
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Calendar />,
+    element: <App />,
     errorElement: <NotFound />,
-  },
-  {
-    path: "/about",
-    element: <About />,
-  },
-  {
-    path: "/results",
-    element: <Results />,
+    children: [
+      {
+        index: true,
+        element: <Calendar />,
+      },
+      {
+        path: "/about",
+        element: <About />,
+      },
+      {
+        path: "/results",
+        element: <Results />,
+      },
+    ],
   },
 ]);
 

@@ -1,7 +1,20 @@
 .container {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    width: 100%;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  padding: 0 var(--space-md)
+}
+
+.innerContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+}
+
+.title {
+  margin: var(--space-lg) 0;
+  margin-left: var(--space-xs);
 }

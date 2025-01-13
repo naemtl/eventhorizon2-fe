@@ -51,12 +51,9 @@ function EventListing({ event, closeModal }: EventListingProps) {
             <time>Date: {parsedDate}</time>
           </div>
           <div>
-            Location: {venue} - {address}
+            {venue} - {address}
           </div>
-          <div>
-            {t("event-listing.price")}:{" "}
-            {price ?? "Check source for cost of entry"}
-          </div>
+          <div>{price ?? t("event-listing.no-price")}</div>
           <div className={styles.controls}>
             <a
               className={styles.moreInfoLink}

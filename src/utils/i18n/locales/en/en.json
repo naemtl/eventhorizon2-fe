@@ -4,6 +4,10 @@
   },
   "event-listing": {
     "more-info": "More info",
-    "price": "Cover price"
+    "price": "Cover price",
+    "no-price": "See below for cost of entry"
+  },
+  "navbar": {
+    "about": "About"
   }
 }

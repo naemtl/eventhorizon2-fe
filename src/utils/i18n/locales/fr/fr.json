@@ -4,6 +4,10 @@
   },
   "event-listing": {
     "more-info": "Infos",
-    "price": "Prix d'entrée"
+    "price": "Prix d'entrée",
+    "no-price": "Voir ci-dessous pour le prix d'entrée"
+  },
+  "navbar": {
+    "about": "À propos"
   }
 }

@@ -1,0 +1,65 @@
+.branding {
+  align-items: center;
+  display: flex;
+}
+
+.container {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding: var(--space-sm) var(--space-lg);
+  width: 100%;
+}
+
+.controls {
+  display: flex;
+  align-items: center;
+}
+
+.input {
+  background-color: var(--black);
+  border: none;
+  border-bottom: 1px solid var(--white);
+  color: var(--white);
+  font-size: var(--text-xs);
+  width: 135px;
+}
+
+.label {
+  display: none;
+}
+
+.logo {
+  height: auto;
+  margin-right: var(--space-sm);
+  width: 25px;
+}
+
+.link {
+  color: var(--white);
+  font-size: var(--text-sm);
+}
+
+.searchButton {
+  background: none;
+  border: none;
+  color: var(--white);
+  cursor: pointer;
+  font-size: var(--text-lg);
+}
+
+.searchContainer {
+  display: flex;
+  align-items: center;
+  margin-right: var(--space-md);
+}
+
+.title {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .title {
+    display: block;
+  }
+}
