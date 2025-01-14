@@ -1,0 +1,25 @@
+.input {
+  background-color: var(--black);
+  border: none;
+  border-bottom: 1px solid var(--white);
+  color: var(--white);
+  font-size: var(--text-xs);
+  width: 135px;
+}
+.label {
+  display: none;
+}
+
+.searchButton {
+  background: none;
+  border: none;
+  color: var(--white);
+  cursor: pointer;
+  font-size: var(--text-lg);
+}
+
+.searchContainer {
+  display: flex;
+  align-items: center;
+  margin-right: var(--space-md);
+}
