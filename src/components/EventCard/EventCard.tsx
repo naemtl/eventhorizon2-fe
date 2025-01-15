@@ -1,6 +1,6 @@
 import { memo, useMemo, useState } from "react";
 import Modal from "react-modal";
-import dayjs from "dayjs";
+import { format } from "date-fns";
 
 import { EventCardProps } from "./EventCard.types";
 
@@ -11,7 +11,7 @@ function EventCard({ event }: EventCardProps) {
   const [modalIsOpen, setModalIsOpen] = useState(false);
 
   const parsedDate = useMemo(
-    () => dayjs(event.dateShowTime).format("DD.MM.YYYY"),
+    () => format(new Date(event.dateShowTime), "dd.MM.yyyy"),
     [event.dateShowTime]
   );
 

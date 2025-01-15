@@ -1,6 +1,6 @@
 import { memo, useMemo } from "react";
 import { useTranslation } from "react-i18next";
-import dayjs from "dayjs";
+import { format } from "date-fns";
 import Zoom from "react-medium-image-zoom";
 import { GoInfo, GoX } from "react-icons/go";
 
@@ -28,7 +28,7 @@ function EventListing({ event, closeModal }: EventListingProps) {
   } = event;
 
   const parsedDate = useMemo(
-    () => dayjs(dateShowTime).format("DD.MM.YYYY HH:mm"),
+    () => format(new Date(dateShowTime), "dd.MM.yyyy HH:mm"),
     [dateShowTime]
   );
 

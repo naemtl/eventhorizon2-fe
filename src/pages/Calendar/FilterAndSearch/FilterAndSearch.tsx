@@ -1,7 +1,7 @@
 import { memo, useEffect, useState } from "react";
 import DatePicker, { registerLocale } from "react-datepicker";
 
-import { subDays } from "date-fns"; // TODO: use dayjs
+import { subDays } from "date-fns";
 import { enCA, frCA } from "date-fns/locale";
 import { useTranslation } from "react-i18next";
 import { GoSearch } from "react-icons/go";
