@@ -5,15 +5,23 @@
 
 .container {
   align-items: center;
+  background-color: var(--black);
+  border-bottom: 1px solid var(--white);
   display: flex;
   justify-content: space-between;
-  padding: var(--space-sm) var(--space-lg);
+  padding: var(--space-xs) var(--space-sm);
+  position: fixed;
+  top: 0;
+  left: 0;
   width: 100%;
+  z-index: 10;
 }
 
 .controls {
-  display: flex;
   align-items: center;
+  display: flex;
+  justify-content: space-between;
+  width: 120px;
 }
 
 .logo {
@@ -22,17 +30,28 @@
   width: 25px;
 }
 
-.link {
+.aboutLink {
   color: var(--white);
-  font-size: var(--text-sm);
+  font-size: var(--text-xl);
+  padding: var(--space-xxs);
+
+  &:hover {
+    color: var(--satan);
+  }
 }
 
 .title {
-  display: none;
+  color: var(--white);
+  font-size: var(--text-xs);
 }
 
 @media screen and (min-width: 768px) {
   .title {
     display: block;
+    font-size: var(--text-md);
+    
+    &:hover {
+      color: var(--satan);
+    } 
   }
 }

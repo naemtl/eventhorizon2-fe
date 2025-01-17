@@ -18,6 +18,7 @@
 
 /* spacing */
 :root {
+  --navbar-height: 55px;
   --space-xxs: 4px;
   --space-xs: 8px;
   --space-sm: 12px;

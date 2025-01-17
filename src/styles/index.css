@@ -93,3 +93,7 @@ a {
 a:hover {
   color: var(--white);
 }
+
+.header-spacer {
+  height: var(--navbar-height);
+}

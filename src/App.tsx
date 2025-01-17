@@ -6,6 +6,7 @@ function App() {
   return (
     <>
       <Navbar />
+      <div className="header-spacer" />
       <Outlet />
     </>
   );
