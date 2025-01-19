@@ -1,15 +1,20 @@
 .button {
+  background-color: var(--black);
   border: 1px solid var(--white);
   border-radius: 5px;
+  color: var(--white);
   cursor: pointer;
   display: flex;
-  font-weight: bold;
   font-size: var(--text-xs);
   padding: var(--space-xxs) var(--space-xs);
 
   &:hover {
-    background-color: var(--white);
+    background-color: var(--satan);
   }
+}
+
+.buttonText {
+  font-size: var(--text-xxs);
 }
 
 .closed {
@@ -48,3 +53,8 @@
   opacity: 100;
 }
 
+@media screen and (min-width: 1024px) {
+  .buttonText {
+    font-size: var(--text-xs);
+  }
+}

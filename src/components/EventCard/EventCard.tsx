@@ -2,10 +2,10 @@ import { memo, useMemo, useState } from "react";
 import Modal from "react-modal";
 import { format } from "date-fns";
 
+import EventListing from "src/pages/EventListing/EventListing";
 import { EventCardProps } from "./EventCard.types";
 
 import styles from "./EventCard.module.css";
-import EventListing from "src/pages/EventListing/EventListing";
 
 function EventCard({ event }: EventCardProps) {
   const [modalIsOpen, setModalIsOpen] = useState(false);
@@ -52,6 +52,7 @@ function EventCard({ event }: EventCardProps) {
           },
           content: {
             background: "rgb(0, 0, 0)",
+            inset: "20px",
           },
         }}
       >

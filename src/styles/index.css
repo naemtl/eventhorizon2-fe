@@ -86,12 +86,12 @@ h6 {
 */
 a {
   font-weight: 500;
-  color: #646cff;
+  color: var(--white);
   text-decoration: inherit;
 }
 
 a:hover {
-  color: var(--white);
+  color: var(--satan);
 }
 
 .header-spacer {

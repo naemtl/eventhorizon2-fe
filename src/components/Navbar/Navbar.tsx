@@ -1,8 +1,9 @@
 import { memo, useCallback, useState } from "react";
 import { useTranslation } from "react-i18next";
 import { Link } from "react-router-dom";
-import { GoInfo } from "react-icons/go";
 import Select from "react-select";
+
+import { GoInfo } from "react-icons/go";
 
 import type { Option } from "./Navbar.types";
 

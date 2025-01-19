@@ -2,7 +2,7 @@ import { memo, useMemo } from "react";
 import { useTranslation } from "react-i18next";
 import { format } from "date-fns";
 import Zoom from "react-medium-image-zoom";
-import { GoInfo, GoX } from "react-icons/go";
+import { GoX } from "react-icons/go";
 
 import AddToCalendarButton from "src/components/AddToCalendarButton/AddToCalendarButton";
 
@@ -24,11 +24,10 @@ function EventListing({ event, closeModal }: EventListingProps) {
     price,
     image,
     moreInfoLink,
-    source,
   } = event;
 
   const parsedDate = useMemo(
-    () => format(new Date(dateShowTime), "dd.MM.yyyy HH:mm"),
+    () => format(new Date(dateShowTime), "dd.MM.yyyy - HH:mm"),
     [dateShowTime]
   );
 
@@ -48,11 +47,10 @@ function EventListing({ event, closeModal }: EventListingProps) {
         <div className={styles.infoContainer}>
           <h1 className={styles.title}>{title}</h1>
           <div>
-            <time>Date: {parsedDate}</time>
+            <time>{parsedDate}</time>
           </div>
-          <div>
-            {venue} - {address}
-          </div>
+          <div>{venue}</div>
+          <div>{address}</div>
           <div>{price ?? t("event-listing.no-price")}</div>
           <div className={styles.controls}>
             <a
@@ -60,7 +58,7 @@ function EventListing({ event, closeModal }: EventListingProps) {
               href={moreInfoLink ?? ""}
               target="_blank"
             >
-              <GoInfo /> <span className={styles.source}>{source}</span>
+              More info
             </a>
             <AddToCalendarButton
               title={title}

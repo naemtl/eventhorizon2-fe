@@ -55,7 +55,7 @@ function AddToCalendarButton({ title, start, location }: CalendarEvent) {
         className={styles.button}
         onClick={() => setIsOpen((prev) => !prev)}
       >
-        Add to Calendar
+        <span className={styles.buttonText}>Add to Calendar</span>
       </button>
       <ul className={`${isOpen ? styles.open : styles.closed} ${styles.list}`}>
         <li>
