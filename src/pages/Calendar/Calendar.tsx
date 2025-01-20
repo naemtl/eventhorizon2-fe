@@ -1,4 +1,4 @@
-import { memo } from "react";
+import { memo, useState } from "react";
 import { useTranslation } from "react-i18next";
 
 import EventCard from "src/components/EventCard/EventCard";
@@ -9,12 +9,13 @@ import styles from "./Calendar.module.css";
 
 function Calendar() {
   const { t } = useTranslation();
+  const [queryString, setQueryString] = useState("");
 
   return (
     <main className={styles.container}>
       <div>
         <h1 className={styles.title}>{t("calendar.title")}</h1>
-        <FilterAndSearch />
+        <FilterAndSearch setQueryString={setQueryString} />
       </div>
       <div className={styles.innerContainer}>
         {events.map((event) => (

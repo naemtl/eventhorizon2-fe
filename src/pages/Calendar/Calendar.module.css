@@ -15,6 +15,7 @@
 }
 
 .title {
+  font-size: var(--text-xxl);
   margin: var(--space-lg) 0;
   margin-left: var(--space-xs);
 }

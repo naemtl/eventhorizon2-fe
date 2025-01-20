@@ -1,21 +1,34 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 120px;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.dateContainer {
+  display: flex;
+}
+
 .input {
   background-color: var(--black);
   border: none;
   border-bottom: 1px solid var(--white);
   color: var(--white);
   font-size: var(--text-xs);
-  width: 135px;
 }
 .label {
   display: none;
 }
 
 .searchButton {
-  background: none;
-  border: none;
-  color: var(--white);
+  /* color: var(--white); */
+  align-items: center;
   cursor: pointer;
-  font-size: var(--text-lg);
+  display: flex;
+  font-size: var(--text-sm);
+  justify-content: center;
+  width: 100px;
 }
 
 .searchContainer {

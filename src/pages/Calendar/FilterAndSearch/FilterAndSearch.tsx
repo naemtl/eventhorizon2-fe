@@ -9,7 +9,11 @@ import { GoSearch } from "react-icons/go";
 import styles from "./FilterAndSearch.module.css";
 import "react-datepicker/dist/react-datepicker.css";
 
-function FilterAndSearch() {
+interface FilterAndSearchProps {
+  setQueryString: (queryString: string) => void;
+}
+
+function FilterAndSearch({ setQueryString }: FilterAndSearchProps) {
   const { i18n } = useTranslation();
 
   const [datepickerLocal, setDatepickerLocale] = useState(enCA);
@@ -25,7 +29,7 @@ function FilterAndSearch() {
   }, [i18n.language]);
 
   return (
-    <div>
+    <div className={styles.container}>
       <div className={styles.searchContainer}>
         <label className={styles.label} htmlFor="search">
           Search by title
@@ -35,10 +39,8 @@ function FilterAndSearch() {
           title="Search"
           id="search"
           type="search"
+          placeholder="Enter keyword"
         />
-        <button className={styles.searchButton} title="Search">
-          <GoSearch />
-        </button>
       </div>
       <div className={styles.dateContainer}>
         <DatePicker
@@ -48,6 +50,9 @@ function FilterAndSearch() {
         />
         <DatePicker locale={datepickerLocal} selectsEnd minDate={new Date()} />
       </div>
+      <button className={styles.searchButton} title="Search">
+        <GoSearch /> Search
+      </button>
     </div>
   );
 }

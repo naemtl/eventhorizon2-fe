@@ -58,7 +58,7 @@ function EventListing({ event, closeModal }: EventListingProps) {
               href={moreInfoLink ?? ""}
               target="_blank"
             >
-              More info
+              {t("event-listing.more-info")}
             </a>
             <AddToCalendarButton
               title={title}
