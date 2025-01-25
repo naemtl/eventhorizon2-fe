@@ -1,0 +1,41 @@
+.item {
+  border-top: 1px solid var(--white);
+}
+
+.itemBtn {
+  align-items: center;
+  background-color: transparent;
+  border: none;
+  color: var(--white);
+  cursor: pointer;
+  display: flex;
+  font-size: var(--text-sm);
+  padding: var(--space-sm);
+  width: 100%;
+
+  &:hover {
+    background-color: var(--satan);
+  }
+}
+
+.itemBtnExpanded {
+  background-color: var(--satan);
+}
+
+.itemContent {
+  transition: height 0.25s cubic-bezier(0, 0, 0, 1);
+}
+
+.itemPanel {
+  font-size: var(--text-xs);
+  padding: var(--space-sm);
+}
+
+.chevron {
+  margin-left: auto;
+  transition: transform 0.25s cubic-bezier(0, 0, 0, 1);
+}
+
+.itemBtnExpanded .chevron {
+  transform: rotate(180deg);
+}

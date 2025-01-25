@@ -1,9 +1,10 @@
+import { memo } from "react";
 import { useTranslation } from "react-i18next";
-import { Accordion, AccordionItem } from "@szhsin/react-accordion";
+import { Accordion } from "@szhsin/react-accordion";
+
+import AccordionItem from "./AccordionItem/AccordionItem";
 
 import styles from "./About.module.css";
-
-import "./Accordion.css";
 
 function About() {
   const { t } = useTranslation();
@@ -11,7 +12,11 @@ function About() {
   return (
     <div>
       <h1>{t("about.title")}</h1>
-      <Accordion>
+      <Accordion
+        className={styles.accordion}
+        transition
+        transitionTimeout={250}
+      >
         <AccordionItem header={t("faq.question")}>
           {t("faq.answer")}
         </AccordionItem>
@@ -26,4 +31,4 @@ function About() {
   );
 }
 
-export default About;
+export default memo(About);
