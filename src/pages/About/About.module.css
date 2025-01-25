@@ -11,9 +11,11 @@
 
 .contactContainer {
   font-size: var(--text-xs);
+  margin: var(--space-md) 0;
 }
 
 .description {
+  font-size: var(--text-sm);
   margin: var(--space-md) 0;
 }
 
