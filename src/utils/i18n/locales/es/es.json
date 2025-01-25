@@ -1,13 +1,25 @@
 {
+  "about": {
+    "contact": "Contacto",
+    "contact-text": "Para cualquier pregunta o solicitud, escribe a: ",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem quia quas sequi, provident quam tempore aliquid eos asperiores adipisci blanditiis quos voluptatum minus consequuntur alias maxime placeat odit molestiae porro!",
+    "title": "Acerca de"
+  },
   "calendar": {
-    "title": "Upcoming Events"
+    "title": "Próximos Eventos"
   },
   "event-listing": {
-    "more-info": "More info",
-    "price": "Cover price",
-    "no-price": "See below for entry fee"
+    "add-to-calendar": "Agregar al calendario",
+    "more-info": "Más info",
+    "no-price": "Consulta abajo el costo de entrada",
+    "price": "Precio de entrada"
+  },
+  "faq": {
+    "answer": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem quia quas sequi, provident quam tempore aliquid eos asperiores adipisci blanditiis quos voluptatum minus consequuntur alias maxime placeat odit molestiae porro!",
+    "question": "Lorem ipsum dolor sit amet elit?",
+    "title": "Preguntas Frecuentes"
   },
   "navbar": {
-    "about": "About"
+    "about": "Acerca de"
   }
 }

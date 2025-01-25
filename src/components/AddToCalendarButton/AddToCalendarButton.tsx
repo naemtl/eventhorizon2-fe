@@ -1,11 +1,13 @@
 import { memo, useEffect, useMemo, useRef, useState } from "react";
 import { google, outlook, ics, CalendarEvent } from "calendar-link";
 import { PiCalendarBlankLight, PiMicrosoftOutlookLogo } from "react-icons/pi";
+import { useTranslation } from "react-i18next";
 import { SiGooglecalendar } from "react-icons/si";
 
 import styles from "./AddToCalendarButton.module.css";
 
 function AddToCalendarButton({ title, start, location }: CalendarEvent) {
+  const { t } = useTranslation();
   const [isOpen, setIsOpen] = useState(false);
 
   const buttonContainerRef = useRef<HTMLDivElement>(null);
@@ -55,13 +57,15 @@ function AddToCalendarButton({ title, start, location }: CalendarEvent) {
         className={styles.button}
         onClick={() => setIsOpen((prev) => !prev)}
       >
-        <span className={styles.buttonText}>Add to Calendar</span>
+        <span className={styles.buttonText}>
+          {t("event-listing.add-to-calendar")}
+        </span>
       </button>
       <ul className={`${isOpen ? styles.open : styles.closed} ${styles.list}`}>
         <li>
           <a className={styles.link} href={icsUrl} target="_blank">
             <PiCalendarBlankLight className={styles.icon} />
-            iCal File
+            iCal (Apple)
           </a>
         </li>
         <li>

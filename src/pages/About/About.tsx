@@ -16,7 +16,7 @@ function About() {
         <p className={styles.description}>{t("about.description")}</p>
       </section>
       <section className={styles.faqContainer}>
-        <h3 className={styles.title}>FAQ</h3>
+        <h3 className={styles.title}>{t("faq.title")}</h3>
         <Accordion
           className={styles.accordion}
           transition
