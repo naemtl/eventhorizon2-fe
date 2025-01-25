@@ -1,3 +1,26 @@
 .accordion {
   border-bottom: 1px solid var(--white);
 }
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 0 var(--space-sm);
+}
+
+.contactContainer {
+  font-size: var(--text-xs);
+}
+
+.description {
+  margin: var(--space-md) 0;
+}
+
+.faqContainer {
+  margin-bottom: var(--space-md);
+}
+
+.title {
+  margin: var(--space-sm) 0;
+}

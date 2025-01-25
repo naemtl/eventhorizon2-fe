@@ -10,23 +10,40 @@ function About() {
   const { t } = useTranslation();
 
   return (
-    <div>
-      <h1>{t("about.title")}</h1>
-      <Accordion
-        className={styles.accordion}
-        transition
-        transitionTimeout={250}
-      >
-        <AccordionItem header={t("faq.question")}>
-          {t("faq.answer")}
-        </AccordionItem>
-        <AccordionItem header={t("faq.question")}>
-          {t("faq.answer")}
-        </AccordionItem>
-        <AccordionItem header={t("faq.question")}>
-          {t("faq.answer")}
-        </AccordionItem>
-      </Accordion>
+    <div className={styles.container}>
+      <section>
+        <h2 className={styles.title}>{t("about.title")}</h2>
+        <p className={styles.description}>{t("about.description")}</p>
+      </section>
+      <section className={styles.faqContainer}>
+        <h3 className={styles.title}>FAQ</h3>
+        <Accordion
+          className={styles.accordion}
+          transition
+          transitionTimeout={250}
+        >
+          <AccordionItem header={t("faq.question")}>
+            {t("faq.answer")}
+          </AccordionItem>
+          <AccordionItem header={t("faq.question")}>
+            {t("faq.answer")}
+          </AccordionItem>
+          <AccordionItem header={t("faq.question")}>
+            {t("faq.answer")}
+          </AccordionItem>
+          <AccordionItem header={t("faq.question")}>
+            {t("faq.answer")}
+          </AccordionItem>
+          <AccordionItem header={t("faq.question")}>
+            {t("faq.answer")}
+          </AccordionItem>
+        </Accordion>
+      </section>
+      <section className={styles.contactContainer}>
+        <h3 className={styles.title}>{t("about.contact")}</h3>
+        <span>{t("about.contact-text")}</span>
+        <a href="mailto:ms@subscenemtl.net">ms@subscenemtl.net</a>
+      </section>
     </div>
   );
 }

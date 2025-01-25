@@ -1,5 +1,8 @@
 {
   "about": {
+    "contact": "Contact",
+    "contact-text": "For any questions or feature requests, please contact: ",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem quia quas sequi, provident quam tempore aliquid eos asperiores adipisci blanditiis quos voluptatum minus consequuntur alias maxime placeat odit molestiae porro!",
     "title": "About"
   },
   "calendar": {
