@@ -1,8 +1,9 @@
 import { memo, useEffect, useMemo, useRef, useState } from "react";
 import { google, outlook, ics, CalendarEvent } from "calendar-link";
-import { PiCalendarBlankLight, PiMicrosoftOutlookLogo } from "react-icons/pi";
 import { useTranslation } from "react-i18next";
-import { SiGooglecalendar } from "react-icons/si";
+
+import { PiMicrosoftOutlookLogo } from "react-icons/pi";
+import { SiApple, SiGooglecalendar } from "react-icons/si";
 
 import styles from "./AddToCalendarButton.module.css";
 
@@ -64,7 +65,7 @@ function AddToCalendarButton({ title, start, location }: CalendarEvent) {
       <ul className={`${isOpen ? styles.open : styles.closed} ${styles.list}`}>
         <li>
           <a className={styles.link} href={icsUrl} target="_blank">
-            <PiCalendarBlankLight className={styles.icon} />
+            <SiApple className={styles.icon} />
             iCal .ics
           </a>
         </li>
