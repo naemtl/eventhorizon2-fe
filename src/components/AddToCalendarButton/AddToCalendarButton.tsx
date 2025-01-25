@@ -65,7 +65,7 @@ function AddToCalendarButton({ title, start, location }: CalendarEvent) {
         <li>
           <a className={styles.link} href={icsUrl} target="_blank">
             <PiCalendarBlankLight className={styles.icon} />
-            iCal (Apple)
+            iCal .ics
           </a>
         </li>
         <li>

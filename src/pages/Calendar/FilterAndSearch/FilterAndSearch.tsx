@@ -2,12 +2,13 @@ import { memo, useEffect, useState } from "react";
 import DatePicker, { registerLocale } from "react-datepicker";
 
 import { subDays } from "date-fns";
-import { enCA, frCA } from "date-fns/locale";
+import { enCA, frCA, es } from "date-fns/locale";
 import { useTranslation } from "react-i18next";
 import { GoSearch } from "react-icons/go";
 
 import styles from "./FilterAndSearch.module.css";
 import "react-datepicker/dist/react-datepicker.css";
+import "./Datepicker.css";
 
 interface FilterAndSearchProps {
   setQueryString: (queryString: string) => void;
@@ -22,6 +23,9 @@ function FilterAndSearch({ setQueryString }: FilterAndSearchProps) {
     if (i18n.language === "fr") {
       registerLocale("frCA", frCA);
       setDatepickerLocale(frCA);
+    } else if (i18n.language === "es") {
+      registerLocale("es", es);
+      setDatepickerLocale(es);
     } else {
       registerLocale("enCA", enCA);
       setDatepickerLocale(enCA);
