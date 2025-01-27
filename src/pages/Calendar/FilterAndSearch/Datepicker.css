@@ -33,3 +33,10 @@
   background-color: var(--satan);
   color: var(--black);
 }
+
+.react-datepicker__input-container input {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid white;
+  font-size: var(--text-xs);
+}

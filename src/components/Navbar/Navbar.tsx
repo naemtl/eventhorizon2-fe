@@ -51,6 +51,7 @@ function Navbar() {
               border: "none",
               borderColor: "none",
               boxShadow: "none",
+              fontSize: "var(--text-xs)",
               "&:hover": {
                 border: "1px solid var(--white)",
               },
@@ -65,6 +66,7 @@ function Navbar() {
               ...baseStyles,
               backgroundColor: "var(--black)",
               cursor: "pointer",
+              fontSize: "var(--text-xs)",
               marginBottom: "var(--space-xxs)",
               padding: "var(--space-xxs) var(--space-xs)",
               "&:hover": {

@@ -56,7 +56,6 @@
 .moreInfoLink {
   align-items: center;
   border: 1px solid var(--white);
-  border-radius: 5px;
   color: var(--white);
   display: flex;
   justify-content: center;
@@ -65,8 +64,8 @@
   width: 94px;
 
   &:hover {
-    background-color: var(--satan);
-    color: var(--white);
+    background-color: var(--white);
+    color: var(--black);
   }
 }
 

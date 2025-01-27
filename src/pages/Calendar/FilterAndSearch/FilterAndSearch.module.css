@@ -1,13 +1,17 @@
 .container {
   display: flex;
   flex-direction: column;
-  height: 120px;
+  height: 220px;
   justify-content: space-evenly;
+  max-width: 380px;
   width: 100%;
 }
 
 .dateContainer {
   display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 65px;
 }
 
 .input {
@@ -16,23 +20,34 @@
   border-bottom: 1px solid var(--white);
   color: var(--white);
   font-size: var(--text-xs);
+  width: 100%;
 }
+
 .label {
   display: none;
 }
 
 .searchButton {
-  /* color: var(--white); */
-  align-items: center;
+  background-color: var(--black);
+  border: 1px solid var(--white);
+  color: var(--white);
   cursor: pointer;
-  display: flex;
   font-size: var(--text-sm);
-  justify-content: center;
-  width: 100px;
+  width: 100%;
+
+  &:hover {
+    background-color: var(--white);
+    color: var(--black);
+  }
 }
 
-.searchContainer {
-  display: flex;
-  align-items: center;
-  margin-right: var(--space-md);
+.selectContainer {
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .dateContainer {
+    flex-direction: row;
+    height: unset;
+  }
 }
