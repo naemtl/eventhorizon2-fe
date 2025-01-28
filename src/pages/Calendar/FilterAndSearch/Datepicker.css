@@ -1,6 +1,5 @@
 .react-datepicker {
   background-color: var(--black);
-  /* border: 1px solid var(--white); */
 }
 
 .react-datepicker__header {
@@ -29,14 +28,24 @@
   color: var(--black);
 }
 
-.react-datepicker__day--keyboard-selected {
+.react-datepicker__day--disabled {
+  color: var(--satan);
+}
+
+.react-datepicker__day--keyboard-selected, .react-datepicker__day--selected {
   background-color: var(--satan);
-  color: var(--black);
+  color: var(--white);
 }
 
 .react-datepicker__input-container input {
   background: transparent;
   border: none;
   border-bottom: 1px solid white;
+  color: var(--white);
   font-size: var(--text-xs);
+  width: 100%;
+
+  &:focus {
+    outline-color: var(--satan);
+  }
 }

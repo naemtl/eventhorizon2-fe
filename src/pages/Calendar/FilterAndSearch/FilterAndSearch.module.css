@@ -21,6 +21,10 @@
   color: var(--white);
   font-size: var(--text-xs);
   width: 100%;
+
+  &:focus {
+    outline-color: var(--satan);
+  }
 }
 
 .label {
@@ -44,10 +48,10 @@
 .selectContainer {
   width: 100%;
 }
-
+/* 
 @media screen and (min-width: 768px) {
   .dateContainer {
     flex-direction: row;
     height: unset;
   }
-}
+} */

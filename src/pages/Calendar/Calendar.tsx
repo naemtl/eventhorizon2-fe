@@ -13,7 +13,7 @@ function Calendar() {
 
   return (
     <main className={styles.container}>
-      <div>
+      <div className={styles.headerContainer}>
         <h1 className={styles.title}>{t("calendar.title")}</h1>
         <FilterAndSearch setQueryString={setQueryString} />
       </div>
