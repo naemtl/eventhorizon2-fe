@@ -2,7 +2,7 @@ import { memo, useEffect, useState } from "react";
 import DatePicker, { registerLocale } from "react-datepicker";
 import Select from "react-select";
 
-import { format, set, subDays } from "date-fns";
+import { format, subDays } from "date-fns";
 import { enCA, frCA, es } from "date-fns/locale";
 import { useTranslation } from "react-i18next";
 
@@ -84,27 +84,31 @@ function FilterAndSearch({ setQueryString }: FilterAndSearchProps) {
         />
       </div>
       <div className={styles.dateContainer}>
-        <DatePicker
-          locale={datepickerLocal}
-          placeholderText="Start date range"
-          selectsStart
-          minDate={subDays(new Date(), 1)}
-          maxDate={subDays(endDate, 1)}
-          onChange={(date) =>
-            setStartDate(format(date, "yyyy-MM-dd'T'HH:mm:ss.SSS'Z'"))
-          }
-          selected={startDate}
-        />
-        <DatePicker
-          locale={datepickerLocal}
-          placeholderText="End date range"
-          selectsEnd
-          minDate={new Date()}
-          onChange={(date) =>
-            setEndDate(format(date, "yyyy-MM-dd'T'HH:mm:ss.SSS'Z'"))
-          }
-          selected={endDate}
-        />
+        <div className={styles.datePickerContainer}>
+          <DatePicker
+            locale={datepickerLocal}
+            placeholderText="Start date range"
+            selectsStart
+            minDate={subDays(new Date(), 1)}
+            maxDate={subDays(endDate, 1)}
+            onChange={(date) =>
+              setStartDate(format(date, "yyyy-MM-dd'T'HH:mm:ss.SSS'Z'"))
+            }
+            selected={startDate}
+          />
+        </div>
+        <div className={styles.datePickerContainer}>
+          <DatePicker
+            locale={datepickerLocal}
+            placeholderText="End date range"
+            selectsEnd
+            minDate={new Date()}
+            onChange={(date) =>
+              setEndDate(format(date, "yyyy-MM-dd'T'HH:mm:ss.SSS'Z'"))
+            }
+            selected={endDate}
+          />
+        </div>
       </div>
       <div className={styles.selectContainer}>
         <Select

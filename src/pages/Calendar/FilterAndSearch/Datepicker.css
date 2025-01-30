@@ -37,6 +37,10 @@
   color: var(--white);
 }
 
+.react-datepicker-wrapper {
+  width: 100%;
+}
+
 .react-datepicker__input-container input {
   background: transparent;
   border: none;
@@ -47,5 +51,11 @@
 
   &:focus {
     outline-color: var(--satan);
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .react-datepicker__input-container input{
+    width: unset;
   }
 }

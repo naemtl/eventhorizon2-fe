@@ -14,6 +14,10 @@
   height: 65px;
 }
 
+.datePickerContainer {
+  width: 100%;
+}
+
 .input {
   background-color: var(--black);
   border: none;
@@ -48,10 +52,14 @@
 .selectContainer {
   width: 100%;
 }
-/* 
+
 @media screen and (min-width: 768px) {
   .dateContainer {
     flex-direction: row;
     height: unset;
   }
-} */
+
+  .datePickerContainer {
+    width: 175px;
+  }
+}
