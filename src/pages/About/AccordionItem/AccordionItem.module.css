@@ -9,8 +9,9 @@
   color: var(--white);
   cursor: pointer;
   display: flex;
-  font-size: var(--text-sm);
+  font-size: var(--text-xs);
   padding: var(--space-sm);
+  text-align: left;
   width: 100%;
 
   &:hover {
@@ -34,8 +35,15 @@
 .chevron {
   margin-left: auto;
   transition: transform 0.25s cubic-bezier(0, 0, 0, 1);
+  min-width: 20px;
 }
 
 .itemBtnExpanded .chevron {
   transform: rotate(180deg);
+}
+
+@media screen and (min-width: 768px) {
+  .itemBtn {
+    font-size: var(--text-sm);
+  }
 }

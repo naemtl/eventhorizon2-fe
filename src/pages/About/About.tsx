@@ -11,7 +11,7 @@ function About() {
 
   return (
     <div className={styles.container}>
-      <section>
+      <section className={styles.header}>
         <h2 className={styles.title}>{t("about.title")}</h2>
         <p className={styles.description}>{t("about.description")}</p>
       </section>

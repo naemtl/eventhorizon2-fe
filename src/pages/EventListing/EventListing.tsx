@@ -15,16 +15,8 @@ import "react-medium-image-zoom/dist/styles.css";
 function EventListing({ event, closeModal }: EventListingProps) {
   const { t } = useTranslation();
 
-  const {
-    title,
-    dateShowTime,
-    preciseTime,
-    venue,
-    address,
-    price,
-    image,
-    moreInfoLink,
-  } = event;
+  const { title, dateShowTime, venue, address, price, image, moreInfoLink } =
+    event;
 
   const parsedDate = useMemo(
     () => format(new Date(dateShowTime), "yyyy.MM.dd - HH:mm"),

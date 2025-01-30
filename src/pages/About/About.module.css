@@ -3,10 +3,12 @@
 }
 
 .container {
+  align-items: center;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   padding: 0 var(--space-sm);
+  width: 100%;
 }
 
 .contactContainer {
@@ -21,6 +23,11 @@
 
 .faqContainer {
   margin-bottom: var(--space-md);
+}
+
+.header, .faqContainer, .contactContainer {
+  max-width: 1000px;
+  width: 100%;
 }
 
 .title {
