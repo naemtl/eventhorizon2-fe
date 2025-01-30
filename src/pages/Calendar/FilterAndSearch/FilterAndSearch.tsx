@@ -87,25 +87,23 @@ function FilterAndSearch({ setQueryString }: FilterAndSearchProps) {
         <div className={styles.datePickerContainer}>
           <DatePicker
             locale={datepickerLocal}
+            dateFormat="yyyy.MM.dd"
             placeholderText="Start date range"
             selectsStart
             minDate={subDays(new Date(), 1)}
             maxDate={subDays(endDate, 1)}
-            onChange={(date) =>
-              setStartDate(format(date, "yyyy-MM-dd'T'HH:mm:ss.SSS'Z'"))
-            }
+            onChange={(date) => setStartDate(format(date, "yyyy-MM-dd"))}
             selected={startDate}
           />
         </div>
         <div className={styles.datePickerContainer}>
           <DatePicker
             locale={datepickerLocal}
+            dateFormat="yyyy.MM.dd"
             placeholderText="End date range"
             selectsEnd
             minDate={new Date()}
-            onChange={(date) =>
-              setEndDate(format(date, "yyyy-MM-dd'T'HH:mm:ss.SSS'Z'"))
-            }
+            onChange={(date) => setEndDate(format(date, "yyyy-MM-dd"))}
             selected={endDate}
           />
         </div>

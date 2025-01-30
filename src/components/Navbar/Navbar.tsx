@@ -48,8 +48,7 @@ function Navbar() {
               ...baseStyles,
               cursor: "pointer",
               backgroundColor: "var(--black)",
-              border: "none",
-              borderColor: "none",
+              border: "1px solid var(--black)",
               boxShadow: "none",
               fontSize: "var(--text-xs)",
               "&:hover": {

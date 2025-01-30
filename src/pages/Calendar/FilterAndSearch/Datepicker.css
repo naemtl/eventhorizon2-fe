@@ -1,21 +1,36 @@
 .react-datepicker {
   background-color: var(--black);
+  font-size: var(--text-xs);
+  /* height: 180px; */
+  width: 180px;
 }
 
 .react-datepicker__header {
   background-color: var(--black);
+  padding: 9px 0;
 
   & > * {
     color: var(--white);
   }
 }
 
+.react-datepicker__day-name {
+  font-size: var(--text-xxs);
+}
+
 .react-datepicker__day-name, .react-datepicker__day {
   color: var(--white);
+  line-height: 2.1rem;
+  width: 2.1rem;
 }
 
 .react-datepicker-month {
   background-color: var(--black);
+  margin: var(--space-xxs) var(--space-xs);
+}
+
+.react-datepicker__current-month {
+  font-size: var(--text-xxs);
 }
 
 .react-datepicker-popper[data-placement^="bottom"] .react-datepicker__triangle {
@@ -51,11 +66,5 @@
 
   &:focus {
     outline-color: var(--satan);
-  }
-}
-
-@media screen and (min-width: 768px) {
-  .react-datepicker__input-container input{
-    width: unset;
   }
 }

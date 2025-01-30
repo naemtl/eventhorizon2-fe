@@ -27,7 +27,7 @@ function EventListing({ event, closeModal }: EventListingProps) {
   } = event;
 
   const parsedDate = useMemo(
-    () => format(new Date(dateShowTime), "dd.MM.yyyy - HH:mm"),
+    () => format(new Date(dateShowTime), "yyyy.MM.dd - HH:mm"),
     [dateShowTime]
   );
 

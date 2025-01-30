@@ -11,7 +11,7 @@ function EventCard({ event }: EventCardProps) {
   const [modalIsOpen, setModalIsOpen] = useState(false);
 
   const parsedDate = useMemo(
-    () => format(new Date(event.dateShowTime), "dd.MM.yyyy"),
+    () => format(new Date(event.dateShowTime), "yyyy.MM.dd"),
     [event.dateShowTime]
   );
 
