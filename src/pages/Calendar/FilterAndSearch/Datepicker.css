@@ -1,7 +1,6 @@
 .react-datepicker {
   background-color: var(--black);
   font-size: var(--text-xs);
-  /* height: 180px; */
   width: 180px;
 }
 
@@ -45,6 +44,10 @@
 
 .react-datepicker__day--disabled {
   color: var(--satan);
+}
+
+.react-datepicker__day--in-selecting-range, .react-datepicker__day--in-range, .react-datepicker__day--in-selecting-range:not(.react-datepicker__day--in-range, .react-datepicker__month-text--in-range, .react-datepicker__quarter-text--in-range, .react-datepicker__year-text--in-range) {
+  background-color: var(--satan);
 }
 
 .react-datepicker__day--keyboard-selected, .react-datepicker__day--selected {

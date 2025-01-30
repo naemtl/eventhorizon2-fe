@@ -1,4 +1,4 @@
-import { memo, useEffect, useState } from "react";
+import { memo, useCallback, useEffect, useState } from "react";
 import DatePicker, { registerLocale } from "react-datepicker";
 import Select from "react-select";
 
@@ -27,8 +27,8 @@ function FilterAndSearch({ setQueryString }: FilterAndSearchProps) {
 
   const [datepickerLocal, setDatepickerLocale] = useState(enCA);
   const [keyword, setKeyword] = useState("");
-  const [startDate, setStartDate] = useState("");
-  const [endDate, setEndDate] = useState("");
+  const [startDate, setStartDate] = useState<Date | null>();
+  const [endDate, setEndDate] = useState<Date | null>();
   const [selectedSources, setSelectedSources] = useState<string[]>([]);
 
   useEffect(() => {
@@ -42,15 +42,22 @@ function FilterAndSearch({ setQueryString }: FilterAndSearchProps) {
       registerLocale("enCA", enCA);
       setDatepickerLocale(enCA);
     }
+
+    return () => {
+      setDatepickerLocale(enCA);
+    };
   }, [i18n.language]);
 
-  const handleSubmit = () => {
+  const handleSubmit = useCallback(() => {
     let queryString = "";
+
     if (startDate) {
-      queryString += `start=${startDate}`;
+      const formattedStartDate = format(startDate, "yyyy-MM-dd");
+      queryString += `start=${formattedStartDate}`;
     }
     if (endDate) {
-      queryString += `&end=${endDate}`;
+      const formattedEndDate = format(endDate, "yyyy-MM-dd");
+      queryString += `&end=${formattedEndDate}`;
     }
     if (selectedSources.length > 0) {
       queryString += `&source=${selectedSources.join(",")}`;
@@ -58,17 +65,16 @@ function FilterAndSearch({ setQueryString }: FilterAndSearchProps) {
     if (keyword) {
       queryString += `&keyword=${keyword}`;
     }
-    console.log("clickkkkkkk", queryString);
 
     setQueryString(queryString);
     setKeyword("");
     setSelectedSources([]);
-    setStartDate("");
-    setEndDate("");
-  };
+    setStartDate(null);
+    setEndDate(null);
+  }, []);
 
   return (
-    <div className={styles.container}>
+    <section className={styles.container}>
       <div className={styles.searchContainer}>
         <label className={styles.label} htmlFor="keyword">
           Search by title
@@ -86,24 +92,30 @@ function FilterAndSearch({ setQueryString }: FilterAndSearchProps) {
       <div className={styles.dateContainer}>
         <div className={styles.datePickerContainer}>
           <DatePicker
+            aria-label="Start date range"
             locale={datepickerLocal}
             dateFormat="yyyy.MM.dd"
             placeholderText="Start date range"
             selectsStart
             minDate={subDays(new Date(), 1)}
-            maxDate={subDays(endDate, 1)}
-            onChange={(date) => setStartDate(format(date, "yyyy-MM-dd"))}
+            maxDate={endDate ?? undefined}
+            startDate={startDate}
+            endDate={endDate}
+            onChange={(date) => setStartDate(date)}
             selected={startDate}
           />
         </div>
         <div className={styles.datePickerContainer}>
           <DatePicker
+            aria-label="End date range"
             locale={datepickerLocal}
             dateFormat="yyyy.MM.dd"
             placeholderText="End date range"
             selectsEnd
             minDate={new Date()}
-            onChange={(date) => setEndDate(format(date, "yyyy-MM-dd"))}
+            startDate={startDate}
+            endDate={endDate}
+            onChange={(date) => setEndDate(date)}
             selected={endDate}
           />
         </div>
@@ -168,16 +180,17 @@ function FilterAndSearch({ setQueryString }: FilterAndSearchProps) {
         />
       </div>
       <button
+        aria-label="Search events"
         onClick={handleSubmit}
         className={styles.searchButton}
-        title="Search"
+        title="Search events"
         disabled={
           !startDate && !endDate && selectedSources.length === 0 && !keyword
         }
       >
         Search
       </button>
-    </div>
+    </section>
   );
 }
 
