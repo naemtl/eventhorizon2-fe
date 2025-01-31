@@ -112,7 +112,7 @@ function FilterAndSearch({ setQueryString }: FilterAndSearchProps) {
             dateFormat="yyyy.MM.dd"
             placeholderText="End date range"
             selectsEnd
-            minDate={new Date()}
+            minDate={startDate ?? new Date()}
             startDate={startDate}
             endDate={endDate}
             onChange={(date) => setEndDate(date)}
