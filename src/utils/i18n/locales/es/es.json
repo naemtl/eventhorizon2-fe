@@ -6,7 +6,13 @@
     "title": "Acerca de"
   },
   "calendar": {
-    "title": "Próximos Eventos"
+    "title": "Próximos Eventos",
+    "enter-keyword": "Ingresa una palabra clave",
+    "search": "Buscar",
+    "search-events": "Buscar eventos",
+    "start-date-range": "Rango de inicio",
+    "end-date-range": "Rango de fin",
+    "filter-source": "Filtrar por fuente"
   },
   "event-listing": {
     "add-to-calendar": "Agregar al calendario",

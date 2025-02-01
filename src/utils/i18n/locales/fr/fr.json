@@ -6,7 +6,13 @@
     "title": "About"
   },
   "calendar": {
-    "title": "À venir"
+    "title": "À Venir",
+    "enter-keyword": "Entrez un mot-clé",
+    "search": "Rechercher",
+    "search-events": "Rechercher des événements",
+    "start-date-range": "Date de début",
+    "end-date-range": "Date de fin",
+    "filter-source": "Filtrer par source"
   },
   "event-listing": {
     "add-to-calendar": "Ajouter au calendrier",

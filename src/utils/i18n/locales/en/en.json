@@ -6,7 +6,13 @@
     "title": "About"
   },
   "calendar": {
-    "title": "Upcoming Events"
+    "title": "Upcoming Events",
+    "enter-keyword": "Enter keyword",
+    "search": "Search",
+    "search-events": "Search events",
+    "start-date-range": "Start date range",
+    "end-date-range": "End date range",
+    "filter-source": "Filter by source"
   },
   "event-listing": {
     "add-to-calendar": "Add to calendar",

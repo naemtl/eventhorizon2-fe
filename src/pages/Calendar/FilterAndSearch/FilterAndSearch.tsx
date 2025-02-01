@@ -23,7 +23,7 @@ const sources = [
 ];
 
 function FilterAndSearch({ setQueryString }: FilterAndSearchProps) {
-  const { i18n } = useTranslation();
+  const { t, i18n } = useTranslation();
 
   const [datepickerLocal, setDatepickerLocale] = useState(enCA);
   const [keyword, setKeyword] = useState("");
@@ -77,14 +77,14 @@ function FilterAndSearch({ setQueryString }: FilterAndSearchProps) {
     <section className={styles.container}>
       <div className={styles.searchContainer}>
         <label className={styles.label} htmlFor="keyword">
-          Search by title
+          {t("calendar.enter-keyword")}
         </label>
         <input
           className={styles.input}
-          title="Keyword"
+          title={t("calendar.enter-keyword")}
           id="keyword"
           type="input"
-          placeholder="Enter keyword"
+          placeholder={t("calendar.enter-keyword")}
           value={keyword}
           onChange={(e) => setKeyword(e.target.value)}
         />
@@ -92,10 +92,10 @@ function FilterAndSearch({ setQueryString }: FilterAndSearchProps) {
       <div className={styles.dateContainer}>
         <div className={styles.datePickerContainer}>
           <DatePicker
-            aria-label="Start date range"
+            aria-label={t("calendar.start-date-range")}
             locale={datepickerLocal}
             dateFormat="yyyy.MM.dd"
-            placeholderText="Start date range"
+            placeholderText={t("calendar.start-date-range")}
             selectsStart
             minDate={subDays(new Date(), 1)}
             maxDate={endDate ?? undefined}
@@ -107,10 +107,10 @@ function FilterAndSearch({ setQueryString }: FilterAndSearchProps) {
         </div>
         <div className={styles.datePickerContainer}>
           <DatePicker
-            aria-label="End date range"
+            aria-label={t("calendar.end-date-range")}
             locale={datepickerLocal}
             dateFormat="yyyy.MM.dd"
-            placeholderText="End date range"
+            placeholderText={t("calendar.end-date-range")}
             selectsEnd
             minDate={startDate ?? new Date()}
             startDate={startDate}
@@ -124,7 +124,7 @@ function FilterAndSearch({ setQueryString }: FilterAndSearchProps) {
         <Select
           isMulti
           options={sources}
-          placeholder="Filter by source"
+          placeholder={t("calendar.filter-source")}
           isSearchable={false}
           styles={{
             control: (baseStyles) => ({
@@ -180,15 +180,15 @@ function FilterAndSearch({ setQueryString }: FilterAndSearchProps) {
         />
       </div>
       <button
-        aria-label="Search events"
+        aria-label={t("calendar.search-events")}
         onClick={handleSubmit}
         className={styles.searchButton}
-        title="Search events"
+        title={t("calendar.search-events")}
         disabled={
           !startDate && !endDate && selectedSources.length === 0 && !keyword
         }
       >
-        Search
+        {t("calendar.search")}
       </button>
     </section>
   );
