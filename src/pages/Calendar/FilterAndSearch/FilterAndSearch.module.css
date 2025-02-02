@@ -49,6 +49,17 @@
   }
 }
 
+.disabled {
+  background-color: var(--satan);
+  border-color: var(--satan);
+  color: var(--black);
+  cursor: not-allowed;
+
+  &:hover {
+    background-color: var(--satan);
+  }
+}
+
 .selectContainer {
   width: 100%;
 }

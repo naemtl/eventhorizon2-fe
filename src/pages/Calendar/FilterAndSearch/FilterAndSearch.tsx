@@ -1,4 +1,4 @@
-import { memo, useCallback, useEffect, useState } from "react";
+import { memo, useCallback, useEffect, useMemo, useState } from "react";
 import DatePicker, { registerLocale } from "react-datepicker";
 import Select from "react-select";
 
@@ -26,7 +26,7 @@ function FilterAndSearch({ setQueryString }: FilterAndSearchProps) {
   const { t, i18n } = useTranslation();
 
   const [datepickerLocal, setDatepickerLocale] = useState(enCA);
-  const [keyword, setKeyword] = useState("");
+  const [keyword, setKeyword] = useState<string>("");
   const [startDate, setStartDate] = useState<Date | null>();
   const [endDate, setEndDate] = useState<Date | null>();
   const [selectedSources, setSelectedSources] = useState<string[]>([]);
@@ -48,7 +48,7 @@ function FilterAndSearch({ setQueryString }: FilterAndSearchProps) {
     };
   }, [i18n.language]);
 
-  const handleSubmit = useCallback(() => {
+  const handleSubmit: () => void = useCallback(() => {
     let queryString = "";
 
     if (startDate) {
@@ -60,6 +60,8 @@ function FilterAndSearch({ setQueryString }: FilterAndSearchProps) {
       queryString += `&end=${formattedEndDate}`;
     }
     if (selectedSources.length > 0) {
+      console.log("hello I am selectedSources");
+
       queryString += `&source=${selectedSources.join(",")}`;
     }
     if (keyword) {
@@ -71,7 +73,17 @@ function FilterAndSearch({ setQueryString }: FilterAndSearchProps) {
     setSelectedSources([]);
     setStartDate(null);
     setEndDate(null);
-  }, []);
+  }, [startDate, endDate, selectedSources, keyword]);
+
+  const isSubmitDisabled: boolean = useMemo(
+    () =>
+      !!(
+        (!startDate && !endDate && selectedSources.length === 0 && !keyword) ||
+        (keyword && keyword.length < 3) ||
+        !keyword.match(/^[a-zA-Z0-9\s]+$/)
+      ),
+    [startDate, endDate, selectedSources, keyword]
+  );
 
   return (
     <section className={styles.container}>
@@ -115,7 +127,12 @@ function FilterAndSearch({ setQueryString }: FilterAndSearchProps) {
             minDate={startDate ?? new Date()}
             startDate={startDate}
             endDate={endDate}
-            onChange={(date) => setEndDate(date)}
+            onChange={(date) => {
+              setEndDate(date);
+              if (!startDate) {
+                setStartDate(new Date());
+              }
+            }}
             selected={endDate}
           />
         </div>
@@ -126,6 +143,9 @@ function FilterAndSearch({ setQueryString }: FilterAndSearchProps) {
           options={sources}
           placeholder={t("calendar.filter-source")}
           isSearchable={false}
+          onChange={(selectedOptions) => {
+            setSelectedSources(selectedOptions.map((option) => option.value));
+          }}
           styles={{
             control: (baseStyles) => ({
               ...baseStyles,
@@ -182,11 +202,11 @@ function FilterAndSearch({ setQueryString }: FilterAndSearchProps) {
       <button
         aria-label={t("calendar.search-events")}
         onClick={handleSubmit}
-        className={styles.searchButton}
+        className={`${styles.searchButton} ${
+          isSubmitDisabled && styles.disabled
+        }`}
         title={t("calendar.search-events")}
-        disabled={
-          !startDate && !endDate && selectedSources.length === 0 && !keyword
-        }
+        disabled={isSubmitDisabled}
       >
         {t("calendar.search")}
       </button>
