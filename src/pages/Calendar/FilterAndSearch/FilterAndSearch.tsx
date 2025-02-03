@@ -60,8 +60,6 @@ function FilterAndSearch({ setQueryString }: FilterAndSearchProps) {
       queryString += `&end=${formattedEndDate}`;
     }
     if (selectedSources.length > 0) {
-      console.log("hello I am selectedSources");
-
       queryString += `&source=${selectedSources.join(",")}`;
     }
     if (keyword) {
@@ -69,18 +67,24 @@ function FilterAndSearch({ setQueryString }: FilterAndSearchProps) {
     }
 
     setQueryString(queryString);
+    handleReset();
+  }, [startDate, endDate, selectedSources, keyword]);
+
+  const handleReset: () => void = useCallback(() => {
     setKeyword("");
     setSelectedSources([]);
     setStartDate(null);
     setEndDate(null);
-  }, [startDate, endDate, selectedSources, keyword]);
+  }, []);
 
   const isSubmitDisabled: boolean = useMemo(
     () =>
-      !!(
-        (!startDate && !endDate && selectedSources.length === 0 && !keyword) ||
-        (keyword && keyword.length < 3) ||
-        !keyword.match(/^[a-zA-Z0-9\s]+$/)
+      !(
+        (
+          (!keyword ||
+            (keyword.length >= 3 && keyword.match(/^[a-zA-Z0-9\s]+$/))) &&
+          (startDate || endDate || selectedSources.length > 0)
+        ) // FIXME: make this better
       ),
     [startDate, endDate, selectedSources, keyword]
   );
@@ -113,7 +117,12 @@ function FilterAndSearch({ setQueryString }: FilterAndSearchProps) {
             maxDate={endDate ?? undefined}
             startDate={startDate}
             endDate={endDate}
-            onChange={(date) => setStartDate(date)}
+            onChange={(date) => {
+              setStartDate(date);
+              if (!date && endDate) {
+                setEndDate(null);
+              }
+            }}
             selected={startDate}
           />
         </div>
@@ -143,9 +152,12 @@ function FilterAndSearch({ setQueryString }: FilterAndSearchProps) {
           options={sources}
           placeholder={t("calendar.filter-source")}
           isSearchable={false}
-          onChange={(selectedOptions) => {
-            setSelectedSources(selectedOptions.map((option) => option.value));
-          }}
+          onChange={(selectedOptions) =>
+            setSelectedSources(selectedOptions.map((option) => option.value))
+          }
+          value={sources.filter((source) =>
+            selectedSources.includes(source.value)
+          )}
           styles={{
             control: (baseStyles) => ({
               ...baseStyles,
@@ -199,17 +211,22 @@ function FilterAndSearch({ setQueryString }: FilterAndSearchProps) {
           }}
         />
       </div>
-      <button
-        aria-label={t("calendar.search-events")}
-        onClick={handleSubmit}
-        className={`${styles.searchButton} ${
-          isSubmitDisabled && styles.disabled
-        }`}
-        title={t("calendar.search-events")}
-        disabled={isSubmitDisabled}
-      >
-        {t("calendar.search")}
-      </button>
+      <div className={styles.buttonContainer}>
+        <button
+          aria-label={t("calendar.search-events")}
+          onClick={handleSubmit}
+          className={`${styles.searchButton} ${
+            isSubmitDisabled && styles.disabled
+          }`}
+          title={t("calendar.search-events")}
+          disabled={isSubmitDisabled}
+        >
+          {t("calendar.search")}
+        </button>
+        <button className={styles.resetButton} onClick={handleReset}>
+          {t("calendar.reset")}
+        </button>
+      </div>
     </section>
   );
 }
