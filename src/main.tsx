@@ -1,40 +1,26 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { RouterProvider, createRouter } from "@tanstack/react-router";
 
-import App from "./App";
-import Calendar from "./pages/Calendar/Calendar";
-import About from "./pages/About/About";
-import NotFound from "./pages/NotFound/NotFound";
-import Results from "./pages/Results/Results";
+import { routeTree } from "./routeTree.gen";
 
 import "./utils/i18n";
 import "./styles/index.css";
 
-const router = createBrowserRouter([
-  {
-    path: "/",
-    element: <App />,
-    errorElement: <NotFound />,
-    children: [
-      {
-        index: true,
-        element: <Calendar />,
-      },
-      {
-        path: "/about",
-        element: <About />,
-      },
-      {
-        path: "/results",
-        element: <Results />,
-      },
-    ],
-  },
-]);
+const router = createRouter({ routeTree });
 
-createRoot(document.getElementById("root")!).render(
-  <StrictMode>
-    <RouterProvider router={router} />
-  </StrictMode>
-);
+declare module "@tanstack/react-router" {
+  interface Register {
+    router: typeof router;
+  }
+}
+
+const rootElement = document.getElementById("root")!;
+if (!rootElement.innerHTML) {
+  const root = createRoot(rootElement);
+  root.render(
+    <StrictMode>
+      <RouterProvider router={router} />
+    </StrictMode>
+  );
+}
