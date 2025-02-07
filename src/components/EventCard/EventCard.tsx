@@ -43,6 +43,7 @@ function EventCard({ event }: EventCardProps) {
           <h4 className={styles.title}>{event.title}</h4>
         </div>
       </div>
+      {/* @ts-expect-error TODO: fix */}
       <Modal
         isOpen={modalIsOpen}
         onRequestClose={closeModal}

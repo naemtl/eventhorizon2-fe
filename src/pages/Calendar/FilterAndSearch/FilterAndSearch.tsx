@@ -1,5 +1,3 @@
-// @ts-nocheck
-// TODO: fix typescript errors
 import { memo, useCallback, useEffect, useMemo, useState } from "react";
 import DatePicker, { registerLocale } from "react-datepicker";
 import Select from "react-select";
@@ -109,6 +107,7 @@ function FilterAndSearch({ setQueryString }: FilterAndSearchProps) {
       </div>
       <div className={styles.dateContainer}>
         <div className={styles.datePickerContainer}>
+          {/* @ts-expect-error TODO: fix */}
           <DatePicker
             aria-label={t("calendar.start-date-range")}
             locale={datepickerLocal}
@@ -130,6 +129,7 @@ function FilterAndSearch({ setQueryString }: FilterAndSearchProps) {
           />
         </div>
         <div className={styles.datePickerContainer}>
+          {/* @ts-expect-error TODO: fix */}
           <DatePicker
             aria-label={t("calendar.end-date-range")}
             locale={datepickerLocal}
