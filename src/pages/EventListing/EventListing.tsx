@@ -4,9 +4,9 @@ import { format } from "date-fns";
 import Zoom from "react-medium-image-zoom";
 import { GoX } from "react-icons/go";
 
-import AddToCalendarButton from "src/components/AddToCalendarButton/AddToCalendarButton";
+import AddToCalendarButton from "src/components/AddToCalendarButton/AddToCalendarButton.tsx";
 
-import { EventListingProps } from "./EventListing.types";
+import type { EventListingProps } from "./EventListing.types.ts";
 
 import styles from "./EventListing.module.css";
 import "./ZoomStyles.css";

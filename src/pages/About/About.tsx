@@ -2,7 +2,7 @@ import { memo } from "react";
 import { useTranslation } from "react-i18next";
 import { Accordion } from "@szhsin/react-accordion";
 
-import AccordionItem from "./AccordionItem/AccordionItem";
+import AccordionItem from "./AccordionItem/AccordionItem.tsx";
 
 import styles from "./About.module.css";
 

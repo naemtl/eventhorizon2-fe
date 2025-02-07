@@ -1,4 +1,4 @@
-import { FormattedEvent } from "src/types/index";
+import type { FormattedEvent } from "src/types/index.d.ts";
 
 interface EventCardProps {
   event: FormattedEvent;

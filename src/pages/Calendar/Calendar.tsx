@@ -1,10 +1,10 @@
 import { memo, useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
 
-import EventCard from "src/components/EventCard/EventCard";
-import FilterAndSearch from "./FilterAndSearch/FilterAndSearch";
+import EventCard from "src/components/EventCard/EventCard.tsx";
+import FilterAndSearch from "./FilterAndSearch/FilterAndSearch.tsx";
 
-import type { FormattedEvent } from "src/types/index";
+import type { FormattedEvent } from "src/types/index.d.ts";
 import styles from "./Calendar.module.css";
 
 function Calendar() {
@@ -25,12 +25,8 @@ function Calendar() {
           }
         );
 
-        console.log("response", response);
-
         if (response.ok) {
           const data = await response.json();
-          console.log("data", data);
-
           setEvents(data);
         } else {
           console.error("Error fetching events:", response.status);
@@ -41,7 +37,7 @@ function Calendar() {
     };
 
     fetchEvents();
-  }, []);
+  }, [queryString]);
 
   return (
     <main className={styles.container}>

@@ -2,8 +2,8 @@ import { memo, useMemo, useState } from "react";
 import Modal from "react-modal";
 import { format } from "date-fns";
 
-import EventListing from "src/pages/EventListing/EventListing";
-import { EventCardProps } from "./EventCard.types";
+import EventListing from "src/pages/EventListing/EventListing.tsx";
+import type { EventCardProps } from "./EventCard.types.ts";
 
 import styles from "./EventCard.module.css";
 

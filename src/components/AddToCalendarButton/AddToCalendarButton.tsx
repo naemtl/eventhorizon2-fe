@@ -1,6 +1,7 @@
 import { memo, useEffect, useMemo, useRef, useState } from "react";
-import { google, outlook, ics, CalendarEvent } from "calendar-link";
+import { google, outlook, ics } from "calendar-link";
 import { useTranslation } from "react-i18next";
+import type { CalendarEvent } from "calendar-link";
 
 import { PiMicrosoftOutlookLogo } from "react-icons/pi";
 import { SiApple, SiGooglecalendar } from "react-icons/si";

@@ -5,7 +5,7 @@ import Select from "react-select";
 
 import { GoInfo } from "react-icons/go";
 
-import type { Option } from "./Navbar.types";
+import type { Option } from "./Navbar.types.ts";
 
 import styles from "./Navbar.module.css";
 
@@ -23,7 +23,7 @@ function Navbar() {
   const handleLocaleChange = useCallback(
     (selectedOption: Option | null) => {
       setSelectedLocale(selectedOption ?? options[0]);
-      i18n.changeLanguage(selectedOption?.value ?? options[0].value);
+      i18n.changeLanguage(selectedOption?.value ?? options[0]!.value);
     },
     [i18n]
   );
