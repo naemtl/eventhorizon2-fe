@@ -1,6 +1,16 @@
 .branding {
   align-items: center;
   display: flex;
+  justify-content: space-between;
+  width: 160px;
+
+  &:hover {
+    color: var(--satan);
+  }
+
+  svg:hover ~ .title {
+    color: var(--satan);
+  }
 }
 
 .container {
@@ -32,7 +42,7 @@
 
 .aboutLink {
   color: var(--white);
-  font-size: var(--text-xl);
+  font-size: calc(var(--text-md) * 1.5);
   padding: var(--space-xxs);
 
   &:hover {
@@ -43,15 +53,15 @@
 .title {
   color: var(--white);
   font-size: var(--text-xs);
+
+  &:hover {
+    color: var(--satan);
+  } 
 }
 
 @media screen and (min-width: 768px) {
   .title {
     display: block;
     font-size: var(--text-md);
-    
-    &:hover {
-      color: var(--satan);
-    } 
   }
 }

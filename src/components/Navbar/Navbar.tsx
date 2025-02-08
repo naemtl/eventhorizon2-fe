@@ -31,7 +31,19 @@ function Navbar() {
   return (
     <nav className={styles.container}>
       <Link className={`${styles.branding} ${styles.link}`} to="/">
-        <img className={styles.logo} src="/src/assets/logo-wh.png" alt="logo" />
+        <svg
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <circle cx="12" cy="12" r="10" />
+          <circle cx="12" cy="12" r="2" fill="currentColor" />
+        </svg>
         <h3 className={styles.title}>subscene mtl</h3>
       </Link>
       <div className={styles.controls}>
@@ -50,7 +62,7 @@ function Navbar() {
               backgroundColor: "var(--black)",
               border: "1px solid var(--black)",
               boxShadow: "none",
-              fontSize: "var(--text-xs)",
+              fontSize: "var(--text-sm)",
               "&:hover": {
                 border: "1px solid var(--white)",
               },
