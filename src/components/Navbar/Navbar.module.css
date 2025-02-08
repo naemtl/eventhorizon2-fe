@@ -7,10 +7,10 @@
   &:hover {
     color: var(--satan);
   }
+}
 
-  svg:hover ~ .title {
-    color: var(--satan);
-  }
+.branding:hover svg, .branding:hover .title {
+  color: var(--satan);
 }
 
 .container {
