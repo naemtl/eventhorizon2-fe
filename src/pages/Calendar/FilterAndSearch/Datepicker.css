@@ -63,11 +63,18 @@
   background: transparent;
   border: none;
   border-bottom: 1px solid white;
+  border-radius: 0;
   color: var(--white);
-  font-size: var(--text-xs);
+  font-size: var(--text-md);
   width: 100%;
 
   &:focus {
     outline-color: var(--satan);
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .react-datepicker__input-container input {
+    font-size: var(--text-sm);
   }
 }

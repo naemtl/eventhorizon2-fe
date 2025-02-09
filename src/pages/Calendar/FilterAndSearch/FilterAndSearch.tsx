@@ -110,7 +110,6 @@ function FilterAndSearch({ setQueryString }: FilterAndSearchProps) {
           {/* @ts-expect-error TODO: fix */}
           <DatePicker
             aria-label={t("calendar.start-date-range")}
-            autoFocus={false}
             locale={datepickerLocal}
             dateFormat="yyyy.MM.dd"
             placeholderText={t("calendar.start-date-range")}
@@ -133,7 +132,6 @@ function FilterAndSearch({ setQueryString }: FilterAndSearchProps) {
           {/* @ts-expect-error TODO: fix */}
           <DatePicker
             aria-label={t("calendar.end-date-range")}
-            autoFocus={false}
             locale={datepickerLocal}
             dateFormat="yyyy.MM.dd"
             placeholderText={t("calendar.end-date-range")}
@@ -174,7 +172,7 @@ function FilterAndSearch({ setQueryString }: FilterAndSearchProps) {
               borderRadius: "0",
               boxShadow: "none",
               cursor: "pointer",
-              fontSize: "var(--text-xs)",
+              fontSize: "var(--text-sm)",
               "&:hover": {
                 borderColor: "var(--white)",
               },
@@ -197,6 +195,10 @@ function FilterAndSearch({ setQueryString }: FilterAndSearchProps) {
                 backgroundColor: "var(--satan)",
                 color: "var(--white)",
               },
+            }),
+            placeholder: (baseStyles) => ({
+              ...baseStyles,
+              margin: 0,
             }),
             option: (baseStyles) => ({
               ...baseStyles,
