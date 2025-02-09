@@ -2,7 +2,7 @@
   align-items: center;
   display: flex;
   justify-content: space-between;
-  width: 135px;
+  width: 130px;
 }
 
 .container {
@@ -34,7 +34,7 @@
 
 .aboutLink {
   color: var(--white);
-  font-size: calc(var(--text-md) * 1.5);
+  font-size: var(--text-xxl);
   padding: var(--space-xxs);
 }
 
@@ -44,26 +44,34 @@
 }
 
 @media screen and (min-width: 768px) {
+  .aboutLink{
+    font-size: calc(var(--text-md) * 1.5);
+  }
+  
+  .branding {
+    width: 160px;
+  }
+
+  .title {
+    display: block;
+    font-size: var(--text-md);
+  }
+}
+
+@media screen and (min-width: 1024px) {
   .aboutLink:hover {
     color: var(--satan);
   }
-
-  .branding {
-    width: 160px;
-    &:hover {
-      color: var(--satan);
-    }
+  
+  .branding:hover {
+    color: var(--satan);
   }
 
   .branding:hover svg, .branding:hover .title {
     color: var(--satan);
   }
 
-  .title {
-    display: block;
-    font-size: var(--text-md);
-    &:hover {
-      color: var(--satan);
-    } 
-  }
+  .title:hover {
+    color: var(--satan);
+  } 
 }

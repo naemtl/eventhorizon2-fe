@@ -31,7 +31,7 @@
   color: var(--white);
   font-size: var(--text-xs);
   width: 100%;
-
+  
   &:focus {
     outline-color: var(--satan);
   }
@@ -49,11 +49,6 @@
   font-size: var(--text-xs);
   max-width: 180px;
   width: 100%;
-
-  &:hover {
-    background-color: var(--black);
-    color: var(--white);
-  }
 }
 
 .disabled {
@@ -61,11 +56,6 @@
   border-color: var(--satan);
   color: var(--black);
   cursor: not-allowed;
-
-  &:hover {
-    background-color: var(--satan);
-    color: var(--black);
-  }
 }
 
 .selectContainer {
@@ -80,5 +70,17 @@
 
   .datePickerContainer {
     width: 175px;
+  }
+
+  .searchButton, .resetButton {
+    &:hover {
+      background-color: var(--black);
+      color: var(--white);
+    }
+  }
+
+  .disabled:hover {
+    background-color: var(--satan);
+    color: var(--black);
   }
 }

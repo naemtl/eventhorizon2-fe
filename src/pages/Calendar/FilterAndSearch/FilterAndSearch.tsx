@@ -110,6 +110,7 @@ function FilterAndSearch({ setQueryString }: FilterAndSearchProps) {
           {/* @ts-expect-error TODO: fix */}
           <DatePicker
             aria-label={t("calendar.start-date-range")}
+            autoFocus={false}
             locale={datepickerLocal}
             dateFormat="yyyy.MM.dd"
             placeholderText={t("calendar.start-date-range")}
@@ -132,6 +133,7 @@ function FilterAndSearch({ setQueryString }: FilterAndSearchProps) {
           {/* @ts-expect-error TODO: fix */}
           <DatePicker
             aria-label={t("calendar.end-date-range")}
+            autoFocus={false}
             locale={datepickerLocal}
             dateFormat="yyyy.MM.dd"
             placeholderText={t("calendar.end-date-range")}

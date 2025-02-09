@@ -6,11 +6,6 @@
   display: flex;
   font-size: var(--text-xs);
   padding: var(--space-xxs) var(--space-xs);
-
-  &:hover {
-    background-color: var(--white);
-    color: var(--black);
-  }
 }
 
 .buttonText {
@@ -54,6 +49,11 @@
 }
 
 @media screen and (min-width: 1024px) {
+  .button:hover {
+    background-color: var(--white);
+    color: var(--black);
+  }
+
   .buttonText {
     font-size: var(--text-xs);
   }

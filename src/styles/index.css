@@ -90,10 +90,12 @@ a {
   text-decoration: inherit;
 }
 
-a:hover {
-  color: var(--satan);
-}
-
 .header-spacer {
   height: var(--navbar-height);
+}
+
+@media screen and (min-width: 1024px) {
+  a:hover {
+    color: var(--satan);
+  } 
 }

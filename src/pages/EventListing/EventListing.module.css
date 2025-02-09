@@ -62,11 +62,6 @@
   margin-right: var(--space-md);
   padding: var(--space-xxs) var(--space-xs);
   width: 94px;
-
-  &:hover {
-    background-color: var(--white);
-    color: var(--black);
-  }
 }
 
 .title {
@@ -99,5 +94,10 @@
 @media screen and (min-width: 1024px) {
   .controls {
     font-size: var(--text-xs);
+  }
+
+  .moreInfoLink:hover {
+    background-color: var(--white);
+    color: var(--black);
   }
 }
