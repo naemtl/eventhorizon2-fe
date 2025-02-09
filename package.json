@@ -12,6 +12,7 @@
   "dependencies": {
     "@netlify/functions": "^3.0.0",
     "@szhsin/react-accordion": "^1.4.0",
+    "@tanstack/react-query": "^5.66.0",
     "@tanstack/react-router": "^1.99.0",
     "@types/react-datepicker": "^7.0.0",
     "@types/react-modal": "^3.16.3",
