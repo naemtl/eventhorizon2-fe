@@ -125,6 +125,11 @@ function FilterAndSearch({ setQueryString }: FilterAndSearchProps) {
                 setEndDate(null);
               }
             }}
+            onFocus={(e: FocusEvent) => {
+              if (e.target instanceof HTMLElement) {
+                e.target.blur();
+              }
+            }}
             selected={startDate}
           />
         </div>
@@ -144,6 +149,11 @@ function FilterAndSearch({ setQueryString }: FilterAndSearchProps) {
               setEndDate(date);
               if (!startDate) {
                 setStartDate(new Date());
+              }
+            }}
+            onFocus={(e: FocusEvent) => {
+              if (e.target instanceof HTMLElement) {
+                e.target.blur();
               }
             }}
             selected={endDate}
