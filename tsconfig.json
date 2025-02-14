@@ -24,7 +24,7 @@
     "sourceMap": true,
 
     "lib": ["ES2022", "DOM", "DOM.Iterable"],
-    "jsx": "react-jsx",
+    "jsx": "react-jsx"
   },
   "files": [],
   "references": [

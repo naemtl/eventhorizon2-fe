@@ -32,7 +32,7 @@
   color: var(--white);
   font-size: var(--text-md);
   width: 100%;
-  
+
   &:focus {
     outline-color: var(--satan);
   }
@@ -42,7 +42,8 @@
   display: none;
 }
 
-.searchButton, .resetButton {
+.searchButton,
+.resetButton {
   background-color: var(--white);
   border: 1px solid var(--white);
   color: var(--black);
@@ -73,9 +74,10 @@
     width: 175px;
   }
 
-  .searchButton, .resetButton {
+  .searchButton,
+  .resetButton {
     font-size: var(--text-sm);
-    
+
     &:hover {
       background-color: var(--black);
       color: var(--white);
