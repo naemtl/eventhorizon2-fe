@@ -1,4 +1,4 @@
-import { memo, useCallback, useState } from "react";
+import { memo, useCallback, useMemo, useState } from "react";
 import { useTranslation } from "react-i18next";
 import { Link } from "@tanstack/react-router";
 import Select from "react-select";
@@ -12,11 +12,14 @@ import styles from "./Navbar.module.css";
 function Navbar() {
   const { i18n } = useTranslation();
 
-  const options = [
-    { value: "en", label: "en" },
-    { value: "fr", label: "fr" },
-    { value: "es", label: "es" },
-  ];
+  const options = useMemo(
+    () => [
+      { value: "en", label: "en" },
+      { value: "fr", label: "fr" },
+      { value: "es", label: "es" },
+    ],
+    []
+  );
 
   const [selectedLocale, setSelectedLocale] = useState(options[0]);
 
@@ -25,7 +28,7 @@ function Navbar() {
       setSelectedLocale(selectedOption ?? options[0]);
       i18n.changeLanguage(selectedOption?.value ?? options[0]!.value);
     },
-    [i18n]
+    [i18n, options]
   );
 
   return (

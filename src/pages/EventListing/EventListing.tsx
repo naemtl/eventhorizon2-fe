@@ -49,6 +49,7 @@ function EventListing({ event, closeModal }: EventListingProps) {
               className={styles.moreInfoLink}
               href={moreInfoLink ?? ""}
               target="_blank"
+              rel="noreferrer"
             >
               {t("event-listing.more-info")}
             </a>

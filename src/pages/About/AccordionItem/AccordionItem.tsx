@@ -1,4 +1,4 @@
-import { memo } from "react";
+import React, { memo } from "react";
 import { AccordionItem as Item } from "@szhsin/react-accordion";
 import { GoChevronDown } from "react-icons/go";
 
