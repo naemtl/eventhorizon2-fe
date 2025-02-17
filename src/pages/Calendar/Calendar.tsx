@@ -1,5 +1,7 @@
 import { memo, useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
+import { useInfiniteQuery } from "@tanstack/react-query";
+import { useInView } from "react-intersection-observer";
 
 import EventCard from "src/components/EventCard/EventCard.tsx";
 import FilterAndSearch from "./FilterAndSearch/FilterAndSearch.tsx";
@@ -15,15 +17,12 @@ function Calendar() {
   useEffect(() => {
     const fetchEvents = async () => {
       try {
-        const response = await fetch(
-          "http://localhost:8888/.netlify/functions/read-events",
-          {
-            method: "GET",
-            headers: {
-              "Cache-Control": "no-cache",
-            },
-          }
-        );
+        const response = await fetch("http://localhost:3000/events", {
+          method: "GET",
+          headers: {
+            "Cache-Control": "no-cache",
+          },
+        });
 
         if (response.ok) {
           const data = await response.json();
