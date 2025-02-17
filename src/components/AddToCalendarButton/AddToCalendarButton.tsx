@@ -65,19 +65,34 @@ function AddToCalendarButton({ title, start, location }: CalendarEvent) {
       </button>
       <ul className={`${isOpen ? styles.open : styles.closed} ${styles.list}`}>
         <li>
-          <a className={styles.link} href={icsUrl} target="_blank">
+          <a
+            className={styles.link}
+            href={icsUrl}
+            target="_blank"
+            rel="noreferrer"
+          >
             <SiApple className={styles.icon} />
             iCal .ics
           </a>
         </li>
         <li>
-          <a className={styles.link} href={googleUrl} target="_blank">
+          <a
+            className={styles.link}
+            href={googleUrl}
+            target="_blank"
+            rel="noreferrer"
+          >
             <SiGooglecalendar className={styles.icon} />
             Google
           </a>
         </li>
         <li>
-          <a className={styles.link} href={outlookUrl} target="_blank">
+          <a
+            className={styles.link}
+            href={outlookUrl}
+            target="_blank"
+            rel="noreferrer"
+          >
             <PiMicrosoftOutlookLogo className={styles.icon} />
             Outlook
           </a>
