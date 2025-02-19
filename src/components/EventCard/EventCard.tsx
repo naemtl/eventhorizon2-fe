@@ -1,18 +1,18 @@
-import { memo, useMemo, useState } from "react";
-import Modal from "react-modal";
-import { format } from "date-fns";
+import type { EventCardProps } from './EventCard.types.ts';
+import { format } from 'date-fns';
+import { memo, useMemo, useState } from 'react';
 
-import EventListing from "src/pages/EventListing/EventListing.tsx";
-import type { EventCardProps } from "./EventCard.types.ts";
+import Modal from 'react-modal';
+import EventListing from 'src/pages/EventListing/EventListing.tsx';
 
-import styles from "./EventCard.module.css";
+import styles from './EventCard.module.css';
 
 function EventCard({ event }: EventCardProps) {
   const [modalIsOpen, setModalIsOpen] = useState(false);
 
   const parsedDate = useMemo(
-    () => format(new Date(event.dateShowTime), "yyyy.MM.dd"),
-    [event.dateShowTime]
+    () => format(new Date(event.dateShowTime), 'yyyy.MM.dd'),
+    [event.dateShowTime],
   );
 
   const openModal = () => {
@@ -38,7 +38,7 @@ function EventCard({ event }: EventCardProps) {
         <div className={styles.infoContainer}>
           <section className={styles.dateLocation}>
             <time>{parsedDate}</time>
-            <div>{event.venue ?? "Missing venue"}</div>
+            <div>{event.venue ?? 'Missing venue'}</div>
           </section>
           <h4 className={styles.title}>{event.title}</h4>
         </div>
@@ -49,11 +49,11 @@ function EventCard({ event }: EventCardProps) {
         onRequestClose={closeModal}
         style={{
           overlay: {
-            backgroundColor: "rgba(0, 0, 0, 0.75)",
+            backgroundColor: 'rgba(0, 0, 0, 0.75)',
           },
           content: {
-            background: "rgb(0, 0, 0)",
-            inset: "20px",
+            background: 'rgb(0, 0, 0)',
+            inset: '20px',
           },
         }}
       >

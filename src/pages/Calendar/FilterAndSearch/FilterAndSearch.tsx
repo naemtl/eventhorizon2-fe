@@ -1,45 +1,47 @@
-import { memo, useCallback, useEffect, useMemo, useState } from "react";
-import DatePicker, { registerLocale } from "react-datepicker";
-import Select from "react-select";
+import { format, subDays } from 'date-fns';
+import { enCA, es, frCA } from 'date-fns/locale';
+import { memo, useCallback, useEffect, useMemo, useState } from 'react';
 
-import { format, subDays } from "date-fns";
-import { enCA, frCA, es } from "date-fns/locale";
-import { useTranslation } from "react-i18next";
+import DatePicker, { registerLocale } from 'react-datepicker';
+import { useTranslation } from 'react-i18next';
+import Select from 'react-select';
 
-import styles from "./FilterAndSearch.module.css";
-import "react-datepicker/dist/react-datepicker.css";
-import "./Datepicker.css";
+import styles from './FilterAndSearch.module.css';
+import 'react-datepicker/dist/react-datepicker.css';
+import './Datepicker.css';
 
 interface FilterAndSearchProps {
   setQueryString: (queryString: string) => void;
 }
 
 const sources = [
-  { value: "askapunk", label: "AskAPunk" },
-  { value: "blueskiesturnblack", label: "BSTB" },
-  { value: "ravewave", label: "Ravewave" },
-  { value: "casadelpopolo", label: "Suoni" },
-  { value: "turbohaus", label: "Turbohaus" },
+  { value: 'askapunk', label: 'AskAPunk' },
+  { value: 'blueskiesturnblack', label: 'BSTB' },
+  { value: 'ravewave', label: 'Ravewave' },
+  { value: 'casadelpopolo', label: 'Suoni' },
+  { value: 'turbohaus', label: 'Turbohaus' },
 ];
 
 function FilterAndSearch({ setQueryString }: FilterAndSearchProps) {
   const { t, i18n } = useTranslation();
 
   const [datepickerLocal, setDatepickerLocale] = useState(enCA);
-  const [keyword, setKeyword] = useState<string>("");
+  const [keyword, setKeyword] = useState<string>('');
   const [startDate, setStartDate] = useState<Date | null>();
   const [endDate, setEndDate] = useState<Date | null>();
   const [selectedSources, setSelectedSources] = useState<string[]>([]);
 
   useEffect(() => {
-    if (i18n.language === "fr") {
-      registerLocale("frCA", frCA);
+    if (i18n.language === 'fr') {
+      registerLocale('frCA', frCA);
       setDatepickerLocale(frCA);
-    } else if (i18n.language === "es") {
-      registerLocale("es", es);
+    }
+    else if (i18n.language === 'es') {
+      registerLocale('es', es);
       setDatepickerLocale(es);
-    } else {
-      registerLocale("enCA", enCA);
+    }
+    else {
+      registerLocale('enCA', enCA);
       setDatepickerLocale(enCA);
     }
 
@@ -48,19 +50,26 @@ function FilterAndSearch({ setQueryString }: FilterAndSearchProps) {
     };
   }, [i18n.language]);
 
+  const handleReset: () => void = useCallback(() => {
+    setKeyword('');
+    setSelectedSources([]);
+    setStartDate(null);
+    setEndDate(null);
+  }, []);
+
   const handleSubmit: () => void = useCallback(() => {
-    let queryString = "";
+    let queryString = '';
 
     if (startDate) {
-      const formattedStartDate = format(startDate, "yyyy-MM-dd");
+      const formattedStartDate = format(startDate, 'yyyy-MM-dd');
       queryString += `start=${formattedStartDate}`;
     }
     if (endDate) {
-      const formattedEndDate = format(endDate, "yyyy-MM-dd");
+      const formattedEndDate = format(endDate, 'yyyy-MM-dd');
       queryString += `&end=${formattedEndDate}`;
     }
     if (selectedSources.length > 0) {
-      queryString += `&source=${selectedSources.join(",")}`;
+      queryString += `&source=${selectedSources.join(',')}`;
     }
     if (keyword) {
       queryString += `&keyword=${keyword}`;
@@ -68,51 +77,44 @@ function FilterAndSearch({ setQueryString }: FilterAndSearchProps) {
 
     setQueryString(queryString);
     handleReset();
-  }, [startDate, endDate, selectedSources, keyword]);
-
-  const handleReset: () => void = useCallback(() => {
-    setKeyword("");
-    setSelectedSources([]);
-    setStartDate(null);
-    setEndDate(null);
-  }, []);
+  }, [startDate, endDate, selectedSources, keyword, setQueryString, handleReset]);
 
   const isSubmitDisabled: boolean = useMemo(
     () =>
       !(
         (
-          (!keyword ||
-            (keyword.length >= 3 && keyword.match(/^[a-zA-Z0-9\s]+$/))) &&
-          (startDate || endDate || selectedSources.length > 0)
+          (!keyword
+            || (keyword.length >= 3 && keyword.match(/^[a-z0-9\s]+$/i)))
+          && (startDate || endDate || selectedSources.length > 0)
         ) // FIXME: make this better
       ),
-    [startDate, endDate, selectedSources, keyword]
+    [startDate, endDate, selectedSources, keyword],
   );
 
   return (
     <section className={styles.container}>
       <div className={styles.searchContainer}>
         <label className={styles.label} htmlFor="keyword">
-          {t("calendar.enter-keyword")}
+          {t('calendar.enter-keyword')}
         </label>
         <input
           className={styles.input}
-          title={t("calendar.enter-keyword")}
+          title={t('calendar.enter-keyword')}
           id="keyword"
           type="input"
-          placeholder={t("calendar.enter-keyword")}
+          placeholder={t('calendar.enter-keyword')}
           value={keyword}
-          onChange={(e) => setKeyword(e.target.value)}
+          onChange={e => setKeyword(e.target.value)}
         />
       </div>
       <div className={styles.dateContainer}>
         <div className={styles.datePickerContainer}>
           {/* @ts-expect-error TODO: fix */}
           <DatePicker
-            aria-label={t("calendar.start-date-range")}
+            aria-label={t('calendar.start-date-range')}
             locale={datepickerLocal}
             dateFormat="yyyy.MM.dd"
-            placeholderText={t("calendar.start-date-range")}
+            placeholderText={t('calendar.start-date-range')}
             selectsStart
             icon={null}
             minDate={subDays(new Date(), 1)}
@@ -136,10 +138,10 @@ function FilterAndSearch({ setQueryString }: FilterAndSearchProps) {
         <div className={styles.datePickerContainer}>
           {/* @ts-expect-error TODO: fix */}
           <DatePicker
-            aria-label={t("calendar.end-date-range")}
+            aria-label={t('calendar.end-date-range')}
             locale={datepickerLocal}
             dateFormat="yyyy.MM.dd"
-            placeholderText={t("calendar.end-date-range")}
+            placeholderText={t('calendar.end-date-range')}
             selectsEnd
             icon={null}
             minDate={startDate ?? new Date()}
@@ -164,85 +166,85 @@ function FilterAndSearch({ setQueryString }: FilterAndSearchProps) {
         <Select
           isMulti
           options={sources}
-          placeholder={t("calendar.filter-source")}
+          placeholder={t('calendar.filter-source')}
           isSearchable={false}
-          onChange={(selectedOptions) =>
-            setSelectedSources(selectedOptions.map((option) => option.value))
-          }
-          value={sources.filter((source) =>
-            selectedSources.includes(source.value)
+          onChange={selectedOptions =>
+            setSelectedSources(selectedOptions.map(option => option.value))}
+          value={sources.filter(source =>
+            selectedSources.includes(source.value),
           )}
           styles={{
-            control: (baseStyles) => ({
+            control: baseStyles => ({
               ...baseStyles,
-              backgroundColor: "var(--black)",
-              border: "none",
-              borderBottom: "1px solid var(--white)",
-              borderColor: "none",
-              borderRadius: "0",
-              boxShadow: "none",
-              cursor: "pointer",
-              fontSize: "var(--text-sm)",
-              "&:hover": {
-                borderColor: "var(--white)",
+              'backgroundColor': 'var(--black)',
+              'border': 'none',
+              'borderBottom': '1px solid var(--white)',
+              'borderColor': 'none',
+              'borderRadius': '0',
+              'boxShadow': 'none',
+              'cursor': 'pointer',
+              'fontSize': 'var(--text-sm)',
+              '&:hover': {
+                borderColor: 'var(--white)',
               },
-              "& > div:first-of-type": {
-                padding: "2px",
+              '& > div:first-of-type': {
+                padding: '2px',
               },
             }),
-            menu: (baseStyles) => ({
+            menu: baseStyles => ({
               ...baseStyles,
-              backgroundColor: "var(--black)",
-              border: "1px solid var(--white)",
-              borderRadius: "5px",
+              backgroundColor: 'var(--black)',
+              border: '1px solid var(--white)',
+              borderRadius: '5px',
             }),
-            multiValue: (baseStyles) => ({
+            multiValue: baseStyles => ({
               ...baseStyles,
-              "[role='button']": {
-                color: "var(--black)",
+              '[role=\'button\']': {
+                color: 'var(--black)',
               },
-              "[role='button']:hover": {
-                backgroundColor: "var(--satan)",
-                color: "var(--white)",
+              '[role=\'button\']:hover': {
+                backgroundColor: 'var(--satan)',
+                color: 'var(--white)',
               },
             }),
-            placeholder: (baseStyles) => ({
+            placeholder: baseStyles => ({
               ...baseStyles,
               margin: 0,
             }),
-            option: (baseStyles) => ({
+            option: baseStyles => ({
               ...baseStyles,
-              backgroundColor: "var(--black)",
-              cursor: "pointer",
-              fontSize: "var(--text-xs)",
-              marginBottom: "var(--space-xxs)",
-              padding: "var(--space-xxs) var(--space-xs)",
-              "&:hover": {
-                backgroundColor: "var(--white)",
-                color: "var(--black)",
+              'backgroundColor': 'var(--black)',
+              'cursor': 'pointer',
+              'fontSize': 'var(--text-xs)',
+              'marginBottom': 'var(--space-xxs)',
+              'padding': 'var(--space-xxs) var(--space-xs)',
+              '&:hover': {
+                backgroundColor: 'var(--white)',
+                color: 'var(--black)',
               },
             }),
-            singleValue: (baseStyles) => ({
+            singleValue: baseStyles => ({
               ...baseStyles,
-              color: "var(--white)",
+              color: 'var(--white)',
             }),
           }}
         />
       </div>
       <div className={styles.buttonContainer}>
         <button
-          aria-label={t("calendar.search-events")}
+          type="submit"
+          aria-label={t('calendar.search-events')}
           onClick={handleSubmit}
           className={`${styles.searchButton} ${
             isSubmitDisabled && styles.disabled
           }`}
-          title={t("calendar.search-events")}
+          title={t('calendar.search-events')}
           disabled={isSubmitDisabled}
         >
-          {t("calendar.search")}
+          {t('calendar.search')}
         </button>
-        <button className={styles.resetButton} onClick={handleReset}>
-          {t("calendar.reset")}
+        <button type="reset" className={styles.resetButton} onClick={handleReset}>
+          {t('calendar.reset')}
         </button>
       </div>
     </section>

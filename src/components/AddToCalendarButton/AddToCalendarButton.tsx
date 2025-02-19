@@ -1,12 +1,12 @@
-import { memo, useEffect, useMemo, useRef, useState } from "react";
-import { google, outlook, ics } from "calendar-link";
-import { useTranslation } from "react-i18next";
-import type { CalendarEvent } from "calendar-link";
+import type { CalendarEvent } from 'calendar-link';
+import { google, ics, outlook } from 'calendar-link';
+import { memo, useEffect, useMemo, useRef, useState } from 'react';
+import { useTranslation } from 'react-i18next';
 
-import { PiMicrosoftOutlookLogo } from "react-icons/pi";
-import { SiApple, SiGooglecalendar } from "react-icons/si";
+import { PiMicrosoftOutlookLogo } from 'react-icons/pi';
+import { SiApple, SiGooglecalendar } from 'react-icons/si';
 
-import styles from "./AddToCalendarButton.module.css";
+import styles from './AddToCalendarButton.module.css';
 
 function AddToCalendarButton({ title, start, location }: CalendarEvent) {
   const { t } = useTranslation();
@@ -16,26 +16,26 @@ function AddToCalendarButton({ title, start, location }: CalendarEvent) {
 
   const handleOnClick = (event: MouseEvent) => {
     if (
-      buttonContainerRef.current &&
-      !event.composedPath().includes(buttonContainerRef.current)
+      buttonContainerRef.current
+      && !event.composedPath().includes(buttonContainerRef.current)
     ) {
       setIsOpen(false);
     }
   };
 
   const handleKeyDown = (event: KeyboardEvent) => {
-    if (event.keyCode === 27 || event.code === "Escape") {
+    if (event.keyCode === 27 || event.code === 'Escape') {
       setIsOpen(false);
     }
   };
 
   useEffect(() => {
-    document.addEventListener("click", (event) => handleOnClick(event));
-    document.addEventListener("keydown", (event) => handleKeyDown(event));
+    document.addEventListener('click', handleOnClick);
+    document.addEventListener('keydown', handleKeyDown);
 
     return () => {
-      document.removeEventListener("click", (event) => handleOnClick(event));
-      document.removeEventListener("keydown", (event) => handleKeyDown(event));
+      document.removeEventListener('click', handleOnClick);
+      document.removeEventListener('keydown', handleKeyDown);
     };
   }, []);
 
@@ -43,10 +43,10 @@ function AddToCalendarButton({ title, start, location }: CalendarEvent) {
     () => ({
       title,
       start,
-      duration: [5, "hour"],
+      duration: [5, 'hour'],
       location,
     }),
-    [title, start, location]
+    [title, start, location],
   );
 
   const googleUrl = google(event);
@@ -56,11 +56,12 @@ function AddToCalendarButton({ title, start, location }: CalendarEvent) {
   return (
     <div ref={buttonContainerRef} className={styles.container}>
       <button
+        type="button"
         className={styles.button}
-        onClick={() => setIsOpen((prev) => !prev)}
+        onClick={() => setIsOpen(prev => !prev)}
       >
         <span className={styles.buttonText}>
-          {t("event-listing.add-to-calendar")}
+          {t('event-listing.add-to-calendar')}
         </span>
       </button>
       <ul className={`${isOpen ? styles.open : styles.closed} ${styles.list}`}>

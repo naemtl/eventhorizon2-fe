@@ -1,24 +1,24 @@
-import { memo, useCallback, useMemo, useState } from "react";
-import { useTranslation } from "react-i18next";
-import { Link } from "@tanstack/react-router";
-import Select from "react-select";
+import type { Option } from './Navbar.types.ts';
+import { Link } from '@tanstack/react-router';
+import { memo, useCallback, useMemo, useState } from 'react';
+import { useTranslation } from 'react-i18next';
 
-import { GoInfo } from "react-icons/go";
+import { GoInfo } from 'react-icons/go';
 
-import type { Option } from "./Navbar.types.ts";
+import Select from 'react-select';
 
-import styles from "./Navbar.module.css";
+import styles from './Navbar.module.css';
 
 function Navbar() {
   const { i18n } = useTranslation();
 
   const options = useMemo(
     () => [
-      { value: "en", label: "en" },
-      { value: "fr", label: "fr" },
-      { value: "es", label: "es" },
+      { value: 'en', label: 'en' },
+      { value: 'fr', label: 'fr' },
+      { value: 'es', label: 'es' },
     ],
-    []
+    [],
   );
 
   const [selectedLocale, setSelectedLocale] = useState(options[0]);
@@ -28,7 +28,7 @@ function Navbar() {
       setSelectedLocale(selectedOption ?? options[0]);
       i18n.changeLanguage(selectedOption?.value ?? options[0]!.value);
     },
-    [i18n, options]
+    [i18n, options],
   );
 
   return (
@@ -59,38 +59,38 @@ function Navbar() {
           options={options}
           isSearchable={false}
           styles={{
-            control: (baseStyles) => ({
+            control: baseStyles => ({
               ...baseStyles,
-              cursor: "pointer",
-              backgroundColor: "var(--black)",
-              border: "1px solid var(--black)",
-              boxShadow: "none",
-              fontSize: "var(--text-sm)",
-              "&:hover": {
-                border: "1px solid var(--white)",
+              'cursor': 'pointer',
+              'backgroundColor': 'var(--black)',
+              'border': '1px solid var(--black)',
+              'boxShadow': 'none',
+              'fontSize': 'var(--text-sm)',
+              '&:hover': {
+                border: '1px solid var(--white)',
               },
             }),
-            menu: (baseStyles) => ({
+            menu: baseStyles => ({
               ...baseStyles,
-              backgroundColor: "var(--black)",
-              border: "1px solid var(--white)",
-              borderRadius: "5px",
+              backgroundColor: 'var(--black)',
+              border: '1px solid var(--white)',
+              borderRadius: '5px',
             }),
-            option: (baseStyles) => ({
+            option: baseStyles => ({
               ...baseStyles,
-              backgroundColor: "var(--black)",
-              cursor: "pointer",
-              fontSize: "var(--text-xs)",
-              marginBottom: "var(--space-xxs)",
-              padding: "var(--space-xxs) var(--space-xs)",
-              "&:hover": {
-                backgroundColor: "var(--white)",
-                color: "var(--black)",
+              'backgroundColor': 'var(--black)',
+              'cursor': 'pointer',
+              'fontSize': 'var(--text-xs)',
+              'marginBottom': 'var(--space-xxs)',
+              'padding': 'var(--space-xxs) var(--space-xs)',
+              '&:hover': {
+                backgroundColor: 'var(--white)',
+                color: 'var(--black)',
               },
             }),
-            singleValue: (baseStyles) => ({
+            singleValue: baseStyles => ({
               ...baseStyles,
-              color: "var(--white)",
+              color: 'var(--white)',
             }),
           }}
         />

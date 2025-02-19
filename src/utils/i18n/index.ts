@@ -1,10 +1,10 @@
-import i18n from "i18next";
-import { initReactI18next } from "react-i18next";
+import i18n from 'i18next';
 import LanguageDetector from 'i18next-browser-languagedetector';
+import { initReactI18next } from 'react-i18next';
 
-import { enLang } from "./locales/en/en.ts";
-import { frLang } from "./locales/fr/fr.ts";
-import { esLang } from "./locales/es/es.ts";
+import { enLang } from './locales/en/en.ts';
+import { esLang } from './locales/es/es.ts';
+import { frLang } from './locales/fr/fr.ts';
 
 const resources = {
   en: {
@@ -15,7 +15,7 @@ const resources = {
   },
   es: {
     translation: esLang,
-  }
+  },
 };
 
 i18n
@@ -24,10 +24,10 @@ i18n
   .init({
     resources,
     supportedLngs: ['en', 'es', 'fr'],
-    fallbackLng: "en",
+    fallbackLng: 'en',
     interpolation: {
-      escapeValue: false // react already safes from xss
-    }
+      escapeValue: false, // react already safes from xss
+    },
   });
 
-  export default i18n;
+export default i18n;

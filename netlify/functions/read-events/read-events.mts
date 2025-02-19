@@ -1,4 +1,3 @@
-import { Context } from '@netlify/functions';
 import { MongoClient } from 'mongodb';
 
 const url: string = process.env.MONGO_URL!;
@@ -7,12 +6,12 @@ const collectionName: string = process.env.MONGO_MAIN_COLLECTION!;
 
 const client = new MongoClient(url);
 
-export default async (request, context: Context) => {
+export default async (request) => {
   try {
     if (!request.url) {
       return new Response(JSON.stringify({ error: 'Invalid request URL' }), {
         status: 400,
-        headers: { "Content-Type": "application/json" },
+        headers: { 'Content-Type': 'application/json' },
       });
     }
 
@@ -55,19 +54,21 @@ export default async (request, context: Context) => {
     return new Response(JSON.stringify(events), {
       status: 200,
       headers: {
-        "Content-Type": "application/json",
-        "Access-Control-Allow-Origin": "*",
-        "Access-Control-Allow-Methods": "GET, OPTIONS",
-        "Access-Control-Allow-Headers": "Content-Type, Accept, Cache-Control",
+        'Content-Type': 'application/json',
+        'Access-Control-Allow-Origin': '*',
+        'Access-Control-Allow-Methods': 'GET, OPTIONS',
+        'Access-Control-Allow-Headers': 'Content-Type, Accept, Cache-Control',
       },
     });
-  } catch (error) {
+  }
+  catch (error) {
     console.error('Error querying events:', error);
     return new Response(JSON.stringify({ error: 'Internal Server Error' }), {
       status: 500,
-      headers: { "Content-Type": "application/json" },
+      headers: { 'Content-Type': 'application/json' },
     });
-  } finally {
+  }
+  finally {
     await client.close();
   }
 };

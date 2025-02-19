@@ -1,37 +1,37 @@
-import { memo, useEffect, useState } from "react";
-import { useTranslation } from "react-i18next";
-import { useInfiniteQuery } from "@tanstack/react-query";
-import { useInView } from "react-intersection-observer";
+import type { FormattedEvent } from 'src/types/index.d.ts';
+import { memo, useEffect, useState } from 'react';
+import { useTranslation } from 'react-i18next';
 
-import EventCard from "src/components/EventCard/EventCard.tsx";
-import FilterAndSearch from "./FilterAndSearch/FilterAndSearch.tsx";
+import EventCard from 'src/components/EventCard/EventCard.tsx';
 
-import type { FormattedEvent } from "src/types/index.d.ts";
-import styles from "./Calendar.module.css";
+import styles from './Calendar.module.css';
+import FilterAndSearch from './FilterAndSearch/FilterAndSearch.tsx';
 
 function Calendar() {
   const { t } = useTranslation();
   const [events, setEvents] = useState([]);
-  const [queryString, setQueryString] = useState("");
+  const [queryString, setQueryString] = useState('');
 
   useEffect(() => {
     const fetchEvents = async () => {
       try {
-        const response = await fetch("http://localhost:3000/events", {
-          method: "GET",
+        const response = await fetch('http://localhost:3000/events', {
+          method: 'GET',
           headers: {
-            "Cache-Control": "no-cache",
+            'Cache-Control': 'no-cache',
           },
         });
 
         if (response.ok) {
           const data = await response.json();
           setEvents(data);
-        } else {
-          console.error("Error fetching events:", response.status);
         }
-      } catch (error) {
-        console.error("Error fetching events:", error);
+        else {
+          console.error('Error fetching events:', response.status);
+        }
+      }
+      catch (error) {
+        console.error('Error fetching events:', error);
       }
     };
 
@@ -41,7 +41,7 @@ function Calendar() {
   return (
     <main className={styles.container}>
       <div className={styles.headerContainer}>
-        <h1 className={styles.title}>{t("calendar.title")}</h1>
+        <h1 className={styles.title}>{t('calendar.title')}</h1>
         <FilterAndSearch setQueryString={setQueryString} />
       </div>
       <div className={styles.innerContainer}>

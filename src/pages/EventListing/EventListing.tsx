@@ -1,31 +1,31 @@
-import { memo, useMemo } from "react";
-import { useTranslation } from "react-i18next";
-import { format } from "date-fns";
-import Zoom from "react-medium-image-zoom";
-import { GoX } from "react-icons/go";
+import type { EventListingProps } from './EventListing.types.ts';
+import { format } from 'date-fns';
+import { memo, useMemo } from 'react';
+import { useTranslation } from 'react-i18next';
+import { GoX } from 'react-icons/go';
 
-import AddToCalendarButton from "src/components/AddToCalendarButton/AddToCalendarButton.tsx";
+import Zoom from 'react-medium-image-zoom';
 
-import type { EventListingProps } from "./EventListing.types.ts";
+import AddToCalendarButton from 'src/components/AddToCalendarButton/AddToCalendarButton.tsx';
 
-import styles from "./EventListing.module.css";
-import "./ZoomStyles.css";
-import "react-medium-image-zoom/dist/styles.css";
+import styles from './EventListing.module.css';
+import './ZoomStyles.css';
+import 'react-medium-image-zoom/dist/styles.css';
 
 function EventListing({ event, closeModal }: EventListingProps) {
   const { t } = useTranslation();
 
-  const { title, dateShowTime, venue, address, price, image, moreInfoLink } =
-    event;
+  const { title, dateShowTime, venue, address, price, image, moreInfoLink }
+    = event;
 
   const parsedDate = useMemo(
-    () => format(new Date(dateShowTime), "yyyy.MM.dd - HH:mm"),
-    [dateShowTime]
+    () => format(new Date(dateShowTime), 'yyyy.MM.dd - HH:mm'),
+    [dateShowTime],
   );
 
   return (
     <main className={styles.container}>
-      <button title="Close" className={styles.closeButton} onClick={closeModal}>
+      <button type="button" title="Close" className={styles.closeButton} onClick={closeModal}>
         <GoX />
       </button>
       <div className={styles.innerContainer}>
@@ -43,15 +43,15 @@ function EventListing({ event, closeModal }: EventListingProps) {
           </div>
           <div>{venue}</div>
           <div>{address}</div>
-          <div>{price ?? t("event-listing.no-price")}</div>
+          <div>{price ?? t('event-listing.no-price')}</div>
           <div className={styles.controls}>
             <a
               className={styles.moreInfoLink}
-              href={moreInfoLink ?? ""}
+              href={moreInfoLink ?? ''}
               target="_blank"
               rel="noreferrer"
             >
-              {t("event-listing.more-info")}
+              {t('event-listing.more-info')}
             </a>
             <AddToCalendarButton
               title={title}
