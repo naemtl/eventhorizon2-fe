@@ -40,12 +40,7 @@ function AddToCalendarButton({ title, start, location }: CalendarEvent) {
   }, []);
 
   const event: CalendarEvent = useMemo(
-    () => ({
-      title,
-      start,
-      duration: [5, 'hour'],
-      location,
-    }),
+    () => ({ title, start, duration: [5, 'hour'], location }),
     [title, start, location],
   );
 
