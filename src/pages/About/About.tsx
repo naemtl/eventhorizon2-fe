@@ -13,7 +13,15 @@ function About() {
     <div className={styles.container}>
       <section className={styles.header}>
         <h2 className={styles.title}>{t('about.title')}</h2>
-        <p className={styles.description}>{t('about.description')}</p>
+        <p className={styles.description}>
+          <span>
+            <strong>subscene mtl</strong>
+          </span>
+          <span>
+            {' '}
+            {t('about.description')}
+          </span>
+        </p>
       </section>
       <section className={styles.faqContainer}>
         <h3 className={styles.title}>{t('faq.title')}</h3>
@@ -22,20 +30,20 @@ function About() {
           transition
           transitionTimeout={250}
         >
-          <AccordionItem header={t('faq.question')}>
-            {t('faq.answer')}
+          <AccordionItem header={t('faq.question-1')}>
+            {t('faq.answer-1')}
           </AccordionItem>
-          <AccordionItem header={t('faq.question')}>
-            {t('faq.answer')}
+          <AccordionItem header={t('faq.question-2')}>
+            {t('faq.answer-2')}
           </AccordionItem>
-          <AccordionItem header={t('faq.question')}>
-            {t('faq.answer')}
+          <AccordionItem header={t('faq.question-3')}>
+            {t('faq.answer-3')}
           </AccordionItem>
-          <AccordionItem header={t('faq.question')}>
-            {t('faq.answer')}
+          <AccordionItem header={t('faq.question-4')}>
+            {t('faq.answer-4')}
           </AccordionItem>
-          <AccordionItem header={t('faq.question')}>
-            {t('faq.answer')}
+          <AccordionItem header={t('faq.question-5')}>
+            {t('faq.answer-5')}
           </AccordionItem>
         </Accordion>
       </section>
