@@ -2,7 +2,7 @@ export const enLang = {
   'about': {
     'contact': 'Contact',
     'contact-text': 'For any questions or feature requests, please contact: ',
-    'description': 'is a Montreal-based underground music event aggregator. It collects event data from various web locations and standardizes it so it can be displayed in one format. The resource was built with simplicity and ease of access in mind. It does not collect user data or browser information. It is a fully automated resource that does not require user participation to populate its database.',
+    'description': 'is a Montreal-based underground music event calendar aggregator. It collects event data from various web locations and standardizes it so it can be displayed in one format. The resource was built with simplicity and ease of access in mind. It does not collect user data or browser information. It is a fully automated resource that does not require user participation to populate its database.',
     'title': 'About',
   },
   'calendar': {

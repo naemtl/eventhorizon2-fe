@@ -2,7 +2,7 @@ export const esLang = {
   'about': {
     'contact': 'Contacto',
     'contact-text': 'Para cualquier pregunta o solicitud, escribe a: ',
-    'description': 'es un agregador de eventos de música underground en Montreal. Recopila datos de eventos de varias fuentes en línea y los estandariza para mostrarlos en un formato único. Este recurso fue creado con simplicidad y facilidad de acceso en mente. No recopila datos de usuarios ni información del navegador. Es un recurso completamente automatizado que no requiere la participación de los usuarios para poblar su base de datos.',
+    'description': 'es un agregador de calendario de eventos de música underground en Montreal. Recopila datos de eventos de varias fuentes en línea y los estandariza para mostrarlos en un formato único. Este recurso fue creado con simplicidad y facilidad de acceso en mente. No recopila datos de usuarios ni información del navegador. Es un recurso completamente automatizado que no requiere la participación de los usuarios para poblar su base de datos.',
     'title': 'Acerca de',
   },
   'calendar': {
