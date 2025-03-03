@@ -30,6 +30,10 @@
   width: 100%;
 }
 
+.link {
+  text-decoration: underline;
+}
+
 .title {
   margin: var(--space-sm) 0;
 }

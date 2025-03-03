@@ -44,6 +44,8 @@ function About() {
           </AccordionItem>
           <AccordionItem header={t('faq.question-5')}>
             {t('faq.answer-5')}
+            {' '}
+            <a className={styles.link} title="Support Subscene MTL" target="_blank" rel="noreferrer noopener" href="https://ko-fi.com/subscenemtl">ko-fi.com/subscenemtl</a>
           </AccordionItem>
         </Accordion>
       </section>
