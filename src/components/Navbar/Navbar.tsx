@@ -2,9 +2,7 @@ import type { Option } from './Navbar.types.ts';
 import { Link } from '@tanstack/react-router';
 import { memo, useCallback, useMemo, useState } from 'react';
 import { useTranslation } from 'react-i18next';
-
-import { GoInfo } from 'react-icons/go';
-
+import { GoHeart, GoInfo } from 'react-icons/go';
 import Select from 'react-select';
 
 import styles from './Navbar.module.css';
@@ -50,9 +48,12 @@ function Navbar() {
         <h3 className={styles.title}>subscene mtl</h3>
       </Link>
       <div className={styles.controls}>
-        <Link className={styles.aboutLink} to="/about">
+        <Link className={styles.controlsLink} to="/about">
           <GoInfo />
         </Link>
+        <a className={styles.controlsLink} title="Support Subscene MTL" href="https://ko-fi.com/N4N11BE9JJ" target="_blank" rel="noreferrer noopener">
+          <GoHeart />
+        </a>
         <Select
           defaultValue={selectedLocale}
           onChange={handleLocaleChange}

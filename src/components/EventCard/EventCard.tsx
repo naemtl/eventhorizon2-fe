@@ -3,7 +3,7 @@ import { format } from 'date-fns';
 import { memo, useMemo, useState } from 'react';
 
 import Modal from 'react-modal';
-import EventListing from 'src/pages/EventListing/EventListing.tsx';
+import EventListingModal from 'src/pages/EventListingModal/EventListingModal.tsx';
 
 import styles from './EventCard.module.css';
 
@@ -56,7 +56,7 @@ function EventCard({ event }: EventCardProps) {
           },
         }}
       >
-        <EventListing event={event} closeModal={closeModal} />
+        <EventListingModal event={event} closeModal={closeModal} />
       </Modal>
     </article>
   );

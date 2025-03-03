@@ -65,7 +65,7 @@ function AddToCalendarButton({ title, start, location }: CalendarEvent) {
             className={styles.link}
             href={icsUrl}
             target="_blank"
-            rel="noreferrer"
+            rel="noreferrer noopener"
           >
             <SiApple className={styles.icon} />
             iCal .ics
@@ -76,7 +76,7 @@ function AddToCalendarButton({ title, start, location }: CalendarEvent) {
             className={styles.link}
             href={googleUrl}
             target="_blank"
-            rel="noreferrer"
+            rel="noreferrer noopener"
           >
             <SiGooglecalendar className={styles.icon} />
             Google
@@ -87,7 +87,7 @@ function AddToCalendarButton({ title, start, location }: CalendarEvent) {
             className={styles.link}
             href={outlookUrl}
             target="_blank"
-            rel="noreferrer"
+            rel="noreferrer noopener"
           >
             <PiMicrosoftOutlookLogo className={styles.icon} />
             Outlook

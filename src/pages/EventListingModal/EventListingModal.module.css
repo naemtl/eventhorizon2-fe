@@ -1,0 +1,18 @@
+.closeButton {
+  background: none;
+  border: none;
+  color: var(--white);
+  cursor: pointer;
+  font-size: var(--text-xxl);
+  position: absolute;
+  right: var(--space-sm);
+  top: var(--space-sm);
+}
+
+.container {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+}

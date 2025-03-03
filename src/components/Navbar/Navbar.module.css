@@ -23,7 +23,8 @@
   align-items: center;
   display: flex;
   justify-content: space-between;
-  width: 120px;
+  max-width: 160px;
+  width: 100%;
 }
 
 .logo {
@@ -32,7 +33,7 @@
   width: 25px;
 }
 
-.aboutLink {
+.controlsLink {
   color: var(--white);
   font-size: var(--text-xxl);
   padding: var(--space-xxs);
@@ -59,7 +60,7 @@
 }
 
 @media screen and (min-width: 1024px) {
-  .aboutLink:hover {
+  .controlsLink:hover {
     color: var(--satan);
   }
   
