@@ -1,67 +1,23 @@
-import type { EventListingProps } from './EventListing.types.ts';
-import { format } from 'date-fns';
-import { memo, useMemo } from 'react';
-import { useTranslation } from 'react-i18next';
-import { GoX } from 'react-icons/go';
+import { useQuery } from '@tanstack/react-query';
+import { getRouteApi } from '@tanstack/react-router';
+import { memo } from 'react';
 
-import Zoom from 'react-medium-image-zoom';
+import { fetchEventListing } from 'src/api/eventListing.ts';
+import EventListingDetails from 'src/components/EventListingDetails/EventListingDetails.tsx';
 
-import AddToCalendarButton from 'src/components/AddToCalendarButton/AddToCalendarButton.tsx';
+function EventListing() { // TODO: Pass event id
+  const route = getRouteApi('/events/$eventId');
+  const { event } = route.useLoaderData();
 
-import styles from './EventListing.module.css';
-import './ZoomStyles.css';
-import 'react-medium-image-zoom/dist/styles.css';
-
-function EventListing({ event, closeModal }: EventListingProps) {
-  const { t } = useTranslation();
-
-  const { title, dateShowTime, venue, address, price, image, moreInfoLink }
-    = event;
-
-  const parsedDate = useMemo(
-    () => format(new Date(dateShowTime), 'yyyy.MM.dd - HH:mm'),
-    [dateShowTime],
-  );
+  // const { data: event } = useQuery({
+  //   queryKey: ['events', { eventId }],
+  //   queryFn: () => fetchEventListing(eventId),
+  // });
 
   return (
-    <main className={styles.container}>
-      <button type="button" title="Close" className={styles.closeButton} onClick={closeModal}>
-        <GoX />
-      </button>
-      <div className={styles.innerContainer}>
-        <Zoom classDialog="zoom-dialog">
-          <figure className={styles.imgContainer}>
-            {(image && (
-              <img className={styles.poster} src={image} alt={title} />
-            )) || <div>Poster not found</div>}
-          </figure>
-        </Zoom>
-        <div className={styles.infoContainer}>
-          <h1 className={styles.title}>{title}</h1>
-          <div>
-            <time>{parsedDate}</time>
-          </div>
-          <div>{venue}</div>
-          <div>{address}</div>
-          <div>{price ?? t('event-listing.no-price')}</div>
-          <div className={styles.controls}>
-            <a
-              className={styles.moreInfoLink}
-              href={moreInfoLink ?? ''}
-              target="_blank"
-              rel="noreferrer"
-            >
-              {t('event-listing.more-info')}
-            </a>
-            <AddToCalendarButton
-              title={title}
-              start={dateShowTime}
-              location={`${venue} - ${address}`}
-            />
-          </div>
-        </div>
-      </div>
-    </main>
+    <div>
+      <EventListingDetails event={event} />
+    </div>
   );
 }
 
