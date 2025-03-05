@@ -14,7 +14,7 @@ function Calendar() {
   const [queryString, setQueryString] = useState('');
 
   const { data: events, isLoading } = useQuery({
-    queryKey: ['events'],
+    queryKey: ['events', queryString],
     queryFn: () => fetchEvents(queryString),
   });
 

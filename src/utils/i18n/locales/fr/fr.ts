@@ -21,7 +21,7 @@ export const frLang = {
   },
   'event-listing': {
     'add-to-calendar': 'Ajouter au calendrier',
-    'more-info': 'Infos',
+    'more-info': 'Plus d\'infos',
     'price': 'Prix d\'entrée',
     'no-price': 'Voir ci-dessous pour le prix d\'entrée',
   },

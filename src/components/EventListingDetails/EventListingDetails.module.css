@@ -13,6 +13,19 @@
   font-size: var(--text-xxs);
 }
 
+.copyButton {
+  align-items: center;
+  background-color: transparent;
+  border: 1px solid var(--white);
+  cursor: pointer;
+  color: var(--white);
+  display: flex;
+  justify-content: center;
+  margin-right: var(--space-md);
+  padding: var(--space-xxs) var(--space-xs);
+  width: 94px;
+}
+
 .imgContainer {
   align-items: center;
   background-color: #1b1b1b;
@@ -35,14 +48,7 @@
 }
 
 .moreInfoLink {
-  align-items: center;
-  border: 1px solid var(--white);
-  color: var(--white);
-  display: flex;
-  justify-content: center;
-  margin-right: var(--space-md);
-  padding: var(--space-xxs) var(--space-xs);
-  width: 94px;
+  text-decoration: underline;
 }
 
 .title {
@@ -77,7 +83,7 @@
     font-size: var(--text-xs);
   }
 
-  .moreInfoLink:hover {
+  .copyButton:hover {
     background-color: var(--white);
     color: var(--black);
   }

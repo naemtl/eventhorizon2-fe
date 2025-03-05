@@ -1,7 +1,7 @@
 import type { EventListingDetailsProps } from './EventListingDetails.types.ts';
 
 import { format } from 'date-fns';
-import { memo, useMemo } from 'react';
+import { memo, useCallback, useMemo, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import Zoom from 'react-medium-image-zoom';
 
@@ -13,14 +13,27 @@ import 'react-medium-image-zoom/dist/styles.css';
 
 function EventListingDetails({ event }: EventListingDetailsProps) {
   const { t } = useTranslation();
+  const [isCopied, setIsCopied] = useState(false);
 
-  const { title, dateShowTime, venue, address, price, image, moreInfoLink }
+  const { title, dateShowTime, venue, address, price, image, moreInfoLink, originalId }
     = event;
 
   const parsedDate = useMemo(
     () => format(new Date(dateShowTime), 'yyyy.MM.dd - HH:mm'),
     [dateShowTime],
   );
+
+  const handleCopyLink = useCallback(
+    async () => {
+      await navigator.clipboard.writeText(`https://www.subscenemtl.net/events/${originalId}`);
+      setIsCopied(true);
+      setTimeout(() => {
+        setIsCopied(false);
+      }, 1000);
+    },
+    [originalId],
+  );
+
   return (
     <div className={styles.container}>
       <Zoom classDialog="zoom-dialog">
@@ -38,7 +51,7 @@ function EventListingDetails({ event }: EventListingDetailsProps) {
         <div>{venue}</div>
         <div>{address}</div>
         <div>{price ?? t('event-listing.no-price')}</div>
-        <div className={styles.controls}>
+        <div>
           <a
             className={styles.moreInfoLink}
             href={moreInfoLink ?? ''}
@@ -47,6 +60,17 @@ function EventListingDetails({ event }: EventListingDetailsProps) {
           >
             {t('event-listing.more-info')}
           </a>
+        </div>
+        <div className={styles.controls}>
+          <div>
+            <button
+              className={styles.copyButton}
+              onClick={handleCopyLink}
+              type="button"
+            >
+              {isCopied ? 'Copied!' : 'Copy link'}
+            </button>
+          </div>
           <AddToCalendarButton
             title={title}
             start={dateShowTime}

@@ -1,6 +1,6 @@
 export async function fetchEventListing(eventId: string) {
   try {
-    const response = await fetch(`http://localhost:3000/event/${eventId}`, {
+    const response = await fetch(`http://localhost:3000/events/${eventId}`, {
       method: 'GET',
       headers: {
         'Cache-Control': 'no-cache',
