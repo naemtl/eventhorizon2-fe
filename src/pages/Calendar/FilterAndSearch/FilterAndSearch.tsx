@@ -1,4 +1,4 @@
-import { format, subDays } from 'date-fns';
+import { addDays, addMonths, format, subDays } from 'date-fns';
 import { enCA, es, frCA } from 'date-fns/locale';
 import { memo, useCallback, useEffect, useMemo, useState } from 'react';
 
@@ -106,61 +106,20 @@ function FilterAndSearch({ setQueryString }: FilterAndSearchProps) {
           value={keyword}
           onChange={e => setKeyword(e.target.value)}
         />
-      </div>
-      <div className={styles.dateContainer}>
-        <div className={styles.datePickerContainer}>
-          {/* @ts-expect-error TODO: fix */}
-          <DatePicker
-            aria-label={t('calendar.start-date-range')}
-            locale={datepickerLocal}
-            dateFormat="yyyy.MM.dd"
-            placeholderText={t('calendar.start-date-range')}
-            selectsStart
-            icon={null}
-            minDate={subDays(new Date(), 1)}
-            maxDate={endDate ?? undefined}
-            startDate={startDate}
-            endDate={endDate}
-            onChange={(date: Date) => {
-              setStartDate(date);
-              if (!date && endDate) {
-                setEndDate(null);
-              }
-            }}
-            onFocus={(e: FocusEvent) => {
-              if (e.target instanceof HTMLElement) {
-                e.target.blur();
-              }
-            }}
-            selected={startDate}
-          />
-        </div>
-        <div className={styles.datePickerContainer}>
-          {/* @ts-expect-error TODO: fix */}
-          <DatePicker
-            aria-label={t('calendar.end-date-range')}
-            locale={datepickerLocal}
-            dateFormat="yyyy.MM.dd"
-            placeholderText={t('calendar.end-date-range')}
-            selectsEnd
-            icon={null}
-            minDate={startDate ?? new Date()}
-            startDate={startDate}
-            endDate={endDate}
-            onChange={(date: Date) => {
-              setEndDate(date);
-              if (!startDate) {
-                setStartDate(new Date());
-              }
-            }}
-            onFocus={(e: FocusEvent) => {
-              if (e.target instanceof HTMLElement) {
-                e.target.blur();
-              }
-            }}
-            selected={endDate}
-          />
-        </div>
+        {/* <div className={styles.buttonContainer}> */}
+        <button
+          type="submit"
+          aria-label={t('calendar.search-events')}
+          onClick={handleSubmit}
+          className={`${styles.button} ${
+            isSubmitDisabled && styles.disabled
+          }`}
+          title={t('calendar.search-events')}
+          disabled={isSubmitDisabled}
+        >
+          {t('calendar.search')}
+        </button>
+        {/* </div> */}
       </div>
       <div className={styles.selectContainer}>
         <Select
@@ -230,20 +189,78 @@ function FilterAndSearch({ setQueryString }: FilterAndSearchProps) {
           }}
         />
       </div>
-      <div className={styles.buttonContainer}>
+      <div className={styles.dateContainer}>
         <button
-          type="submit"
-          aria-label={t('calendar.search-events')}
-          onClick={handleSubmit}
-          className={`${styles.searchButton} ${
-            isSubmitDisabled && styles.disabled
-          }`}
-          title={t('calendar.search-events')}
-          disabled={isSubmitDisabled}
+          className={styles.button}
+          title={t('calendar.all-dates')}
+          type="button"
+          onClick={() => {
+            setStartDate(null);
+            setEndDate(null);
+          }}
         >
-          {t('calendar.search')}
+          {t('calendar.all-dates')}
         </button>
-        <button type="reset" className={styles.resetButton} onClick={handleReset}>
+        <button
+          className={styles.button}
+          title={t('calendar.today')}
+          type="button"
+          onClick={() => {
+            setStartDate(subDays(new Date(), 1));
+            setEndDate(new Date());
+          }}
+        >
+          {t('calendar.today')}
+        </button>
+        <button
+          className={styles.button}
+          title={t('calendar.this-week')}
+          type="button"
+          onClick={() => {
+            setStartDate(subDays(new Date(), 1));
+            setEndDate(addDays(new Date(), 7));
+          }}
+        >
+          {t('calendar.this-week')}
+        </button>
+        <button
+          className={styles.button}
+          title={t('calendar.this-month')}
+          type="button"
+          onClick={() => {
+            setStartDate(subDays(new Date(), 1));
+            setEndDate(addMonths(new Date(), 1));
+          }}
+        >
+          {t('calendar.this-month')}
+        </button>
+        <div className={styles.datePickerContainer}>
+          {/* @ts-expect-error TODO: fix */}
+          <DatePicker
+            aria-label={t('calendar.end-date-range')}
+            locale={datepickerLocal}
+            dateFormat="yyyy.MM.dd"
+            placeholderText={t('calendar.end-date-range')}
+            selectsEnd
+            icon={null}
+            minDate={startDate ?? new Date()}
+            startDate={startDate}
+            endDate={endDate}
+            onChange={(date: Date) => {
+              setEndDate(date);
+              if (!startDate) {
+                setStartDate(new Date());
+              }
+            }}
+            onFocus={(e: FocusEvent) => {
+              if (e.target instanceof HTMLElement) {
+                e.target.blur();
+              }
+            }}
+            selected={endDate}
+          />
+        </div>
+        <button type="reset" className={styles.button} onClick={handleReset}>
           {t('calendar.reset')}
         </button>
       </div>

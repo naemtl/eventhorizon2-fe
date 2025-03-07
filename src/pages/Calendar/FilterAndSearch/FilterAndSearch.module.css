@@ -1,9 +1,10 @@
-.container {
-  display: flex;
-  flex-direction: column;
-  height: 220px;
-  justify-content: space-evenly;
-  max-width: 380px;
+.button {
+  background-color: var(--white);
+  border: 1px solid var(--white);
+  color: var(--black);
+  cursor: pointer;
+  font-size: var(--text-xs);
+  max-width: 180px;
   width: 100%;
 }
 
@@ -13,11 +14,23 @@
   justify-content: space-between;
 }
 
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 220px;
+  justify-content: space-evenly;
+  max-width: 800px;
+  width: 100%;
+}
+
 .dateContainer {
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
+  gap: var(--space-sm);
   justify-content: space-between;
   height: 70px;
+  width: 100%;
 }
 
 .datePickerContainer {
@@ -42,17 +55,6 @@
   display: none;
 }
 
-.searchButton,
-.resetButton {
-  background-color: var(--white);
-  border: 1px solid var(--white);
-  color: var(--black);
-  cursor: pointer;
-  font-size: var(--text-xs);
-  max-width: 180px;
-  width: 100%;
-}
-
 .disabled {
   background-color: var(--satan);
   border-color: var(--satan);
@@ -60,11 +62,25 @@
   cursor: not-allowed;
 }
 
-.selectContainer {
+.searchContainer, .selectContainer {
   width: 100%;
 }
 
+.searchContainer {
+  justify-content: space-between;
+  display: flex;
+}
+
 @media screen and (min-width: 768px) {
+  .button {
+    font-size: var(--text-sm);
+
+    &:hover {
+      background-color: var(--black);
+      color: var(--white);
+    }
+  }
+
   .dateContainer {
     flex-direction: row;
     height: unset;
@@ -72,16 +88,6 @@
 
   .datePickerContainer {
     width: 175px;
-  }
-
-  .searchButton,
-  .resetButton {
-    font-size: var(--text-sm);
-
-    &:hover {
-      background-color: var(--black);
-      color: var(--white);
-    }
   }
 
   .disabled:hover {
