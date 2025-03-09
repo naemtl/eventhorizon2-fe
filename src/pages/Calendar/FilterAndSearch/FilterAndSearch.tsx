@@ -142,7 +142,7 @@ function FilterAndSearch({ setQueryString }: FilterAndSearchProps) {
               'borderRadius': '0',
               'boxShadow': 'none',
               'cursor': 'pointer',
-              'fontSize': 'var(--text-sm)',
+              'fontSize': 'var(--text-xs)',
               '&:hover': {
                 borderColor: 'var(--white)',
               },

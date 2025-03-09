@@ -19,17 +19,14 @@
   flex-direction: column;
   height: 220px;
   justify-content: space-evenly;
-  max-width: 800px;
+  max-width: 360px;
   width: 100%;
 }
 
 .dateContainer {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  gap: var(--space-sm);
-  justify-content: space-between;
-  height: 70px;
+  display: grid;
+  grid-gap: var(--space-xs);
+  grid-template-columns: 1fr 1fr;
   width: 100%;
 }
 
@@ -43,7 +40,7 @@
   border-bottom: 1px solid var(--white);
   border-radius: 0;
   color: var(--white);
-  font-size: var(--text-md);
+  font-size: var(--text-xs);
   width: 100%;
 
   &:focus {
@@ -72,30 +69,21 @@
 }
 
 @media screen and (min-width: 768px) {
-  .button {
-    font-size: var(--text-sm);
+  .button:hover { 
+    background-color: var(--black);
+    color: var(--white);
+  }
 
-    &:hover {
-      background-color: var(--black);
-      color: var(--white);
-    }
+  .container {
+    max-width: 500px;
   }
 
   .dateContainer {
-    flex-direction: row;
-    height: unset;
-  }
-
-  .datePickerContainer {
-    width: 175px;
+    grid-template-columns: 1fr 1fr 1fr;
   }
 
   .disabled:hover {
     background-color: var(--satan);
     color: var(--black);
-  }
-
-  .input {
-    font-size: var(--text-sm);
   }
 }
