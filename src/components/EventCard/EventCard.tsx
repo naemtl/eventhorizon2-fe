@@ -2,26 +2,22 @@ import type { EventCardProps } from './EventCard.types.ts';
 import { format } from 'date-fns';
 import { memo, useMemo, useState } from 'react';
 
-import Modal from 'react-modal';
-import EventListingModal from 'src/pages/EventListingModal/EventListingModal.tsx';
+import EventListingDetails from '../EventListingDetails/EventListingDetails.tsx';
+import ModalWithButton from '../ModalWithButton/ModalWithButton.tsx';
 
 import styles from './EventCard.module.css';
 
 function EventCard({ event }: EventCardProps) {
-  const [modalIsOpen, setModalIsOpen] = useState(false);
+  const [isModalOpen, setIsModalOpen] = useState(false);
+
+  const openModal = () => {
+    setIsModalOpen(true);
+  };
 
   const parsedDate = useMemo(
     () => format(new Date(event.dateShowTime), 'yyyy.MM.dd'),
     [event.dateShowTime],
   );
-
-  const openModal = () => {
-    setModalIsOpen(true);
-  };
-
-  const closeModal = () => {
-    setModalIsOpen(false);
-  };
 
   return (
     <article className={styles.container}>
@@ -43,10 +39,8 @@ function EventCard({ event }: EventCardProps) {
           <h4 className={styles.title}>{event.title}</h4>
         </div>
       </div>
-      <Modal
-        isOpen={modalIsOpen}
-        onRequestClose={closeModal}
-        style={{
+      <ModalWithButton
+        customStyles={{
           overlay: {
             backgroundColor: 'rgba(0, 0, 0, 0.75)',
           },
@@ -55,9 +49,11 @@ function EventCard({ event }: EventCardProps) {
             inset: '20px',
           },
         }}
+        isModalOpen={isModalOpen}
+        setIsModalOpen={setIsModalOpen}
       >
-        <EventListingModal event={event} closeModal={closeModal} />
-      </Modal>
+        <EventListingDetails event={event} />
+      </ModalWithButton>
     </article>
   );
 }
