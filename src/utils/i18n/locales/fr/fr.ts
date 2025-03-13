@@ -7,7 +7,7 @@ export const frLang = {
   },
   'calendar': {
     'all-dates': 'Toutes les dates',
-    'end-date-range': 'Date de fin',
+    'choose-dates': 'Choisis dates',
     'enter-keyword': 'Entrez un mot-clé',
     'filter-source': 'Filtrer par source',
     'reset': 'Reinitialiser',

@@ -10,10 +10,6 @@ import styles from './EventCard.module.css';
 function EventCard({ event }: EventCardProps) {
   const [isModalOpen, setIsModalOpen] = useState(false);
 
-  const openModal = () => {
-    setIsModalOpen(true);
-  };
-
   const parsedDate = useMemo(
     () => format(new Date(event.dateShowTime), 'yyyy.MM.dd'),
     [event.dateShowTime],
@@ -21,7 +17,7 @@ function EventCard({ event }: EventCardProps) {
 
   return (
     <article className={styles.container}>
-      <div onClick={openModal}>
+      <div onClick={() => setIsModalOpen(true)}>
         <figure className={styles.imgContainer}>
           {(event.image && (
             <img

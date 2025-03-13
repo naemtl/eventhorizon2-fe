@@ -7,7 +7,7 @@ export const enLang = {
   },
   'calendar': {
     'all-dates': 'All dates',
-    'end-date-range': 'End date range',
+    'choose-dates': 'Choose dates',
     'enter-keyword': 'Enter keyword',
     'filter-source': 'Filter by source',
     'reset': 'Reset',

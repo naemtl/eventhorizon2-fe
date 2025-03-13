@@ -6,6 +6,8 @@ import DatePicker, { registerLocale } from 'react-datepicker';
 import { useTranslation } from 'react-i18next';
 import Select from 'react-select';
 
+import ModalWithButton from 'src/components/ModalWithButton/ModalWithButton.tsx';
+
 import styles from './FilterAndSearch.module.css';
 import 'react-datepicker/dist/react-datepicker.css';
 import './Datepicker.css';
@@ -30,6 +32,7 @@ function FilterAndSearch({ setQueryString }: FilterAndSearchProps) {
   const [startDate, setStartDate] = useState<Date | null>();
   const [endDate, setEndDate] = useState<Date | null>();
   const [selectedSources, setSelectedSources] = useState<string[]>([]);
+  const [isModalOpen, setIsModalOpen] = useState(false);
 
   useEffect(() => {
     if (i18n.language === 'fr') {
@@ -91,6 +94,12 @@ function FilterAndSearch({ setQueryString }: FilterAndSearchProps) {
     [startDate, endDate, selectedSources, keyword],
   );
 
+  const selectDateRange = useCallback((dates: Date[]) => {
+    const [start, end] = dates;
+    setStartDate(start);
+    setEndDate(end);
+  }, []);
+
   return (
     <section className={styles.container}>
       <div className={styles.searchContainer}>
@@ -106,7 +115,6 @@ function FilterAndSearch({ setQueryString }: FilterAndSearchProps) {
           value={keyword}
           onChange={e => setKeyword(e.target.value)}
         />
-        {/* <div className={styles.buttonContainer}> */}
         <button
           type="submit"
           aria-label={t('calendar.search-events')}
@@ -119,7 +127,6 @@ function FilterAndSearch({ setQueryString }: FilterAndSearchProps) {
         >
           {t('calendar.search')}
         </button>
-        {/* </div> */}
       </div>
       <div className={styles.selectContainer}>
         <Select
@@ -234,36 +241,49 @@ function FilterAndSearch({ setQueryString }: FilterAndSearchProps) {
         >
           {t('calendar.this-month')}
         </button>
-        <div className={styles.datePickerContainer}>
-          {/* @ts-expect-error TODO: fix */}
-          <DatePicker
-            aria-label={t('calendar.end-date-range')}
-            locale={datepickerLocal}
-            dateFormat="yyyy.MM.dd"
-            placeholderText={t('calendar.end-date-range')}
-            selectsEnd
-            icon={null}
-            minDate={startDate ?? new Date()}
-            startDate={startDate}
-            endDate={endDate}
-            onChange={(date: Date) => {
-              setEndDate(date);
-              if (!startDate) {
-                setStartDate(new Date());
-              }
-            }}
-            onFocus={(e: FocusEvent) => {
-              if (e.target instanceof HTMLElement) {
-                e.target.blur();
-              }
-            }}
-            selected={endDate}
-          />
-        </div>
+        <button
+          className={styles.button}
+          title={t('calendar.choose-dates')}
+          type="button"
+          onClick={() => setIsModalOpen(true)}
+        >
+          {t('calendar.choose-dates')}
+        </button>
         <button type="reset" className={styles.button} onClick={handleReset}>
           {t('calendar.reset')}
         </button>
       </div>
+      <ModalWithButton
+        customStyles={{
+          overlay: {
+            backgroundColor: 'rgba(0, 0, 0, 0.75)',
+          },
+          content: {
+            background: 'rgb(0, 0, 0)',
+            inset: '220px',
+            margin: '0 auto',
+            maxWidth: '320px',
+            width: '100%',
+          },
+        }}
+        isModalOpen={isModalOpen}
+        setIsModalOpen={setIsModalOpen}
+      >
+        {/* @ts-expect-error TODO: fix */}
+        <DatePicker
+          aria-label={t('calendar.choose-dates')}
+          locale={datepickerLocal}
+          dateFormat="yyyy.MM.dd"
+          icon={null}
+          inline
+          minDate={new Date()}
+          startDate={startDate}
+          endDate={endDate}
+          onChange={selectDateRange}
+          selected={startDate}
+          selectsRange
+        />
+      </ModalWithButton>
     </section>
   );
 }
