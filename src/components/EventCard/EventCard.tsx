@@ -36,15 +36,7 @@ function EventCard({ event }: EventCardProps) {
         </div>
       </div>
       <ModalWithButton
-        customStyles={{
-          overlay: {
-            backgroundColor: 'rgba(0, 0, 0, 0.75)',
-          },
-          content: {
-            background: 'rgb(0, 0, 0)',
-            inset: '20px',
-          },
-        }}
+        insetValue="20px"
         isModalOpen={isModalOpen}
         setIsModalOpen={setIsModalOpen}
       >

@@ -6,7 +6,7 @@ import Modal from 'react-modal';
 
 import styles from './ModalWithButton.module.css';
 
-function ModalWithButton({ children, customStyles, isModalOpen, setIsModalOpen }: ModalWithButtonProps) {
+function ModalWithButton({ children, insetValue, isModalOpen, setIsModalOpen }: ModalWithButtonProps) {
   const closeModal = () => {
     setIsModalOpen(false);
   };
@@ -14,7 +14,15 @@ function ModalWithButton({ children, customStyles, isModalOpen, setIsModalOpen }
     <Modal
       isOpen={isModalOpen}
       onRequestClose={closeModal}
-      style={customStyles}
+      style={{
+        overlay: {
+          backgroundColor: 'rgba(0, 0, 0, 0.75)',
+        },
+        content: {
+          background: 'rgb(0, 0, 0)',
+          inset: insetValue,
+        },
+      }}
     >
       <main className={styles.container}>
         <button type="button" title="Close" className={styles.closeButton} onClick={closeModal}>
