@@ -12,4 +12,9 @@ interface FormattedEvent {
   source: string;
 }
 
-export { FormattedEvent };
+interface Option {
+  value: string;
+  label: string;
+}
+
+export type { FormattedEvent, Option };

@@ -1,4 +1,4 @@
-import type { Option } from './Navbar.types.ts';
+import type { Option } from 'src/types/index.js';
 import { Link } from '@tanstack/react-router';
 import { memo, useCallback, useMemo, useState } from 'react';
 import { useTranslation } from 'react-i18next';
