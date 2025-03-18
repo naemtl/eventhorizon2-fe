@@ -29,6 +29,7 @@ function Calendar() {
         {!isLoading && events?.map((event: FormattedEvent) => (
           <EventCard key={event.originalId} event={event} />
         ))}
+        {!isLoading && !events && <div>Come back soon :)</div>}
       </div>
     </main>
   );
