@@ -2,7 +2,9 @@ import type { Option } from 'src/types/index.js';
 import { Link } from '@tanstack/react-router';
 import { memo, useCallback, useMemo, useState } from 'react';
 import { useTranslation } from 'react-i18next';
-import { GoHeart, GoInfo } from 'react-icons/go';
+import { GoInfo } from 'react-icons/go';
+import { LiaDonateSolid } from 'react-icons/lia';
+
 import Select from 'react-select';
 
 import styles from './Navbar.module.css';
@@ -51,8 +53,8 @@ function Navbar() {
         <Link className={styles.controlsLink} to="/about">
           <GoInfo />
         </Link>
-        <a className={styles.controlsLink} title="Support Subscene MTL" href="https://ko-fi.com/N4N11BE9JJ" target="_blank" rel="noreferrer noopener">
-          <GoHeart />
+        <a className={`${styles.controlsLink} ${styles.donate}`} title="Support Subscene MTL" href="https://ko-fi.com/N4N11BE9JJ" target="_blank" rel="noreferrer noopener">
+          <LiaDonateSolid />
         </a>
         <Select
           defaultValue={selectedLocale}

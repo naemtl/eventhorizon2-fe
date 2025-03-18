@@ -39,6 +39,10 @@
   padding: var(--space-xxs);
 }
 
+.donate {
+  font-size: calc(var(--text-md) * 1.5);
+}
+
 .title {
   color: var(--white);
   font-size: var(--text-xs);
