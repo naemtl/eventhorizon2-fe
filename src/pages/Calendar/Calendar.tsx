@@ -21,7 +21,7 @@ function Calendar() {
   return (
     <main className={styles.container}>
       <div className={styles.headerContainer}>
-        <FilterAndSearch setQueryString={setQueryString} />
+        <FilterAndSearch />
         <h1 className={styles.title}>{t('calendar.title')}</h1>
       </div>
       <div className={styles.innerContainer}>
