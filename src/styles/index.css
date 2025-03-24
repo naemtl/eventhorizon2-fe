@@ -81,8 +81,8 @@ h6 {
   isolation: isolate;
 }
 
-/* 
-  10. Misc 
+/*
+  10. Misc
 */
 a {
   font-weight: 500;
@@ -97,5 +97,5 @@ a {
 @media screen and (min-width: 1024px) {
   a:hover {
     color: var(--satan);
-  } 
+  }
 }

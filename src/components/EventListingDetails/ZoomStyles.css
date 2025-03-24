@@ -4,11 +4,11 @@
   transition-timing-function: linear;
 }
 
-.zoom-dialog [data-rmiz-modal-overlay="hidden"] {
+.zoom-dialog [data-rmiz-modal-overlay='hidden'] {
   background-color: rgba(0, 0, 0, 0);
 }
 
-.zoom-dialog [data-rmiz-modal-overlay="visible"] {
+.zoom-dialog [data-rmiz-modal-overlay='visible'] {
   background-color: rgb(0, 0, 0, 1);
 }
 

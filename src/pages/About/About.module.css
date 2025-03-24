@@ -25,7 +25,9 @@
   margin-bottom: var(--space-md);
 }
 
-.header, .faqContainer, .contactContainer {
+.header,
+.faqContainer,
+.contactContainer {
   max-width: 1000px;
   width: 100%;
 }

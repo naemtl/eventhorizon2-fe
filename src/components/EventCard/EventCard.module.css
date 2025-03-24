@@ -31,8 +31,8 @@
   padding: 0 var(--space-xxs);
   overflow: hidden;
   height: 80px;
-  
-  &:hover { 
+
+  &:hover {
     /* TODO: trigger this on poster hover too */
     background-color: var(--white);
     color: var(--black);

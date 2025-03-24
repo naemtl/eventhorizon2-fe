@@ -49,10 +49,10 @@
 }
 
 @media screen and (min-width: 768px) {
-  .aboutLink{
+  .aboutLink {
     font-size: calc(var(--text-md) * 1.5);
   }
-  
+
   .branding {
     width: 160px;
   }
@@ -67,16 +67,17 @@
   .controlsLink:hover {
     color: var(--satan);
   }
-  
+
   .branding:hover {
     color: var(--satan);
   }
 
-  .branding:hover svg, .branding:hover .title {
+  .branding:hover svg,
+  .branding:hover .title {
     color: var(--satan);
   }
 
   .title:hover {
     color: var(--satan);
-  } 
+  }
 }
