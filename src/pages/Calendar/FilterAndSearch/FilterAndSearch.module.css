@@ -23,14 +23,7 @@
   width: 100%;
 }
 
-.dateContainer {
-  display: grid;
-  grid-gap: var(--space-xs);
-  grid-template-columns: 1fr 1fr;
-  width: 100%;
-}
-
-.datePickerContainer {
+.dateResetContainer {
   width: 100%;
 }
 
@@ -44,12 +37,17 @@
   width: 100%;
 
   &:focus {
-    outline-color: var(--satan);
+    outline: none;
   }
 }
 
 .label {
   display: none;
+}
+
+.dateButtonContainer,
+.dateResetContainer {
+  display: flex;
 }
 
 .disabled {
@@ -59,28 +57,37 @@
   cursor: not-allowed;
 }
 
+.searchButton {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid var(--white);
+  color: var(--white);
+  cursor: pointer;
+  font-size: var(--text-xxl);
+
+  &:hover {
+    color: var(--satan);
+  }
+}
+
 .searchSelectContainer {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
 
-.searchContainer, .selectContainer {
+.searchContainer,
+.selectContainer {
   width: 100%;
 }
 
 .searchContainer {
   justify-content: space-between;
   display: flex;
-  max-width: 48%;
-}
-
-.selectContainer {
-  max-width: 48%;
 }
 
 @media screen and (min-width: 768px) {
-  .button:hover { 
+  .button:hover {
     background-color: var(--black);
     color: var(--white);
   }
@@ -89,12 +96,21 @@
     max-width: 900px;
   }
 
-  .dateContainer {
-    grid-template-columns: 1fr 1fr 1fr;
-  }
-
   .disabled:hover {
     background-color: var(--satan);
     color: var(--black);
+  }
+
+  .dateResetContainer,
+  .searchSelectContainer {
+    flex-direction: row;
+  }
+
+  .dateButtonContainer,
+  .dateSelectContainer,
+  .searchContainer,
+  .selectContainer {
+    max-width: 48%;
+    width: 100%;
   }
 }

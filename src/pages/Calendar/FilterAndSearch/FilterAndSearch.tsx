@@ -7,8 +7,10 @@ import DatePicker, { registerLocale } from 'react-datepicker';
 
 import { useTranslation } from 'react-i18next';
 
+import { GoSearch } from 'react-icons/go';
 import DropdownMenu from 'src/components/DropdownMenu/DropdownMenu.tsx';
 import ModalWithButton from 'src/components/ModalWithButton/ModalWithButton.tsx';
+
 import styles from './FilterAndSearch.module.css';
 import 'react-datepicker/dist/react-datepicker.css';
 import './Datepicker.css';
@@ -158,12 +160,12 @@ function FilterAndSearch() {
             onChange={e => setKeyword(e.target.value)}
           />
           <button
+            className={styles.searchButton}
             type="submit"
             aria-label={t('calendar.search-events')}
-            // onClick={handleSubmit}
             title={t('calendar.search-events')}
           >
-            {t('calendar.search')}
+            <GoSearch />
           </button>
         </div>
         <div className={styles.selectContainer}>
@@ -176,24 +178,28 @@ function FilterAndSearch() {
           />
         </div>
       </div>
-      <div className={styles.dateContainer}>
-        <DropdownMenu
-          options={datePresets}
-          placeholder={t('calendar.filter-date')}
-          onChange={handleDatePresetChange}
-          value={selectedDatePreset}
-        />
-        <button
-          className={styles.button}
-          title={t('calendar.choose-dates')}
-          type="button"
-          onClick={() => setIsModalOpen(true)}
-        >
-          {t('calendar.choose-dates')}
-        </button>
-        <button type="reset" className={styles.button} onClick={handleReset}>
-          {t('calendar.reset')}
-        </button>
+      <div className={styles.dateResetContainer}>
+        <div className={styles.dateSelectContainer}>
+          <DropdownMenu
+            options={datePresets}
+            placeholder={t('calendar.filter-date')}
+            onChange={handleDatePresetChange}
+            value={selectedDatePreset}
+          />
+        </div>
+        <div className={styles.dateButtonContainer}>
+          <button
+            className={styles.button}
+            title={t('calendar.choose-dates')}
+            type="button"
+            onClick={() => setIsModalOpen(true)}
+          >
+            {t('calendar.choose-dates')}
+          </button>
+          <button type="reset" className={styles.button} onClick={handleReset}>
+            {t('calendar.reset')}
+          </button>
+        </div>
       </div>
       {/* FIXME: this modal is shit */}
       <ModalWithButton
