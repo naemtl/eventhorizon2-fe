@@ -1,5 +1,5 @@
 import type { Option } from 'src/types/index.js';
-import { addDays, addMonths, subDays } from 'date-fns';
+import { addDays, addMonths, format, subDays } from 'date-fns';
 import { enCA, es, frCA } from 'date-fns/locale';
 
 import { memo, useCallback, useEffect, useMemo, useState } from 'react';
@@ -178,7 +178,7 @@ function FilterAndSearch() {
           />
         </div>
       </div>
-      <div className={styles.dateResetContainer}>
+      <div className={styles.dateControlsContainer}>
         <div className={styles.dateSelectContainer}>
           <DropdownMenu
             options={datePresets}
@@ -187,7 +187,7 @@ function FilterAndSearch() {
             value={selectedDatePreset}
           />
         </div>
-        <div className={styles.dateButtonContainer}>
+        <div className={styles.buttonContainer}>
           <button
             className={styles.button}
             title={t('calendar.choose-dates')}
@@ -201,27 +201,39 @@ function FilterAndSearch() {
           </button>
         </div>
       </div>
-      {/* FIXME: this modal is shit */}
-      <ModalWithButton
-        insetValue="200px 350px"
+      {/* <ModalWithButton
+        contentStyles={{ height: '350px', transform: 'translate(-50%, -50%)', width: '300px' }}
+        insetValue="unset"
         isModalOpen={isModalOpen}
         setIsModalOpen={setIsModalOpen}
       >
-        {/* @ts-expect-error TODO: fix */}
-        <DatePicker
-          aria-label={t('calendar.choose-dates')}
-          locale={datepickerLocal}
-          dateFormat="yyyy.MM.dd"
-          icon={null}
-          inline
-          minDate={new Date()}
-          startDate={startDate}
-          endDate={endDate}
-          onChange={selectDateRange}
-          selected={startDate}
-          selectsRange
-        />
-      </ModalWithButton>
+        <section className={styles.modalContainer}>
+          <h4 className={styles.modalTitle}>{t('calendar.choose-dates')}</h4> */}
+      {/* @ts-expect-error TODO: fix */}
+      {/* <DatePicker
+            aria-label={t('calendar.choose-dates')}
+            locale={datepickerLocal}
+            dateFormat="yyyy.MM.dd"
+            icon={null}
+            inline
+            minDate={new Date()}
+            startDate={startDate}
+            endDate={endDate}
+            onChange={selectDateRange}
+            selected={startDate}
+            selectsRange
+          />
+          { startDate && endDate && (
+            <span className={styles.dateRange}>
+              {format(startDate, 'yyyy.MM.dd')}
+              {' '}
+              -
+              {' '}
+              {format(endDate, 'yyyy.MM.dd')}
+            </span>
+          )}
+        </section>
+      </ModalWithButton> */}
     </section>
   );
 }

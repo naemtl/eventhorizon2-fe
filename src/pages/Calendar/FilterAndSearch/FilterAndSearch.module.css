@@ -17,14 +17,25 @@
 .container {
   display: flex;
   flex-direction: column;
-  height: 220px;
-  justify-content: space-evenly;
+  height: 175px;
   max-width: 360px;
   width: 100%;
 }
 
-.dateResetContainer {
+.dateRange {
+  font-size: var(--text-xxs);
+}
+
+.dateControlsContainer {
+  flex-direction: column;
   width: 100%;
+}
+
+.disabled {
+  background-color: var(--satan);
+  border-color: var(--satan);
+  color: var(--black);
+  cursor: not-allowed;
 }
 
 .input {
@@ -45,16 +56,12 @@
   display: none;
 }
 
-.dateButtonContainer,
-.dateResetContainer {
+.modalContainer {
+  align-items: center;
   display: flex;
-}
-
-.disabled {
-  background-color: var(--satan);
-  border-color: var(--satan);
-  color: var(--black);
-  cursor: not-allowed;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
 }
 
 .searchButton {
@@ -70,10 +77,15 @@
   }
 }
 
+.buttonContainer,
+.dateControlsContainer,
+.searchContainer {
+  display: flex;
+}
+
 .searchSelectContainer {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
 }
 
 .searchContainer,
@@ -81,9 +93,11 @@
   width: 100%;
 }
 
-.searchContainer {
-  justify-content: space-between;
-  display: flex;
+.buttonContainer,
+.dateSelectContainer,
+.searchContainer,
+.selectContainer {
+  margin-bottom: var(--space-sm);
 }
 
 @media screen and (min-width: 768px) {
@@ -93,6 +107,7 @@
   }
 
   .container {
+    justify-content: space-evenly;
     max-width: 900px;
   }
 
@@ -101,15 +116,21 @@
     color: var(--black);
   }
 
-  .dateResetContainer,
-  .searchSelectContainer {
-    flex-direction: row;
+  .buttonContainer {
+    justify-content: space-around;
   }
 
-  .dateButtonContainer,
+  .dateControlsContainer,
+  .searchSelectContainer {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .buttonContainer,
   .dateSelectContainer,
   .searchContainer,
   .selectContainer {
+    margin-bottom: unset;
     max-width: 48%;
     width: 100%;
   }

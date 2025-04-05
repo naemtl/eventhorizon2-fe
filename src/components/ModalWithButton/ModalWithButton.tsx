@@ -6,7 +6,7 @@ import Modal from 'react-modal';
 
 import styles from './ModalWithButton.module.css';
 
-function ModalWithButton({ children, insetValue, isModalOpen, setIsModalOpen }: ModalWithButtonProps) {
+function ModalWithButton({ children, contentStyles, insetValue, isModalOpen, setIsModalOpen }: ModalWithButtonProps) {
   const closeModal = () => {
     setIsModalOpen(false);
   };
@@ -15,12 +15,13 @@ function ModalWithButton({ children, insetValue, isModalOpen, setIsModalOpen }: 
       isOpen={isModalOpen}
       onRequestClose={closeModal}
       style={{
-        overlay: {
-          backgroundColor: 'rgba(0, 0, 0, 0.75)',
-        },
         content: {
           background: 'rgb(0, 0, 0)',
           inset: insetValue,
+          ...contentStyles,
+        },
+        overlay: {
+          backgroundColor: 'rgba(0, 0, 0, 0.75)',
         },
       }}
     >
