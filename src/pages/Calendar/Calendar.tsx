@@ -1,7 +1,8 @@
 import type { FormattedEvent } from 'src/types/index.d.ts';
-import { useQuery } from '@tanstack/react-query';
-import { memo, useState } from 'react';
+import { useInfiniteQuery } from '@tanstack/react-query';
+import { memo, useEffect, useState } from 'react';
 import { useTranslation } from 'react-i18next';
+import { useInView } from 'react-intersection-observer';
 
 import { fetchEvents } from 'src/api/events.ts';
 import EventCard from 'src/components/EventCard/EventCard.tsx';
@@ -12,11 +13,22 @@ import FilterAndSearch from './FilterAndSearch/FilterAndSearch.tsx';
 function Calendar() {
   const { t } = useTranslation();
   const [queryString, setQueryString] = useState('');
+  const { ref, inView } = useInView();
 
-  const { data: events, isLoading } = useQuery({
+  const { data, error, status, fetchNextPage, isFetchingNextPage } = useInfiniteQuery({
     queryKey: ['events', queryString],
-    queryFn: () => fetchEvents(queryString),
+    queryFn: ({ pageParam }) => fetchEvents({ pageParam, queryString }),
+    initialPageParam: 1,
+    getNextPageParam: lastPage => lastPage.nextCursor,
   });
+
+  useEffect(() => {
+    if (inView) {
+      fetchNextPage();
+    }
+  }, [inView, fetchNextPage]);
+
+  const loadingQuery = status === 'pending';
 
   return (
     <main className={styles.container}>
@@ -25,11 +37,15 @@ function Calendar() {
         <h1 className={styles.title}>{t('calendar.title')}</h1>
       </div>
       <div className={styles.innerContainer}>
-        {isLoading && <div>Loading...</div>}
-        {!isLoading && events?.map((event: FormattedEvent) => (
-          <EventCard key={event.originalId} event={event} />
+        {loadingQuery && <div>Loading...</div>}
+        {!loadingQuery && data?.pages?.map(page => (
+          page.events.map((event: FormattedEvent) => (
+            <EventCard key={event.originalId} event={event} />
+          ))
         ))}
-        {!isLoading && !events && <div>Come back soon :)</div>}
+        <div ref={ref}>
+          {isFetchingNextPage && <div>Loading...</div>}
+        </div>
       </div>
     </main>
   );

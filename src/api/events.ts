@@ -1,6 +1,10 @@
-export async function fetchEvents(queryString: string) {
+export async function fetchEvents({ pageParam = 1, queryString = '' }) {
+  const params = new URLSearchParams();
+  params.set('limit', '12');
+  params.set('cursor', pageParam.toString());
+  params.set('queryString', queryString);
   try {
-    const response = await fetch(`http://localhost:3000/events?${queryString}`, {
+    const response = await fetch(`http://localhost:3000/events?${params}`, {
       method: 'GET',
       headers: {
         'Cache-Control': 'no-cache',
