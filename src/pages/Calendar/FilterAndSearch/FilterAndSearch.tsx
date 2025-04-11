@@ -34,7 +34,7 @@ function FilterAndSearch() {
   const [endDate, setEndDate] = useState<Date | null>();
   const [selectedDatePreset, setSelectedDatePreset] = useState<Option | null>(null);
   const [selectedSources, setSelectedSources] = useState<string[]>([]);
-  const [isModalOpen, setIsModalOpen] = useState(false);
+  // const [isModalOpen, setIsModalOpen] = useState(false);
 
   const datePresets = useMemo(() => [
     { value: 'all', label: t('calendar.all-dates') },
@@ -113,18 +113,18 @@ function FilterAndSearch() {
     };
   }, [i18n, selectedDatePreset, t]);
 
-  const handleReset: () => void = useCallback(() => {
-    setKeyword('');
-    setSelectedSources([]);
-    setStartDate(null);
-    setEndDate(null);
-  }, []);
+  // const handleReset: () => void = useCallback(() => {
+  //   setKeyword('');
+  //   setSelectedSources([]);
+  //   setStartDate(null);
+  //   setEndDate(null);
+  // }, []);
 
-  const selectDateRange = useCallback((dates: Date[]) => {
-    const [start, end] = dates;
-    setStartDate(start);
-    setEndDate(end);
-  }, []);
+  // const selectDateRange = useCallback((dates: Date[]) => {
+  //   const [start, end] = dates;
+  //   setStartDate(start);
+  //   setEndDate(end);
+  // }, []);
 
   const handleSourceSelectChange = useCallback(
     (selectedOptions: Option[]) =>
@@ -187,19 +187,20 @@ function FilterAndSearch() {
             value={selectedDatePreset}
           />
         </div>
-        <div className={styles.buttonContainer}>
+        {/* <div className={styles.buttonContainer}>
           <button
             className={styles.button}
             title={t('calendar.choose-dates')}
             type="button"
             onClick={() => setIsModalOpen(true)}
+            disabled
           >
             {t('calendar.choose-dates')}
           </button>
           <button type="reset" className={styles.button} onClick={handleReset}>
             {t('calendar.reset')}
           </button>
-        </div>
+        </div> */}
       </div>
       {/* <ModalWithButton
         contentStyles={{ height: '350px', transform: 'translate(-50%, -50%)', width: '300px' }}
@@ -209,7 +210,7 @@ function FilterAndSearch() {
       >
         <section className={styles.modalContainer}>
           <h4 className={styles.modalTitle}>{t('calendar.choose-dates')}</h4> */}
-      {/* @ts-expect-error TODO: fix */}
+      {/* @ts-expect-er ror TODO: fix */}
       {/* <DatePicker
             aria-label={t('calendar.choose-dates')}
             locale={datepickerLocal}
