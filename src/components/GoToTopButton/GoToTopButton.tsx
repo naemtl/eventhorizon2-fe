@@ -9,7 +9,7 @@ function GoToTopButton({ showButton, handleScrollToTop }: GoToTopButtonProps) {
 
   return (
     <div className={styles.container}>
-      <button className={showButton ? styles.button : styles.hide} onClick={handleScrollToTop} type="button" title={t('go-to-top')}>
+      <button className={showButton ? styles.button : styles.hide} onClick={handleScrollToTop} type="button" title={t('calendar.go-to-top')}>
         <IoChevronUpCircleSharp />
       </button>
     </div>

@@ -11,6 +11,8 @@ export const frLang = {
     'enter-keyword': 'Entrez un mot-clé',
     'filter-date': 'Dates prédéfinies',
     'filter-source': 'Filtrer par source',
+    'go-to-top': 'Retourner en haut',
+    'loading': 'En cours',
     'reset': 'Reinitialiser',
     'search': 'Rechercher',
     'search-events': 'Rechercher des événements',

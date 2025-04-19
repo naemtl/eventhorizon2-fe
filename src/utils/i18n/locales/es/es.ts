@@ -11,6 +11,8 @@ export const esLang = {
     'enter-keyword': 'Ingresa una palabra clave',
     'filter-date': 'Fechas predefinidas',
     'filter-source': 'Filtrar por fuente',
+    'go-to-top': 'Ir arriba',
+    'loading': 'Cargando',
     'reset': 'Reiniciar',
     'search': 'Buscar',
     'search-events': 'Buscar eventos',

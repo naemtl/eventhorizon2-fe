@@ -11,6 +11,8 @@ export const enLang = {
     'enter-keyword': 'Enter keyword',
     'filter-date': 'Date presets',
     'filter-source': 'Filter by source',
+    'go-to-top': 'Go to top',
+    'loading': 'Loading',
     'reset': 'Reset',
     'search': 'Search',
     'search-events': 'Search events',

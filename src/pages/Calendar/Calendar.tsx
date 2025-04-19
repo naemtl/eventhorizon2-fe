@@ -14,6 +14,7 @@ import FilterAndSearch from './FilterAndSearch/FilterAndSearch.tsx';
 function Calendar() {
   const { t } = useTranslation();
   const [queryString, setQueryString] = useState('');
+  const [showGoToTopButton, setShowGoToTopButton] = useState(false);
   const { ref, inView } = useInView();
 
   const { data, error, status, fetchNextPage, isFetchingNextPage } = useInfiniteQuery({
@@ -23,17 +24,34 @@ function Calendar() {
     getNextPageParam: lastPage => lastPage.nextCursor,
   });
 
-  useEffect(() => {
-    if (inView) {
-      fetchNextPage();
-    }
-  }, [inView, fetchNextPage]);
-
   const loadingQuery = status === 'pending';
 
   const handleScrollToTop = useCallback(() => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   }, []);
+
+  const handleShowGoToTopButton = useCallback(() => {
+    const position = window.pageYOffset;
+    if (position > 500) {
+      setShowGoToTopButton(true);
+    }
+    else {
+      setShowGoToTopButton(false);
+    }
+  }, []);
+
+  useEffect(() => {
+    window.addEventListener('scroll', handleShowGoToTopButton);
+    return () => {
+      window.removeEventListener('scroll', handleShowGoToTopButton);
+    };
+  }, [handleShowGoToTopButton]);
+
+  useEffect(() => {
+    if (inView) {
+      fetchNextPage();
+    }
+  }, [inView, fetchNextPage]);
 
   return (
     <main className={styles.container}>
@@ -42,17 +60,17 @@ function Calendar() {
         <h1 className={styles.title}>{t('calendar.title')}</h1>
       </div>
       <div className={styles.innerContainer}>
-        {loadingQuery && <div>Loading...</div>}
+        {loadingQuery && <div>{t('calendar.loading')}</div>}
         {!loadingQuery && data?.pages?.map(page => (
           page.events.map((event: FormattedEvent) => (
             <EventCard key={event.originalId} event={event} />
           ))
         ))}
         <div ref={ref}>
-          {isFetchingNextPage && <div>Loading...</div>}
+          {isFetchingNextPage && <div>{t('calendar.loading')}</div>}
         </div>
       </div>
-      <GoToTopButton showButton handleScrollToTop={handleScrollToTop} />
+      <GoToTopButton showButton={showGoToTopButton} handleScrollToTop={handleScrollToTop} />
     </main>
   );
 }
