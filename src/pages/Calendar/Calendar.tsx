@@ -1,11 +1,12 @@
 import type { FormattedEvent } from 'src/types/index.d.ts';
 import { useInfiniteQuery } from '@tanstack/react-query';
-import { memo, useEffect, useState } from 'react';
+import { memo, useCallback, useEffect, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { useInView } from 'react-intersection-observer';
 
 import { fetchEvents } from 'src/api/events.ts';
 import EventCard from 'src/components/EventCard/EventCard.tsx';
+import GoToTopButton from 'src/components/GoToTopButton/GoToTopButton.tsx';
 
 import styles from './Calendar.module.css';
 import FilterAndSearch from './FilterAndSearch/FilterAndSearch.tsx';
@@ -30,6 +31,10 @@ function Calendar() {
 
   const loadingQuery = status === 'pending';
 
+  const handleScrollToTop = useCallback(() => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }, []);
+
   return (
     <main className={styles.container}>
       <div className={styles.headerContainer}>
@@ -47,6 +52,7 @@ function Calendar() {
           {isFetchingNextPage && <div>Loading...</div>}
         </div>
       </div>
+      <GoToTopButton showButton handleScrollToTop={handleScrollToTop} />
     </main>
   );
 }

@@ -1,0 +1,21 @@
+.button {
+  background: transparent;
+  border: none;
+  color: var(--white);
+  display: block;
+  fill: var(--black);
+  cursor: pointer;
+  font-size: calc(var(--text-xxl) * 2);
+  outline: none;
+}
+
+.container {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+}
+
+.hide {
+  display: none;
+}
