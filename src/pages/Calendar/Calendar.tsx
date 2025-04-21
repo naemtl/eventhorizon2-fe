@@ -13,13 +13,17 @@ import FilterAndSearch from './FilterAndSearch/FilterAndSearch.tsx';
 
 function Calendar() {
   const { t } = useTranslation();
-  const [queryString, setQueryString] = useState('');
+  const [keyword, setKeyword] = useState<string>('');
+  const [endDate, setEndDate] = useState<Date | null>(null);
+  const [startDate, setStartDate] = useState<Date | null>(null);
+  const [sources, setSources] = useState<string[]>([]);
   const [showGoToTopButton, setShowGoToTopButton] = useState(false);
+
   const { ref, inView } = useInView();
 
   const { data, error, status, fetchNextPage, isFetchingNextPage } = useInfiniteQuery({
-    queryKey: ['events', queryString],
-    queryFn: ({ pageParam }) => fetchEvents({ pageParam, queryString }),
+    queryKey: ['events', keyword, startDate, endDate, sources],
+    queryFn: ({ pageParam }) => fetchEvents({ pageParam, keyword, startDate, endDate, sources }),
     initialPageParam: 1,
     getNextPageParam: lastPage => lastPage.nextCursor,
   });
@@ -56,7 +60,7 @@ function Calendar() {
   return (
     <main className={styles.container}>
       <div className={styles.headerContainer}>
-        <FilterAndSearch />
+        <FilterAndSearch keyword={keyword} setKeyword={setKeyword} setStartDate={setStartDate} setEndDate={setEndDate} sources={sources} setSources={setSources} />
         <h1 className={styles.title}>{t('calendar.title')}</h1>
       </div>
       <div className={styles.innerContainer}>

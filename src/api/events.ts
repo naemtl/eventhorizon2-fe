@@ -1,8 +1,19 @@
-export async function fetchEvents({ pageParam = 1, queryString = '' }) {
+interface FetchEventsParams {
+  keyword: string;
+  pageParam: number;
+  startDate: Date | null;
+  endDate: Date | null;
+  sources: string[];
+}
+
+export async function fetchEvents({ pageParam = 1, keyword, startDate, endDate, sources }: FetchEventsParams) {
   const params = new URLSearchParams();
   params.set('limit', '12');
   params.set('cursor', pageParam.toString());
-  params.set('queryString', queryString);
+  params.set('keyword', keyword);
+  params.set('startDate', startDate ? startDate.toISOString() : '');
+  params.set('endDate', endDate ? endDate.toISOString() : '');
+  params.set('sources', sources);
   try {
     const response = await fetch(`http://localhost:3000/events?${params}`, {
       method: 'GET',

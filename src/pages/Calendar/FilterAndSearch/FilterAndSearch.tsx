@@ -1,21 +1,22 @@
 import type { Option } from 'src/types/index.js';
+import type { FilterAndSearchProps } from './FilterAndSearch.types.ts';
 import { addDays, addMonths, format, subDays } from 'date-fns';
-import { enCA, es, frCA } from 'date-fns/locale';
 
+import { enCA, es, frCA } from 'date-fns/locale';
 import { memo, useCallback, useEffect, useMemo, useState } from 'react';
+
 import DatePicker, { registerLocale } from 'react-datepicker';
 
 import { useTranslation } from 'react-i18next';
-
 import { GoSearch } from 'react-icons/go';
 import DropdownMenu from 'src/components/DropdownMenu/DropdownMenu.tsx';
-import ModalWithButton from 'src/components/ModalWithButton/ModalWithButton.tsx';
 
+import ModalWithButton from 'src/components/ModalWithButton/ModalWithButton.tsx';
 import styles from './FilterAndSearch.module.css';
 import 'react-datepicker/dist/react-datepicker.css';
 import './Datepicker.css';
 
-const sources = [
+const supportedSources = [
   { value: 'askapunk', label: 'AskAPunk' },
   { value: 'blueskiesturnblack', label: 'BSTB' },
   { value: 'ravewave', label: 'Ravewave' },
@@ -23,21 +24,16 @@ const sources = [
   { value: 'turbohaus', label: 'Turbohaus' },
 ];
 
-function FilterAndSearch() {
+function FilterAndSearch({ keyword, setKeyword, setStartDate, setEndDate, sources, setSources }: FilterAndSearchProps) {
   const { t, i18n } = useTranslation();
-
+  const [datePreset, setDatePreset] = useState<Option | null>(null);
   const [datepickerLocal, setDatepickerLocale] = useState(enCA);
-  const [keyword, setKeyword] = useState<string>('');
   // (keyword.length >= 3 && keyword.match(/^[a-z0-9\s]+$/i))
 
-  const [startDate, setStartDate] = useState<Date | null>();
-  const [endDate, setEndDate] = useState<Date | null>();
-  const [selectedDatePreset, setSelectedDatePreset] = useState<Option | null>(null);
-  const [selectedSources, setSelectedSources] = useState<string[]>([]);
   // const [isModalOpen, setIsModalOpen] = useState(false);
 
-  const datePresets = useMemo(() => [
-    { value: 'all', label: t('calendar.all-dates') },
+  const supportedDatePresets = useMemo(() => [
+    // { value: 'all', label: t('calendar.all-dates') },
     { value: 'today', label: t('calendar.today') },
     { value: 'week', label: t('calendar.this-week') },
     { value: 'month', label: t('calendar.this-month') },
@@ -62,11 +58,11 @@ function FilterAndSearch() {
   }, [i18n.language]);
 
   useEffect(() => {
-    switch (selectedDatePreset?.value) {
-      case 'all':
-        setStartDate(subDays(new Date(), 1));
-        setEndDate(null);
-        break;
+    switch (datePreset?.value) {
+      // case 'all':
+      //   setStartDate(subDays(new Date(), 1));
+      //   setEndDate(null);
+      //   break;
       case 'today':
         setStartDate(subDays(new Date(), 1));
         setEndDate(new Date());
@@ -84,25 +80,25 @@ function FilterAndSearch() {
         setEndDate(null);
         break;
     }
-  }, [selectedDatePreset]);
+  }, [datePreset, setEndDate, setStartDate]);
 
   useEffect(() => {
     const handleLanguageChange = () => {
-      switch (selectedDatePreset?.value) {
-        case 'all':
-          setSelectedDatePreset({ value: 'all', label: t('calendar.all-dates') });
-          break;
+      switch (datePreset?.value) {
+        // case 'all':
+        //   setSelectedDatePreset({ value: 'all', label: t('calendar.all-dates') });
+        //   break;
         case 'today':
-          setSelectedDatePreset({ value: 'today', label: t('calendar.today') });
+          setDatePreset({ value: 'today', label: t('calendar.today') });
           break;
         case 'week':
-          setSelectedDatePreset({ value: 'week', label: t('calendar.this-week') });
+          setDatePreset({ value: 'week', label: t('calendar.this-week') });
           break;
         case 'month':
-          setSelectedDatePreset({ value: 'month', label: t('calendar.this-month') });
+          setDatePreset({ value: 'month', label: t('calendar.this-month') });
           break;
         default:
-          setSelectedDatePreset(null);
+          setDatePreset(null);
           break;
       }
     };
@@ -111,11 +107,11 @@ function FilterAndSearch() {
     return () => {
       i18n.off('languageChanged', handleLanguageChange);
     };
-  }, [i18n, selectedDatePreset, t]);
+  }, [i18n, datePreset, t]);
 
   // const handleReset: () => void = useCallback(() => {
   //   setKeyword('');
-  //   setSelectedSources([]);
+  //   setSources([]);
   //   setStartDate(null);
   //   setEndDate(null);
   // }, []);
@@ -128,20 +124,20 @@ function FilterAndSearch() {
 
   const handleSourceSelectChange = useCallback(
     (selectedOptions: Option[]) =>
-      setSelectedSources(selectedOptions.map(option => option.value)),
-    [],
+      setSources(selectedOptions.map(option => option.value)),
+    [setSources],
   );
 
   const handleDatePresetChange = useCallback(
     (selectedOption: Option) => {
-      setSelectedDatePreset(selectedOption);
+      setDatePreset(selectedOption);
     },
     [],
   );
 
-  const selectMultiValue = useMemo(() => sources.filter(source =>
-    selectedSources.includes(source.value),
-  ), [selectedSources]);
+  const sourceMultiValue = useMemo(() => supportedSources.filter(source =>
+    sources.includes(source.value),
+  ), [sources]);
 
   return (
     <section className={styles.container}>
@@ -171,20 +167,20 @@ function FilterAndSearch() {
         <div className={styles.selectContainer}>
           <DropdownMenu
             isMulti
-            options={sources}
+            options={supportedSources}
             placeholder={t('calendar.filter-source')}
             onChange={handleSourceSelectChange}
-            value={selectMultiValue}
+            value={sourceMultiValue}
           />
         </div>
       </div>
       <div className={styles.dateControlsContainer}>
         <div className={styles.dateSelectContainer}>
           <DropdownMenu
-            options={datePresets}
+            options={supportedDatePresets}
             placeholder={t('calendar.filter-date')}
             onChange={handleDatePresetChange}
-            value={selectedDatePreset}
+            value={datePreset}
           />
         </div>
         {/* <div className={styles.buttonContainer}>
