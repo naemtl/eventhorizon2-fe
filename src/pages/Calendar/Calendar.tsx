@@ -64,14 +64,24 @@ function Calendar() {
         <h1 className={styles.title}>{t('calendar.title')}</h1>
       </div>
       <div className={styles.innerContainer}>
-        {loadingQuery && <div>{t('calendar.loading')}</div>}
+        {loadingQuery && (
+          <div>
+            {t('calendar.loading')}
+            ...
+          </div>
+        )}
         {!loadingQuery && data?.pages?.map(page => (
           page.events.map((event: FormattedEvent) => (
             <EventCard key={event.originalId} event={event} />
           ))
         ))}
         <div ref={ref}>
-          {isFetchingNextPage && <div>{t('calendar.loading')}</div>}
+          {isFetchingNextPage && (
+            <div>
+              {t('calendar.loading')}
+              ...
+            </div>
+          )}
         </div>
       </div>
       <GoToTopButton showButton={showGoToTopButton} handleScrollToTop={handleScrollToTop} />
