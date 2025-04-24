@@ -13,7 +13,7 @@ export async function fetchEvents({ pageParam = 1, keyword, startDate, endDate, 
   params.set('keyword', keyword);
   params.set('startDate', startDate ? startDate.toISOString() : '');
   params.set('endDate', endDate ? endDate.toISOString() : '');
-  params.set('sources', sources);
+  params.set('sources', sources.join(','));
   try {
     const response = await fetch(`http://localhost:3000/events?${params}`, {
       method: 'GET',
