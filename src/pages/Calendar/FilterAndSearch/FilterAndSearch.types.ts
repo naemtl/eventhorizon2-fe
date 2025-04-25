@@ -1,5 +1,4 @@
 interface FilterAndSearchProps {
-  keyword: string;
   setKeyword: (keyword: string) => void;
   setStartDate: (date: Date | null) => void;
   setEndDate: (date: Date | null) => void;

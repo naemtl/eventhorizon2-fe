@@ -64,13 +64,16 @@
   height: 100%;
 }
 
-.searchButton {
+.searchButton,
+.clearSearchButton {
   background: transparent;
   border: none;
   border-bottom: 1px solid var(--white);
   color: var(--white);
   cursor: pointer;
   font-size: var(--text-xxl);
+  height: 100%;
+  width: 35px;
 
   &:hover {
     color: var(--satan);
@@ -79,7 +82,8 @@
 
 .buttonContainer,
 .dateControlsContainer,
-.searchContainer {
+.searchContainer,
+.searchButtonContainer {
   display: flex;
 }
 

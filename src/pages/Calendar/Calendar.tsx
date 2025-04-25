@@ -60,7 +60,13 @@ function Calendar() {
   return (
     <main className={styles.container}>
       <div className={styles.headerContainer}>
-        <FilterAndSearch keyword={keyword} setKeyword={setKeyword} setStartDate={setStartDate} setEndDate={setEndDate} sources={sources} setSources={setSources} />
+        <FilterAndSearch
+          setKeyword={setKeyword}
+          setStartDate={setStartDate}
+          setEndDate={setEndDate}
+          sources={sources}
+          setSources={setSources}
+        />
         <h1 className={styles.title}>{t('calendar.title')}</h1>
       </div>
       <div className={styles.innerContainer}>
@@ -68,6 +74,13 @@ function Calendar() {
           <div>
             {t('calendar.loading')}
             ...
+          </div>
+        )}
+        {error && (
+          <div>
+            {t('calendar.error-contact')}
+            {' '}
+            ms@subscenemtl.net
           </div>
         )}
         {!loadingQuery && data?.pages?.map(page => (
