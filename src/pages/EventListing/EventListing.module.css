@@ -1,4 +1,12 @@
 .container {
   display: flex;
   justify-content: center;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    margin-top: calc(var(--space-xxl) * 2);
+  }
 }
