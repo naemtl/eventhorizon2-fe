@@ -1,7 +1,7 @@
 import type { Locale } from 'date-fns';
 import type { Option } from 'src/types/index.js';
 import type { FilterAndSearchProps } from './FilterAndSearch.types.ts';
-import { addDays, addMonths, format, subDays } from 'date-fns';
+import { addDays, addHours, addMonths, format, subDays } from 'date-fns';
 
 import { enCA, es, frCA } from 'date-fns/locale';
 import { memo, useCallback, useEffect, useMemo, useState } from 'react';
@@ -110,7 +110,7 @@ function FilterAndSearch({ setKeyword, setStartDate, setEndDate, sources, setSou
     switch (datePreset?.value) {
       case 'today':
         handleStartDateChange(subDays(new Date(), 1));
-        handleEndDateChange(new Date());
+        handleEndDateChange(addHours(new Date(), 12));
         break;
       case 'week':
         handleStartDateChange(subDays(new Date(), 1));
@@ -166,6 +166,7 @@ function FilterAndSearch({ setKeyword, setStartDate, setEndDate, sources, setSou
             placeholder={t('calendar.enter-keyword')}
             value={keywordInput}
             onChange={e => setKeywordInput(e.target.value)}
+            onKeyDown={e => e.key === 'Enter' && setKeyword(keywordInput)}
           />
           <div className={styles.searchButtonContainer}>
             {keywordInput && (
