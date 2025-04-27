@@ -84,7 +84,7 @@ function Calendar() {
           </div>
         )}
         {!loadingQuery && data?.pages?.map(page => (
-          page.events.map((event: FormattedEvent) => (
+          page?.events.map((event: FormattedEvent) => (
             <EventCard key={event.originalId} event={event} />
           ))
         ))}
