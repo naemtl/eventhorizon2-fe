@@ -25,7 +25,7 @@ function Calendar() {
     queryKey: ['events', keyword, startDate, endDate, sources],
     queryFn: ({ pageParam }) => fetchEvents({ pageParam, keyword, startDate, endDate, sources }),
     initialPageParam: 1,
-    getNextPageParam: lastPage => lastPage.nextCursor,
+    getNextPageParam: lastPage => lastPage?.nextCursor,
   });
 
   const loadingQuery = status === 'pending';
