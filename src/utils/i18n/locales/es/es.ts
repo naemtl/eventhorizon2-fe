@@ -24,7 +24,7 @@ export const esLang = {
   },
   'event-listing': {
     'add-to-calendar': 'Agregar al calendario',
-    'copy-link': 'Copiar enlace',
+    'copy-link': 'Copiar',
     'copied': 'Copiado',
     'more-info': 'Más info',
     'no-price': 'Consulta abajo el costo de entrada',
