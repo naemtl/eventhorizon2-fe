@@ -24,6 +24,8 @@ export const enLang = {
   },
   'event-listing': {
     'add-to-calendar': 'Add to calendar',
+    'copied': 'Copied',
+    'copy-link': 'Copy link',
     'more-info': 'More info',
     'no-price': 'See below for entry fee',
     'price': 'Cover price',
