@@ -71,13 +71,13 @@ function Calendar() {
       </div>
       <div className={styles.innerContainer}>
         {loadingQuery && (
-          <div>
+          <div className={styles.loading}>
             {t('calendar.loading')}
             ...
           </div>
         )}
-        {error && (
-          <div>
+        {(error || (!loadingQuery && !data.pages[0])) && (
+          <div className={styles.error}>
             {t('calendar.error-contact')}
             {' '}
             ms@subscenemtl.net
@@ -90,7 +90,7 @@ function Calendar() {
         ))}
         <div ref={ref}>
           {isFetchingNextPage && (
-            <div>
+            <div className={styles.loading}>
               {t('calendar.loading')}
               ...
             </div>

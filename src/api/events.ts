@@ -1,3 +1,5 @@
+import { API_URL } from './utils.ts';
+
 interface FetchEventsParams {
   keyword: string;
   pageParam: number;
@@ -15,7 +17,7 @@ export async function fetchEvents({ pageParam = 1, keyword, startDate, endDate, 
   params.set('endDate', endDate ? endDate.toISOString() : '');
   params.set('sources', sources.join(','));
   try {
-    const response = await fetch(`http://localhost:3000/events?${params}`, {
+    const response = await fetch(`${API_URL}/events?${params}`, {
       method: 'GET',
       headers: {
         'Cache-Control': 'no-cache',
