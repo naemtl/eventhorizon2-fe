@@ -3,6 +3,7 @@ import type { EventListingDetailsProps } from './EventListingDetails.types.ts';
 import { format } from 'date-fns';
 import { memo, useCallback, useMemo, useState } from 'react';
 import { useTranslation } from 'react-i18next';
+import { GoLinkExternal } from 'react-icons/go';
 import Zoom from 'react-medium-image-zoom';
 
 import AddToCalendarButton from 'src/components/AddToCalendarButton/AddToCalendarButton.tsx';
@@ -58,6 +59,8 @@ function EventListingDetails({ event }: EventListingDetailsProps) {
             target="_blank"
             rel="noreferrer noopener"
           >
+            <GoLinkExternal />
+            {' '}
             {t('event-listing.more-info')}
           </a>
         </div>

@@ -48,6 +48,9 @@
 }
 
 .moreInfoLink {
+  align-items: center;
+  gap: var(--space-xxs);
+  display: flex;
   text-decoration: underline;
 }
 
