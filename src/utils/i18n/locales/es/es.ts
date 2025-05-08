@@ -9,6 +9,7 @@ export const esLang = {
     'all-dates': 'Todas las fechas',
     'choose-dates': 'Elige fechas',
     'enter-keyword': 'Ingresa una palabra clave',
+    'error-contact': 'Ocurrio un error, por favor contacta',
     'filter-date': 'Fechas predefinidas',
     'filter-source': 'Filtrar por fuente',
     'go-to-top': 'Ir arriba',

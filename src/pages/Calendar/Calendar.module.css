@@ -6,6 +6,18 @@
   padding: 0 var(--space-md);
 }
 
+.error,
+.loading {
+  text-align: center;
+  width: 100%;
+}
+
+.headerContainer {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
 .innerContainer {
   display: grid;
   grid-template-columns: 1fr;
@@ -19,12 +31,6 @@
 .title {
   font-size: var(--text-xxl);
   margin: var(--space-lg) 0;
-}
-
-.headerContainer {
-  align-items: center;
-  display: flex;
-  flex-direction: column;
 }
 
 @media screen and (min-width: 768px) {

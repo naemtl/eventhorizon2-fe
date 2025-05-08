@@ -2,8 +2,8 @@ import type { Option } from 'src/types/index.js';
 import { Link } from '@tanstack/react-router';
 import { memo, useCallback, useMemo, useState } from 'react';
 import { useTranslation } from 'react-i18next';
+import { FaPiggyBank } from 'react-icons/fa6';
 import { GoInfo } from 'react-icons/go';
-import { LiaDonateSolid } from 'react-icons/lia';
 
 import Select from 'react-select';
 
@@ -54,7 +54,7 @@ function Navbar() {
           <GoInfo />
         </Link>
         <a className={`${styles.controlsLink} ${styles.donate}`} title="Support Subscene MTL" href="https://ko-fi.com/N4N11BE9JJ" target="_blank" rel="noreferrer noopener">
-          <LiaDonateSolid />
+          <FaPiggyBank />
         </a>
         <Select
           defaultValue={selectedLocale}

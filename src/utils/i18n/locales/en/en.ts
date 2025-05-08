@@ -9,6 +9,7 @@ export const enLang = {
     'all-dates': 'All dates',
     'choose-dates': 'Choose dates',
     'enter-keyword': 'Enter keyword',
+    'error-contact': 'An error has occurred, please contact',
     'filter-date': 'Date presets',
     'filter-source': 'Filter by source',
     'go-to-top': 'Go to top',

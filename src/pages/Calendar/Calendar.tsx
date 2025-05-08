@@ -69,20 +69,20 @@ function Calendar() {
         />
         <h1 className={styles.title}>{t('calendar.title')}</h1>
       </div>
+      {loadingQuery && (
+        <div className={styles.loading}>
+          {t('calendar.loading')}
+          ...
+        </div>
+      )}
+      {(error || (!loadingQuery && !data.pages[0])) && (
+        <div className={styles.error}>
+          {t('calendar.error-contact')}
+          {' '}
+          ms@subscenemtl.net
+        </div>
+      )}
       <div className={styles.innerContainer}>
-        {loadingQuery && (
-          <div className={styles.loading}>
-            {t('calendar.loading')}
-            ...
-          </div>
-        )}
-        {(error || (!loadingQuery && !data.pages[0])) && (
-          <div className={styles.error}>
-            {t('calendar.error-contact')}
-            {' '}
-            ms@subscenemtl.net
-          </div>
-        )}
         {!loadingQuery && data?.pages?.map(page => (
           page?.events.map((event: FormattedEvent) => (
             <EventCard key={event.originalId} event={event} />

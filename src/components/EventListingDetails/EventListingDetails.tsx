@@ -71,7 +71,7 @@ function EventListingDetails({ event }: EventListingDetailsProps) {
               onClick={handleCopyLink}
               type="button"
             >
-              {isCopied ? `${t('event-listing.copied')!}` : t('event-listing.copy-link')}
+              {isCopied ? `${t('event-listing.copied')}!` : t('event-listing.copy-link')}
             </button>
           </div>
           <AddToCalendarButton
