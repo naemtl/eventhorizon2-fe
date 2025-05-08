@@ -2,8 +2,7 @@ import type { Option } from 'src/types/index.js';
 import { Link } from '@tanstack/react-router';
 import { memo, useCallback, useMemo, useState } from 'react';
 import { useTranslation } from 'react-i18next';
-import { FaPiggyBank } from 'react-icons/fa6';
-import { GoInfo } from 'react-icons/go';
+import { FaCircleInfo, FaPiggyBank } from 'react-icons/fa6';
 
 import Select from 'react-select';
 
@@ -51,7 +50,7 @@ function Navbar() {
       </Link>
       <div className={styles.controls}>
         <Link className={styles.controlsLink} to="/about">
-          <GoInfo />
+          <FaCircleInfo />
         </Link>
         <a className={`${styles.controlsLink} ${styles.donate}`} title="Support Subscene MTL" href="https://ko-fi.com/N4N11BE9JJ" target="_blank" rel="noreferrer noopener">
           <FaPiggyBank />
