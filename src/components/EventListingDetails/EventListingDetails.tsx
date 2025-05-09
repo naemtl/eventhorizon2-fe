@@ -53,7 +53,9 @@ function EventListingDetails({ event }: EventListingDetailsProps) {
           {venue}
           {address && (
             <span>
+              {' '}
               -
+              {' '}
               {address}
             </span>
           )}
