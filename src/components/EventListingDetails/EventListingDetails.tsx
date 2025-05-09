@@ -51,10 +51,12 @@ function EventListingDetails({ event }: EventListingDetailsProps) {
         </div>
         <div>
           {venue}
-          {' '}
-          -
-          {' '}
-          {address}
+          {address && (
+            <span>
+              -
+              {address}
+            </span>
+          )}
         </div>
         {price && <div>{price}</div>}
         <div className={styles.controls}>
