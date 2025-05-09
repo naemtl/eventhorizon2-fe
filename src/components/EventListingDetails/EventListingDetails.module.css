@@ -9,6 +9,7 @@
 }
 
 .controls {
+  align-items: center;
   display: flex;
   font-size: var(--text-xxs);
 }
@@ -49,6 +50,7 @@
 
 .moreInfoLink {
   align-items: center;
+  font-size: var(--text-xs);
   gap: var(--space-xxs);
   display: flex;
   text-decoration: underline;
@@ -89,5 +91,9 @@
   .copyButton:hover {
     background-color: var(--white);
     color: var(--black);
+  }
+
+  .moreInfoLink {
+    font-size: var(--text-sm);
   }
 }

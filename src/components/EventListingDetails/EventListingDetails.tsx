@@ -49,10 +49,22 @@ function EventListingDetails({ event }: EventListingDetailsProps) {
         <div>
           <time>{parsedDate}</time>
         </div>
-        <div>{venue}</div>
-        <div>{address}</div>
-        <div>{price ?? t('event-listing.no-price')}</div>
         <div>
+          {venue}
+          {' '}
+          -
+          {' '}
+          {address}
+        </div>
+        {price && <div>{price}</div>}
+        <div className={styles.controls}>
+          <button
+            className={styles.copyButton}
+            onClick={handleCopyLink}
+            type="button"
+          >
+            {isCopied ? `${t('event-listing.copied')}!` : t('event-listing.copy-link')}
+          </button>
           <a
             className={styles.moreInfoLink}
             href={moreInfoLink ?? ''}
@@ -64,22 +76,11 @@ function EventListingDetails({ event }: EventListingDetailsProps) {
             {t('event-listing.more-info')}
           </a>
         </div>
-        <div className={styles.controls}>
-          <div>
-            <button
-              className={styles.copyButton}
-              onClick={handleCopyLink}
-              type="button"
-            >
-              {isCopied ? `${t('event-listing.copied')}!` : t('event-listing.copy-link')}
-            </button>
-          </div>
-          <AddToCalendarButton
-            title={title}
-            start={dateShowTime}
-            location={`${venue} - ${address}`}
-          />
-        </div>
+        <AddToCalendarButton
+          title={title}
+          start={dateShowTime}
+          location={`${venue} - ${address}`}
+        />
       </div>
     </div>
   );

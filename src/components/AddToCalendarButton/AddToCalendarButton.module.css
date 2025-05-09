@@ -1,25 +1,6 @@
-.button {
-  background-color: var(--black);
-  border: 1px solid var(--white);
-  color: var(--white);
-  cursor: pointer;
-  display: flex;
-  font-size: var(--text-xs);
-  padding: var(--space-xxs) var(--space-xs);
-}
-
-.buttonText {
-  font-size: var(--text-xxs);
-}
-
-.closed {
-  opacity: 0;
-  visibility: hidden;
-}
-
 .container {
-  position: relative;
-  width: fit-content;
+  display: flex;
+  gap: var(--space-xs);
 }
 
 .icon {
@@ -28,33 +9,14 @@
 
 .link {
   align-items: center;
+  border: 1px solid var(--white);
   display: flex;
   font-size: var(--text-xs);
   padding: var(--space-xxs) var(--space-xs);
   white-space: nowrap;
-}
 
-.list {
-  left: 0;
-  list-style: none;
-  min-width: 100%;
-  padding: 1px 2px;
-  position: absolute;
-  top: 100%;
-  transition: opacity 0.3s ease-in-out;
-}
-
-.open {
-  opacity: 100;
-}
-
-@media screen and (min-width: 1024px) {
-  .button:hover {
+  &:hover {
     background-color: var(--white);
     color: var(--black);
-  }
-
-  .buttonText {
-    font-size: var(--text-xs);
   }
 }
