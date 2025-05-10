@@ -28,6 +28,7 @@ export const esLang = {
     'copy-link': 'Copiar',
     'copied': 'Copiado',
     'more-info': 'Más info',
+    'no-poster': 'Esto es un placeholder',
     'no-price': 'Consulta abajo el costo de entrada',
     'price': 'Precio de entrada',
   },

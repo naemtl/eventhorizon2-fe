@@ -1,5 +1,6 @@
 import type { EventListingDetailsProps } from './EventListingDetails.types.ts';
 
+import { TZDate } from '@date-fns/tz';
 import { format } from 'date-fns';
 import { memo, useCallback, useMemo, useState } from 'react';
 import { useTranslation } from 'react-i18next';
@@ -20,7 +21,10 @@ function EventListingDetails({ event }: EventListingDetailsProps) {
     = event;
 
   const parsedDate = useMemo(
-    () => format(new Date(dateShowTime), 'yyyy.MM.dd - HH:mm'),
+    () => {
+      const zonedDate = new TZDate(dateShowTime, 'America/New_York');
+      return format(zonedDate, 'yyyy.MM.dd - HH:mm');
+    },
     [dateShowTime],
   );
 

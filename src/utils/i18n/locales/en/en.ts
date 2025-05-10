@@ -28,6 +28,7 @@ export const enLang = {
     'copied': 'Copied',
     'copy-link': 'Copy link',
     'more-info': 'More info',
+    'no-poster': 'This is a placeholder',
     'no-price': 'See below for entry fee',
     'price': 'Cover price',
   },

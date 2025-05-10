@@ -28,8 +28,9 @@ export const frLang = {
     'copied': 'Copié',
     'copy-link': 'Copie',
     'more-info': 'Plus d\'infos',
-    'price': 'Prix d\'entrée',
+    'no-poster': 'Ceci est un placeholder',
     'no-price': 'Voir ci-dessous pour le prix d\'entrée',
+    'price': 'Prix d\'entrée',
   },
   'faq': {
     'answer-1': 'La communauté musicale underground ne devrait pas avoir à dépendre des plateformes de médias sociaux prédatrices et de plus en plus hostiles pour s’informer. Il est idéal d’avoir une ressource centrale pour les événements, afin que les gens puissent les trouver facilement et sans avoir à naviguer d’une plateforme à l’autre.',
