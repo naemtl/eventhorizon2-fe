@@ -74,6 +74,7 @@
   cursor: pointer;
   font-size: var(--text-xxl);
   height: 100%;
+  padding: var(--space-xxs);
   width: 35px;
 
   &:hover {
