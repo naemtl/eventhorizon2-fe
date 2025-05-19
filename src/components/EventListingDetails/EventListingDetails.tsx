@@ -7,7 +7,7 @@ import { useTranslation } from 'react-i18next';
 import { GoLinkExternal } from 'react-icons/go';
 import Zoom from 'react-medium-image-zoom';
 
-import eventHorizonImg from 'src/assets/eventHorizon.png';
+import eventHorizonImg from 'src/assets/eventhorizon.png';
 
 import AddToCalendarButton from 'src/components/AddToCalendarButton/AddToCalendarButton.tsx';
 import styles from './EventListingDetails.module.css';
@@ -46,9 +46,7 @@ function EventListingDetails({ event }: EventListingDetailsProps) {
     <div className={styles.container}>
       <Zoom classDialog="zoom-dialog">
         <figure className={styles.imgContainer}>
-          {(image && (
-            <img className={styles.poster} src={imageToDisplay} alt={title} />
-          ))}
+          <img className={styles.poster} src={imageToDisplay} alt={title} />
         </figure>
       </Zoom>
       <div className={styles.infoContainer}>

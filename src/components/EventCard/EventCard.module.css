@@ -31,13 +31,11 @@
   padding: 0 var(--space-xxs);
   overflow: hidden;
   height: 80px;
+}
 
-  &:hover {
-    /* TODO: trigger this on poster hover too */
-    background-color: var(--white);
-    color: var(--black);
-    transition: all 0.2s ease-in-out;
-  }
+.placeholder {
+  margin: 0 auto;
+  width: 80%;
 }
 
 .poster {
@@ -57,5 +55,12 @@
 
   .imgContainer {
     height: 350px;
+  }
+
+  .infoContainer:hover {
+    /* TODO: trigger this on poster hover too */
+    background-color: var(--white);
+    color: var(--black);
+    transition: all 0.2s ease-in-out;
   }
 }
