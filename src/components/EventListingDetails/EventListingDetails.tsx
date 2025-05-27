@@ -7,8 +7,9 @@ import { useTranslation } from 'react-i18next';
 import { GoLinkExternal } from 'react-icons/go';
 import Zoom from 'react-medium-image-zoom';
 
-import AddToCalendarButton from 'src/components/AddToCalendarButton/AddToCalendarButton.tsx';
+import eventHorizonImg from 'src/assets/eventhorizon.png';
 
+import AddToCalendarButton from 'src/components/AddToCalendarButton/AddToCalendarButton.tsx';
 import styles from './EventListingDetails.module.css';
 import './ZoomStyles.css';
 import 'react-medium-image-zoom/dist/styles.css';
@@ -28,6 +29,8 @@ function EventListingDetails({ event }: EventListingDetailsProps) {
     [dateShowTime],
   );
 
+  const imageToDisplay = useMemo(() => !image ? eventHorizonImg : image, [image]);
+
   const handleCopyLink = useCallback(
     async () => {
       await navigator.clipboard.writeText(`https://www.subscenemtl.net/events/${originalId}`);
@@ -44,8 +47,8 @@ function EventListingDetails({ event }: EventListingDetailsProps) {
       <Zoom classDialog="zoom-dialog">
         <figure className={styles.imgContainer}>
           {(image && (
-            <img className={styles.poster} src={image} alt={title} />
-          )) || <div>Poster not found</div>}
+            <img className={styles.poster} src={imageToDisplay} alt={title} />
+          ))}
         </figure>
       </Zoom>
       <div className={styles.infoContainer}>
@@ -54,7 +57,7 @@ function EventListingDetails({ event }: EventListingDetailsProps) {
           <time>{parsedDate}</time>
         </div>
         <div>
-          {venue}
+          {venue ?? ''}
           {address && (
             <span>
               {' '}

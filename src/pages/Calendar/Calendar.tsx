@@ -61,6 +61,9 @@ function Calendar() {
     <main className={styles.container}>
       <div className={styles.headerContainer}>
         <FilterAndSearch
+          keyword={keyword}
+          startDate={startDate}
+          endDate={endDate}
           setKeyword={setKeyword}
           setStartDate={setStartDate}
           setEndDate={setEndDate}

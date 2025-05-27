@@ -1,6 +1,7 @@
 import type { Locale } from 'date-fns';
 import type { Option } from 'src/types/index.js';
 import type { FilterAndSearchProps } from './FilterAndSearch.types.ts';
+import { useQueryClient } from '@tanstack/react-query';
 import { addDays, addHours, addMonths, format, subDays } from 'date-fns';
 
 import { enCA, es, frCA } from 'date-fns/locale';
@@ -25,8 +26,9 @@ const supportedSources = [
   { value: 'turbohaus', label: 'Turbohaus' },
 ];
 
-function FilterAndSearch({ setKeyword, setStartDate, setEndDate, sources, setSources }: FilterAndSearchProps) {
+function FilterAndSearch({ keyword, startDate, endDate, setKeyword, setStartDate, setEndDate, sources, setSources }: FilterAndSearchProps) {
   const { t, i18n } = useTranslation();
+  const queryClient = useQueryClient();
   const [datePreset, setDatePreset] = useState<Option | null>(null);
   const [datepickerLocal, setDatepickerLocale] = useState(enCA);
   const [keywordInput, setKeywordInput] = useState('');
@@ -79,9 +81,17 @@ function FilterAndSearch({ setKeyword, setStartDate, setEndDate, sources, setSou
   // }, []);
 
   const handleSourceSelectChange = useCallback(
-    (selectedOptions: Option[]) =>
-      setSources(selectedOptions.map(option => option.value)),
-    [setSources],
+    (selectedOptions: Option[]) => {
+      const newSources = selectedOptions.map(option => option.value);
+
+      queryClient.removeQueries({
+        queryKey: ['events', keyword, startDate, endDate, sources],
+        exact: true,
+      });
+
+      setSources(newSources);
+    },
+    [endDate, keyword, queryClient, setSources, sources, startDate],
   );
 
   const sourceMultiValue = useMemo(() => supportedSources.filter(source =>

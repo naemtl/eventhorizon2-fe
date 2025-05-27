@@ -32,7 +32,7 @@ function EventCard({ event }: EventCardProps) {
         <div className={styles.infoContainer}>
           <section className={styles.dateLocation}>
             <time>{parsedDate}</time>
-            <div>{event.venue ?? 'Missing venue'}</div>
+            <div>{event.venue ?? ''}</div>
           </section>
           <h4 className={styles.title}>{event.title}</h4>
         </div>

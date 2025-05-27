@@ -1,9 +1,9 @@
 export const frLang = {
   'about': {
     'contact': 'Contact',
-    'contact-text': 'For any questions or feature requests, please contact: ',
+    'contact-text': 'Pour toute question ou demande de fonctionnalité, merci de contacter: ',
     'description': 'est un agrégateur de calendrier d’événements musicaux underground à Montréal. Il collecte des données d’événements provenant de diverses sources en ligne et les standardise afin de les afficher dans un format unique. Cette ressource a été conçue pour être simple et facile d’accès. Elle ne collecte aucune donnée utilisateur ni information de navigation. Il s’agit d’une ressource entièrement automatisée qui ne nécessite aucune participation des utilisateurs pour alimenter sa base de données.',
-    'title': 'About',
+    'title': 'À propos',
   },
   'calendar': {
     'all-dates': 'Toutes les dates',

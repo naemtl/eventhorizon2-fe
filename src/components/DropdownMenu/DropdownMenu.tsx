@@ -21,7 +21,7 @@ function DropdownMenu({ isMulti = false, onChange, options, placeholder, value }
           'borderRadius': '0',
           'boxShadow': 'none',
           'cursor': 'pointer',
-          'fontSize': 'var(--text-xs)',
+          'fontSize': 'var(--text-sm)',
           '&:hover': {
             borderColor: 'var(--white)',
           },
