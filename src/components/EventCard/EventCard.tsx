@@ -2,7 +2,7 @@ import type { EventCardProps } from './EventCard.types.ts';
 import { format } from 'date-fns';
 import { memo, useMemo, useState } from 'react';
 
-import { useTranslation } from 'react-i18next';
+import eventHorizonImg from 'src/assets/eventhorizon.png';
 import EventListingDetails from '../EventListingDetails/EventListingDetails.tsx';
 
 import ModalWithButton from '../ModalWithButton/ModalWithButton.tsx';
@@ -10,7 +10,8 @@ import styles from './EventCard.module.css';
 
 function EventCard({ event }: EventCardProps) {
   const [isModalOpen, setIsModalOpen] = useState(false);
-  const { t } = useTranslation();
+
+  const imageToDisplay = useMemo(() => !event.image ? eventHorizonImg : event.image, [event.image]);
 
   const parsedDate = useMemo(
     () => format(new Date(event.dateShowTime), 'yyyy.MM.dd'),
@@ -21,13 +22,11 @@ function EventCard({ event }: EventCardProps) {
     <article className={styles.container}>
       <div onClick={() => setIsModalOpen(true)}>
         <figure className={styles.imgContainer}>
-          {(event.image && (
-            <img
-              className={styles.poster}
-              src={event.image}
-              alt={event.title}
-            />
-          )) || <div className={styles.placeholder}>{t('event-listing.no-poster')}</div>}
+          <img
+            className={event.image ? styles.poster : styles.placeholder}
+            src={imageToDisplay}
+            alt={event.title}
+          />
         </figure>
         <div className={styles.infoContainer}>
           <section className={styles.dateLocation}>

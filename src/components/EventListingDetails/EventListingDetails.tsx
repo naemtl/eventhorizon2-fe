@@ -46,9 +46,7 @@ function EventListingDetails({ event }: EventListingDetailsProps) {
     <div className={styles.container}>
       <Zoom classDialog="zoom-dialog">
         <figure className={styles.imgContainer}>
-          {(image && (
-            <img className={styles.poster} src={imageToDisplay} alt={title} />
-          ))}
+          <img className={styles.poster} src={imageToDisplay} alt={title} />
         </figure>
       </Zoom>
       <div className={styles.infoContainer}>
