@@ -1,6 +1,6 @@
 import type { Option } from 'src/types/index.js';
 import { Link } from '@tanstack/react-router';
-import { memo, useCallback, useMemo, useState } from 'react';
+import { memo, useCallback, useEffect, useMemo, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { FaCircleInfo, FaPiggyBank } from 'react-icons/fa6';
 
@@ -20,7 +20,10 @@ function Navbar() {
     [],
   );
 
-  const [selectedLocale, setSelectedLocale] = useState(options[0]);
+  const [selectedLocale, setSelectedLocale] = useState(() => {
+    const initialLocale = options.find((option) => option.value === i18n.language);
+    return initialLocale ?? options[0];
+  });
 
   const handleLocaleChange = useCallback(
     (selectedOption: Option | null) => {
@@ -29,6 +32,13 @@ function Navbar() {
     },
     [i18n, options],
   );
+
+  useEffect(() => {
+    const selectedLocaleAsOption = options.find((option) => option.value === i18n.language);
+    if (selectedLocaleAsOption && selectedLocaleAsOption.value !== selectedLocale?.value) {
+      setSelectedLocale(selectedLocaleAsOption);
+    }
+  }, [i18n.language, options, selectedLocale]);
 
   return (
     <nav className={styles.container}>
