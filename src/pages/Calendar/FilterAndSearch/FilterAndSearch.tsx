@@ -17,6 +17,7 @@ import ModalWithButton from 'src/components/ModalWithButton/ModalWithButton.tsx'
 import styles from './FilterAndSearch.module.css';
 import 'react-datepicker/dist/react-datepicker.css';
 import './Datepicker.css';
+import { getNextWeekend, getThisWeekend } from 'src/utils/datetime/index.ts';
 
 const supportedSources = [
   { value: 'askapunk', label: 'AskAPunk' },
@@ -40,6 +41,8 @@ function FilterAndSearch({ keyword, startDate, endDate, setKeyword, setStartDate
     { value: 'today', label: t('calendar.today') },
     { value: 'week', label: t('calendar.this-week') },
     { value: 'month', label: t('calendar.this-month') },
+    { value: 'weekend', label: t('calendar.this-weekend') },
+    { value: 'nextweekend', label: t('calendar.next-weekend') },
   ], [t]);
 
   const handleClearKeyword = useCallback(() => {
@@ -130,6 +133,16 @@ function FilterAndSearch({ keyword, startDate, endDate, setKeyword, setStartDate
         handleStartDateChange(subDays(new Date(), 1));
         handleEndDateChange(addMonths(new Date(), 1));
         break;
+      case 'weekend':
+        const { friday, sunday } = getThisWeekend();
+        handleStartDateChange(friday);
+        handleEndDateChange(sunday);
+        break;
+      case 'nextweekend':
+        const { friday: nextFriday, sunday: nextSunday } = getNextWeekend();
+        handleStartDateChange(nextFriday);
+        handleEndDateChange(nextSunday);
+        break;
       default:
         handleStartDateChange(subDays(new Date(), 1));
         handleEndDateChange(null);
@@ -148,6 +161,12 @@ function FilterAndSearch({ keyword, startDate, endDate, setKeyword, setStartDate
           break;
         case 'month':
           handleDatePresetChange({ value: 'month', label: t('calendar.this-month') });
+          break;
+        case 'weekend':
+          handleDatePresetChange({ value: 'weekend', label: t('calendar.this-weekend') });
+          break;
+        case 'nextweekend':
+          handleDatePresetChange({ value: 'nextweekend', label: t('calendar.next-weekend') });
           break;
         default:
           handleDatePresetChange(null);
