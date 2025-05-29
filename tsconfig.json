@@ -2,17 +2,13 @@
   "compilerOptions": {
     "incremental": true,
     "target": "ES2022",
-
     "jsx": "react-jsx",
     "lib": ["ES2022", "DOM", "DOM.Iterable"],
     "moduleDetection": "force",
-
-    /* If transpiling with TypeScript: */
     "module": "NodeNext",
     "resolveJsonModule": true,
     "allowImportingTsExtensions": true,
     "allowJs": true,
-    /* Strictness */
     "strict": true,
     "noImplicitOverride": true,
     "noUncheckedIndexedAccess": true,

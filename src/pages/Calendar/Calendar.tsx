@@ -14,8 +14,8 @@ import FilterAndSearch from './FilterAndSearch/FilterAndSearch.tsx';
 function Calendar() {
   const { t } = useTranslation();
   const [keyword, setKeyword] = useState<string>('');
-  const [endDate, setEndDate] = useState<Date | null>(null);
-  const [startDate, setStartDate] = useState<Date | null>(null);
+  const [endDate, setEndDate] = useState<Date | undefined>();
+  const [startDate, setStartDate] = useState<Date | undefined>();
   const [sources, setSources] = useState<string[]>([]);
   const [showGoToTopButton, setShowGoToTopButton] = useState(false);
 

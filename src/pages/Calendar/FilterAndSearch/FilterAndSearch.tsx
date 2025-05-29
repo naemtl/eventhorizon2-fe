@@ -7,17 +7,15 @@ import { addDays, addHours, addMonths, format, subDays } from 'date-fns';
 import { enCA, es, frCA } from 'date-fns/locale';
 import { memo, useCallback, useEffect, useMemo, useState } from 'react';
 
-import DatePicker, { registerLocale } from 'react-datepicker';
-
+import { DayPicker } from 'react-day-picker';
 import { useTranslation } from 'react-i18next';
 import { GoSearch, GoX } from 'react-icons/go';
-import DropdownMenu from 'src/components/DropdownMenu/DropdownMenu.tsx';
 
+import DropdownMenu from 'src/components/DropdownMenu/DropdownMenu.tsx';
 import ModalWithButton from 'src/components/ModalWithButton/ModalWithButton.tsx';
-import styles from './FilterAndSearch.module.css';
-import 'react-datepicker/dist/react-datepicker.css';
-import './Datepicker.css';
 import { getNextWeekend, getThisWeekend } from 'src/utils/datetime/index.ts';
+import styles from './FilterAndSearch.module.css';
+import 'react-day-picker/style.css';
 
 const supportedSources = [
   { value: 'askapunk', label: 'AskAPunk' },
@@ -35,7 +33,7 @@ function FilterAndSearch({ keyword, startDate, endDate, setKeyword, setStartDate
   const [keywordInput, setKeywordInput] = useState('');
   // (keyword.length >= 3 && keyword.match(/^[a-z0-9\s]+$/i))
 
-  // const [isModalOpen, setIsModalOpen] = useState(false);
+  const [isModalOpen, setIsModalOpen] = useState(false);
 
   const supportedDatePresets = useMemo(() => [
     { value: 'today', label: t('calendar.today') },
@@ -62,11 +60,11 @@ function FilterAndSearch({ keyword, startDate, endDate, setKeyword, setStartDate
     setDatePreset(selectedOption);
   }, []);
 
-  const handleStartDateChange = useCallback((date: Date | null) => {
+  const handleStartDateChange = useCallback((date: Date | undefined) => {
     setStartDate(date);
   }, [setStartDate]);
 
-  const handleEndDateChange = useCallback((date: Date | null) => {
+  const handleEndDateChange = useCallback((date: Date | undefined) => {
     setEndDate(date);
   }, [setEndDate]);
 
@@ -77,11 +75,11 @@ function FilterAndSearch({ keyword, startDate, endDate, setKeyword, setStartDate
   //   setEndDate(null);
   // }, []);
 
-  // const selectDateRange = useCallback((dates: Date[]) => {
-  //   const [start, end] = dates;
-  //   setStartDate(start);
-  //   setEndDate(end);
-  // }, []);
+  const selectDateRange = useCallback((dates: Date[]) => {
+    const [start, end] = dates;
+    setStartDate(start);
+    setEndDate(end);
+  }, [setEndDate, setStartDate]);
 
   const handleSourceSelectChange = useCallback(
     (selectedOptions: Option[]) => {
@@ -103,15 +101,12 @@ function FilterAndSearch({ keyword, startDate, endDate, setKeyword, setStartDate
 
   useEffect(() => {
     if (i18n.language === 'fr') {
-      registerLocale('frCA', frCA);
       handleDatepickerLocaleChange(frCA);
     }
     else if (i18n.language === 'es') {
-      registerLocale('es', es);
       handleDatepickerLocaleChange(es);
     }
     else {
-      registerLocale('enCA', enCA);
       handleDatepickerLocaleChange(enCA);
     }
     return () => {
@@ -120,6 +115,9 @@ function FilterAndSearch({ keyword, startDate, endDate, setKeyword, setStartDate
   }, [handleDatepickerLocaleChange, i18n.language]);
 
   useEffect(() => {
+    const { thisFriday, thisSunday } = getThisWeekend();
+    const { nextFriday, nextSunday } = getNextWeekend();
+
     switch (datePreset?.value) {
       case 'today':
         handleStartDateChange(subDays(new Date(), 1));
@@ -134,18 +132,16 @@ function FilterAndSearch({ keyword, startDate, endDate, setKeyword, setStartDate
         handleEndDateChange(addMonths(new Date(), 1));
         break;
       case 'weekend':
-        const { friday, sunday } = getThisWeekend();
-        handleStartDateChange(friday);
-        handleEndDateChange(sunday);
+        handleStartDateChange(thisFriday);
+        handleEndDateChange(thisSunday);
         break;
       case 'nextweekend':
-        const { friday: nextFriday, sunday: nextSunday } = getNextWeekend();
         handleStartDateChange(nextFriday);
         handleEndDateChange(nextSunday);
         break;
       default:
         handleStartDateChange(subDays(new Date(), 1));
-        handleEndDateChange(null);
+        handleEndDateChange(undefined);
         break;
     }
   }, [datePreset, handleEndDateChange, handleStartDateChange]);
@@ -244,7 +240,6 @@ function FilterAndSearch({ keyword, startDate, endDate, setKeyword, setStartDate
             title={t('calendar.choose-dates')}
             type="button"
             onClick={() => setIsModalOpen(true)}
-            disabled
           >
             {t('calendar.choose-dates')}
           </button>
@@ -253,6 +248,15 @@ function FilterAndSearch({ keyword, startDate, endDate, setKeyword, setStartDate
           </button>
         </div> */}
       </div>
+      {/* <div>
+        <DayPicker
+          animate
+          locale={datepickerLocal}
+          mode="range"
+          selected={{ from: startDate, to: endDate }}
+          onSelect={selectDateRange}
+        />
+      </div> */}
       {/* <ModalWithButton
         contentStyles={{ height: '350px', transform: 'translate(-50%, -50%)', width: '300px' }}
         insetValue="unset"
@@ -260,9 +264,8 @@ function FilterAndSearch({ keyword, startDate, endDate, setKeyword, setStartDate
         setIsModalOpen={setIsModalOpen}
       >
         <section className={styles.modalContainer}>
-          <h4 className={styles.modalTitle}>{t('calendar.choose-dates')}</h4> */}
-      {/* @ts-expect-er ror TODO: fix */}
-      {/* <DatePicker
+          <h4 className={styles.modalTitle}>{t('calendar.choose-dates')}</h4>
+          <DatePicker
             aria-label={t('calendar.choose-dates')}
             locale={datepickerLocal}
             dateFormat="yyyy.MM.dd"

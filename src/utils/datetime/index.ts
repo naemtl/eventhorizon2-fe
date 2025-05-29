@@ -1,19 +1,19 @@
-import { startOfWeek, addDays } from 'date-fns';
+import { addDays, startOfWeek } from 'date-fns';
 
 function getThisWeekend(today = new Date()) {
   const weekStart = startOfWeek(today, { weekStartsOn: 1 });
-  const friday = addDays(weekStart, 4);
-  const sunday = addDays(weekStart, 7);
+  const thisFriday = addDays(weekStart, 4);
+  const thisSunday = addDays(weekStart, 7);
 
-  return { friday, sunday };
+  return { thisFriday, thisSunday };
 }
 
 function getNextWeekend(today = new Date()) {
-    const weekStart = startOfWeek(addDays(today, 7), { weekStartsOn: 1 });
-    const friday = addDays(weekStart, 4);
-    const sunday = addDays(weekStart, 7);
-  
-    return { friday, sunday };
-  }
+  const weekStart = startOfWeek(addDays(today, 7), { weekStartsOn: 1 });
+  const nextFriday = addDays(weekStart, 4);
+  const nextSunday = addDays(weekStart, 7);
 
-export { getThisWeekend, getNextWeekend };
+  return { nextFriday, nextSunday };
+}
+
+export { getNextWeekend, getThisWeekend };

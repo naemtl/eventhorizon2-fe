@@ -1,10 +1,10 @@
 interface FilterAndSearchProps {
   keyword: string;
-  startDate: Date | null;
-  endDate: Date | null;
+  startDate: Date | undefined;
+  endDate: Date | undefined;
   setKeyword: (keyword: string) => void;
-  setStartDate: (date: Date | null) => void;
-  setEndDate: (date: Date | null) => void;
+  setStartDate: (date: Date | undefined) => void;
+  setEndDate: (date: Date | undefined) => void;
   sources: string[];
   setSources: (sources: string[]) => void;
 }

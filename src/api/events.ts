@@ -3,8 +3,8 @@ import { API_URL } from './utils.ts';
 interface FetchEventsParams {
   keyword: string;
   pageParam: number;
-  startDate: Date | null;
-  endDate: Date | null;
+  startDate: Date | undefined;
+  endDate: Date | undefined;
   sources: string[];
 }
 
