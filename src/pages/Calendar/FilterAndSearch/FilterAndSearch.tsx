@@ -46,7 +46,12 @@ function FilterAndSearch({ keyword, startDate, endDate, setKeyword, setStartDate
   const handleClearKeyword = useCallback(() => {
     setKeyword('');
     setKeywordInput('');
-  }, [setKeyword]);
+
+    queryClient.removeQueries({
+      queryKey: ['events'],
+      exact: false,
+    });
+  }, [queryClient, setKeyword]);
 
   const handleDatepickerLocaleChange = useCallback(
     (locale: Locale) => {
