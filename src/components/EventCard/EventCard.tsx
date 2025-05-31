@@ -33,7 +33,7 @@ function EventCard({ event }: EventCardProps) {
             <time>{parsedDate}</time>
             <div>{event.venue ?? ''}</div>
           </section>
-          <h4 className={styles.title}>{event.title}</h4>
+          <h2 className={styles.title}>{event.title}</h2>
         </div>
       </div>
       <ModalWithButton
