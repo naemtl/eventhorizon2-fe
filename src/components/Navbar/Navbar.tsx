@@ -36,7 +36,7 @@ function Navbar() {
   useEffect(() => {
     const selectedLocaleAsOption = options.find(option => option.value === i18n.language);
     if (selectedLocaleAsOption && selectedLocaleAsOption.value !== selectedLocale?.value) {
-      setSelectedLocale(selectedLocaleAsOption);
+      setSelectedLocale(selectedLocaleAsOption); // TODO: this is discouraged
     }
   }, [i18n.language, options, selectedLocale]);
 
