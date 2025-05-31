@@ -222,6 +222,7 @@ function FilterAndSearch({ keyword, startDate, endDate, setKeyword, setStartDate
         </div>
         <div className={styles.selectContainer}>
           <DropdownMenu
+            ariaLabel={t('calendar.filter-source')}
             isMulti
             options={supportedSources}
             placeholder={t('calendar.filter-source')}
@@ -233,6 +234,7 @@ function FilterAndSearch({ keyword, startDate, endDate, setKeyword, setStartDate
       <div className={styles.dateControlsContainer}>
         <div className={styles.dateSelectContainer}>
           <DropdownMenu
+            ariaLabel={t('calendar.filter-date')}
             options={supportedDatePresets}
             placeholder={t('calendar.filter-date')}
             onChange={handleDatePresetChange}

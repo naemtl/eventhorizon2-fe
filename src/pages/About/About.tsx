@@ -45,14 +45,14 @@ function About() {
           <AccordionItem header={t('faq.question-5')}>
             {t('faq.answer-5')}
             {' '}
-            <a className={styles.link} title="Support Subscene MTL" target="_blank" rel="noreferrer noopener" href="https://ko-fi.com/subscenemtl">ko-fi.com/subscenemtl</a>
+            <a aria-label={`${t('about.donate')} ko-fi.com`} className={styles.link} title={`${t('about.donate')} ko-fi.com`} target="_blank" rel="noreferrer noopener" href="https://ko-fi.com/subscenemtl">ko-fi.com/subscenemtl</a>
           </AccordionItem>
         </Accordion>
       </section>
       <section className={styles.contactContainer}>
         <h3 className={styles.title}>{t('about.contact')}</h3>
         <span>{t('about.contact-text')}</span>
-        <a href="mailto:ms@subscenemtl.net">ms@subscenemtl.net</a>
+        <a aria-label={`${t('about.contact')} Subscene MTL`} className={styles.link} title={`${t('about.contact')} Subscene MTL`} href="mailto:ms@subscenemtl.net">ms@subscenemtl.net</a>
       </section>
     </div>
   );

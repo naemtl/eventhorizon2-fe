@@ -9,7 +9,7 @@ import Select from 'react-select';
 import styles from './Navbar.module.css';
 
 function Navbar() {
-  const { i18n } = useTranslation();
+  const { i18n, t } = useTranslation();
 
   const options = useMemo(
     () => [
@@ -21,7 +21,7 @@ function Navbar() {
   );
 
   const [selectedLocale, setSelectedLocale] = useState(() => {
-    const initialLocale = options.find((option) => option.value === i18n.language);
+    const initialLocale = options.find(option => option.value === i18n.language);
     return initialLocale ?? options[0];
   });
 
@@ -34,7 +34,7 @@ function Navbar() {
   );
 
   useEffect(() => {
-    const selectedLocaleAsOption = options.find((option) => option.value === i18n.language);
+    const selectedLocaleAsOption = options.find(option => option.value === i18n.language);
     if (selectedLocaleAsOption && selectedLocaleAsOption.value !== selectedLocale?.value) {
       setSelectedLocale(selectedLocaleAsOption);
     }
@@ -62,10 +62,11 @@ function Navbar() {
         <Link className={styles.controlsLink} to="/about">
           <FaCircleInfo />
         </Link>
-        <a className={`${styles.controlsLink} ${styles.donate}`} title="Support Subscene MTL" href="https://ko-fi.com/N4N11BE9JJ" target="_blank" rel="noreferrer noopener">
+        <a aria-label={`${t('navbar.donate')} Subscene MTL`} className={`${styles.controlsLink} ${styles.donate}`} title={`${t('navbar.donate')} Subscene MTL`} href="https://ko-fi.com/N4N11BE9JJ" target="_blank" rel="noreferrer noopener">
           <FaPiggyBank />
         </a>
         <Select
+          aria-label={t('navbar.change-language')}
           defaultValue={selectedLocale}
           onChange={handleLocaleChange}
           options={options}

@@ -3,6 +3,7 @@ export const enLang = {
     'contact': 'Contact',
     'contact-text': 'For any questions or feature requests, please contact: ',
     'description': 'is a Montreal-based underground music event calendar aggregator. It collects event data from various web locations and standardizes it to be displayed in one format. The resource was built with simplicity and ease of access in mind. It does not collect user data or browser information. It is a fully automated resource that does not require user participation to populate its database.',
+    'donate': 'Support this project on',
     'title': 'About',
   },
   'calendar': {
@@ -27,6 +28,9 @@ export const enLang = {
   },
   'event-listing': {
     'add-to-calendar': 'Add to calendar',
+    'add-to-google': 'Add to Google Calendar',
+    'add-to-ical': 'Add to iCal',
+    'add-to-outlook': 'Add to Outlook',
     'copied': 'Copied',
     'copy-link': 'Copy link',
     'more-info': 'More info',
@@ -48,6 +52,8 @@ export const enLang = {
     'title': 'FAQ',
   },
   'navbar': {
-    about: 'About',
+    'about': 'About',
+    'change-language': 'Change language',
+    'donate': 'Donate to',
   },
 };

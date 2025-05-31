@@ -75,6 +75,7 @@ function EventListingDetails({ event }: EventListingDetailsProps) {
             {isCopied ? `${t('event-listing.copied')}!` : t('event-listing.copy-link')}
           </button>
           <a
+            aria-label={t('event-listing.more-info')}
             className={styles.moreInfoLink}
             href={moreInfoLink ?? ''}
             target="_blank"

@@ -2,12 +2,15 @@ import type { CalendarEvent } from 'calendar-link';
 import { google, ics, outlook } from 'calendar-link';
 import { memo, useMemo } from 'react';
 
+import { useTranslation } from 'react-i18next';
+
 import { PiMicrosoftOutlookLogo } from 'react-icons/pi';
 import { SiApple, SiGooglecalendar } from 'react-icons/si';
 
 import styles from './AddToCalendarButton.module.css';
 
 function AddToCalendarButton({ title, start, location }: CalendarEvent) {
+  const { t } = useTranslation();
   const event: CalendarEvent = useMemo(
     () => ({ title, start, duration: [5, 'hour'], location }),
     [title, start, location],
@@ -20,6 +23,7 @@ function AddToCalendarButton({ title, start, location }: CalendarEvent) {
   return (
     <section className={styles.container}>
       <a
+        aria-label={t('event-listing.add-to-ical')}
         className={styles.link}
         href={icsUrl}
         target="_blank"
@@ -29,6 +33,7 @@ function AddToCalendarButton({ title, start, location }: CalendarEvent) {
         iCal .ics
       </a>
       <a
+        aria-label={t('event-listing.add-to-google')}
         className={styles.link}
         href={googleUrl}
         target="_blank"
@@ -38,6 +43,7 @@ function AddToCalendarButton({ title, start, location }: CalendarEvent) {
         Google
       </a>
       <a
+        aria-label={t('event-listing.add-to-outlook')}
         className={styles.link}
         href={outlookUrl}
         target="_blank"

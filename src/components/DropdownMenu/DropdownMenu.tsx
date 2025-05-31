@@ -1,9 +1,10 @@
 import type { DropdownMenuProps } from './DropdownMenu.types.ts';
 import Select from 'react-select';
 
-function DropdownMenu({ isMulti = false, onChange, options, placeholder, value }: DropdownMenuProps) {
+function DropdownMenu({ ariaLabel, isMulti = false, onChange, options, placeholder, value }: DropdownMenuProps) {
   return (
     <Select
+      aria-label={ariaLabel}
       isClearable
       isMulti={isMulti}
       options={options}
