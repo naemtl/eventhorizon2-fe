@@ -1,4 +1,6 @@
-import { API_URL } from './utils.ts';
+// import { API_URL } from './utils.ts';
+
+const API_URL = 'http://localhost:3000';
 
 interface FetchEventsParams {
   keyword: string;

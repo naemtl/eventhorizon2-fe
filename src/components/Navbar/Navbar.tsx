@@ -59,7 +59,7 @@ function Navbar() {
         <h3 className={styles.title}>subscene mtl</h3>
       </Link>
       <div className={styles.controls}>
-        <Link className={styles.controlsLink} to="/about">
+        <Link aria-label={t('navbar.about')} className={styles.controlsLink} to="/about">
           <FaCircleInfo />
         </Link>
         <a aria-label={`${t('navbar.donate')} Subscene MTL`} className={`${styles.controlsLink} ${styles.donate}`} title={`${t('navbar.donate')} Subscene MTL`} href="https://ko-fi.com/N4N11BE9JJ" target="_blank" rel="noreferrer noopener">
