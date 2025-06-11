@@ -13,6 +13,11 @@
   justify-content: space-between;
 }
 
+.eventDialog {
+  width: 98%;
+  height: 95%;
+}
+
 .imgContainer {
   align-items: center;
   background-color: #1b1b1b;

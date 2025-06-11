@@ -1,29 +1,41 @@
 import type { ModalWithButtonProps } from './ModalWithButton.types.ts';
 
-import { memo } from 'react';
+import { memo, useEffect, useRef } from 'react';
 import { GoX } from 'react-icons/go';
-import Modal from 'react-modal';
 
 import styles from './ModalWithButton.module.css';
 
-function ModalWithButton({ children, contentStyles, insetValue, isModalOpen, setIsModalOpen }: ModalWithButtonProps) {
+function ModalWithButton({ children, isModalOpen, parentClassName, setIsModalOpen }: ModalWithButtonProps) {
+  const modalRef = useRef<HTMLDialogElement>(null);
   const closeModal = () => {
+    modalRef.current?.close();
     setIsModalOpen(false);
   };
+
+  const handleKeydown = (event: React.KeyboardEvent<HTMLDialogElement>) => {
+    if (event.key === 'Escape') {
+      closeModal();
+    }
+  };
+
+  useEffect(() => {
+    const modal = modalRef.current;
+    if (!modal)
+      return;
+
+    if (isModalOpen && !modal.open) {
+      modal.showModal();
+    }
+    else if (!isModalOpen && modal.open) {
+      modal.close();
+    }
+  }, [isModalOpen]);
+
   return (
-    <Modal
-      isOpen={isModalOpen}
-      onRequestClose={closeModal}
-      style={{
-        content: {
-          background: 'rgb(0, 0, 0)',
-          inset: insetValue,
-          ...contentStyles,
-        },
-        overlay: {
-          backgroundColor: 'rgba(0, 0, 0, 0.75)',
-        },
-      }}
+    <dialog
+      className={`${styles.dialog} ${parentClassName}`}
+      onKeyDown={handleKeydown}
+      ref={modalRef}
     >
       <main className={styles.container}>
         <button type="button" title="Close" className={styles.closeButton} onClick={closeModal}>
@@ -31,7 +43,7 @@ function ModalWithButton({ children, contentStyles, insetValue, isModalOpen, set
         </button>
         {children}
       </main>
-    </Modal>
+    </dialog>
   );
 }
 

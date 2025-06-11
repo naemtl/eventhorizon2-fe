@@ -35,6 +35,8 @@ function About() {
           </AccordionItem>
           <AccordionItem header={t('faq.question-2')}>
             {t('faq.answer-2')}
+            {' '}
+            <a aria-label={`${t('faq.visit')} montreal.askapunk.net`} className={styles.link} href="https://montreal.askapunk.net" target="_blank" title={`${t('faq.visit')} montreal.askapunk.net`} rel="noreferrer noopener">montreal.askapunk.net</a>
           </AccordionItem>
           <AccordionItem header={t('faq.question-3')}>
             {t('faq.answer-3')}

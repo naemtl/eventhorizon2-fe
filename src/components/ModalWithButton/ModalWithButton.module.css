@@ -16,3 +16,15 @@
   height: 100%;
   width: 100%;
 }
+
+.dialog {
+  margin: auto;
+  background-color: var(--black);
+  border: 1px solid var(--white);
+  border-radius: 4px;
+  color: var(--white);
+
+  &::backdrop {
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+}

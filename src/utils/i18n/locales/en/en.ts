@@ -40,7 +40,7 @@ export const enLang = {
   },
   'faq': {
     'answer-1': 'The underground music community should not have to rely on predatory and increasingly hostile social media platforms to inform itself. It is ideal to have a central resource for events, so that people can find them easily and without having to jump from one platform to another.',
-    'answer-2': 'If your event is already listed on one of the platforms this application pulls its data from, it will be listed here. These are: blueskiesturnblack.com, casadelpopolo.com, montreal.askapunk.net, rave.ca (including Resident Advisor for Montreal and "mtl rave calendar" on Telegram), and turbohaus.ca for the time being.',
+    'answer-2': 'If your event is already listed on one of the platforms this application pulls its data from, it will be listed here. These are: blueskiesturnblack.com, casadelpopolo.com, montreal.askapunk.net, rave.ca (including Resident Advisor for Montreal and "mtl rave calendar" on Telegram), and turbohaus.ca for the time being. If you don\'t see your event listed, the quickest way to remedy this is to submit the listing to:',
     'answer-3': 'There are loose plans to create versions of this resource for Toronto and Vancouver, but at this time we are only focused on Montreal. If you are interested in a version for another city and would like to give us a hand, please contact ms@subscenemtl.net with platforms that contain event data for that city. Such as venue or bar websites, DIY calendars that are scene-specific, etc.',
     'answer-4': 'Please contact ms@subscenemtl.net with a relevant subject line and brief description of the issue, and make sure you provide a link to the problematic page into the email. Screenshots are also appreciated.',
     'answer-5': 'No, we are not. Though this is free to use, and there is no obligation to pay us, if you want to support this project and help cover server and DNS costs, you can toss us a few bucks here:',
@@ -50,6 +50,7 @@ export const enLang = {
     'question-4': 'I found a bug! What do I do?',
     'question-5': 'Are you getting paid for this?',
     'title': 'FAQ',
+    'visit': 'Visit',
   },
   'navbar': {
     'about': 'About',

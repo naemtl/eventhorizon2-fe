@@ -40,7 +40,7 @@ export const esLang = {
   },
   'faq': {
     'answer-1': 'La comunidad de música underground no debería depender de plataformas de redes sociales depredadoras y cada vez más hostiles para informarse. Es ideal tener un recurso central para los eventos, para que las personas puedan encontrarlos fácilmente y sin tener que saltar de una plataforma a otra.',
-    'answer-2': 'Si tu evento ya está listado en una de las plataformas de las que esta aplicación extrae datos, aparecerá aquí. Estas son: blueskiesturnblack.com, casadelpopolo.com, montreal.askapunk.net, rave.ca (incluyendo Resident Advisor para Montreal y el "mtl rave calendar" en Telegram), y turbohaus.ca por el momento.',
+    'answer-2': 'Si tu evento ya está listado en una de las plataformas de las que esta aplicación extrae datos, aparecerá aquí. Estas son: blueskiesturnblack.com, casadelpopolo.com, montreal.askapunk.net, rave.ca (incluyendo Resident Advisor para Montreal y el "mtl rave calendar" en Telegram), y turbohaus.ca por el momento. Si no ve su evento, la forma más rápida de solucionarlo es enviar el listado a:',
     'answer-3': 'Existen planes a largo plazo para crear versiones de este recurso para Toronto y Vancouver, pero en este momento solo nos enfocamos en Montreal. Si estás interesado en una versión para otra ciudad y quieres ayudarnos, por favor contacta a ms@subscenemtl.net con plataformas que contengan datos de eventos para esa ciudad, como sitios web de salas de conciertos o bares, calendarios DIY específicos de una escena, etc.',
     'answer-4': 'Por favor, contacta a ms@subscenemtl.net con un asunto relevante y una breve descripción del problema, y asegúrate de proporcionar un enlace a la página problemática en el correo electrónico. También se agradecen capturas de pantalla.',
     'answer-5': 'No, no estamos siendo pagados. Aunque esta plataforma es de uso gratuito y no hay obligación de pagar, si quieres apoyar este proyecto y ayudar a cubrir los costos del servidor y del DNS, puedes enviarnos unos cuantos dólares a través de:',
@@ -50,6 +50,7 @@ export const esLang = {
     'question-4': '¡Encontré un error! ¿Qué hago?',
     'question-5': '¿Estás recibiendo dinero por esto?',
     'title': 'FAQ',
+    'visit': 'Visita',
   },
   'navbar': {
     'about': 'Acerca de',

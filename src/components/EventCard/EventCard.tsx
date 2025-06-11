@@ -37,8 +37,8 @@ function EventCard({ event }: EventCardProps) {
         </div>
       </div>
       <ModalWithButton
-        insetValue="20px"
         isModalOpen={isModalOpen}
+        parentClassName={styles.eventDialog}
         setIsModalOpen={setIsModalOpen}
       >
         <EventListingDetails event={event} />
