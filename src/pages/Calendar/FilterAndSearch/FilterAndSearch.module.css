@@ -23,12 +23,32 @@
 }
 
 .dateRange {
-  font-size: var(--text-xxs);
+  font-size: var(--text-sm);
+}
+
+.datepickerDialog {
+  height: 100%;
+  max-height: 470px;
+  max-width: 360px;
+  width: 100%;
 }
 
 .dateControlsContainer {
   flex-direction: column;
   width: 100%;
+}
+
+.dialogContainer {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-height: 360px;
+  height: 100%;
+}
+
+.dialogTitle {
+  margin-bottom: var(--space-md);
 }
 
 .disabled {
@@ -57,12 +77,16 @@
   display: none;
 }
 
-.modalContainer {
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  height: 100%;
+.resetButton {
+  background-color: var(--black);
+  color: var(--white);
+
+  &:disabled {
+    background-color: var(--satan);
+    border-color: var(--satan);
+    color: var(--black);
+    cursor: not-allowed;
+  }
 }
 
 .searchButton,
@@ -124,6 +148,16 @@
 
   .buttonContainer {
     justify-content: space-around;
+  }
+
+  .resetButton:hover {
+    background-color: var(--white);
+    color: var(--black);
+  }
+
+  .resetButton:disabled:hover {
+    background-color: var(--satan);
+    color: var(--black);
   }
 
   .dateControlsContainer,

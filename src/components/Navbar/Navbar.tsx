@@ -36,6 +36,7 @@ function Navbar() {
   useEffect(() => {
     const selectedLocaleAsOption = options.find(option => option.value === i18n.language);
     if (selectedLocaleAsOption && selectedLocaleAsOption.value !== selectedLocale?.value) {
+      // eslint-disable-next-line react-hooks-extra/no-direct-set-state-in-use-effect
       setSelectedLocale(selectedLocaleAsOption); // TODO: this is discouraged
     }
   }, [i18n.language, options, selectedLocale]);

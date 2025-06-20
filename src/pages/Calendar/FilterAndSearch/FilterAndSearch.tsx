@@ -1,12 +1,13 @@
 import type { Locale } from 'date-fns';
+import type { DateRange, OnSelectHandler } from 'react-day-picker';
 import type { Option } from 'src/types/index.js';
 import type { FilterAndSearchProps } from './FilterAndSearch.types.ts';
 import { useQueryClient } from '@tanstack/react-query';
+
 import { addDays, addHours, addMonths, format, subDays } from 'date-fns';
-
 import { enCA, es, frCA } from 'date-fns/locale';
-import { memo, useCallback, useEffect, useMemo, useState } from 'react';
 
+import { memo, useCallback, useEffect, useMemo, useState } from 'react';
 import { DayPicker } from 'react-day-picker';
 import { useTranslation } from 'react-i18next';
 import { GoSearch, GoX } from 'react-icons/go';
@@ -16,6 +17,7 @@ import ModalWithButton from 'src/components/ModalWithButton/ModalWithButton.tsx'
 import { getNextWeekend, getThisWeekend } from 'src/utils/datetime/index.ts';
 import styles from './FilterAndSearch.module.css';
 import 'react-day-picker/style.css';
+import './Datepicker.css';
 
 const supportedSources = [
   { value: 'askapunk', label: 'AskAPunk' },
@@ -31,7 +33,7 @@ function FilterAndSearch({ keyword, startDate, endDate, setKeyword, setStartDate
   const [datePreset, setDatePreset] = useState<Option | null>(null);
   const [datepickerLocal, setDatepickerLocale] = useState(enCA);
   const [keywordInput, setKeywordInput] = useState('');
-  // (keyword.length >= 3 && keyword.match(/^[a-z0-9\s]+$/i))
+  const [selectedDateRange, setSelectedDateRange] = useState<DateRange | undefined>();
 
   const [isModalOpen, setIsModalOpen] = useState(false);
 
@@ -42,6 +44,10 @@ function FilterAndSearch({ keyword, startDate, endDate, setKeyword, setStartDate
     { value: 'weekend', label: t('calendar.this-weekend') },
     { value: 'nextweekend', label: t('calendar.next-weekend') },
   ], [t]);
+
+  const isResetDisabled = useMemo(() => !startDate || !endDate, [startDate, endDate]);
+
+  const dateRangeLabel = useMemo(() => startDate && endDate ? `${format(startDate, 'yyyy.MM.dd')} - ${format(endDate, 'yyyy.MM.dd')}` : t('calendar.choose-dates'), [startDate, endDate, t]);
 
   const handleClearKeyword = useCallback(() => {
     setKeyword('');
@@ -73,18 +79,31 @@ function FilterAndSearch({ keyword, startDate, endDate, setKeyword, setStartDate
     setEndDate(date);
   }, [setEndDate]);
 
-  // const handleReset: () => void = useCallback(() => {
-  //   setKeyword('');
-  //   setSources([]);
-  //   setStartDate(null);
-  //   setEndDate(null);
-  // }, []);
+  const handleReset = useCallback(() => {
+    setKeyword('');
+    setSources([]);
+    setStartDate(undefined);
+    setEndDate(undefined);
+    setSelectedDateRange(undefined);
+  }, [setEndDate, setKeyword, setSources, setStartDate]);
 
-  const selectDateRange = useCallback((dates: Date[]) => {
-    const [start, end] = dates;
-    setStartDate(start);
-    setEndDate(end);
-  }, [setEndDate, setStartDate]);
+  const handleSelectDateRange: OnSelectHandler<DateRange | undefined> = useCallback((selectedDates) => {
+    queryClient.removeQueries({
+      queryKey: ['events', keyword, startDate, endDate, sources],
+      exact: true,
+    });
+
+    if (selectedDates) {
+      setSelectedDateRange(selectedDates);
+      setStartDate(selectedDates.from);
+      setEndDate(addHours(selectedDates.to!, 23.999));
+    }
+    else {
+      setSelectedDateRange(undefined);
+      setStartDate(undefined);
+      setEndDate(undefined);
+    }
+  }, [endDate, keyword, queryClient, setEndDate, setStartDate, sources, startDate]);
 
   const handleSourceSelectChange = useCallback(
     (selectedOptions: Option[]) => {
@@ -241,7 +260,7 @@ function FilterAndSearch({ keyword, startDate, endDate, setKeyword, setStartDate
             value={datePreset}
           />
         </div>
-        {/* <div className={styles.buttonContainer}>
+        <div className={styles.buttonContainer}>
           <button
             className={styles.button}
             title={t('calendar.choose-dates')}
@@ -250,52 +269,31 @@ function FilterAndSearch({ keyword, startDate, endDate, setKeyword, setStartDate
           >
             {t('calendar.choose-dates')}
           </button>
-          <button type="reset" className={styles.button} onClick={handleReset}>
+          <button disabled={isResetDisabled} type="reset" className={`${styles.button} ${styles.resetButton}`} onClick={handleReset}>
             {t('calendar.reset')}
           </button>
-        </div> */}
+        </div>
       </div>
-      {/* <div>
-        <DayPicker
-          animate
-          locale={datepickerLocal}
-          mode="range"
-          selected={{ from: startDate, to: endDate }}
-          onSelect={selectDateRange}
-        />
-      </div> */}
-      {/* <ModalWithButton
-        contentStyles={{ height: '350px', transform: 'translate(-50%, -50%)', width: '300px' }}
-        insetValue="unset"
+      <ModalWithButton
+        parentClassName={styles.datepickerDialog}
         isModalOpen={isModalOpen}
         setIsModalOpen={setIsModalOpen}
       >
-        <section className={styles.modalContainer}>
-          <h4 className={styles.modalTitle}>{t('calendar.choose-dates')}</h4>
-          <DatePicker
-            aria-label={t('calendar.choose-dates')}
+        <section className={styles.dialogContainer}>
+          <DayPicker
+            animate
+            disabled={{ before: new Date() }}
             locale={datepickerLocal}
-            dateFormat="yyyy.MM.dd"
-            icon={null}
-            inline
-            minDate={new Date()}
-            startDate={startDate}
-            endDate={endDate}
-            onChange={selectDateRange}
-            selected={startDate}
-            selectsRange
+            mode="range"
+            onSelect={handleSelectDateRange}
+            required={false}
+            selected={selectedDateRange}
           />
-          { startDate && endDate && (
-            <span className={styles.dateRange}>
-              {format(startDate, 'yyyy.MM.dd')}
-              {' '}
-              -
-              {' '}
-              {format(endDate, 'yyyy.MM.dd')}
-            </span>
-          )}
+          <span className={styles.dateRange}>
+            {dateRangeLabel}
+          </span>
         </section>
-      </ModalWithButton> */}
+      </ModalWithButton>
     </section>
   );
 }
