@@ -1,22 +1,35 @@
 import type { ModalWithButtonProps } from './ModalWithButton.types.ts';
 
-import { memo, useEffect, useRef } from 'react';
+import { memo, useCallback, useEffect, useRef } from 'react';
 import { GoX } from 'react-icons/go';
 
 import styles from './ModalWithButton.module.css';
 
 function ModalWithButton({ children, isModalOpen, parentClassName, setIsModalOpen }: ModalWithButtonProps) {
   const modalRef = useRef<HTMLDialogElement>(null);
-  const closeModal = () => {
-    modalRef.current?.close();
-    setIsModalOpen(false);
-  };
+  const closeModal = useCallback(
+    () => {
+      modalRef.current?.close();
+      setIsModalOpen(false);
+    },
+    [setIsModalOpen, modalRef],
+  );
 
-  const handleKeydown = (event: React.KeyboardEvent<HTMLDialogElement>) => {
-    if (event.key === 'Escape') {
-      closeModal();
-    }
-  };
+  const handleKeydown = useCallback(
+    (event: React.KeyboardEvent<HTMLDialogElement>) => {
+      if (event.keyCode === 27 || event.key === 'Escape') {
+        closeModal();
+      }
+    },
+    [closeModal],
+  );
+
+  const handleClickOutside
+    = (e: React.MouseEvent<HTMLDialogElement, MouseEvent>) => {
+      if (e.target === e.currentTarget) {
+        closeModal();
+      }
+    };
 
   useEffect(() => {
     const modal = modalRef.current;
@@ -34,6 +47,7 @@ function ModalWithButton({ children, isModalOpen, parentClassName, setIsModalOpe
   return (
     <dialog
       className={`${styles.dialog} ${parentClassName}`}
+      onClick={handleClickOutside}
       onKeyDown={handleKeydown}
       ref={modalRef}
     >
