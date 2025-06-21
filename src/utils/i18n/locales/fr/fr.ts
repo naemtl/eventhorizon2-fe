@@ -9,6 +9,7 @@ export const frLang = {
   'calendar': {
     'all-dates': 'Toutes les dates',
     'choose-dates': 'Choisis dates',
+    'choose-dates-modal': 'Sélectionnez une plage de dates',
     'enter-keyword': 'Entrez un mot-clé',
     'error-contact': 'Une erreur s’est produite, merci de contacter',
     'filter-date': 'Dates prédéfinies',

@@ -9,6 +9,7 @@ export const enLang = {
   'calendar': {
     'all-dates': 'All dates',
     'choose-dates': 'Choose dates',
+    'choose-dates-modal': 'Select a start and end date',
     'enter-keyword': 'Enter keyword',
     'error-contact': 'An error has occurred, please contact',
     'filter-date': 'Date presets',

@@ -47,7 +47,10 @@ function FilterAndSearch({ keyword, startDate, endDate, setKeyword, setStartDate
 
   const isResetDisabled = useMemo(() => !startDate || !endDate, [startDate, endDate]);
 
-  const dateRangeLabel = useMemo(() => startDate && endDate ? `${format(startDate, 'yyyy.MM.dd')} - ${format(endDate, 'yyyy.MM.dd')}` : t('calendar.choose-dates'), [startDate, endDate, t]);
+  const dateRangeModalLabel = useMemo(() => startDate && endDate ? `${format(startDate, 'yyyy.MM.dd')} - ${format(endDate, 'yyyy.MM.dd')}` : t('calendar.choose-dates-modal'), [startDate, endDate, t]);
+
+  const dateRangeButtonLabel = useMemo(() =>
+    selectedDateRange && selectedDateRange.from && selectedDateRange.to ? `${format(selectedDateRange.from, 'yy.MM.dd')} - ${format(selectedDateRange.to, 'yy.MM.dd')}` : null, [selectedDateRange]);
 
   const handleClearKeyword = useCallback(() => {
     setKeyword('');
@@ -268,10 +271,14 @@ function FilterAndSearch({ keyword, startDate, endDate, setKeyword, setStartDate
             onClick={() => setIsModalOpen(true)}
           >
             {t('calendar.choose-dates')}
+            {' '}
+            <span className={styles.dateRangeButtonLabel}>{dateRangeButtonLabel}</span>
           </button>
-          <button disabled={isResetDisabled} type="reset" className={`${styles.button} ${styles.resetButton}`} onClick={handleReset}>
-            {t('calendar.reset')}
-          </button>
+          {dateRangeButtonLabel && (
+            <button disabled={isResetDisabled} title={t('calendar.clear')} type="reset" className={styles.resetButton} onClick={handleReset}>
+              <GoX />
+            </button>
+          )}
         </div>
       </div>
       <ModalWithButton
@@ -290,7 +297,7 @@ function FilterAndSearch({ keyword, startDate, endDate, setKeyword, setStartDate
             selected={selectedDateRange}
           />
           <span className={styles.dateRange}>
-            {dateRangeLabel}
+            {dateRangeModalLabel}
           </span>
         </section>
       </ModalWithButton>

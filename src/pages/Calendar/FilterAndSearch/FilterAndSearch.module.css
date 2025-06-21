@@ -1,17 +1,14 @@
 .button {
-  background-color: var(--white);
-  border: 1px solid var(--white);
-  color: var(--black);
+  align-items: center;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid var(--white);
+  color: var(--satan);
   cursor: pointer;
-  font-size: var(--text-xs);
-  max-width: 180px;
-  width: 100%;
-}
-
-.buttonContainer {
   display: flex;
+  font-size: var(--text-sm);
   gap: var(--space-sm);
-  justify-content: space-between;
+  width: 100%;
 }
 
 .container {
@@ -24,6 +21,10 @@
 
 .dateRange {
   font-size: var(--text-sm);
+}
+
+.dateRangeButtonLabel {
+  font-size: var(--text-xs);
 }
 
 .datepickerDialog {
@@ -78,15 +79,12 @@
 }
 
 .resetButton {
-  background-color: var(--black);
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid var(--white);
   color: var(--white);
-
-  &:disabled {
-    background-color: var(--satan);
-    border-color: var(--satan);
-    color: var(--black);
-    cursor: not-allowed;
-  }
+  cursor: pointer;
+  font-size: var(--text-xxl);
 }
 
 .searchButton,
@@ -131,19 +129,9 @@
 }
 
 @media screen and (min-width: 768px) {
-  .button:hover {
-    background-color: var(--black);
-    color: var(--white);
-  }
-
   .container {
     justify-content: space-evenly;
     max-width: 900px;
-  }
-
-  .disabled:hover {
-    background-color: var(--satan);
-    color: var(--black);
   }
 
   .buttonContainer {
@@ -151,13 +139,7 @@
   }
 
   .resetButton:hover {
-    background-color: var(--white);
-    color: var(--black);
-  }
-
-  .resetButton:disabled:hover {
-    background-color: var(--satan);
-    color: var(--black);
+    color: var(--satan);
   }
 
   .dateControlsContainer,
