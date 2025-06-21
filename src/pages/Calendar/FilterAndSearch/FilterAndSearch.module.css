@@ -8,6 +8,7 @@
   display: flex;
   font-size: var(--text-sm);
   gap: var(--space-sm);
+  height: 38px;
   padding: 2px;
   width: 100%;
 }
