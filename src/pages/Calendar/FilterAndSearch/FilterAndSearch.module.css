@@ -16,7 +16,7 @@
 .container {
   display: flex;
   flex-direction: column;
-  height: 175px;
+  height: 200px;
   max-width: 360px;
   width: 100%;
 }
@@ -132,6 +132,7 @@
 
 @media screen and (min-width: 768px) {
   .container {
+    height: 175px;
     justify-content: space-evenly;
     max-width: 900px;
   }
