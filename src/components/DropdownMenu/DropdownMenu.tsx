@@ -1,11 +1,12 @@
 import type { DropdownMenuProps } from './DropdownMenu.types.ts';
 import Select from 'react-select';
 
-function DropdownMenu({ ariaLabel, isMulti = false, onChange, options, placeholder, value }: DropdownMenuProps) {
+function DropdownMenu({ ariaLabel, isDisabled = false, isMulti = false, onChange, options, placeholder, value }: DropdownMenuProps) {
   return (
     <Select
       aria-label={ariaLabel}
       isClearable
+      isDisabled={isDisabled}
       isMulti={isMulti}
       options={options}
       placeholder={placeholder}
@@ -13,15 +14,15 @@ function DropdownMenu({ ariaLabel, isMulti = false, onChange, options, placehold
       onChange={onChange}
       value={value}
       styles={{
-        control: baseStyles => ({
+        control: (baseStyles, state) => ({
           ...baseStyles,
           'backgroundColor': 'var(--black)',
           'border': 'none',
-          'borderBottom': '1px solid var(--white)',
+          'borderBottom': state.isDisabled ? '1px solid var(--satan)' : '1px solid var(--white)',
           'borderColor': 'none',
           'borderRadius': '0',
           'boxShadow': 'none',
-          'cursor': 'pointer',
+          'cursor': state.isDisabled ? 'not-allowed' : 'pointer',
           'fontSize': 'var(--text-sm)',
           '&:hover': {
             borderColor: 'var(--white)',
@@ -29,6 +30,14 @@ function DropdownMenu({ ariaLabel, isMulti = false, onChange, options, placehold
           '& > div:first-of-type': {
             padding: '2px',
           },
+        }),
+        dropdownIndicator: (baseStyles, state) => ({
+          ...baseStyles,
+          color: state.isDisabled ? 'var(--satan)' : 'unset',
+        }),
+        indicatorSeparator: (baseStyles, state) => ({
+          ...baseStyles,
+          backgroundColor: state.isDisabled ? 'var(--satan)' : 'var(--white)',
         }),
         menu: baseStyles => ({
           ...baseStyles,

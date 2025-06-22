@@ -47,6 +47,10 @@ function FilterAndSearch({ keyword, startDate, endDate, setKeyword, setStartDate
 
   const isResetDisabled = useMemo(() => !startDate || !endDate, [startDate, endDate]);
 
+  const isSearchDisabled = useMemo(() => !keywordInput || keywordInput.length < 3, [keywordInput]);
+
+  const isCustomDateSelected = useMemo(() => !!(selectedDateRange && selectedDateRange.from && selectedDateRange.to), [selectedDateRange]);
+
   const dateRangeModalLabel = useMemo(() => startDate && endDate ? `${format(startDate, 'yyyy.MM.dd')} - ${format(endDate, 'yyyy.MM.dd')}` : t('calendar.choose-dates-modal'), [startDate, endDate, t]);
 
   const dateRangeButtonLabel = useMemo(() =>
@@ -83,14 +87,13 @@ function FilterAndSearch({ keyword, startDate, endDate, setKeyword, setStartDate
   }, [setEndDate]);
 
   const handleReset = useCallback(() => {
-    setKeyword('');
-    setSources([]);
     setStartDate(undefined);
     setEndDate(undefined);
     setSelectedDateRange(undefined);
-  }, [setEndDate, setKeyword, setSources, setStartDate]);
+  }, [setEndDate, setStartDate]);
 
   const handleSelectDateRange: OnSelectHandler<DateRange | undefined> = useCallback((selectedDates) => {
+    // TODO: debounce this function to avoid too many queries
     queryClient.removeQueries({
       queryKey: ['events', keyword, startDate, endDate, sources],
       exact: true,
@@ -237,6 +240,7 @@ function FilterAndSearch({ keyword, startDate, endDate, setKeyword, setStartDate
               aria-label={t('calendar.search-events')}
               title={t('calendar.search-events')}
               onClick={() => setKeyword(keywordInput)}
+              disabled={isSearchDisabled}
             >
               <GoSearch />
             </button>
@@ -253,10 +257,11 @@ function FilterAndSearch({ keyword, startDate, endDate, setKeyword, setStartDate
           />
         </div>
       </div>
-      <div className={styles.dateControlsContainer}>
+      <div className={`${styles.dateControlsContainer} ${isCustomDateSelected ? styles.disabled : ''}`}>
         <div className={styles.dateSelectContainer}>
           <DropdownMenu
             ariaLabel={t('calendar.filter-date')}
+            isDisabled={isCustomDateSelected}
             options={supportedDatePresets}
             placeholder={t('calendar.filter-date')}
             onChange={handleDatePresetChange}
@@ -265,16 +270,17 @@ function FilterAndSearch({ keyword, startDate, endDate, setKeyword, setStartDate
         </div>
         <div className={styles.buttonContainer}>
           <button
-            className={styles.button}
+            className={styles.customDatesButton}
+            disabled={!!datePreset}
+            onClick={() => setIsModalOpen(true)}
             title={t('calendar.choose-dates')}
             type="button"
-            onClick={() => setIsModalOpen(true)}
           >
             {t('calendar.choose-dates')}
             {' '}
             <span className={styles.dateRangeButtonLabel}>{dateRangeButtonLabel}</span>
             {!dateRangeButtonLabel && (
-              <GoCalendar className={styles.calendarIcon} />
+              <GoCalendar className={`${styles.calendarIcon} ${datePreset ? styles.disabled : ''}`} />
             )}
           </button>
           {dateRangeButtonLabel && (
