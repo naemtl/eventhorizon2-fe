@@ -9,8 +9,16 @@
   font-size: var(--text-sm);
   gap: var(--space-sm);
   height: 38px;
-  padding: 2px;
+  justify-content: space-between;
+  padding: 0 2px;
   width: 100%;
+}
+
+.calendarIcon {
+  color: var(--white);
+  height: 38px;
+  padding: var(--space-xxs);
+  width: 35px;
 }
 
 .container {
@@ -131,6 +139,10 @@
 }
 
 @media screen and (min-width: 768px) {
+  .calendarIcon:hover {
+    color: var(--satan);
+  }
+
   .container {
     height: 175px;
     justify-content: space-evenly;

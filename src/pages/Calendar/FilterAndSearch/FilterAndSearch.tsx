@@ -10,7 +10,7 @@ import { enCA, es, frCA } from 'date-fns/locale';
 import { memo, useCallback, useEffect, useMemo, useState } from 'react';
 import { DayPicker } from 'react-day-picker';
 import { useTranslation } from 'react-i18next';
-import { GoSearch, GoX } from 'react-icons/go';
+import { GoCalendar, GoSearch, GoX } from 'react-icons/go';
 
 import DropdownMenu from 'src/components/DropdownMenu/DropdownMenu.tsx';
 import ModalWithButton from 'src/components/ModalWithButton/ModalWithButton.tsx';
@@ -273,6 +273,9 @@ function FilterAndSearch({ keyword, startDate, endDate, setKeyword, setStartDate
             {t('calendar.choose-dates')}
             {' '}
             <span className={styles.dateRangeButtonLabel}>{dateRangeButtonLabel}</span>
+            {!dateRangeButtonLabel && (
+              <GoCalendar className={styles.calendarIcon} />
+            )}
           </button>
           {dateRangeButtonLabel && (
             <button disabled={isResetDisabled} title={t('calendar.clear')} type="reset" className={styles.resetButton} onClick={handleReset}>
