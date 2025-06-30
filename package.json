@@ -16,7 +16,7 @@
     "@tanstack/react-router": "^1.99.0",
     "calendar-link": "^2.8.0",
     "date-fns": "^4.1.0",
-    "i18next": "^24.2.0",
+    "i18next": "^25.2.1",
     "i18next-browser-languagedetector": "^8.0.2",
     "react": "^19.0.0",
     "react-day-picker": "^9.7.0",
