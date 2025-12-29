@@ -54,7 +54,7 @@ function FilterAndSearch({ keyword, startDate, endDate, setKeyword, setStartDate
   const dateRangeModalLabel = useMemo(() => startDate && endDate ? `${format(startDate, 'yyyy.MM.dd')} - ${format(endDate, 'yyyy.MM.dd')}` : t('calendar.choose-dates-modal'), [startDate, endDate, t]);
 
   const dateRangeButtonLabel = useMemo(() =>
-    selectedDateRange && selectedDateRange.from && selectedDateRange.to ? `${format(selectedDateRange.from, 'yy.MM.dd')} - ${format(selectedDateRange.to, 'yy.MM.dd')}` : null, [selectedDateRange]);
+    selectedDateRange && selectedDateRange.from && selectedDateRange.to ? `${format(selectedDateRange.from, 'yyyy.MM.dd')} - ${format(selectedDateRange.to, 'yyyy.MM.dd')}` : null, [selectedDateRange]);
 
   const handleClearKeyword = useCallback(() => {
     setKeyword('');
