@@ -1,18 +1,22 @@
 import type { ModalWithButtonProps } from './ModalWithButton.types.ts';
 
+import { useRouter } from '@tanstack/react-router';
 import { memo, useCallback, useEffect, useRef } from 'react';
 import { GoX } from 'react-icons/go';
 
 import styles from './ModalWithButton.module.css';
 
 function ModalWithButton({ children, isModalOpen, parentClassName, setIsModalOpen }: ModalWithButtonProps) {
+  const router = useRouter();
   const modalRef = useRef<HTMLDialogElement>(null);
+
   const closeModal = useCallback(
     () => {
       modalRef.current?.close();
       setIsModalOpen(false);
+      router.navigate({ to: '/', hash: '', replace: true });
     },
-    [setIsModalOpen, modalRef],
+    [setIsModalOpen, router],
   );
 
   const handleKeydown = useCallback(
