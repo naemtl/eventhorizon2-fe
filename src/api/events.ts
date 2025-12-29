@@ -1,5 +1,7 @@
 import { API_URL } from './utils.ts';
 
+// const API_URL = 'http://localhost:3000'; // use for local development
+
 interface FetchEventsParams {
   keyword: string;
   pageParam: number;

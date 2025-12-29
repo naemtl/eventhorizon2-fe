@@ -2,4 +2,5 @@
 
 To run locally, use:
 
-npx netlify dev
+1. npx netlify dev
+2. If testing local server, in src/api/events.ts, uncomment the API_URL local path and comment out the live server path
