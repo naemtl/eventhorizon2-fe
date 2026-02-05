@@ -5,10 +5,14 @@ export default antfu({
     css: true,
   },
   react: true,
+  typescript: {
+    tsconfigPath: './tsconfig.app.json',
+  },
   stylistic: {
     semi: true,
   },
   ignores: [
+    'eslint.config.js',
     '**/node_modules/**',
     '**/dist/**',
     '**/build/**',
