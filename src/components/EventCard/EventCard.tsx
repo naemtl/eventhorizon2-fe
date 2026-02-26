@@ -3,7 +3,7 @@ import { useRouter } from '@tanstack/react-router';
 import { format } from 'date-fns';
 import { memo, useCallback, useMemo, useState } from 'react';
 
-import eventHorizonImg from 'src/assets/eventhorizon.png';
+import subscenePlaceholder from 'src/assets/subsceneportrait.jpeg';
 import EventListingDetails from '../EventListingDetails/EventListingDetails.tsx';
 
 import ModalWithButton from '../ModalWithButton/ModalWithButton.tsx';
@@ -13,11 +13,11 @@ function EventCard({ event }: EventCardProps) {
   const router = useRouter();
   const [isModalOpen, setIsModalOpen] = useState(false);
 
-  const imageToDisplay = useMemo(() => !event.image ? eventHorizonImg : event.image, [event.image]);
+  const imageToDisplay = useMemo(() => event.image === null ? subscenePlaceholder : event.image, [event.image]);
 
-  const openModal = useCallback(() => {
+  const openModal = useCallback(async () => {
     setIsModalOpen(true);
-    router.navigate({ to: `/`, hash: `modal-${event.originalId}`, mask: { to: '/events/$eventId', params: { eventId: event.originalId } } });
+    await router.navigate({ to: `/`, hash: `modal-${event.originalId}`, mask: { to: '/events/$eventId', params: { eventId: event.originalId } } });
   }, [event.originalId, router]);
 
   const parsedDate = useMemo(
@@ -27,10 +27,10 @@ function EventCard({ event }: EventCardProps) {
 
   return (
     <article className={styles.container}>
-      <div onClick={openModal}>
+      <div onClick={() => void openModal()}>
         <figure className={styles.imgContainer}>
           <img
-            className={event.image ? styles.poster : styles.placeholder}
+            className={event.image !== null ? styles.poster : styles.placeholder}
             src={imageToDisplay}
             alt={event.title}
           />

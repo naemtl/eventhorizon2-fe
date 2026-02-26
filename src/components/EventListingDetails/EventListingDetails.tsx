@@ -7,7 +7,7 @@ import { useTranslation } from 'react-i18next';
 import { GoLinkExternal } from 'react-icons/go';
 import Zoom from 'react-medium-image-zoom';
 
-import eventHorizonImg from 'src/assets/eventhorizon.png';
+import subscenePlaceholder from 'src/assets/subsceneportrait.jpeg';
 
 import AddToCalendarButton from 'src/components/AddToCalendarButton/AddToCalendarButton.tsx';
 import styles from './EventListingDetails.module.css';
@@ -29,7 +29,7 @@ function EventListingDetails({ event }: EventListingDetailsProps) {
     [dateShowTime],
   );
 
-  const imageToDisplay = useMemo(() => !image ? eventHorizonImg : image, [image]);
+  const imageToDisplay = useMemo(() => image === null ? subscenePlaceholder : image, [image]);
 
   const handleCopyLink = useCallback(
     async () => {
@@ -56,7 +56,7 @@ function EventListingDetails({ event }: EventListingDetailsProps) {
         </div>
         <div>
           {venue ?? ''}
-          {address && (
+          {address !== null && (
             <span>
               {' '}
               -
@@ -65,11 +65,11 @@ function EventListingDetails({ event }: EventListingDetailsProps) {
             </span>
           )}
         </div>
-        {price && <div>{price}</div>}
+        {price !== null && <div>{price}</div>}
         <div className={styles.controls}>
           <button
             className={styles.copyButton}
-            onClick={handleCopyLink}
+            onClick={() => void handleCopyLink()}
             type="button"
           >
             {isCopied ? `${t('event-listing.copied')}!` : t('event-listing.copy-link')}
