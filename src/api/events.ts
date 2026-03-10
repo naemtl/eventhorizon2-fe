@@ -1,6 +1,13 @@
+import type { FormattedEvent } from 'src/types/index.d.ts';
+
 import { API_URL } from './utils.ts';
 
 // const API_URL = 'http://localhost:3000'; // use for local development
+
+interface EventsPage {
+  events: FormattedEvent[];
+  nextCursor: number | null;
+}
 
 interface FetchEventsParams {
   keyword: string;
@@ -10,7 +17,7 @@ interface FetchEventsParams {
   sources: string[];
 }
 
-export async function fetchEvents({ pageParam = 1, keyword, startDate, endDate, sources }: FetchEventsParams) {
+export async function fetchEvents({ pageParam = 1, keyword, startDate, endDate, sources }: FetchEventsParams): Promise<EventsPage | undefined> {
   const params = new URLSearchParams();
   params.set('limit', '12');
   params.set('cursor', pageParam.toString());
@@ -27,7 +34,7 @@ export async function fetchEvents({ pageParam = 1, keyword, startDate, endDate, 
     });
 
     if (response.ok) {
-      const data = await response.json();
+      const data = await response.json() as EventsPage;
       return data;
     }
     else {

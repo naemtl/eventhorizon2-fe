@@ -89,7 +89,7 @@ function Calendar() {
         {!loadingQuery && data?.pages?.map(page => (
           // TODO: fix this on the backend and remove frontend filtering
           page?.events
-            .filter(event => event.dateShowTime >= new Date(Date.now() - 24 * 60 * 60 * 1000).toISOString())
+            .filter((event: FormattedEvent) => event.dateShowTime >= new Date(Date.now() - 24 * 60 * 60 * 1000).toISOString())
             .map((event: FormattedEvent) => (
               <EventCard key={event.originalId} event={event} />
             ))
