@@ -23,7 +23,7 @@ function Calendar() {
 
   const { data, error, status, fetchNextPage, isFetchingNextPage } = useInfiniteQuery({
     queryKey: ['events', keyword, startDate, endDate, sources],
-    queryFn: ({ pageParam }) => fetchEvents({ pageParam, keyword, startDate, endDate, sources }),
+    queryFn: async ({ pageParam }) => fetchEvents({ pageParam, keyword, startDate, endDate, sources }),
     initialPageParam: 1,
     getNextPageParam: lastPage => lastPage?.nextCursor,
   });
@@ -87,9 +87,12 @@ function Calendar() {
       )}
       <div className={styles.innerContainer}>
         {!loadingQuery && data?.pages?.map(page => (
-          page?.events.map((event: FormattedEvent) => (
-            <EventCard key={event.originalId} event={event} />
-          ))
+          // TODO: fix this on the backend and remove frontend filtering
+          page?.events
+            .filter(event => event.dateShowTime >= new Date(Date.now() - 24 * 60 * 60 * 1000).toISOString())
+            .map((event: FormattedEvent) => (
+              <EventCard key={event.originalId} event={event} />
+            ))
         ))}
         <div ref={ref}>
           {isFetchingNextPage && (
