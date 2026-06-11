@@ -44,7 +44,7 @@ function EventListingDetails({ event }: EventListingDetailsProps) {
 
   return (
     <div className={styles.container}>
-      <Zoom classDialog="zoom-dialog">
+      <Zoom classDialog='zoom-dialog'>
         <figure className={styles.imgContainer}>
           <img className={styles.poster} src={imageToDisplay} alt={title} />
         </figure>
@@ -56,40 +56,27 @@ function EventListingDetails({ event }: EventListingDetailsProps) {
         </div>
         <div>
           {venue ?? ''}
-          {address !== null && (
-            <span>
-              {' '}
-              -
-              {' '}
-              {address}
-            </span>
-          )}
+          {address !== null && <span> - {address}</span>}
         </div>
         {price !== null && <div>{price}</div>}
         <div className={styles.controls}>
-          <button
-            className={styles.copyButton}
-            onClick={() => void handleCopyLink()}
-            type="button"
-          >
+          <button className={styles.copyButton} onClick={() => void handleCopyLink()} type='button'>
             {isCopied ? `${t('event-listing.copied')}!` : t('event-listing.copy-link')}
           </button>
           <a
             aria-label={t('event-listing.more-info')}
             className={styles.moreInfoLink}
             href={moreInfoLink ?? ''}
-            target="_blank"
-            rel="noreferrer noopener"
+            target='_blank'
+            rel='noreferrer noopener'
           >
-            <GoLinkExternal />
-            {' '}
-            {t('event-listing.more-info')}
+            <GoLinkExternal /> {t('event-listing.more-info')}
           </a>
         </div>
         <AddToCalendarButton
           title={title}
           start={dateShowTime}
-          location={`${venue} - ${address}`}
+          location={[venue, address].filter(Boolean).join(' - ')}
         />
       </div>
     </div>
