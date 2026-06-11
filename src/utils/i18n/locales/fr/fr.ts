@@ -17,6 +17,7 @@ export const frLang = {
     'go-to-top': 'Retourner en haut',
     'loading': 'En cours',
     'next-weekend': 'Prochaine FDS',
+    'no-events': 'Aucun résultat, essayez une autre recherche',
     'reset': 'Reinitialiser',
     'search': 'Rechercher',
     'search-events': 'Rechercher des événements',

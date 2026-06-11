@@ -17,6 +17,7 @@ export const enLang = {
     'go-to-top': 'Go to top',
     'loading': 'Loading',
     'next-weekend': 'Next weekend',
+    'no-events': 'No results, try a different search',
     'reset': 'Reset',
     'search': 'Search',
     'search-events': 'Search events',

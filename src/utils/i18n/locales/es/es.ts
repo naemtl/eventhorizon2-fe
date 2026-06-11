@@ -17,6 +17,7 @@ export const esLang = {
     'go-to-top': 'Ir arriba',
     'loading': 'Cargando',
     'next-weekend': 'Proxima FDS',
+    'no-events': 'Sin resultados, prueba con otra palabra clave',
     'reset': 'Reiniciar',
     'search': 'Buscar',
     'search-events': 'Buscar eventos',

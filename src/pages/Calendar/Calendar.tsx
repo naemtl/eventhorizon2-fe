@@ -85,6 +85,11 @@ function Calendar() {
           ms@subscenemtl.net
         </div>
       )}
+      {((!loadingQuery && data?.pages[0]?.events.length === 0)) && (
+        <div className={styles.error}>
+          {t('calendar.no-events')}
+        </div>
+      )}
       <div className={styles.innerContainer}>
         {!loadingQuery && data?.pages?.map(page => (
           // TODO: fix this on the backend and remove frontend filtering
