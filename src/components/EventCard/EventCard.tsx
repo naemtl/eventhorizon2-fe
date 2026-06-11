@@ -1,7 +1,7 @@
 import type { EventCardProps } from './EventCard.types.ts';
-import { useRouter } from '@tanstack/react-router';
+import { Link } from '@tanstack/react-router';
 import { format } from 'date-fns';
-import { memo, useCallback, useMemo, useState } from 'react';
+import { memo, useMemo, useState } from 'react';
 
 import subscenePlaceholder from 'src/assets/subsceneportrait.jpeg';
 import EventListingDetails from '../EventListingDetails/EventListingDetails.tsx';
@@ -10,15 +10,12 @@ import ModalWithButton from '../ModalWithButton/ModalWithButton.tsx';
 import styles from './EventCard.module.css';
 
 function EventCard({ event }: EventCardProps) {
-  const router = useRouter();
   const [isModalOpen, setIsModalOpen] = useState(false);
 
-  const imageToDisplay = useMemo(() => event.image === null ? subscenePlaceholder : event.image, [event.image]);
-
-  const openModal = useCallback(async () => {
-    setIsModalOpen(true);
-    await router.navigate({ to: `/`, hash: `modal-${event.originalId}`, mask: { to: '/events/$eventId', params: { eventId: event.originalId } } });
-  }, [event.originalId, router]);
+  const imageToDisplay = useMemo(
+    () => (event.image === null ? subscenePlaceholder : event.image),
+    [event.image],
+  );
 
   const parsedDate = useMemo(
     () => format(new Date(event.dateShowTime), 'yyyy.MM.dd'),
@@ -27,7 +24,15 @@ function EventCard({ event }: EventCardProps) {
 
   return (
     <article className={styles.container}>
-      <div onClick={() => void openModal()}>
+      <Link
+        to='/'
+        hash={`modal-${event.originalId}`}
+        mask={{ to: '/events/$eventId', params: { eventId: event.originalId } }}
+        onClick={(e) => {
+          if (e.button === 0 && !e.altKey && !e.ctrlKey && !e.metaKey && !e.shiftKey)
+            setIsModalOpen(true);
+        }}
+      >
         <figure className={styles.imgContainer}>
           <img
             className={event.image !== null ? styles.poster : styles.placeholder}
@@ -42,7 +47,7 @@ function EventCard({ event }: EventCardProps) {
           </section>
           <h2 className={styles.title}>{event.title}</h2>
         </div>
-      </div>
+      </Link>
       <ModalWithButton
         isModalOpen={isModalOpen}
         parentClassName={styles.eventDialog}
